@@ -1,0 +1,12 @@
+[
+  { "name": "OpenAI", "aliases": ["openai", "chatgpt", "open ai"] },
+  { "name": "Anthropic", "aliases": ["anthropic", "claude"] },
+  { "name": "Google", "aliases": ["google", "deepmind", "google deepmind", "gemini", "alphabet"] },
+  { "name": "Meta", "aliases": ["meta", "facebook", "llama", "meta ai"] },
+  { "name": "DeepSeek", "aliases": ["deepseek"] },
+  { "name": "Mistral", "aliases": ["mistral", "mistral ai"] },
+  { "name": "xAI", "aliases": ["xai", "x.ai", "grok"] },
+  { "name": "Microsoft", "aliases": ["microsoft", "copilot", "github"] },
+  { "name": "Alibaba", "aliases": ["alibaba", "qwen", "alibaba cloud"] },
+  { "name": "NVIDIA", "aliases": ["nvidia"] }
+]

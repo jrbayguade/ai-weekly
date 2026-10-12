@@ -1,0 +1,23 @@
+{
+  "week": "2026-41", "from": "2026-10-05", "to": "2026-10-11", "newsletters": 30, "candidates": 212,
+  "note": { "ca": "Aquesta setmana tothom ha tret un model. Jo he tret la brossa.",
+            "es": "Esta semana todo el mundo ha sacado un modelo. Yo he sacado la basura.",
+            "en": "Everyone shipped a model this week. I took out the trash." },
+  "items": [
+    { "id": "2026-41-01", "n": 14, "date": "2026-10-08", "company": "Anthropic", "category": "models", "is_release": true,
+      "url": "https://example.com/opus",
+      "title": { "ca": "Anthropic llança Claude Opus 5.5", "es": "Anthropic lanza Claude Opus 5.5", "en": "Anthropic launches Claude Opus 5.5" },
+      "line": { "ca": "Més bo programant, mateix preu.", "es": "Mejor programando, mismo precio.", "en": "Better at coding, same price." },
+      "og": { "ca": "Claude Opus 5.5 ja és aquí", "es": "Claude Opus 5.5 ya está aquí", "en": "Claude Opus 5.5 is here" } },
+    { "id": "2026-41-02", "n": 9, "date": "2026-10-07", "company": "DeepSeek", "category": "money", "is_release": false,
+      "url": "https://example.com/ds",
+      "title": { "ca": "DeepSeek torna a abaixar preus", "es": "DeepSeek vuelve a bajar precios", "en": "DeepSeek cuts prices again" },
+      "line": { "ca": "La guerra de preus continua.", "es": "La guerra de precios sigue.", "en": "The price war goes on." },
+      "og": { "ca": "DeepSeek torna a abaixar preus", "es": "DeepSeek baja precios otra vez", "en": "DeepSeek cuts prices again" } },
+    { "id": "2026-41-03", "n": 6, "date": "2026-10-09", "company": "Other", "category": "money", "is_release": false,
+      "url": "",
+      "title": { "ca": "2.000 M$ per a una startup d'agents", "es": "2.000 M$ para una startup de agentes", "en": "$2B for an agent startup" },
+      "line": { "ca": "Sense producte públic encara.", "es": "Sin producto público todavía.", "en": "No public product yet." },
+      "og": { "ca": "2.000 M$ per a agents", "es": "2.000 M$ para agentes", "en": "$2B for agents" } }
+  ]
+}

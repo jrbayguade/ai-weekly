@@ -1,0 +1,16 @@
+{
+  "week": "2026-40", "from": "2026-09-28", "to": "2026-10-04", "newsletters": 27, "candidates": 180,
+  "note": null,
+  "items": [
+    { "id": "2026-40-01", "n": 11, "date": "2026-09-30", "company": "OpenAI", "category": "models", "is_release": true,
+      "url": "https://example.com/sora3",
+      "title": { "ca": "OpenAI presenta Sora 3", "es": "OpenAI presenta Sora 3", "en": "OpenAI unveils Sora 3" },
+      "line": { "ca": "Vídeo més llarg i coherent.", "es": "Vídeo más largo y coherente.", "en": "Longer, more coherent video." },
+      "og": { "ca": "OpenAI presenta Sora 3", "es": "OpenAI presenta Sora 3", "en": "OpenAI unveils Sora 3" } },
+    { "id": "2026-40-02", "n": 5, "date": "2026-10-02", "company": "Google", "category": "research", "is_release": false,
+      "url": "https://example.com/g-research",
+      "title": { "ca": "Google publica un estudi sobre raonament", "es": "Google publica un estudio sobre razonamiento", "en": "Google publishes a reasoning study" },
+      "line": { "ca": "Els models encara fallen en lògica llarga.", "es": "Los modelos aún fallan en lógica larga.", "en": "Models still fail at long logic." },
+      "og": { "ca": "Estudi de Google sobre raonament", "es": "Estudio de Google sobre razonamiento", "en": "Google reasoning study" } }
+  ]
+}
