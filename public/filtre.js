@@ -33,6 +33,7 @@
     cr.querySelectorAll('.empresa').forEach((b) => {
       b.classList.toggle('on', b.dataset.co === co);
       b.classList.toggle('off', !!co && b.dataset.co !== co);
+      b.setAttribute('aria-pressed', String(b.dataset.co === co));
     });
     document.querySelectorAll('.setmana[data-week]').forEach((d) => {
       const i = setmanes.indexOf(d.dataset.week);

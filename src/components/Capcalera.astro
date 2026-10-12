@@ -1,10 +1,12 @@
 ---
 import { T, LANGS } from '../lib/i18n.js';
-const { lang, alternates } = Astro.props;  // alternates: {lang, url}[]
+const { lang, alternates, logoNoEsTitol } = Astro.props;  // alternates: {lang, url}[]
+// El logo és el h1 de la pàgina, llevat d'on la pàgina ja en té un de propi (Com es fa).
+const Logo = logoNoEsTitol ? 'p' : 'h1';
 ---
 <header class="dalt">
   <div>
-    <p class="logo">AI<br />WEEKLY</p>
+    <Logo class="logo">AI<br />WEEKLY</Logo>
     <div class="tag">{T[lang].tagline}</div>
   </div>
   <nav class="botons">

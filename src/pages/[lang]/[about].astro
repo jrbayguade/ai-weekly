@@ -11,7 +11,7 @@ const alternates = LANGS.map((l) => ({ lang: l, url: urlAbout(l) }));
 <Base {lang} title={`AI Weekly · ${t.aboutTitol}`} description={t.aboutText[0]} ogImage={`${BASE}/og/default.png`}
   ogAlt="AI Weekly" url={urlAbout(lang)} {alternates}>
   <main class="pagina">
-    <Capcalera {lang} {alternates} />
+    <Capcalera {lang} {alternates} logoNoEsTitol />
     <div class="caixa"><h1 class="h">{t.aboutTitol}</h1>{t.aboutText.map((p) => <p>{p}</p>)}</div>
     <Peu {lang} />
   </main>

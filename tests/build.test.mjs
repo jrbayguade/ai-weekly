@@ -88,3 +88,20 @@ test('la portada sense setmanes diu una línia d’estat buit en cada idioma', a
   }
   no(llegeix('ca/index.html'), /class="buit"/);
 });
+
+test('accessibilitat: un sol h1, aria-pressed als botons d’empresa i emojis amagats al lector', () => {
+  for (const rel of ['ca/index.html', 'en/week/2026-40/index.html', 'ca/com-es-fa/index.html']) {
+    assert.equal(compta(llegeix(rel), /<h1[\s>]/g), 1, rel);
+  }
+  const html = llegeix('ca/index.html');
+  hi(html, /<h1 class="logo">/);
+  const botons = html.match(/<button class="empresa"[^>]*>/g) ?? [];
+  assert.ok(botons.length > 0);
+  for (const b of botons) assert.match(b, /aria-pressed="false"/);
+  for (const e of ['🔥', '📅', '🚀']) {
+    assert.ok(html.includes(`<span aria-hidden="true">${e}</span>`), `${e} amagat`);
+    assert.equal(html.split(e).length - 1, compta(html, new RegExp(`<span aria-hidden="true">${e}</span>`, 'g')), `${e} sempre amagat`);
+  }
+  const filtre = fs.readFileSync(path.join(arrel, 'public/filtre.js'), 'utf8');
+  assert.match(filtre, /aria-pressed/);
+});
