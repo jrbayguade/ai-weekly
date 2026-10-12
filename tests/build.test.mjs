@@ -179,7 +179,7 @@ test('accessibilitat: un sol h1, aria-pressed als botons d’empresa i emojis am
   const botons = html.match(/<button class="empresa"[^>]*>/g) ?? [];
   assert.ok(botons.length > 0);
   for (const b of botons) assert.match(b, /aria-pressed="false"/);
-  for (const e of ['🔥', '📅', '🚀']) {
+  for (const e of ['🔥', '🚀']) {
     assert.ok(html.includes(`<span aria-hidden="true">${e}</span>`), `${e} amagat`);
     assert.equal(html.split(e).length - 1, compta(html, new RegExp(`<span aria-hidden="true">${e}</span>`, 'g')), `${e} sempre amagat`);
   }

@@ -12,7 +12,7 @@ const F = m.files.length;
 ---
 {F > 0 && (
 <section class="caixa mapa" data-setmanes={JSON.stringify(m.columnes.map((c) => c.week))}
-  data-txt={JSON.stringify({ setmana1: t.setmanes(1), setmanes: t.setmanes('{n}'), nomes: t.nomes('{c}'), tot: t.rangs.tot, cats: t.cats })}>
+  >
   <div class="mapa-cap">
     <h2 class="h"><span><span aria-hidden="true">🚀</span> {t.quiHaTret}</span></h2>
     <div class="llegenda" aria-hidden="true">{['0', '1', '2', '3+'].map((x, i) => <span><i class={`q n${i}`}></i>{x}</span>)}</div>
@@ -34,24 +34,7 @@ const F = m.files.length;
       ))}
       <span class="nom-buit" style={`grid-row:${F + 1}`}></span>
       {m.mesos.map((x) => <span class="mes-mapa" style={`grid-row:${F + 1};grid-column:${x.inici + 2} / span ${x.span}`}>{x.etiqueta}</span>)}
-      <span class="nom-buit" style={`grid-row:${F + 2}`}></span>
-      <div class="pinca-fila" data-n={n} style={`grid-row:${F + 2}`}>
-        <div class="pinca" role="slider" aria-label={t.mostrant} tabindex="0" aria-valuemin="1" aria-valuemax={n}>
-          <span class="ma esq"></span><span class="ma dre"></span>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="rang">
-    <span><span aria-hidden="true">📅</span> {t.mostrant}</span><span class="rang-txt"></span>
-    <button class="btn" type="button" data-rang="1">{t.rangs.u}</button>
-    <button class="btn" type="button" data-rang="4">{t.rangs.m}</button>
-    <button class="btn" type="button" data-rang="13">{t.rangs.t}</button>
-    <button class="btn" type="button" data-rang="tot">{t.rangs.tot}</button>
-    <select class="rang-mobil" aria-label={t.mostrant}>
-      <option value="" hidden disabled>—</option><option value="1">{t.rangs.u}</option><option value="4">{t.rangs.m}</option>
-      <option value="13">{t.rangs.t}</option><option value="tot" selected>{t.rangs.tot}</option>
-    </select>
   </div>
 </section>
 )}

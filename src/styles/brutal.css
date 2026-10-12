@@ -86,28 +86,15 @@ details.mes[open] > summary .mes-nom::before { content:'▾ '; }
 .n3::before, .q.n3 { background:var(--rosa-fosc); border:2px solid #000; }
 .casella:hover::before, .casella:focus-visible::before { outline:3px solid #000; outline-offset:0; }
 .casella:focus { outline:none; }
-.casella.apagat::before, .casella.off::before { opacity:.2; }
+.casella.off::before { opacity:.2; }
 .mes-mapa { font-size:10px; font-weight:800; padding:2px 0 0 3px; border-left:2px solid #000; white-space:nowrap; overflow:hidden; margin-left:2px; }
 .globus { position:absolute; z-index:5; background:#000; color:var(--groc); font-size:11px; font-weight:700; padding:5px 8px; width:max-content; max-width:280px;
   pointer-events:none; }
 .globus .g-setmana { font-family:'JetBrains Mono',monospace; font-size:10px; color:#fff; margin-bottom:2px; }
 .globus ul { margin:0; padding:0 0 0 12px; }
-.pinca-fila { grid-column:2 / -1; margin:4px 2px 0; height:26px; border:2px solid #000; position:relative; touch-action:none;
-  background:repeating-linear-gradient(45deg,#fff,#fff 4px,#f3f3f3 4px,#f3f3f3 8px); }
-.pinca { position:absolute; top:-2px; bottom:-2px; background:rgba(255,107,157,.55); border:3px solid #000; cursor:grab; touch-action:none; }
-.pinca .ma { position:absolute; top:2px; bottom:2px; width:10px; background:#000; cursor:ew-resize; }
-.pinca .ma::after { content:''; position:absolute; top:-6px; bottom:-6px; left:50%; width:28px; transform:translateX(-50%); }
-.pinca .esq { left:-7px; }
-.pinca .dre { right:-7px; }
-.rang { display:flex; gap:6px; align-items:center; flex-wrap:wrap; margin-top:12px; font-size:12px; font-weight:700; }
-.rang-txt { background:#000; color:var(--groc); padding:2px 8px; }
-.rang-mobil { display:none; border:3px solid #000; font-weight:800; padding:3px; }
-.mapa:not(.js-on) .rang, .mapa:not(.js-on) .pinca-fila { display:none; }
 @media (max-width: 600px) {
   .graella { --nom:78px; }
   .empresa { font-size:10px; padding:0 4px; }
-  .rang [data-rang] { display:none; }
-  .rang-mobil { display:inline-block; }
 }
 /* Filtre per categoria: una fila de botons sota el títol del mapa; al mòbil, es llisca. */
 .cats { display:flex; gap:6px; margin-top:12px; flex-wrap:wrap; }
