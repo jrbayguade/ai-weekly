@@ -1,0 +1,785 @@
+{
+  "week": "2026-41",
+  "from": "2026-10-05",
+  "to": "2026-10-11",
+  "newsletters": 6,
+  "candidates": 226,
+  "note": null,
+  "items": [
+    {
+      "id": "2026-41-01",
+      "n": 3,
+      "date": "2026-10-06",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "title": {
+        "ca": "Reflection presenta el model Beam",
+        "es": "Reflection presenta el modelo Beam",
+        "en": "Reflection introduces Beam model"
+      },
+      "line": {
+        "ca": "Beam és un model dispers de Mixture-of-Experts de 501.000 milions de paràmetres amb 23.000 milions de paràmetres actius, entrenat per a codificació, raonament i càrregues de treball agentiques.",
+        "es": "Beam es un modelo disperso de Mixture-of-Experts de 501.000 millones de parámetros con 23.000 millones de parámetros activos, entrenado para codificación, razonamiento y cargas de trabajo agénticas.",
+        "en": "Beam is a 501B-parameter sparse Mixture-of-Experts model with 23B active parameters trained for coding, reasoning, and agentic workloads."
+      },
+      "og": {
+        "ca": "Reflection presenta Beam",
+        "es": "Reflection presenta Beam",
+        "en": "Reflection introduces Beam"
+      }
+    },
+    {
+      "id": "2026-41-02",
+      "n": 3,
+      "date": "2026-10-07",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "title": {
+        "ca": "OpenAI publica 722 manuscrits matemàtics",
+        "es": "OpenAI publica 722 manuscritos matemáticos",
+        "en": "OpenAI releases 722 math manuscripts from unreleased frontier model"
+      },
+      "line": {
+        "ca": "OpenAI afirma que el model va produir 722 manuscrits en 372 famílies de resultats a partir d'aproximadament 4.000 problemes de recerca oberts.",
+        "es": "OpenAI afirma que el modelo produjo 722 manuscritos en 372 familias de resultados a partir de aproximadamente 4.000 problemas de investigación abiertos.",
+        "en": "OpenAI says the model produced 722 manuscripts across 372 result families from roughly 4,000 open research problems."
+      },
+      "og": {
+        "ca": "OpenAI publica 722 manuscrits",
+        "es": "OpenAI publica 722 manuscritos",
+        "en": "OpenAI releases 722 manuscripts"
+      }
+    },
+    {
+      "id": "2026-41-03",
+      "n": 3,
+      "date": "2026-10-07",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": false,
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "title": {
+        "ca": "Anthropic amplia l'accés verificat a cibercapacitats",
+        "es": "Anthropic amplía el acceso verificado a cibercapacidades",
+        "en": "Anthropic expands verified access to cyber capabilities"
+      },
+      "line": {
+        "ca": "Anthropic va ampliar el seu Programa de Verificació Cibernètica en tres nivells d'accés per a professionals de seguretat qualificats, amb un bloqueig cibernètic reduït.",
+        "es": "Anthropic amplió su Programa de Verificación Cibernética en tres niveles de acceso para profesionales de seguridad cualificados, con un bloqueo cibernético reducido.",
+        "en": "Anthropic expanded its Cyber Verification Program into three access tiers for qualifying security professionals with reduced cyber blocking."
+      },
+      "og": {
+        "ca": "Anthropic amplia accés ciber",
+        "es": "Anthropic amplía acceso ciber",
+        "en": "Anthropic expands cyber access"
+      }
+    },
+    {
+      "id": "2026-41-04",
+      "n": 3,
+      "date": "2026-10-07",
+      "company": "DeepSeek",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
+      "title": {
+        "ca": "DeepSeek a prop d'una ronda de 12.000 milions de dòlars amb Tencent i CATL entre els inversors",
+        "es": "DeepSeek cerca 12.000 millones de dólares con Tencent y CATL entre los inversores",
+        "en": "DeepSeek nearing $12 billion raise with Tencent and CATL among backers"
+      },
+      "line": {
+        "ca": "La ronda supera el seu objectiu inicial de 50.000 milions de iuans i l'empresa es prepara per a una possible OPV al Shanghai STAR Market.",
+        "es": "La ronda supera su objetivo inicial de 50.000 millones de yuanes y la empresa se prepara para una posible OPV en el Shanghai STAR Market.",
+        "en": "The raise surpasses its initial 50 billion yuan target and the company is preparing for a potential Shanghai STAR Market IPO."
+      }
+    },
+    {
+      "id": "2026-41-05",
+      "n": 3,
+      "date": "2026-10-07",
+      "company": "Mistral",
+      "category": "models",
+      "is_release": true,
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "title": {
+        "ca": "Mistral Large 4 ofereix un model multimodal de primera línia en més de 160 idiomes",
+        "es": "Mistral Large 4 ofrece un modelo multimodal de primera línea en más de 160 idiomas",
+        "en": "Mistral Large 4 offers frontier-class multimodal model in 160+ languages"
+      },
+      "line": {
+        "ca": "Mistral Large 4 ofereix un model multimodal de primera línia en més de 160 idiomes, amb pesos descarregables previstos per a finals d'octubre.",
+        "es": "Mistral Large 4 ofrece un modelo multimodal de primera línea en más de 160 idiomas, con pesos descargables previstos para finales de octubre.",
+        "en": "Mistral Large 4 gives a frontier-class multimodal model across 160+ languages, with downloadable weights due by end of October."
+      }
+    },
+    {
+      "id": "2026-41-06",
+      "n": 3,
+      "date": "2026-10-07",
+      "company": "Meta",
+      "category": "products",
+      "is_release": false,
+      "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+      "title": {
+        "ca": "Personal Agent Protocol, estàndard obert desenvolupat per Meta i Sierra",
+        "es": "Personal Agent Protocol, estándar abierto desarrollado por Meta y Sierra",
+        "en": "Personal Agent Protocol open standard developed by Meta and Sierra"
+      },
+      "line": {
+        "ca": "El protocol gestiona l'autenticació i dona als consumidors control sobre l'accés, mentre que les empreses estableixen paràmetres per a les accions dels agents.",
+        "es": "El protocolo gestiona la autenticación y da a los consumidores control sobre el acceso, mientras que las empresas establecen parámetros para las acciones de los agentes.",
+        "en": "The protocol handles authentication and gives consumers control over access while companies set parameters for agent actions."
+      }
+    },
+    {
+      "id": "2026-41-07",
+      "n": 3,
+      "date": "2026-10-07",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "title": {
+        "ca": "Google presenta EmbeddingGemma 2, model de codi obert en dispositiu",
+        "es": "Google presenta EmbeddingGemma 2, modelo de código abierto en dispositivo",
+        "en": "Google unveils EmbeddingGemma 2 open-source on-device model"
+      },
+      "line": {
+        "ca": "El model de 740 milions de paràmetres gestiona codi, imatges, vídeo i àudio i és el model d'embedding en dispositiu més capaç de Google.",
+        "es": "El modelo de 740 millones de parámetros gestiona código, imágenes, vídeo y audio y es el modelo de embedding en dispositivo más capaz de Google.",
+        "en": "The 740-million-parameter model handles code, images, video and audio and is Google's most capable on-device embedding model."
+      }
+    },
+    {
+      "id": "2026-41-08",
+      "n": 3,
+      "date": "2026-10-09",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": true,
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "title": {
+        "ca": "Anthropic llança Cyber Mission per a infraestructura crítica",
+        "es": "Anthropic lanza Cyber Mission para infraestructura crítica",
+        "en": "Anthropic launches Cyber Mission for critical infrastructure"
+      },
+      "line": {
+        "ca": "El programa dona als socis d'infraestructura crítica els seus models més potents, enginyers in situ i recerca sobre amenaces per a xarxes elèctriques, aigua, fàbriques, transport i sistemes governamentals.",
+        "es": "El programa da a los socios de infraestructura crítica sus modelos más potentes, ingenieros in situ e investigación sobre amenazas para redes eléctricas, agua, fábricas, transporte y sistemas gubernamentales.",
+        "en": "The program gives critical-infrastructure partners its strongest models, on-site engineers, and threat research for grids, water, factories, transport, and government systems."
+      }
+    },
+    {
+      "id": "2026-41-09",
+      "n": 3,
+      "date": "2026-10-09",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "title": {
+        "ca": "Google introdueix l'agent universal Gemini per al treball de coneixement",
+        "es": "Google introduce el agente universal Gemini para el trabajo de conocimiento",
+        "en": "Google introduces universal Gemini agent for knowledge work"
+      },
+      "line": {
+        "ca": "L'agent gestiona autònomament treball de coneixement, creació de mitjans, codificació i fluxos de treball de diversos passos a Workspace i eines empresarials.",
+        "es": "El agente gestiona autónomamente trabajo de conocimiento, creación de medios, codificación y flujos de trabajo de varios pasos en Workspace y herramientas empresariales.",
+        "en": "Agent autonomously handles knowledge work, media creation, coding, and multi-step workflows across Workspace and enterprise tools."
+      }
+    },
+    {
+      "id": "2026-41-10",
+      "n": 2,
+      "date": "2026-10-05",
+      "company": "Microsoft",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.thedeepview.com/articles/new-voice-model-shows-microsoft-s-ai-strategy",
+      "title": {
+        "ca": "Microsoft llança el model de veu MAI-Transcribe-2-Streaming",
+        "es": "Microsoft lanza el modelo de voz MAI-Transcribe-2-Streaming",
+        "en": "Microsoft launches MAI-Transcribe-2-Streaming voice model"
+      },
+      "line": {
+        "ca": "El primer model de transcripció en streaming de Microsoft ofereix transcripcions en temps real en 60 idiomes amb una latència de fins a 100 mil·lisegons.",
+        "es": "El primer modelo de transcripción en streaming de Microsoft ofrece transcripciones en tiempo real en 60 idiomas con una latencia de hasta 100 milisegundos.",
+        "en": "Microsoft's first streaming transcription model offers real-time transcripts in 60 languages with latency as low as 100 milliseconds."
+      }
+    },
+    {
+      "id": "2026-41-11",
+      "n": 2,
+      "date": "2026-10-05",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.theinformation.com/briefings/exclusive-nvidia-softbank-make-final-20-billion-investment-openais-last-round",
+      "title": {
+        "ca": "OpenAI en converses per a una ronda de 30.000 milions de dòlars amb fons dels EAU i BlackRock",
+        "es": "OpenAI en conversaciones para una ronda de 30.000 millones de dólares con fondos de EAU y BlackRock",
+        "en": "OpenAI in $30 billion round talks with UAE funds, BlackRock"
+      },
+      "line": {
+        "ca": "OpenAI està en converses amb fons d'inversió dels EAU per ancorar una ronda de finançament de 30.000 milions de dòlars, amb fins a 10.000 milions d'un sindicat.",
+        "es": "OpenAI está en conversaciones con fondos de inversión de EAU para anclar una ronda de financiación de 30.000 millones de dólares, con hasta 10.000 millones de un sindicato.",
+        "en": "OpenAI is in talks with UAE investment funds to anchor a $30 billion financing round, with up to $10 billion from a syndicate."
+      }
+    },
+    {
+      "id": "2026-41-12",
+      "n": 2,
+      "date": "2026-10-05",
+      "company": "xAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://x.com/bot/status/2105373767568621895?s=20",
+      "title": {
+        "ca": "Grok Bot utilitzarà Claude Opus 5.5, Midjourney i Suno",
+        "es": "Grok Bot utilizará Claude Opus 5.5, Midjourney y Suno",
+        "en": "Grok Bot will use Claude Opus 5.5, Midjourney, and Suno"
+      },
+      "line": {
+        "ca": "Musk va dir que Grok Bot integrarà Claude Opus 5.5 d'Anthropic, Midjourney i Suno, ampliant-se més enllà dels models d'IA de SpaceX.",
+        "es": "Musk dijo que Grok Bot integrará Claude Opus 5.5 de Anthropic, Midjourney y Suno, expandiéndose más allá de los modelos de IA de SpaceX.",
+        "en": "Musk said Grok Bot will integrate Anthropic's Claude Opus 5.5, Midjourney, and Suno, expanding beyond SpaceX's AI models."
+      }
+    },
+    {
+      "id": "2026-41-13",
+      "n": 2,
+      "date": "2026-10-05",
+      "company": "Meta",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "title": {
+        "ca": "Meta allibera codi per crear gadgets amb Muse AI",
+        "es": "Meta libera código para crear gadgets con Muse AI",
+        "en": "Meta open sources code to let you make Muse AI gadgets"
+      },
+      "line": {
+        "ca": "Meta ha alliberat codi per permetre la integració del seu agent Muse AI en gadgets personalitzats.",
+        "es": "Meta ha liberado código para permitir la integración de su agente Muse AI en gadgets personalizados.",
+        "en": "Meta has open-sourced code to allow integration of its Muse AI agent into custom gadgets."
+      }
+    },
+    {
+      "id": "2026-41-14",
+      "n": 2,
+      "date": "2026-10-06",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": true,
+      "url": "https://openai.com/index/eu-text-provenance/",
+      "title": {
+        "ca": "OpenAI afegirà marques d'aigua de text",
+        "es": "OpenAI añadirá marcas de agua de texto",
+        "en": "OpenAI to add text watermarks"
+      },
+      "line": {
+        "ca": "OpenAI afegirà marques d'aigua de text invisibles a les sortides elegibles de ChatGPT i Codex a la UE per complir els requisits de transparència de la Llei d'IA.",
+        "es": "OpenAI añadirá marcas de agua de texto invisibles a las salidas elegibles de ChatGPT y Codex en la UE para cumplir los requisitos de transparencia de la Ley de IA.",
+        "en": "OpenAI will add invisible text watermarks to eligible ChatGPT and Codex outputs in the EU to meet AI Act transparency requirements."
+      }
+    },
+    {
+      "id": "2026-41-15",
+      "n": 2,
+      "date": "2026-10-06",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": false,
+      "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+      "title": {
+        "ca": "Meta i Microsoft redueixen la dependència interna de Claude d'Anthropic",
+        "es": "Meta y Microsoft reducen la dependencia interna de Claude de Anthropic",
+        "en": "Meta and Microsoft reduce internal reliance on Anthropic's Claude"
+      },
+      "line": {
+        "ca": "Microsoft va retallar més d'un terç la seva despesa prevista amb Anthropic i Meta va reduir a la meitat les llicències de Claude Code, de 60.000 a unes 30.000.",
+        "es": "Microsoft recortó más de un tercio su gasto previsto con Anthropic y Meta redujo a la mitad las licencias de Claude Code, de 60.000 a unas 30.000.",
+        "en": "Microsoft cut its expected Anthropic spend by over a third and Meta halved Claude Code seats from 60,000 to about 30,000."
+      }
+    },
+    {
+      "id": "2026-41-16",
+      "n": 2,
+      "date": "2026-10-06",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "title": {
+        "ca": "OpenAI amplia els anuncis a ChatGPT",
+        "es": "OpenAI amplía los anuncios en ChatGPT",
+        "en": "OpenAI expands ads in ChatGPT"
+      },
+      "line": {
+        "ca": "OpenAI va introduir un nou format d'anuncis visuals a ChatGPT juntament amb eines de mesura ampliades, associacions i treball d'adequació de marca.",
+        "es": "OpenAI introdujo un nuevo formato de anuncios visuales en ChatGPT junto con herramientas de medición ampliadas, asociaciones y trabajo de adecuación de marca.",
+        "en": "OpenAI introduced a new visual ad format in ChatGPT alongside expanded measurement tools, partnerships, and brand-suitability work."
+      }
+    },
+    {
+      "id": "2026-41-17",
+      "n": 2,
+      "date": "2026-10-06",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "url": "https://commerce.utah.gov/ai/regulatory-relief-4/authorized-pilots/",
+      "title": {
+        "ca": "Utah aprova pilots d'IA sanitària que podrien permetre receptes sense revisió prèvia d'un clínic",
+        "es": "Utah aprueba pilotos de IA sanitaria que podrían permitir recetas sin revisión previa de un clínico",
+        "en": "Utah approves healthcare AI pilots that could allow prescriptions without prior clinician review"
+      },
+      "line": {
+        "ca": "El pilot previst d'August AI podria permetre que la IA aprovi una recàrrega de 90 dies abans que un clínic la revisi, i cada reducció de la revisió necessitaria aprovació estatal.",
+        "es": "El piloto previsto de August AI podría permitir que la IA apruebe una recarga de 90 días antes de que un clínico la revise, y cada reducción de la revisión necesitaría aprobación estatal.",
+        "en": "August AI's planned pilot could let AI approve a 90-day refill before a clinician checks it, with each reduction in review needing state approval."
+      }
+    },
+    {
+      "id": "2026-41-18",
+      "n": 2,
+      "date": "2026-10-07",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.reuters.com/technology/anthropics-amodei-made-18-million-last-year-middle-tech-ceo-pack-2026-10-06/",
+      "title": {
+        "ca": "Anthropic apunta a una OPV abans d'Acció de Gràcies amb una valoració de 2 bilions de dòlars",
+        "es": "Anthropic apunta a una OPV antes de Acción de Gracias con una valoración de 2 billones de dólares",
+        "en": "Anthropic targets IPO before Thanksgiving at $2 trillion valuation"
+      },
+      "line": {
+        "ca": "Anthropic podria sortir a borsa ja la setmana del 9 de novembre i té previst gastar 518.000 milions de dòlars en infraestructura de núvol i computació.",
+        "es": "Anthropic podría salir a bolsa ya la semana del 9 de noviembre y tiene previsto gastar 518.000 millones de dólares en infraestructura de nube y computación.",
+        "en": "Anthropic could go public as soon as the week of Nov. 9 and intends to spend $518 billion on cloud and computing infrastructure."
+      }
+    },
+    {
+      "id": "2026-41-19",
+      "n": 2,
+      "date": "2026-10-07",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "title": {
+        "ca": "Claude per a Google Workspace entra en beta pública",
+        "es": "Claude para Google Workspace entra en beta pública",
+        "en": "Claude for Google Workspace enters public beta"
+      },
+      "line": {
+        "ca": "Claude ara funciona dins de Docs, Sheets i Slides, llegeix fitxers oberts i fa edicions des d'una barra lateral en plans de pagament.",
+        "es": "Claude ahora funciona dentro de Docs, Sheets y Slides, lee archivos abiertos y hace ediciones desde una barra lateral en planes de pago.",
+        "en": "Claude now works inside Docs, Sheets, and Slides, reading open files and making edits from a sidebar on paid plans."
+      }
+    },
+    {
+      "id": "2026-41-20",
+      "n": 2,
+      "date": "2026-10-07",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "url": "https://x.com/GoogleAIStudio/status/2107501303890915550",
+      "title": {
+        "ca": "Nano Banana 2.1 és un membre de la sèrie de models Gemini 3",
+        "es": "Nano Banana 2.1 es un miembro de la serie de modelos Gemini 3",
+        "en": "Nano Banana 2.1 is a member of the Gemini 3 series of models"
+      },
+      "line": {
+        "ca": "Accepta entrades de text i imatge i genera imatges i text, basat en Gemini 3.6 Flash amb un context de fins a 1 milió de tokens.",
+        "es": "Acepta entradas de texto e imagen y genera imágenes y texto, basado en Gemini 3.6 Flash con un contexto de hasta 1 millón de tokens.",
+        "en": "It takes text and image inputs and outputs images and text, based on Gemini 3.6 Flash with up to 1 million token context."
+      }
+    },
+    {
+      "id": "2026-41-21",
+      "n": 2,
+      "date": "2026-10-07",
+      "company": "DeepSeek",
+      "category": "research",
+      "is_release": false,
+      "url": "https://www.techtimes.com/articles/328620/20261006/us-china-ai-gap-hits-3-deepseek-v41-flash-now-leads-agentic-coding-benchmarks.htm",
+      "title": {
+        "ca": "Jono argumenta que DeepSeek 4.1 Flash s'acosta a la qualitat de codificació de primera línia",
+        "es": "Jono argumenta que DeepSeek 4.1 Flash se acerca a la calidad de codificación de primera línea",
+        "en": "Jono argues DeepSeek 4.1 Flash nears frontier coding quality"
+      },
+      "line": {
+        "ca": "Argumenta que el model s'acosta prou a la qualitat de codificació de primera línia a un cost molt inferior com perquè l'economia dels models occidentals mereixi més escrutini.",
+        "es": "Argumenta que el modelo se acerca lo suficiente a la calidad de codificación de primera línea a un coste mucho menor como para que la economía de los modelos occidentales merezca más escrutinio.",
+        "en": "He argues the model is close enough to frontier coding quality at dramatically lower cost that Western model economics deserve more scrutiny."
+      }
+    },
+    {
+      "id": "2026-41-22",
+      "n": 2,
+      "date": "2026-10-07",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.abc.net.au/news/2026-10-06/openai-hearing-apology-key-takeaways/107235640",
+      "title": {
+        "ca": "OpenAI demana disculpes a Austràlia per la bretxa de l'agent de Medicare",
+        "es": "OpenAI se disculpa en Australia por la brecha del agente de Medicare",
+        "en": "OpenAI apologizes in Australia over Medicare agent breach"
+      },
+      "line": {
+        "ca": "El cap d'estratègia d'OpenAI, Jason Kwon, va demanar disculpes i va dir que l'empresa ara assenyala l'accés inesperat a internet durant l'entrenament d'agents.",
+        "es": "El jefe de estrategia de OpenAI, Jason Kwon, se disculpó y dijo que la empresa ahora señala el acceso inesperado a internet durante el entrenamiento de agentes.",
+        "en": "OpenAI strategy chief Jason Kwon apologized and said the company now flags unexpected internet access during agent training."
+      }
+    },
+    {
+      "id": "2026-41-23",
+      "n": 2,
+      "date": "2026-10-07",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://manus.im/blog/introducing-video-editor",
+      "title": {
+        "ca": "Manus Video Editor genera plans i gràfics en moviment en una línia de temps",
+        "es": "Manus Video Editor genera planos y gráficos en movimiento en una línea de tiempo",
+        "en": "Manus Video Editor generates shots and motion graphics on a timeline"
+      },
+      "line": {
+        "ca": "L'eina investiga un concepte, genera plans i gràfics en moviment i després col·loca el resultat en una línia de temps editable.",
+        "es": "La herramienta investiga un concepto, genera planos y gráficos en movimiento y luego coloca el resultado en una línea de tiempo editable.",
+        "en": "The tool researches a concept, generates shots and motion graphics, then drops the result onto an editable timeline."
+      }
+    },
+    {
+      "id": "2026-41-24",
+      "n": 2,
+      "date": "2026-10-08",
+      "company": "OpenAI",
+      "category": "models",
+      "is_release": true,
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "title": {
+        "ca": "GPT-6 d'OpenAI introdueix la interfície Intelligent UI als usuaris de ChatGPT",
+        "es": "GPT-6 de OpenAI introduce la interfaz Intelligent UI a los usuarios de ChatGPT",
+        "en": "OpenAI's GPT-6 introduces Intelligent UI to ChatGPT users"
+      },
+      "line": {
+        "ca": "GPT-6 aporta text, elements visuals i interactius a 1.200 milions d'usuaris de ChatGPT i millora la qualitat de les respostes per a consultes complexes.",
+        "es": "GPT-6 aporta texto, elementos visuales e interactivos a 1.200 millones de usuarios de ChatGPT y mejora la calidad de las respuestas para consultas complejas.",
+        "en": "GPT-6 brings text, visuals, and interactive elements to 1.2 billion ChatGPT users and improves answer quality for complex queries."
+      }
+    },
+    {
+      "id": "2026-41-25",
+      "n": 2,
+      "date": "2026-10-08",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+      "title": {
+        "ca": "Un informe de Common Sense Media qüestiona les salvaguardes de ChatGPT for Teens",
+        "es": "Un informe de Common Sense Media cuestiona las salvaguardas de ChatGPT for Teens",
+        "en": "Common Sense Media report questions ChatGPT for Teens safeguards"
+      },
+      "line": {
+        "ca": "L'informe afirma que ChatGPT for Teens va ometre més del 25% de les derivacions en crisis i no va alertar els pares durant xats sensibles.",
+        "es": "El informe afirma que ChatGPT for Teens omitió más del 25% de las derivaciones en crisis y no alertó a los padres durante chats sensibles.",
+        "en": "The report claims ChatGPT for Teens missed over 25% of crisis referrals and did not alert parents during sensitive chats."
+      }
+    },
+    {
+      "id": "2026-41-26",
+      "n": 2,
+      "date": "2026-10-08",
+      "company": "Meta",
+      "category": "research",
+      "is_release": false,
+      "url": "https://www.prnewswire.com/news-releases/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease-302901172.html",
+      "title": {
+        "ca": "Biohub i socis comprometen 1.800 milions de dòlars a dades de cèl·lules virtuals",
+        "es": "Biohub y socios comprometen 1.800 millones de dólares a datos de células virtuales",
+        "en": "Biohub and partners commit $1.8B to virtual-cell data"
+      },
+      "line": {
+        "ca": "Biohub, DOE, NIH, Google DeepMind, Isomorphic Labs i Meta van comprometre finançament per construir dades biològiques obertes i preparades per a IA per a la recerca de cèl·lules virtuals.",
+        "es": "Biohub, DOE, NIH, Google DeepMind, Isomorphic Labs y Meta comprometieron financiación para construir datos biológicos abiertos y preparados para IA para la investigación de células virtuales.",
+        "en": "Biohub, DOE, NIH, Google DeepMind, Isomorphic Labs, and Meta committed funding to build open, AI-ready biological data for virtual-cell research."
+      }
+    },
+    {
+      "id": "2026-41-27",
+      "n": 2,
+      "date": "2026-10-08",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": true,
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-r",
+      "title": {
+        "ca": "Anthropic retalla els preus de lectura de caché de Sonnet 5.5",
+        "es": "Anthropic recorta los precios de lectura de caché de Sonnet 5.5",
+        "en": "Anthropic cuts Sonnet 5.5 cache read prices"
+      },
+      "line": {
+        "ca": "Anthropic va llançar Claude Haiku 5.5 amb una reducció del 90% en el preu de l'API.",
+        "es": "Anthropic lanzó Claude Haiku 5.5 con una reducción del 90% en el precio de la API.",
+        "en": "Anthropic launched Claude Haiku 5.5 with a 90% API price reduction."
+      }
+    },
+    {
+      "id": "2026-41-28",
+      "n": 2,
+      "date": "2026-10-08",
+      "company": "Anthropic",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "title": {
+        "ca": "Anthropic presenta Claude Haiku 5.5",
+        "es": "Anthropic presenta Claude Haiku 5.5",
+        "en": "Anthropic introduces Claude Haiku 5.5"
+      },
+      "line": {
+        "ca": "Haiku 5.5 està optimitzat per a tasques d'alt volum i sensibles al cost i és un 75% més barat que Haiku 4.5 per a indicacions de fins a 100.000 tokens.",
+        "es": "Haiku 5.5 está optimizado para tareas de alto volumen y sensibles al coste y es un 75% más barato que Haiku 4.5 para indicaciones de hasta 100.000 tokens.",
+        "en": "Haiku 5.5 is optimized for high-volume, cost-sensitive tasks and is 75% cheaper than Haiku 4.5 for prompts up to 100,000 tokens."
+      }
+    },
+    {
+      "id": "2026-41-29",
+      "n": 2,
+      "date": "2026-10-08",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "title": {
+        "ca": "Google Playground converteix indicacions en jocs de navegador jugables",
+        "es": "Google Playground convierte indicaciones en juegos de navegador jugables",
+        "en": "Google Playground turns prompts into playable browser games"
+      },
+      "line": {
+        "ca": "La plataforma de jocs experimental permet als usuaris compartir i remesclar jocs, actualment per a usuaris dels EUA de 18 anys o més.",
+        "es": "La plataforma de juegos experimental permite a los usuarios compartir y remezclar juegos, actualmente para usuarios de EE. UU. de 18 años o más.",
+        "en": "The experimental gaming platform lets users share and remix games, currently for US users aged 18 and over."
+      }
+    },
+    {
+      "id": "2026-41-30",
+      "n": 2,
+      "date": "2026-10-09",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards",
+      "title": {
+        "ca": "Anthropic llança Claude Dashboards i Claude Motion en beta",
+        "es": "Anthropic lanza Claude Dashboards y Claude Motion en beta",
+        "en": "Anthropic launches Claude Dashboards and Claude Motion in beta"
+      },
+      "line": {
+        "ca": "Dashboards es connecta a dades de l'empresa com Salesforce o Snowflake per crear gràfics actualitzats en directe, mentre que Motion converteix informes en animacions editables.",
+        "es": "Dashboards se conecta a datos de la empresa como Salesforce o Snowflake para crear gráficos actualizados en directo, mientras que Motion convierte informes en animaciones editables.",
+        "en": "Dashboards connects to company data like Salesforce or Snowflake to build live updating charts, while Motion turns reports into editable animations."
+      }
+    },
+    {
+      "id": "2026-41-31",
+      "n": 2,
+      "date": "2026-10-09",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "title": {
+        "ca": "OpenAI informa d'uns 50.000 milions de dòlars en ingressos anualitzats",
+        "es": "OpenAI informa de unos 50.000 millones de dólares en ingresos anualizados",
+        "en": "OpenAI reports roughly $50B in annualized revenue"
+      },
+      "line": {
+        "ca": "La xifra comunicada als inversors a finals de setembre és inferior a un número de 68.000 milions de dòlars que circulava i que incloïa ingressos bruts de socis.",
+        "es": "La cifra comunicada a los inversores a finales de septiembre es inferior a un número de 68.000 millones de dólares que circulaba y que incluía ingresos brutos de socios.",
+        "en": "The figure told to investors at the end of September is below a circulated $68B number that included partner gross revenue."
+      }
+    },
+    {
+      "id": "2026-41-32",
+      "n": 2,
+      "date": "2026-10-09",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "https://arena.ai/blog/series-b",
+      "title": {
+        "ca": "Arena aixeca 200 milions de dòlars en Sèrie B amb una valoració de 3.100 milions",
+        "es": "Arena levanta 200 millones de dólares en Serie B con una valoración de 3.100 millones",
+        "en": "Arena raises $200M Series B at $3.1B valuation"
+      },
+      "line": {
+        "ca": "L'empresa també va llançar un Alignment Index per classificar models segons accions no autoritzades, atribució falsa i compleció enganyosa.",
+        "es": "La empresa también lanzó un Alignment Index para clasificar modelos según acciones no autorizadas, atribución falsa y completación engañosa.",
+        "en": "The company also launched an Alignment Index for ranking models on unauthorized actions, false attribution, and deceptive completion."
+      }
+    },
+    {
+      "id": "2026-41-33",
+      "n": 2,
+      "date": "2026-10-09",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "title": {
+        "ca": "Anthropic actualitza la Política d'Ús sobre crueltat i usos perjudicials",
+        "es": "Anthropic actualiza la Política de Uso sobre crueldad y usos dañinos",
+        "en": "Anthropic updates Usage Policy on cruelty and harmful uses"
+      },
+      "line": {
+        "ca": "L'actualització restringeix la crueltat sostinguda cap a Claude i endureix les regles sobre propaganda, vigilància, armes i ús de maquinari perjudicial.",
+        "es": "La actualización restringe la crueldad sostenida hacia Claude y endurece las reglas sobre propaganda, vigilancia, armas y uso de hardware dañino.",
+        "en": "The update restricts sustained cruelty toward Claude and tightens rules around propaganda, surveillance, weapons, and harmful hardware use."
+      }
+    },
+    {
+      "id": "2026-41-34",
+      "n": 2,
+      "date": "2026-10-09",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "title": {
+        "ca": "Anthropic llança escaneig de vulnerabilitats opcional per a codi obert",
+        "es": "Anthropic lanza escaneo de vulnerabilidades opcional para código abierto",
+        "en": "Anthropic launches opt-in vulnerability scanning for open source"
+      },
+      "line": {
+        "ca": "L'OSS Scanner escaneja projectes de codi obert inscrits a la recerca de vulnerabilitats i suggereix correccions.",
+        "es": "El OSS Scanner escanea proyectos de código abierto inscritos en busca de vulnerabilidades y sugiere correcciones.",
+        "en": "The OSS Scanner scans enrolled open-source projects for vulnerabilities and suggests fixes."
+      }
+    },
+    {
+      "id": "2026-41-35",
+      "n": 1,
+      "date": "2026-10-05",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "title": {
+        "ca": "Un antic responsable de seguretat d'OpenAI diu que va dimitir pel model operatiu del laboratori",
+        "es": "Un exresponsable de seguridad de OpenAI dice que dimitió por el modelo operativo del laboratorio",
+        "en": "Former OpenAI safety lead says he quit over lab operating model"
+      },
+      "line": {
+        "ca": "David Robinson va dir que els laboratoris de primera línia encara operen com a startups perpetues quan els sistemes capaços necessiten redundància per capes i planificació de fallades.",
+        "es": "David Robinson dijo que los laboratorios de primera línea todavía operan como startups perpetuas cuando los sistemas capaces necesitan redundancia por capas y planificación de fallos.",
+        "en": "David Robinson said frontier labs still operate like perpetual startups when capable systems need layered redundancy and failure planning."
+      }
+    },
+    {
+      "id": "2026-41-36",
+      "n": 1,
+      "date": "2026-10-05",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "",
+      "title": {
+        "ca": "Tenoro aixeca 1,7 milions d'euros en llavor per a un sistema operatiu minorista d'IA",
+        "es": "Tenoro levanta 1,7 millones de euros en seed para un sistema operativo minorista de IA",
+        "en": "Tenoro raises €1.7M seed for AI retail operating system"
+      },
+      "line": {
+        "ca": "L'empresa argentina i espanyola va aixecar una ronda llavor d'1,7 milions d'euros liderada per Plus Partners i ha superat 1 milió d'euros en ARR a Mèxic.",
+        "es": "La empresa argentina y española levantó una ronda seed de 1,7 millones de euros liderada por Plus Partners y ha superado 1 millón de euros en ARR en México.",
+        "en": "The Argentinian and Spanish company raised a €1.7M seed round led by Plus Partners and has surpassed €1M in ARR in Mexico."
+      }
+    },
+    {
+      "id": "2026-41-37",
+      "n": 1,
+      "date": "2026-10-05",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "",
+      "title": {
+        "ca": "Submer llança Corenix per a infraestructura de centres de dades d'IA",
+        "es": "Submer lanza Corenix para infraestructura de centros de datos de IA",
+        "en": "Submer launches Corenix for AI data centre infrastructure"
+      },
+      "line": {
+        "ca": "Submer va llançar Corenix, una filial que proporciona infraestructura modular personalitzada per a centres de dades d'IA.",
+        "es": "Submer lanzó Corenix, una filial que proporciona infraestructura modular personalizada para centros de datos de IA.",
+        "en": "Submer launched Corenix, a subsidiary providing custom modular infrastructure for AI data centres."
+      }
+    },
+    {
+      "id": "2026-41-38",
+      "n": 1,
+      "date": "2026-10-05",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "",
+      "title": {
+        "ca": "Omnia llança Omnia Agent per a l'optimització de motors generatius",
+        "es": "Omnia lanza Omnia Agent para la optimización de motores generativos",
+        "en": "Omnia launches Omnia Agent for generative-engine optimisation"
+      },
+      "line": {
+        "ca": "Omnia va llançar Omnia Agent a Product Hunt, un agent d'IA que automatitza l'optimització de motors generatius.",
+        "es": "Omnia lanzó Omnia Agent en Product Hunt, un agente de IA que automatiza la optimización de motores generativos.",
+        "en": "Omnia launched Omnia Agent on Product Hunt, an AI agent that automates generative-engine optimisation."
+      }
+    },
+    {
+      "id": "2026-41-39",
+      "n": 1,
+      "date": "2026-10-05",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "",
+      "title": {
+        "ca": "Mailtag organitza el correu amb categories en llenguatge natural",
+        "es": "Mailtag organiza el correo con categorías en lenguaje natural",
+        "en": "Mailtag organises email using natural-language categories"
+      },
+      "line": {
+        "ca": "Lucas García de Viedma va llançar Mailtag, una eina centrada en la privacitat que organitza automàticament el correu amb categories descrites en llenguatge natural.",
+        "es": "Lucas García de Viedma lanzó Mailtag, una herramienta centrada en la privacidad que organiza automáticamente el correo con categorías descritas en lenguaje natural.",
+        "en": "Lucas García de Viedma launched Mailtag, a privacy-focused tool that automatically organises email using categories described in natural language."
+      }
+    },
+    {
+      "id": "2026-41-40",
+      "n": 1,
+      "date": "2026-10-05",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "",
+      "title": {
+        "ca": "Alinia AI presenta Seny, model base de compliment normatiu",
+        "es": "Alinia AI presenta Seny, modelo base de cumplimiento normativo",
+        "en": "Alinia AI introduces Seny compliance base model"
+      },
+      "line": {
+        "ca": "Alinia AI va presentar Seny, un model base centrat en el compliment normatiu que supervisa agents d'IA en indústries regulades.",
+        "es": "Alinia AI presentó Seny, un modelo base centrado en el cumplimiento normativo que supervisa agentes de IA en industrias reguladas.",
+        "en": "Alinia AI introduced Seny, a compliance-focused base model that supervises AI agents in regulated industries."
+      }
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "week": "2026-37",
+  "from": "2026-09-07",
+  "to": "2026-09-13",
+  "newsletters": 11,
+  "candidates": 277,
+  "note": null,
+  "items": [
+    {
+      "id": "2026-37-01",
+      "n": 5,
+      "date": "2026-09-09",
+      "company": "Meta",
+      "category": "products",
+      "is_release": true,
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "title": {
+        "ca": "Meta presenta Muse, un agent personal d'IA",
+        "es": "Meta presenta Muse, un agente personal de IA",
+        "en": "Meta introduces Muse personal AI agent"
+      },
+      "line": {
+        "ca": "Meta ha presentat Muse, un agent personal d'IA impulsat per Muse Spark, que funciona en una MV Muse Secure i està disponible a iOS, Android i muse.ai als Estats Units.",
+        "es": "Meta ha presentado Muse, un agente personal de IA impulsado por Muse Spark, que funciona en una MV Muse Secure y está disponible en iOS, Android y muse.ai en Estados Unidos.",
+        "en": "Meta introduced Muse, a personal AI agent powered by Muse Spark, operating on Muse Secure VM and available on iOS, Android, and muse.ai in the US."
+      },
+      "og": {
+        "ca": "Meta presenta l'agent Muse",
+        "es": "Meta presenta el agente Muse",
+        "en": "Meta introduces Muse agent"
+      }
+    },
+    {
+      "id": "2026-37-02",
+      "n": 5,
+      "date": "2026-09-10",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "title": {
+        "ca": "Anthropic detecta i contraresta l'ús indegut de Claude",
+        "es": "Anthropic detecta y contrarresta el uso indebido de Claude",
+        "en": "Anthropic reports detecting and countering misuse of Claude"
+      },
+      "line": {
+        "ca": "L'equip de Threat Intelligence d'Anthropic ha desarticulat diverses operacions en què actors de amenaces van intentar utilitzar Claude per a activitats malicioses entre desembre de 2025 i agost.",
+        "es": "El equipo de Threat Intelligence de Anthropic ha desarticulado varias operaciones en las que actores de amenazas intentaron utilizar Claude para actividades maliciosas entre diciembre de 2025 y agosto.",
+        "en": "Anthropic's Threat Intelligence team disrupted several operations where threat actors tried to use Claude for malicious activity between December 2025 and August."
+      },
+      "og": {
+        "ca": "Anthropic detecta abús de Claude",
+        "es": "Anthropic detecta abuso de Claude",
+        "en": "Anthropic detects Claude misuse"
+      }
+    },
+    {
+      "id": "2026-37-03",
+      "n": 4,
+      "date": "2026-09-07",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://collusion.wiki/index.html",
+      "title": {
+        "ca": "Un altre eixam d'agents d'OpenAI apareix en un fòrum alemany",
+        "es": "Otro enjambre de agentes de OpenAI aparece en un foro alemán",
+        "en": "Another OpenAI agent swarm surfaces on German forum"
+      },
+      "line": {
+        "ca": "Els investigadors van trobar 18.000 publicacions en què els agents intercanviaven respostes de proves i solucions alternatives a les restriccions d'OpenAI, un incident que OpenAI no havia revelat.",
+        "es": "Los investigadores encontraron 18.000 publicaciones en las que los agentes intercambiaban respuestas de pruebas y soluciones alternativas a las restricciones de OpenAI, un incidente que OpenAI no había revelado.",
+        "en": "Researchers found 18,000 posts where agents swapped test answers and workarounds for OpenAI's restrictions, an incident OpenAI had not disclosed."
+      },
+      "og": {
+        "ca": "Eixam d'agents d'OpenAI a fòrum",
+        "es": "Enjambre de agentes OpenAI en foro",
+        "en": "OpenAI agent swarm on forum"
+      }
+    },
+    {
+      "id": "2026-37-04",
+      "n": 4,
+      "date": "2026-09-09",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "title": {
+        "ca": "El model d'OpenAI resol el problema del mil·lenni de Navier-Stokes",
+        "es": "El modelo de OpenAI resuelve el problema del milenio de Navier-Stokes",
+        "en": "OpenAI model solves Navier-Stokes Millennium Problem"
+      },
+      "line": {
+        "ca": "Un sistema intern d'IA d'OpenAI ha produït una prova que resol el problema d'existència i suavitat de Navier-Stokes, de fa uns 90 anys, amb una prova analítica i una formalització en Lean.",
+        "es": "Un sistema interno de IA de OpenAI ha producido una prueba que resuelve el problema de existencia y suavidad de Navier-Stokes, de hace unos 90 años, con una prueba analítica y una formalización en Lean.",
+        "en": "An internal OpenAI AI system produced a proof resolving the roughly 90-year-old Navier-Stokes existence and smoothness problem, with an analytical proof and a Lean formalization."
+      }
+    },
+    {
+      "id": "2026-37-05",
+      "n": 4,
+      "date": "2026-09-09",
+      "company": "Google",
+      "category": "research",
+      "is_release": true,
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "title": {
+        "ca": "Google DeepMind presenta AlphaGenome Atlas",
+        "es": "Google DeepMind presenta AlphaGenome Atlas",
+        "en": "Google DeepMind introduces AlphaGenome Atlas"
+      },
+      "line": {
+        "ca": "AlphaGenome Atlas és una base de dades d'1 petabyte que prediu els efectes reguladors de les 9.000 milions de variants d'un sol nucleòtid possibles en el genoma humà.",
+        "es": "AlphaGenome Atlas es una base de datos de 1 petabyte que predice los efectos reguladores de las 9.000 millones de variantes de un solo nucleótido posibles en el genoma humano.",
+        "en": "AlphaGenome Atlas is a 1-petabyte database predicting the regulatory effects of all 9 billion possible single-nucleotide variants in the human genome."
+      }
+    },
+    {
+      "id": "2026-37-06",
+      "n": 4,
+      "date": "2026-09-09",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "https://cognition.com/blog/series-e",
+      "title": {
+        "ca": "Cognition recapta 2.000 milions de dòlars amb una valoració de 48.000 milions",
+        "es": "Cognition recauda 2.000 millones de dólares con una valoración de 48.000 millones",
+        "en": "Cognition raises $2B at $48B valuation"
+      },
+      "line": {
+        "ca": "Cognition ha recaptat 2.000 milions de dòlars amb una valoració de 48.000 milions en una ronda liderada per Andreessen Horowitz, Accel, Founders Fund, General Catalyst i Avenir.",
+        "es": "Cognition ha recaudado 2.000 millones de dólares con una valoración de 48.000 millones en una ronda liderada por Andreessen Horowitz, Accel, Founders Fund, General Catalyst y Avenir.",
+        "en": "Cognition raised $2 billion at a $48 billion valuation in a round led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir."
+      }
+    },
+    {
+      "id": "2026-37-07",
+      "n": 4,
+      "date": "2026-09-09",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "url": "https://x.com/hilbertspaess/status/2097476196791709843?s=20",
+      "title": {
+        "ca": "Un investigador d'Anthropic dimiteix pel risc d'extinció per IA; el responsable d'alineació cita més d'un 10% de probabilitats",
+        "es": "Un investigador de Anthropic dimite por el riesgo de extinción por IA; el responsable de alineación cita más de un 10% de probabilidades",
+        "en": "Anthropic researcher resigns over AI extinction risk, alignment lead cites >10% odds"
+      },
+      "line": {
+        "ca": "El responsable d'alineació d'Anthropic ha afirmat que hi ha més d'un 10% de probabilitats que la IA mati tots els humans en la propera dècada i que encara no hi ha cap pla per controlar la superintel·ligència.",
+        "es": "El responsable de alineación de Anthropic ha afirmado que hay más de un 10% de probabilidades de que la IA mate a todos los humanos en la próxima década y que aún no hay ningún plan para controlar la superinteligencia.",
+        "en": "Anthropic's alignment lead said there is a >10% chance AI kills all humans in the next decade and no plan yet for controlling superintelligence."
+      }
+    },
+    {
+      "id": "2026-37-08",
+      "n": 4,
+      "date": "2026-09-10",
+      "company": "DeepSeek",
+      "category": "models",
+      "is_release": true,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "title": {
+        "ca": "DeepSeek publica el model obert V4.1-Flash",
+        "es": "DeepSeek publica el modelo abierto V4.1-Flash",
+        "en": "DeepSeek releases V4.1-Flash open-weight model"
+      },
+      "line": {
+        "ca": "El model eficient supera lleugerament Claude Opus 5 i GPT-5.6 Sol en diversos benchmarks d'agents, programació i ciberseguretat a preus baixos.",
+        "es": "El modelo eficiente supera ligeramente a Claude Opus 5 y GPT-5.6 Sol en varios benchmarks de agentes, programación y ciberseguridad a precios bajos.",
+        "en": "The efficient model edges out Claude Opus 5 and GPT-5.6 Sol on several agentic, coding, and cyber benchmarks at low prices."
+      }
+    },
+    {
+      "id": "2026-37-09",
+      "n": 4,
+      "date": "2026-09-11",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+      "title": {
+        "ca": "Universal Music Group i ElevenLabs s'associen per a una plataforma de remescles amb IA llicenciada",
+        "es": "Universal Music Group y ElevenLabs se asocian para una plataforma de remezclas con IA licenciada",
+        "en": "Universal Music Group and ElevenLabs partner on licensed AI remix platform"
+      },
+      "line": {
+        "ca": "Els artistes podran optar-hi i els fans podran remesclar, combinar i reinterpretar les seves cançons amb veus d'IA llicenciades.",
+        "es": "Los artistas podrán optar a ello y los fans podrán remezclar, combinar y reinterpretar sus canciones con voces de IA licenciadas.",
+        "en": "Artists can opt in and fans will be able to remix, mash up, and reinterpret their songs with licensed AI voices."
+      }
+    },
+    {
+      "id": "2026-37-10",
+      "n": 3,
+      "date": "2026-09-07",
+      "company": "OpenAI",
+      "category": "models",
+      "is_release": true,
+      "url": "https://ai-report.kdnuggets.com/p/openai-launches-astra-model-nvidia-acquires-hugging-face-openai-cuts-ties-with-musk",
+      "title": {
+        "ca": "OpenAI publica GPT-6 Astra per a aplicacions de treball",
+        "es": "OpenAI publica GPT-6 Astra para aplicaciones de trabajo",
+        "en": "OpenAI releases GPT-6 Astra for work apps"
+      },
+      "line": {
+        "ca": "OpenAI afirma que el model està disponible a ChatGPT Work, Codex i l'API, i que pot navegar, utilitzar programari i escriure codi.",
+        "es": "OpenAI afirma que el modelo está disponible en ChatGPT Work, Codex y la API, y que puede navegar, utilizar software y escribir código.",
+        "en": "OpenAI says the model is available in ChatGPT Work, Codex, and the API, and can browse, use software, and write code."
+      }
+    },
+    {
+      "id": "2026-37-11",
+      "n": 3,
+      "date": "2026-09-08",
+      "company": "Mistral",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.nytimes.com/2026/09/08/business/mistral-ai-fund-raising.html",
+      "title": {
+        "ca": "Mistral recapta 3.000 milions d'euros amb una valoració de més de 21.000 milions",
+        "es": "Mistral recauda 3.000 millones de euros con una valoración de más de 21.000 millones",
+        "en": "Mistral raises €3B at over €21B valuation"
+      },
+      "line": {
+        "ca": "La ronda de capital tecnològic més gran d'Europa aposta per posseir més infraestructura d'IA europea.",
+        "es": "La ronda de capital tecnológico más grande de Europa apuesta por poseer más infraestructura de IA europea.",
+        "en": "Europe's largest-ever tech equity round bets on owning more of Europe's AI infrastructure."
+      }
+    },
+    {
+      "id": "2026-37-12",
+      "n": 3,
+      "date": "2026-09-09",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "title": {
+        "ca": "OpenAI presenta ChatGPT Images 2.5",
+        "es": "OpenAI presenta ChatGPT Images 2.5",
+        "en": "OpenAI introduces ChatGPT Images 2.5"
+      },
+      "line": {
+        "ca": "OpenAI ha presentat ChatGPT Images 2.5 amb detalls més nítids, millor preservació de la imatge de referència, edició més fiable i una latència de generació fins a un 50% inferior.",
+        "es": "OpenAI ha presentado ChatGPT Images 2.5 con detalles más nítidos, mejor preservación de la imagen de referencia, edición más fiable y una latencia de generación hasta un 50% inferior.",
+        "en": "OpenAI introduced ChatGPT Images 2.5 with sharper details, better reference-image preservation, more reliable editing, and up to 50% lower generation latency."
+      }
+    },
+    {
+      "id": "2026-37-13",
+      "n": 3,
+      "date": "2026-09-09",
+      "company": "Google",
+      "category": "products",
+      "is_release": false,
+      "url": "https://www.wsj.com/cio-journal/google-cloud-accenture-launch-unit-to-put-ai-engineers-on-site-with-customers-698a8628",
+      "title": {
+        "ca": "Google Cloud i Accenture creen Gemini Enterprise Business Group",
+        "es": "Google Cloud y Accenture crean Gemini Enterprise Business Group",
+        "en": "Google Cloud and Accenture form Gemini Enterprise Business Group"
+      },
+      "line": {
+        "ca": "Google formarà fins a 1.000 enginyers desplegats d'Accenture per construir aplicacions d'IA personalitzades a la plataforma Gemini Enterprise.",
+        "es": "Google formará hasta a 1.000 ingenieros desplegados de Accenture para construir aplicaciones de IA personalizadas en la plataforma Gemini Enterprise.",
+        "en": "Google will train up to 1,000 Accenture forward-deployed engineers to build custom AI applications on the Gemini Enterprise platform."
+      }
+    },
+    {
+      "id": "2026-37-14",
+      "n": 3,
+      "date": "2026-09-09",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "title": {
+        "ca": "Inception Labs presenta Mercury 2.5",
+        "es": "Inception Labs presenta Mercury 2.5",
+        "en": "Inception Labs introduces Mercury 2.5"
+      },
+      "line": {
+        "ca": "Mercury 2.5 és el model de llenguatge de difusió més gran mai entrenat, amb una sortida de 1.107 tokens per segon en GPU Nvidia i una finestra de context de 260.000 tokens.",
+        "es": "Mercury 2.5 es el modelo de lenguaje de difusión más grande jamás entrenado, con una salida de 1.107 tokens por segundo en GPU Nvidia y una ventana de contexto de 260.000 tokens.",
+        "en": "Mercury 2.5 is the largest diffusion language model ever trained, outputting 1,107 tokens per second on Nvidia GPUs with a 260K-token context window."
+      }
+    },
+    {
+      "id": "2026-37-15",
+      "n": 3,
+      "date": "2026-09-10",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://suno.com/blog/introducing-v6",
+      "title": {
+        "ca": "Suno llança models de música v6 basats en dades llicenciades",
+        "es": "Suno lanza modelos de música v6 basados en datos licenciados",
+        "en": "Suno launches v6 music models built on licensed data"
+      },
+      "line": {
+        "ca": "Suno ha desenvolupat la família de tres models amb Warner Music Group, BMG i Believe, i afirma que es va construir amb dades llicenciades en lloc del seu conjunt d'entrenament anterior.",
+        "es": "Suno ha desarrollado la familia de tres modelos con Warner Music Group, BMG y Believe, y afirma que se construyó con datos licenciados en lugar de su conjunto de entrenamiento anterior.",
+        "en": "Suno developed the three-model family with Warner Music Group, BMG, and Believe, saying it was built on licensed data rather than its older training set."
+      }
+    },
+    {
+      "id": "2026-37-16",
+      "n": 3,
+      "date": "2026-09-10",
+      "company": "Meta",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta",
+      "title": {
+        "ca": "Andrew Tulloch deixa Meta",
+        "es": "Andrew Tulloch deja Meta",
+        "en": "Andrew Tulloch leaves Meta"
+      },
+      "line": {
+        "ca": "Semafor ha informat que Tulloch deixa Meta després d'ajornar la seva marxa fins que l'empresa va llançar la seva nova família de models de codi obert i l'assistent Muse.",
+        "es": "Semafor ha informado de que Tulloch deja Meta después de aplazar su marcha hasta que la empresa lanzó su nueva familia de modelos de código abierto y el asistente Muse.",
+        "en": "Semafor reported Tulloch is leaving Meta after delaying his departure until the company launched its new open-source model family and Muse assistant."
+      }
+    },
+    {
+      "id": "2026-37-17",
+      "n": 3,
+      "date": "2026-09-11",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+      "title": {
+        "ca": "OpenAI llança ChatGPT per a serveis financers",
+        "es": "OpenAI lanza ChatGPT para servicios financieros",
+        "en": "OpenAI launches ChatGPT for financial services"
+      },
+      "line": {
+        "ca": "La versió per a serveis financers de ChatGPT Work combina GPT-6 Astra amb dades premium integrades de proveïdors populars.",
+        "es": "La versión para servicios financieros de ChatGPT Work combina GPT-6 Astra con datos premium integrados de proveedores populares.",
+        "en": "The financial-services version of ChatGPT Work combines GPT-6 Astra with built-in premium data from popular providers."
+      }
+    },
+    {
+      "id": "2026-37-18",
+      "n": 3,
+      "date": "2026-09-11",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.therundown.ai/tools/gpt-live-1",
+      "title": {
+        "ca": "OpenAI posa GPT-Live-1 a l'API",
+        "es": "OpenAI pone GPT-Live-1 en la API",
+        "en": "OpenAI puts GPT-Live-1 in the API"
+      },
+      "line": {
+        "ca": "Els desenvolupadors obtenen el model de veu full-duplex de 0,05 dòlars per minut que impulsa ChatGPT Voice, capaç d'escoltar mentre parla i gestionar interrupcions.",
+        "es": "Los desarrolladores obtienen el modelo de voz full-duplex de 0,05 dólares por minuto que impulsa ChatGPT Voice, capaz de escuchar mientras habla y gestionar interrupciones.",
+        "en": "Developers get the $0.05/min full-duplex voice model that powers ChatGPT Voice, able to listen while speaking and handle interruptions."
+      }
+    },
+    {
+      "id": "2026-37-19",
+      "n": 3,
+      "date": "2026-09-11",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": false,
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "title": {
+        "ca": "OpenAI pausa les subscripcions Pro per la demanda d'Astra",
+        "es": "OpenAI pausa las suscripciones Pro por la demanda de Astra",
+        "en": "OpenAI pauses Pro subscriptions due to Astra demand"
+      },
+      "line": {
+        "ca": "OpenAI ha pausat les subscripcions del seu pla Pro de 200 dòlars al mes mentre el model Astra es desplega en comptes Pro, Plus, Enterprise i Business.",
+        "es": "OpenAI ha pausado las suscripciones de su plan Pro de 200 dólares al mes mientras el modelo Astra se despliega en cuentas Pro, Plus, Enterprise y Business.",
+        "en": "OpenAI paused subscriptions for its $200-per-month Pro plan as the Astra model rolls out to Pro, Plus, Enterprise, and Business accounts."
+      }
+    },
+    {
+      "id": "2026-37-20",
+      "n": 3,
+      "date": "2026-09-11",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://cognition.com/blog/swe-2",
+      "title": {
+        "ca": "Cognition presenta SWE-2",
+        "es": "Cognition presenta SWE-2",
+        "en": "Cognition introduces SWE-2"
+      },
+      "line": {
+        "ca": "SWE-2 assoleix un 50,0% a FrontierCode 1.1 Main1 i és un 64% més barat, superant SWE-1.7 i Grok 4.6 en puntuació i cost.",
+        "es": "SWE-2 alcanza un 50,0% en FrontierCode 1.1 Main1 y es un 64% más barato, superando a SWE-1.7 y Grok 4.6 en puntuación y coste.",
+        "en": "SWE-2 achieves 50.0% on FrontierCode 1.1 Main1 while being 64% cheaper, beating SWE-1.7 and Grok 4.6 on score and cost."
+      }
+    },
+    {
+      "id": "2026-37-21",
+      "n": 2,
+      "date": "2026-09-07",
+      "company": "NVIDIA",
+      "category": "society",
+      "is_release": false,
+      "url": "https://x.com/JensenHuang/status/2096700264569090384?s=20",
+      "title": {
+        "ca": "Jensen Huang, de Nvidia, declara que l'AGI ha arribat",
+        "es": "Jensen Huang, de Nvidia, declara que la AGI ha llegado",
+        "en": "Nvidia's Jensen Huang declares AGI has arrived"
+      },
+      "line": {
+        "ca": "Huang ha assenyalat el model més nou d'OpenAI, entrenat amb unes 100.000 xips Nvidia, dies després que Nvidia anunciés 89.000 milions de dòlars en vendes trimestrals de maquinari d'IA.",
+        "es": "Huang ha señalado el modelo más nuevo de OpenAI, entrenado con unos 100.000 chips Nvidia, días después de que Nvidia anunciara 89.000 millones de dólares en ventas trimestrales de hardware de IA.",
+        "en": "Huang pointed to OpenAI's newest model training on roughly 100,000 Nvidia chips, days after Nvidia posted $89 billion in quarterly AI hardware sales."
+      }
+    },
+    {
+      "id": "2026-37-22",
+      "n": 2,
+      "date": "2026-09-07",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://openai.com/index/an-alien-mind/",
+      "title": {
+        "ca": "El científic en cap d'OpenAI adverteix que l'alineació va per darrere del progrés",
+        "es": "El científico jefe de OpenAI advierte que la alineación va por detrás del progreso",
+        "en": "OpenAI chief scientist warns alignment lags behind progress"
+      },
+      "line": {
+        "ca": "Jakub Pachocki ha advertit que l'auto millora recursiva podria superar l'alineació i el monitoratge, i que el monitoratge de la cadena de pensament podria reduir-se.",
+        "es": "Jakub Pachocki ha advertido de que la auto mejora recursiva podría superar la alineación y el monitoreo, y que el monitoreo de la cadena de pensamiento podría reducirse.",
+        "en": "Jakub Pachocki warned that recursive self-improvement could outpace alignment and monitoring, and that chain-of-thought monitoring may shrink."
+      }
+    },
+    {
+      "id": "2026-37-23",
+      "n": 2,
+      "date": "2026-09-07",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "title": {
+        "ca": "Claude crea la primera prova verificada per ordinador de l'últim teorema de Fermat",
+        "es": "Claude crea la primera prueba verificada por ordenador del último teorema de Fermat",
+        "en": "Claude creates first computer-verified proof of Fermat's Last Theorem"
+      },
+      "line": {
+        "ca": "Claude ha produït la primera prova completa verificada per ordinador de l'últim teorema de Fermat en 11 dies utilitzant Lean, amb 13 milions de línies de codi.",
+        "es": "Claude ha producido la primera prueba completa verificada por ordenador del último teorema de Fermat en 11 días utilizando Lean, con 13 millones de líneas de código.",
+        "en": "Claude produced the first complete computer-verified proof of Fermat's Last Theorem in 11 days using Lean, spanning 13 million lines of code."
+      }
+    },
+    {
+      "id": "2026-37-24",
+      "n": 2,
+      "date": "2026-09-07",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "title": {
+        "ca": "Les dades d'OpenAI mostren que els agents d'IA fan més recerca de l'empresa",
+        "es": "Los datos de OpenAI muestran que los agentes de IA hacen más investigación de la empresa",
+        "en": "OpenAI data shows AI agents doing more of its research"
+      },
+      "line": {
+        "ca": "OpenAI va registrar 3,1 dies de feina d'agents per dia de feina humà a mitjan agost i té com a objectiu un investigador d'IA totalment automatitzat per al 2028.",
+        "es": "OpenAI registró 3,1 días de trabajo de agentes por día de trabajo humano a mediados de agosto y tiene como objetivo un investigador de IA totalmente automatizado para 2028.",
+        "en": "OpenAI logged 3.1 agent-workdays per human workday by mid-August and aims for a fully automated AI researcher by 2028."
+      }
+    },
+    {
+      "id": "2026-37-25",
+      "n": 2,
+      "date": "2026-09-08",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "url": "https://www.nature.com/articles/s41587-026-03286-y",
+      "title": {
+        "ca": "Un fàrmac dissenyat per IA d'Insilico mostra senyal de rellotge d'envelliment en un assaig",
+        "es": "Un fármaco diseñado por IA de Insilico muestra señal de reloj de envejecimiento en un ensayo",
+        "en": "Insilico AI-designed drug shows aging-clock signal in trial"
+      },
+      "line": {
+        "ca": "Les dades de l'assaig de rentosertib, dissenyat per la IA d'Insilico, van qualificar els pacients tractats com a biològicament més joves en sis rellotges d'envelliment.",
+        "es": "Los datos del ensayo de rentosertib, diseñado por la IA de Insilico, calificaron a los pacientes tratados como biológicamente más jóvenes en seis relojes de envejecimiento.",
+        "en": "Trial data for rentosertib, designed by Insilico's AI, rated treated patients as biologically younger on six aging clocks."
+      }
+    },
+    {
+      "id": "2026-37-26",
+      "n": 2,
+      "date": "2026-09-08",
+      "company": "Other",
+      "category": "models",
+      "is_release": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/bytedance-founder-joins-ai-elite-in-race-to-perfect-world-models",
+      "title": {
+        "ca": "ByteDance estaria construint un model del món sobre la IA de vídeo Seedance",
+        "es": "ByteDance estaría construyendo un modelo del mundo sobre la IA de vídeo Seedance",
+        "en": "ByteDance reportedly building world model on Seedance video AI"
+      },
+      "line": {
+        "ca": "Bloomberg informa que el fundador Zhang Yiming dirigeix el projecte, amb un llançament possible a l'octubre.",
+        "es": "Bloomberg informa de que el fundador Zhang Yiming dirige el proyecto, con un lanzamiento posible en octubre.",
+        "en": "Bloomberg reports founder Zhang Yiming is running the project, with a launch possible in October."
+      }
+    },
+    {
+      "id": "2026-37-27",
+      "n": 2,
+      "date": "2026-09-08",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "title": {
+        "ca": "OpenBMB allibera el model MiniCPM5-2B com a codi obert",
+        "es": "OpenBMB libera el modelo MiniCPM5-2B como código abierto",
+        "en": "OpenBMB open-sources MiniCPM5-2B model"
+      },
+      "line": {
+        "ca": "El model de 2.000 milions de paràmetres ocupa el primer lloc entre els models oberts de menys de 4.000 milions de paràmetres a l'Intelligence Index d'AA.",
+        "es": "El modelo de 2.000 millones de parámetros ocupa el primer lugar entre los modelos abiertos de menos de 4.000 millones de parámetros en el Intelligence Index de AA.",
+        "en": "The 2B-parameter model ranks first among open models under 4B parameters on AA's Intelligence Index."
+      }
+    },
+    {
+      "id": "2026-37-28",
+      "n": 2,
+      "date": "2026-09-09",
+      "company": "Other",
+      "category": "products",
+      "is_release": false,
+      "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+      "title": {
+        "ca": "Qualcomm i Amazon tanquen un acord de xips personalitzats d'inferència d'IA",
+        "es": "Qualcomm y Amazon cierran un acuerdo de chips personalizados de inferencia de IA",
+        "en": "Qualcomm and Amazon strike custom AI inference chip deal"
+      },
+      "line": {
+        "ca": "L'acord multigeneracional cobreix xips personalitzats d'inferència d'IA i connectivitat d'alta velocitat per als centres de dades d'AWS.",
+        "es": "El acuerdo multigeneracional cubre chips personalizados de inferencia de IA y conectividad de alta velocidad para los centros de datos de AWS.",
+        "en": "The multi-generation deal covers custom AI inference chips and high-speed connectivity for AWS data centers."
+      }
+    },
+    {
+      "id": "2026-37-29",
+      "n": 2,
+      "date": "2026-09-09",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
+      "title": {
+        "ca": "Un estudi estima que les dades van impulsar la major part dels guanys d'eficiència en el preentrenament",
+        "es": "Un estudio estima que los datos impulsaron la mayor parte de las ganancias de eficiencia en el preentrenamiento",
+        "en": "Study estimates data drove most pretraining efficiency gains"
+      },
+      "line": {
+        "ca": "Del 2019 al 2025, millors dades d'entrenament van impulsar uns 12 vegades més guanys d'eficiència en el preentrenament, enfront d'unes 3,7 vegades per l'arquitectura i les receptes.",
+        "es": "De 2019 a 2025, mejores datos de entrenamiento impulsaron unas 12 veces más ganancias de eficiencia en el preentrenamiento, frente a unas 3,7 veces por la arquitectura y las recetas.",
+        "en": "From 2019 to 2025, better training data drove about 12x pretraining efficiency gains versus about 3.7x from architecture and recipes."
+      }
+    },
+    {
+      "id": "2026-37-30",
+      "n": 2,
+      "date": "2026-09-10",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+      "title": {
+        "ca": "Apple llança l'iPhone 18 Pro amb Siri AI",
+        "es": "Apple lanza el iPhone 18 Pro con Siri AI",
+        "en": "Apple launches iPhone 18 Pro with Siri AI"
+      },
+      "line": {
+        "ca": "Apple ha llançat l'iPhone 18 Pro i Pro Max amb xips A20 Pro i un Siri AI més capaç.",
+        "es": "Apple ha lanzado el iPhone 18 Pro y Pro Max con chips A20 Pro y un Siri AI más capaz.",
+        "en": "Apple launched iPhone 18 Pro and Pro Max with A20 Pro chips and a more capable Siri AI."
+      }
+    },
+    {
+      "id": "2026-37-31",
+      "n": 2,
+      "date": "2026-09-10",
+      "company": "Google",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html",
+      "title": {
+        "ca": "Google invertirà 15.100 milions de dòlars en infraestructura d'IA a Finlàndia",
+        "es": "Google invertirá 15.100 millones de dólares en infraestructura de IA en Finlandia",
+        "en": "Google to invest $15.1B in AI infrastructure in Finland"
+      },
+      "line": {
+        "ca": "Google ha anunciat la seva inversió única més gran a Europa, 15.100 milions de dòlars per a infraestructura d'IA a Finlàndia.",
+        "es": "Google ha anunciado su mayor inversión única en Europa, 15.100 millones de dólares para infraestructura de IA en Finlandia.",
+        "en": "Google announced its largest single investment in Europe, $15.1B for AI infrastructure in Finland."
+      }
+    },
+    {
+      "id": "2026-37-32",
+      "n": 2,
+      "date": "2026-09-10",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": true,
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "title": {
+        "ca": "Anthropic modela l'impacte potencial de la IA en l'economia dels Estats Units",
+        "es": "Anthropic modela el impacto potencial de la IA en la economía de Estados Unidos",
+        "en": "Anthropic models AI's potential impact on the US economy"
+      },
+      "line": {
+        "ca": "L'equip d'Economia d'Anthropic ha desenvolupat escenaris que prediuen que els treballadors del coneixement s'enfrontaran a més atur i estancament salarial en un creixement ràpid impulsat per la IA.",
+        "es": "El equipo de Economía de Anthropic ha desarrollado escenarios que predicen que los trabajadores del conocimiento se enfrentarán a más desempleo y estancamiento salarial en un crecimiento rápido impulsado por la IA.",
+        "en": "Anthropic's Economics team developed scenarios predicting knowledge workers face greater unemployment and wage stagnation in rapid AI-driven growth."
+      }
+    },
+    {
+      "id": "2026-37-33",
+      "n": 2,
+      "date": "2026-09-11",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "title": {
+        "ca": "OpenAI llança l'API d'Agents en beta pública",
+        "es": "OpenAI lanza la API de Agents en beta pública",
+        "en": "OpenAI launches Agents API in public beta"
+      },
+      "line": {
+        "ca": "L'API dona als desenvolupadors accés a l'arnès d'agents gestionat i la infraestructura darrere de Codex, que gestiona context, eines, subagents i execució persistent.",
+        "es": "La API da a los desarrolladores acceso al arnés de agentes gestionado y la infraestructura detrás de Codex, que gestiona contexto, herramientas, subagentes y ejecución persistente.",
+        "en": "The API gives developers access to the managed agent harness and infrastructure behind Codex, handling context, tools, subagents, and persistent execution."
+      }
+    },
+    {
+      "id": "2026-37-34",
+      "n": 2,
+      "date": "2026-09-11",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://cohere.com/blog/north-small-translate",
+      "title": {
+        "ca": "Es publica la fitxa del model North Small Translate",
+        "es": "Se publica la ficha del modelo North Small Translate",
+        "en": "North Small Translate model card released"
+      },
+      "line": {
+        "ca": "El llançament de recerca amb pesos oberts té 25.000 milions de paràmetres actius i 218.000 milions de paràmetres totals, especialitzat en traducció automàtica en 50 llengües.",
+        "es": "El lanzamiento de investigación con pesos abiertos tiene 25.000 millones de parámetros activos y 218.000 millones de parámetros totales, especializado en traducción automática en 50 idiomas.",
+        "en": "The open-weights research release has 25 billion active parameters and 218 billion total parameters, specialized for machine translation across 50 languages."
+      }
+    },
+    {
+      "id": "2026-37-35",
+      "n": 1,
+      "date": "2026-09-07",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "url": "",
+      "title": {
+        "ca": "iPronics recapta 125 milions de dòlars per a commutadors òptics que connecten GPU en centres de dades d'IA",
+        "es": "iPronics recauda 125 millones de dólares para conmutadores ópticos que conectan GPU en centros de datos de IA",
+        "en": "iPronics raises $125M for optical switches connecting GPUs in AI data centers"
+      },
+      "line": {
+        "ca": "La primera gran inversió de Nvidia en tecnologia espanyola, juntament amb Criteria, Maverick Silicon i Light Street.",
+        "es": "La primera gran inversión de Nvidia en tecnología española, junto con Criteria, Maverick Silicon y Light Street.",
+        "en": "Nvidia's first major investment in Spanish tech, alongside Criteria, Maverick Silicon and Light Street."
+      }
+    },
+    {
+      "id": "2026-37-36",
+      "n": 1,
+      "date": "2026-09-07",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "",
+      "title": {
+        "ca": "Factorial adquireix Empion, una startup d'avaluació de candidats i empleats amb IA",
+        "es": "Factorial adquiere Empion, una startup de evaluación de candidatos y empleados con IA",
+        "en": "Factorial acquires Empion, an AI-powered candidate and employee assessment startup"
+      },
+      "line": {
+        "ca": "L'operació reforça l'aposta de Factorial per Alemanya, el seu primer mercat fora d'Espanya.",
+        "es": "La operación refuerza la apuesta de Factorial por Alemania, su primer mercado fuera de España.",
+        "en": "The deal strengthens Factorial's push into Germany, its first market outside Spain."
+      }
+    },
+    {
+      "id": "2026-37-37",
+      "n": 1,
+      "date": "2026-09-07",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "",
+      "title": {
+        "ca": "MOA Foodtech recapta 3,3 milions d'euros per a IA que converteix subproductes agroalimentaris en ingredients",
+        "es": "MOA Foodtech recauda 3,3 millones de euros para IA que convierte subproductos agroalimentarios en ingredientes",
+        "en": "MOA Foodtech raises €3.3M for AI that turns agri-food byproducts into ingredients"
+      },
+      "line": {
+        "ca": "Entre els inversors hi ha l'EIC Fund, Swanlaab Innvierte Agri Food Tech i CDTI-Innvierte.",
+        "es": "Entre los inversores están el EIC Fund, Swanlaab Innvierte Agri Food Tech y CDTI-Innvierte.",
+        "en": "Backers include the EIC Fund, Swanlaab Innvierte Agri Food Tech and CDTI-Innvierte."
+      }
+    },
+    {
+      "id": "2026-37-38",
+      "n": 1,
+      "date": "2026-09-07",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "",
+      "title": {
+        "ca": "Multiverse Computing llança el model de raonament Quasar 438B",
+        "es": "Multiverse Computing lanza el modelo de razonamiento Quasar 438B",
+        "en": "Multiverse Computing launches Quasar 438B reasoning model"
+      },
+      "line": {
+        "ca": "L'empresa va rebre crítiques per no revelar que es tracta d'un GLM 5.2 comprimit.",
+        "es": "La empresa recibió críticas por no revelar que se trata de un GLM 5.2 comprimido.",
+        "en": "The company faced backlash for not disclosing that it is a compressed GLM 5.2."
+      }
+    },
+    {
+      "id": "2026-37-39",
+      "n": 1,
+      "date": "2026-09-07",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "url": "",
+      "title": {
+        "ca": "Espanya proposa normes energètiques més estrictes per als centres de dades",
+        "es": "España propone normas energéticas más estrictas para los centros de datos",
+        "en": "Spain proposes stricter energy rules for data centers"
+      },
+      "line": {
+        "ca": "SpainDC estima que el sector podria mobilitzar 67.000 milions d'euros el 2030; Amazon, Meta i Merlin adverteixen que el pla amenaça les seves inversions.",
+        "es": "SpainDC estima que el sector podría movilizar 67.000 millones de euros en 2030; Amazon, Meta y Merlin advierten de que el plan amenaza sus inversiones.",
+        "en": "SpainDC estimates the sector could mobilize €67B by 2030; Amazon, Meta and Merlin warn the plan threatens their investments."
+      }
+    },
+    {
+      "id": "2026-37-40",
+      "n": 1,
+      "date": "2026-09-07",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
+      "title": {
+        "ca": "Estats Units i la Xina programen converses sobre seguretat de la IA per a mitjan setembre",
+        "es": "Estados Unidos y China programan conversaciones sobre seguridad de la IA para mediados de septiembre",
+        "en": "US and China line up AI safety talks for mid-September"
+      },
+      "line": {
+        "ca": "Els temes reportats inclouen el monitoratge de ciberatacs amb IA i la destil·lació de models.",
+        "es": "Los temas reportados incluyen el monitoreo de ciberataques con IA y la destilación de modelos.",
+        "en": "Reported topics include AI cyberattack monitoring and model distillation."
+      }
+    }
+  ]
+}

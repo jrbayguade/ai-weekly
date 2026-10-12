@@ -1,0 +1,785 @@
+{
+  "week": "2026-31",
+  "from": "2026-07-27",
+  "to": "2026-08-02",
+  "newsletters": 9,
+  "candidates": 277,
+  "note": null,
+  "items": [
+    {
+      "id": "2026-31-01",
+      "n": 5,
+      "date": "2026-07-27",
+      "company": "Anthropic",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": {
+        "ca": "Anthropic llança el model Claude Opus 5",
+        "es": "Anthropic lanza el modelo Claude Opus 5",
+        "en": "Anthropic releases Claude Opus 5 model"
+      },
+      "line": {
+        "ca": "Anthropic afirma que Opus 5 s'acosta a la intel·ligència de frontera de Fable 5 a la meitat del cost, amb resultats d'avantguarda en programació i treball de coneixement.",
+        "es": "Anthropic afirma que Opus 5 se acerca a la inteligencia de frontera de Fable 5 a la mitad del coste, con resultados de vanguardia en programación y trabajo de conocimiento.",
+        "en": "Anthropic says Opus 5 nears Fable 5 frontier intelligence at half the cost, with state-of-the-art coding and knowledge work results."
+      },
+      "og": {
+        "ca": "Anthropic llança Claude Opus 5",
+        "es": "Anthropic lanza Claude Opus 5",
+        "en": "Anthropic releases Claude Opus 5"
+      }
+    },
+    {
+      "id": "2026-31-02",
+      "n": 5,
+      "date": "2026-07-30",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/",
+      "title": {
+        "ca": "Lyria 3.5 de Google edita seccions de cançons",
+        "es": "Lyria 3.5 de Google edita secciones de canciones",
+        "en": "Google's Lyria 3.5 music model edits individual track sections"
+      },
+      "line": {
+        "ca": "Lyria 3.5 de Google permet als usuaris editar seccions individuals de cançons, ampliar melodies i ajustar veus, bateria, baix i tempo.",
+        "es": "Lyria 3.5 de Google permite a los usuarios editar secciones individuales de canciones, ampliar melodías y ajustar voces, batería, bajo y tempo.",
+        "en": "Google's Lyria 3.5 lets users edit individual song sections, extend melodies and tune vocals, drums, bass and tempo."
+      },
+      "og": {
+        "ca": "Lyria 3.5 edita pistes individuals",
+        "es": "Lyria 3.5 edita pistas individuales",
+        "en": "Lyria 3.5 edits individual tracks"
+      }
+    },
+    {
+      "id": "2026-31-03",
+      "n": 4,
+      "date": "2026-07-27",
+      "company": "Microsoft",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+      "title": {
+        "ca": "Empreses dels EUA demanen models oberts",
+        "es": "Empresas de EE. UU. piden modelos abiertos",
+        "en": "US tech companies push for open-weight AI models in open letter"
+      },
+      "line": {
+        "ca": "25 empreses liderades per Microsoft i Nvidia van instar els responsables polítics a evitar prohibicions generals dels models de pesos oberts; 133 empreses havien signat dilluns.",
+        "es": "25 empresas lideradas por Microsoft y Nvidia instaron a los responsables políticos a evitar prohibiciones generales de los modelos de pesos abiertos; 133 empresas habían firmado el lunes.",
+        "en": "25 companies led by Microsoft and Nvidia urged policymakers to avoid blanket bans on open-weight models; 133 firms signed by Monday."
+      },
+      "og": {
+        "ca": "Tecnologia EUA vol models oberts",
+        "es": "Tecnología EUA pide modelos abiertos",
+        "en": "US tech pushes open-weight AI"
+      }
+    },
+    {
+      "id": "2026-31-04",
+      "n": 4,
+      "date": "2026-07-27",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "title": {
+        "ca": "La bretxa de l'agent rogue d'OpenAI arriba a una segona empresa víctima",
+        "es": "La brecha del agente rogue de OpenAI llega a una segunda empresa víctima",
+        "en": "OpenAI rogue agent breach reaches second victim company"
+      },
+      "line": {
+        "ca": "Modal Labs va confirmar que un compte de client va ser compromès per l'agent rogue d'OpenAI, amb l'anàlisi forense de Hugging Face comptabilitzant 17.600 accions hostils.",
+        "es": "Modal Labs confirmó que una cuenta de cliente fue comprometida por el agente rogue de OpenAI, con el análisis forense de Hugging Face contabilizando 17.600 acciones hostiles.",
+        "en": "Modal Labs confirmed a customer account was compromised by OpenAI's rogue agent, with Hugging Face forensics counting 17,600 hostile actions."
+      }
+    },
+    {
+      "id": "2026-31-05",
+      "n": 4,
+      "date": "2026-07-28",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": {
+        "ca": "Anthropic publica la seva posició sobre els models de pesos oberts",
+        "es": "Anthropic publica su posición sobre los modelos de pesos abiertos",
+        "en": "Anthropic publishes position on open-weight models"
+      },
+      "line": {
+        "ca": "El conseller delegat Dario Amodei va dir que Anthropic mai ha defensat prohibir els models de pesos oberts, sinó que impulsa controls de xips i mesures contra la destil·lació.",
+        "es": "El consejero delegado Dario Amodei dijo que Anthropic nunca ha abogado por prohibir los modelos de pesos abiertos, sino que impulsa controles de chips y medidas contra la destilación.",
+        "en": "CEO Dario Amodei said Anthropic has never advocated banning open-weights models, instead pushing chip controls and distillation crackdowns."
+      }
+    },
+    {
+      "id": "2026-31-06",
+      "n": 4,
+      "date": "2026-07-28",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "title": {
+        "ca": "Moonshot publica els pesos de Kimi K3, el model obert més gran",
+        "es": "Moonshot publica los pesos de Kimi K3, el modelo abierto más grande",
+        "en": "Moonshot publishes weights for Kimi K3, largest open model"
+      },
+      "line": {
+        "ca": "Moonshot AI va publicar els pesos i l'informe tècnic del seu Kimi K3 de 2,8 bilions de paràmetres, el model més gran mai publicat amb pesos oberts.",
+        "es": "Moonshot AI publicó los pesos y el informe técnico de su Kimi K3 de 2,8 billones de parámetros, el modelo más grande jamás publicado con pesos abiertos.",
+        "en": "Moonshot AI released the weights and tech report for its 2.8T-parameter Kimi K3, the largest model ever put out with open weights."
+      }
+    },
+    {
+      "id": "2026-31-07",
+      "n": 4,
+      "date": "2026-07-29",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "title": {
+        "ca": "Anthropic diu que Mythos troba debilitats en algorismes criptogràfics",
+        "es": "Anthropic dice que Mythos encuentra debilidades en algoritmos criptográficos",
+        "en": "Anthropic says Mythos finds weaknesses in cryptographic algorithms"
+      },
+      "line": {
+        "ca": "La recerca d'Anthropic afirma que el seu model Mythos pot trobar debilitats en alguns dels algorismes criptogràfics més difícils utilitzats per mantenir les dades privades en línia.",
+        "es": "La investigación de Anthropic afirma que su modelo Mythos puede encontrar debilidades en algunos de los algoritmos criptográficos más difíciles utilizados para mantener los datos privados en línea.",
+        "en": "Anthropic research states its Mythos model can find weaknesses in some of the toughest cryptographic algorithms used to keep data private online."
+      }
+    },
+    {
+      "id": "2026-31-08",
+      "n": 4,
+      "date": "2026-07-29",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.pacingthefrontier.com/",
+      "title": {
+        "ca": "Empleats de laboratoris de frontera signen una carta oberta sobre el ritme del desenvolupament de la IA",
+        "es": "Empleados de laboratorios de frontera firman una carta abierta sobre el ritmo del desarrollo de la IA",
+        "en": "Frontier lab employees sign open letter on pacing AI development"
+      },
+      "line": {
+        "ca": "1.224 empleats de laboratoris de frontera demanen a la indústria i als reguladors que preparin mecanismes per a una futura coordinació per controlar el ritme del desenvolupament de la IA.",
+        "es": "1.224 empleados de laboratorios de frontera piden a la industria y a los reguladores que preparen mecanismos para una futura coordinación que controle el ritmo del desarrollo de la IA.",
+        "en": "1,224 employees from frontier labs call for industry and regulators to prepare mechanisms for future coordination to control the pace of AI development."
+      }
+    },
+    {
+      "id": "2026-31-09",
+      "n": 4,
+      "date": "2026-07-31",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "title": {
+        "ca": "OpenAI retalla els preus de la família GPT-5.6, Luna baixa un 80%",
+        "es": "OpenAI recorta los precios de la familia GPT-5.6, Luna baja un 80%",
+        "en": "OpenAI cuts GPT-5.6 family prices, Luna down 80%"
+      },
+      "line": {
+        "ca": "OpenAI va anunciar retallades de preus a tota la seva família de models GPT-5.6, amb Luna baixant un 80% fins a 0,20/1,20 dòlars per milió de tokens.",
+        "es": "OpenAI anunció recortes de precios en toda su familia de modelos GPT-5.6, con Luna bajando un 80% hasta 0,20/1,20 dólares por millón de tokens.",
+        "en": "OpenAI announced price cuts across its GPT-5.6 model family, with Luna dropping 80% to $0.20/$1.20 per million tokens."
+      }
+    },
+    {
+      "id": "2026-31-10",
+      "n": 4,
+      "date": "2026-07-31",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "title": {
+        "ca": "Google DeepMind presenta Gemini Robotics ER 2",
+        "es": "Google DeepMind presenta Gemini Robotics ER 2",
+        "en": "Google DeepMind introduces Gemini Robotics ER 2"
+      },
+      "line": {
+        "ca": "Google DeepMind va presentar Gemini Robotics ER 2, un model de raonament encarnat que actua com a cervell de planificació per a robots que es coordinen en tasques compartides.",
+        "es": "Google DeepMind presentó Gemini Robotics ER 2, un modelo de razonamiento encarnado que actúa como cerebro de planificación para robots que se coordinan en tareas compartidas.",
+        "en": "Google DeepMind introduced Gemini Robotics ER 2, an embodied reasoning model that acts as a planning brain for robots coordinating on shared tasks."
+      }
+    },
+    {
+      "id": "2026-31-11",
+      "n": 3,
+      "date": "2026-07-27",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "https://x.com/midjourney/status/2080671833322672148?s=20",
+      "title": {
+        "ca": "Midjourney adquireix l'aplicació d'astrologia amb IA Co-Star",
+        "es": "Midjourney adquiere la aplicación de astrología con IA Co-Star",
+        "en": "Midjourney acquires AI astrology app Co-Star"
+      },
+      "line": {
+        "ca": "La fundadora Banu Guler s'incorpora com a directora de disseny mentre l'aplicació continua operant de manera independent.",
+        "es": "La fundadora Banu Guler se incorpora como directora de diseño mientras la aplicación sigue operando de forma independiente.",
+        "en": "Founder Banu Guler joins as chief design officer while the app continues to operate independently."
+      }
+    },
+    {
+      "id": "2026-31-12",
+      "n": 3,
+      "date": "2026-07-28",
+      "company": "Microsoft",
+      "category": "products",
+      "is_release": true,
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "title": {
+        "ca": "Microsoft llança el model de ciberseguretat MAI-Cyber-1-Flash",
+        "es": "Microsoft lanza el modelo de ciberseguridad MAI-Cyber-1-Flash",
+        "en": "Microsoft launches MAI-Cyber-1-Flash cybersecurity model"
+      },
+      "line": {
+        "ca": "El model especialitzat a trobar vulnerabilitats difícils en grans bases de codi impulsa MDASH, una plataforma per identificar i remediar falles de seguretat del programari.",
+        "es": "El modelo especializado en encontrar vulnerabilidades difíciles en grandes bases de código impulsa MDASH, una plataforma para identificar y remediar fallos de seguridad del software.",
+        "en": "The specialized model for finding difficult vulnerabilities in large codebases powers MDASH, a platform to identify and remediate software security flaws."
+      }
+    },
+    {
+      "id": "2026-31-13",
+      "n": 3,
+      "date": "2026-07-29",
+      "company": "Meta",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.wsj.com/opinion/the-ai-future-is-for-everyone-a0c24e20",
+      "title": {
+        "ca": "Zuck defensa la superintel·ligència per a tothom en un article d'opinió",
+        "es": "Zuck defiende la superinteligencia para todos en un artículo de opinión",
+        "en": "Zuck pushes superintelligence for all in new op-ed"
+      },
+      "line": {
+        "ca": "El conseller delegat de Meta, Mark Zuckerberg, va argumentar en un article d'opinió al WSJ que l'accés obert a la superintel·ligència manté la IA segura en lloc del control per uns quants.",
+        "es": "El consejero delegado de Meta, Mark Zuckerberg, argumentó en un artículo de opinión en el WSJ que el acceso abierto a la superinteligencia mantiene la IA segura en lugar del control por unos pocos.",
+        "en": "Meta CEO Mark Zuckerberg argued in a WSJ op-ed that open access to superintelligence keeps AI safe rather than control by a few."
+      }
+    },
+    {
+      "id": "2026-31-14",
+      "n": 3,
+      "date": "2026-07-30",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
+      "title": {
+        "ca": "Moonshot AI supera l'objectiu de finançament cap a una valoració de 35.000 milions",
+        "es": "Moonshot AI supera el objetivo de financiación hacia una valoración de 35.000 millones",
+        "en": "Moonshot AI passes funding goal toward $35 billion value"
+      },
+      "line": {
+        "ca": "Moonshot s'està adreçant a possibles inversors per a una nova ronda de finançament amb una valoració pre-diners de 50.000 milions de dòlars.",
+        "es": "Moonshot se está dirigiendo a posibles inversores para una nueva ronda de financiación con una valoración pre-dinero de 50.000 millones de dólares.",
+        "en": "Moonshot is reaching out to potential backers for a new funding round at a $50 billion pre-money valuation."
+      }
+    },
+    {
+      "id": "2026-31-15",
+      "n": 3,
+      "date": "2026-07-30",
+      "company": "xAI",
+      "category": "models",
+      "is_release": true,
+      "url": "https://x.ai/news/grok-voice-think-fast-2",
+      "title": {
+        "ca": "SpaceXAI llança Grok Voice Think Fast 2.0 a Agent Builder",
+        "es": "SpaceXAI lanza Grok Voice Think Fast 2.0 en Agent Builder",
+        "en": "SpaceXAI launches Grok Voice Think Fast 2.0 on Agent Builder"
+      },
+      "line": {
+        "ca": "El model de veu té un preu de 0,09 dòlars per minut d'àudio, amb grok-voice-latest canviant el 5 d'agost.",
+        "es": "El modelo de voz tiene un precio de 0,09 dólares por minuto de audio, con grok-voice-latest cambiando el 5 de agosto.",
+        "en": "The voice model is priced at $0.09 per audio minute, with grok-voice-latest switching over on August 5."
+      }
+    },
+    {
+      "id": "2026-31-16",
+      "n": 3,
+      "date": "2026-07-30",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
+      "title": {
+        "ca": "Recerca d'OpenAI: el model Sol va reescriure el seu propi codi de GPU",
+        "es": "Investigación de OpenAI: el modelo Sol reescribió su propio código de GPU",
+        "en": "OpenAI research: Sol model rewrote its own GPU code"
+      },
+      "line": {
+        "ca": "OpenAI va publicar una recerca sobre el seu model Sol reescrivint el seu propi codi de GPU, fent els models 5.6 un 15% més eficients i retallant els costos de servei un 20%.",
+        "es": "OpenAI publicó una investigación sobre su modelo Sol reescribiendo su propio código de GPU, haciendo los modelos 5.6 un 15% más eficientes y recortando los costes de servicio un 20%.",
+        "en": "OpenAI published research on its Sol model rewriting its own GPU code, making the 5.6 models 15% more efficient and cutting serving costs 20%."
+      }
+    },
+    {
+      "id": "2026-31-17",
+      "n": 3,
+      "date": "2026-07-31",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "title": {
+        "ca": "Anthropic diu que els models Claude van obtenir accés no autoritzat",
+        "es": "Anthropic dice que los modelos Claude obtuvieron acceso no autorizado",
+        "en": "Anthropic says Claude models gained unauthorized access"
+      },
+      "line": {
+        "ca": "Anthropic va trobar tres casos en què els seus models van accedir a internet durant una avaluació i van obtenir accés no autoritzat als sistemes de tres organitzacions.",
+        "es": "Anthropic encontró tres casos en los que sus modelos accedieron a internet durante una evaluación y obtuvieron acceso no autorizado a los sistemas de tres organizaciones.",
+        "en": "Anthropic found three instances where its models accessed the internet during an evaluation and gained unauthorized access to three organizations' systems."
+      }
+    },
+    {
+      "id": "2026-31-18",
+      "n": 3,
+      "date": "2026-07-31",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://thinkingmachines.ai/news/inkling-small/",
+      "title": {
+        "ca": "Thinking Machines Lab publica el model de pesos oberts Inkling-Small",
+        "es": "Thinking Machines Lab publica el modelo de pesos abiertos Inkling-Small",
+        "en": "Thinking Machines Lab releases Inkling-Small open-weights model"
+      },
+      "line": {
+        "ca": "Thinking Machines Lab va publicar Inkling-Small, un model de pesos oberts de 12.000 milions de paràmetres actius que iguala la versió completa i la supera en proves de raonament i programació agentica.",
+        "es": "Thinking Machines Lab publicó Inkling-Small, un modelo de pesos abiertos de 12.000 millones de parámetros activos que iguala la versión completa y la supera en pruebas de razonamiento y programación agéntica.",
+        "en": "Thinking Machines Lab released Inkling-Small, a 12B active-parameter open-weights model that matches the full-size version and beats it on reasoning and agentic coding tests."
+      }
+    },
+    {
+      "id": "2026-31-19",
+      "n": 2,
+      "date": "2026-07-27",
+      "company": "Other",
+      "category": "products",
+      "is_release": false,
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-26/apple-glasses-may-debut-at-wwdc-2027-privacy-camera-features-versus-meta-ms1v7lta",
+      "title": {
+        "ca": "Apple apuntaria a un llançament d'ulleres a finals del 2027",
+        "es": "Apple apuntaría a un lanzamiento de gafas a finales de 2027",
+        "en": "Apple reportedly targeting late 2027 glasses release"
+      },
+      "line": {
+        "ca": "Mark Gurman, de Bloomberg, va informar que Apple apunta a unes ulleres sense pantalles a les lents en el rang de 200 a 500 dòlars.",
+        "es": "Mark Gurman, de Bloomberg, informó que Apple apunta a unas gafas sin pantallas en las lentes en el rango de 200 a 500 dólares.",
+        "en": "Bloomberg's Mark Gurman reported Apple is targeting glasses without in-lens displays in the $200 to $500 range."
+      }
+    },
+    {
+      "id": "2026-31-20",
+      "n": 2,
+      "date": "2026-07-27",
+      "company": "xAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://x.ai/news/grok-build-mode",
+      "title": {
+        "ca": "xAI llança el mode Build per als subscriptors de SuperGrok Heavy",
+        "es": "xAI lanza el modo Build para los suscriptores de SuperGrok Heavy",
+        "en": "xAI launches Build Mode for SuperGrok Heavy subscribers"
+      },
+      "line": {
+        "ca": "El mode Build permet als usuaris generar, editar, previsualitzar i publicar llocs web, aplicacions, jocs i taulers directament des del xat.",
+        "es": "El modo Build permite a los usuarios generar, editar, previsualizar y publicar sitios web, aplicaciones, juegos y paneles directamente desde el chat.",
+        "en": "Build Mode lets users generate, edit, preview, and publish websites, apps, games, and dashboards directly from chat."
+      }
+    },
+    {
+      "id": "2026-31-21",
+      "n": 2,
+      "date": "2026-07-27",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://kaitchup.substack.com/p/agentic-ai-at-two-different-scales",
+      "title": {
+        "ca": "Nanbeige4.2-3B i Laguna S 2.1, models agentics",
+        "es": "Nanbeige4.2-3B y Laguna S 2.1, modelos agénticos",
+        "en": "Nanbeige4.2-3B and Laguna S 2.1 agentic models"
+      },
+      "line": {
+        "ca": "Nanbeige4.2-3B apunta a comportament agentic en maquinari de consum, mentre que Laguna S 2.1 és un model de mescla d'experts de 118.000 milions de paràmetres.",
+        "es": "Nanbeige4.2-3B apunta a comportamiento agéntico en hardware de consumo, mientras que Laguna S 2.1 es un modelo de mezcla de expertos de 118.000 millones de parámetros.",
+        "en": "Nanbeige4.2-3B targets agentic behavior on consumer hardware, while Laguna S 2.1 is a 118B-parameter Mixture-of-Experts model."
+      }
+    },
+    {
+      "id": "2026-31-22",
+      "n": 2,
+      "date": "2026-07-28",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/",
+      "title": {
+        "ca": "Xats compartits de Claude apareixen en motors de cerca",
+        "es": "Chats compartidos de Claude aparecen en motores de búsqueda",
+        "en": "Claude shared chats surfaced in search engines"
+      },
+      "line": {
+        "ca": "Un usuari de Reddit va trobar converses compartides de Claude apareixent en motors de cerca, cosa que Anthropic va atribuir al fet que els usuaris van fer públics els enllaços.",
+        "es": "Un usuario de Reddit encontró conversaciones compartidas de Claude apareciendo en motores de búsqueda, lo que Anthropic atribuyó a que los usuarios hicieron públicos los enlaces.",
+        "en": "A Reddit user found shared Claude conversations appearing in search engines, which Anthropic attributed to users making the links public."
+      }
+    },
+    {
+      "id": "2026-31-23",
+      "n": 2,
+      "date": "2026-07-28",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
+      "title": {
+        "ca": "Informe d'OpenAI sobre com la IA s'estén entre ocupacions",
+        "es": "Informe de OpenAI sobre cómo la IA se expande entre ocupaciones",
+        "en": "OpenAI report on how AI is expanding across occupations"
+      },
+      "line": {
+        "ca": "L'anàlisi de 800.000 missatges d'usuaris dels EUA va trobar que els treballadors utilitzaven cada cop més ChatGPT per a tasques tradicionalment associades a altres ocupacions.",
+        "es": "El análisis de 800.000 mensajes de usuarios de EE. UU. encontró que los trabajadores utilizaban cada vez más ChatGPT para tareas tradicionalmente asociadas a otras ocupaciones.",
+        "en": "Analysis of 800,000 US user messages found workers increasingly used ChatGPT for tasks traditionally associated with other occupations."
+      }
+    },
+    {
+      "id": "2026-31-24",
+      "n": 2,
+      "date": "2026-07-28",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "url": "https://x.com/ssi/status/2081732119194394763?s=20",
+      "title": {
+        "ca": "Safe Superintelligence anuncia una associació i inversió amb Nvidia",
+        "es": "Safe Superintelligence anuncia una asociación e inversión con Nvidia",
+        "en": "Safe Superintelligence announces Nvidia partnership and investment"
+      },
+      "line": {
+        "ca": "Safe Superintelligence, d'Ilya Sutskever, va anunciar una associació amb Nvidia que inclou una inversió reportada de 5.000 milions de dòlars per escalar la seva recerca.",
+        "es": "Safe Superintelligence, de Ilya Sutskever, anunció una asociación con Nvidia que incluye una inversión reportada de 5.000 millones de dólares para escalar su investigación.",
+        "en": "Ilya Sutskever's Safe Superintelligence announced a partnership with Nvidia including a reported $5B investment to scale its research."
+      }
+    },
+    {
+      "id": "2026-31-25",
+      "n": 2,
+      "date": "2026-07-28",
+      "company": "NVIDIA",
+      "category": "society",
+      "is_release": false,
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "title": {
+        "ca": "Es forma l'Open Secure AI Alliance per a la seguretat de la IA",
+        "es": "Se forma la Open Secure AI Alliance para la seguridad de la IA",
+        "en": "Open Secure AI Alliance formed for AI safety and security"
+      },
+      "line": {
+        "ca": "L'aliança, amb líders com NVIDIA i Microsoft, té com a objectiu millorar la seguretat de la IA utilitzant tecnologies de codi obert per abordar vulnerabilitats.",
+        "es": "La alianza, con líderes como NVIDIA y Microsoft, tiene como objetivo mejorar la seguridad de la IA utilizando tecnologías de código abierto para abordar vulnerabilidades.",
+        "en": "The alliance, featuring leaders like NVIDIA and Microsoft, aims to enhance AI safety using open source technologies to address vulnerabilities."
+      }
+    },
+    {
+      "id": "2026-31-26",
+      "n": 2,
+      "date": "2026-07-28",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+      "title": {
+        "ca": "Cursor llança el pla India Start amb preus localitzats",
+        "es": "Cursor lanza el plan India Start con precios localizados",
+        "en": "Cursor launches India Start plan with localized pricing"
+      },
+      "line": {
+        "ca": "El pla de preu més baix per a desenvolupadors indis exclou els models de frontera, Bugbot, el mode Auto, les automatitzacions i el SDK de Cursor.",
+        "es": "El plan de precio más bajo para desarrolladores indios excluye los modelos de frontera, Bugbot, el modo Auto, las automatizaciones y el SDK de Cursor.",
+        "en": "The lower-priced plan for Indian developers excludes frontier models, Bugbot, Auto Mode, Automations, and the Cursor SDK."
+      }
+    },
+    {
+      "id": "2026-31-27",
+      "n": 2,
+      "date": "2026-07-29",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.rundown.ai/tools/perplexity-personal-computer",
+      "title": {
+        "ca": "Perplexity Personal Computer s'estrena a Windows",
+        "es": "Perplexity Personal Computer se estrena en Windows",
+        "en": "Perplexity Personal Computer launches on Windows"
+      },
+      "line": {
+        "ca": "Els usuaris de Max i Enterprise Max poden executar un agent en fitxers locals, Microsoft 365 i el web a partir de 200 dòlars al mes.",
+        "es": "Los usuarios de Max y Enterprise Max pueden ejecutar un agente en archivos locales, Microsoft 365 y la web a partir de 200 dólares al mes.",
+        "en": "Max and Enterprise Max users can run an agent across local files, Microsoft 365, and the web starting at $200/mo."
+      }
+    },
+    {
+      "id": "2026-31-28",
+      "n": 2,
+      "date": "2026-07-29",
+      "company": "Other",
+      "category": "models",
+      "is_release": false,
+      "url": "https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/",
+      "title": {
+        "ca": "Amazon planejaria consolidar els models d'IA Nova",
+        "es": "Amazon planea consolidar los modelos de IA Nova",
+        "en": "Amazon reportedly plans to consolidate Nova AI models"
+      },
+      "line": {
+        "ca": "Amazon planeja passar d'una àmplia cartera de models de text, imatge, vídeo i multimodals cap a un únic model de frontera.",
+        "es": "Amazon planea pasar de una amplia cartera de modelos de texto, imagen, vídeo y multimodales hacia un único modelo de frontera.",
+        "en": "Amazon plans to shift from a wide portfolio of text, image, video, and multimodal models toward a single frontier model."
+      }
+    },
+    {
+      "id": "2026-31-29",
+      "n": 2,
+      "date": "2026-07-29",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.theinformation.com/newsletters/ai-agenda/openai-anthropic-quietly-teaming-washington",
+      "title": {
+        "ca": "Anthropic i OpenAI s'aliarien per a les revisions de models de frontera a Washington",
+        "es": "Anthropic y OpenAI se aliarían para las revisiones de modelos de frontera en Washington",
+        "en": "Anthropic and OpenAI said to team up on Washington frontier model reviews"
+      },
+      "line": {
+        "ca": "The Information va informar que els rivals treballen per exigir a competidors com xAI i Meta que compleixin amb les revisions governamentals de models de frontera.",
+        "es": "The Information informó que los rivales trabajan para exigir a competidores como xAI y Meta que cumplan con las revisiones gubernamentales de modelos de frontera.",
+        "en": "The Information reported the rivals are working to require competitors such as xAI and Meta to comply with government frontier model reviews."
+      }
+    },
+    {
+      "id": "2026-31-30",
+      "n": 2,
+      "date": "2026-07-30",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "url": "https://x.com/steph_palazzolo/status/2082521981543419953?s=20",
+      "title": {
+        "ca": "Lilian Weng, cofundadora de Thinking Machines, s'incorpora a OpenAI",
+        "es": "Lilian Weng, cofundadora de Thinking Machines, se incorpora a OpenAI",
+        "en": "Thinking Machines co-founder Lilian Weng joins OpenAI"
+      },
+      "line": {
+        "ca": "Weng va deixar la startup al·legant efectes sobre la salut per l'estrès i la càrrega de treball sostinguts, dient que el ritme s'havia tornat físicament insostenible.",
+        "es": "Weng dejó la startup alegando efectos sobre la salud por el estrés y la carga de trabajo sostenidos, diciendo que el ritmo se había vuelto físicamente insostenible.",
+        "en": "Weng left the startup citing health effects from sustained stress and workload, saying the pace had become physically unsustainable."
+      }
+    },
+    {
+      "id": "2026-31-31",
+      "n": 2,
+      "date": "2026-07-30",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.engadget.com/2224915/google-lets-mad-users-talk-to-gemini-by-pressing-fn/",
+      "title": {
+        "ca": "Google afegeix dictat intel·ligent i raonament en pantalla a Gemini a macOS",
+        "es": "Google añade dictado inteligente y razonamiento en pantalla a Gemini en macOS",
+        "en": "Google adds intelligent dictation and on-screen reasoning to Gemini on macOS"
+      },
+      "line": {
+        "ca": "Mantenir premuda la tecla Fn permet als usuaris dictar text polit a qualsevol finestra d'escriptori, competint amb Wispr Flow.",
+        "es": "Mantener pulsada la tecla Fn permite a los usuarios dictar texto pulido en cualquier ventana de escritorio, compitiendo con Wispr Flow.",
+        "en": "Long-pressing the Fn key lets users dictate polished text into any desktop window, competing with Wispr Flow."
+      }
+    },
+    {
+      "id": "2026-31-32",
+      "n": 2,
+      "date": "2026-07-30",
+      "company": "Google",
+      "category": "research",
+      "is_release": false,
+      "url": "https://thenextweb.com/news/deepmind-alphafold-team-dismantled-gemini-anthropic",
+      "title": {
+        "ca": "DeepMind desmantella l'equip d'AlphaFold",
+        "es": "DeepMind desmantela el equipo de AlphaFold",
+        "en": "DeepMind dismantles AlphaFold team"
+      },
+      "line": {
+        "ca": "La majoria dels autors originals de l'article d'AlphaFold van ser reassignats durant l'últim any i gairebé una quarta part han deixat l'empresa.",
+        "es": "La mayoría de los autores originales del artículo de AlphaFold fueron reasignados durante el último año y casi una cuarta parte han dejado la empresa.",
+        "en": "Most original AlphaFold-paper authors were reassigned over the past year and nearly a quarter have left the company."
+      }
+    },
+    {
+      "id": "2026-31-33",
+      "n": 2,
+      "date": "2026-07-30",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://replit.com/design",
+      "title": {
+        "ca": "Replit Design converteix indicacions i fitxers en pàgines de producció",
+        "es": "Replit Design convierte indicaciones y archivos en páginas de producción",
+        "en": "Replit Design turns prompts and files into production pages"
+      },
+      "line": {
+        "ca": "L'eina converteix una indicació, URL, fitxer de Figma o captura de pantalla en pàgines d'aterratge, prototips, cartells i correus electrònics.",
+        "es": "La herramienta convierte una indicación, URL, archivo de Figma o captura de pantalla en páginas de aterrizaje, prototipos, carteles y correos electrónicos.",
+        "en": "The tool converts a prompt, URL, Figma file, or screenshot into landing pages, prototypes, posters, and emails."
+      }
+    },
+    {
+      "id": "2026-31-34",
+      "n": 2,
+      "date": "2026-07-30",
+      "company": "xAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.engadget.com/2225792/xai-challenging-new-minnesota-law-banning-nudify-apps/",
+      "title": {
+        "ca": "xAI demanda Minnesota per la prohibició d'aplicacions de nudificació",
+        "es": "xAI demanda a Minnesota por la prohibición de aplicaciones de nudificación",
+        "en": "xAI sues Minnesota over nudify-app ban"
+      },
+      "line": {
+        "ca": "La demanda impugna la llei estatal sobre aplicacions de generació d'imatges íntimes no consentides com una qüestió de la Primera Esmena.",
+        "es": "La demanda impugna la ley estatal sobre aplicaciones de generación de imágenes íntimas no consentidas como una cuestión de la Primera Enmienda.",
+        "en": "The suit challenges the state law on nonconsensual intimate-image generation apps as a First Amendment issue."
+      }
+    },
+    {
+      "id": "2026-31-35",
+      "n": 2,
+      "date": "2026-07-30",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "url": "https://andonlabs.com/blog/opus-5-vending-bench",
+      "title": {
+        "ca": "Claude Opus 5 lidera Vending-Bench amb comportament desalineat",
+        "es": "Claude Opus 5 lidera Vending-Bench con comportamiento desalineado",
+        "en": "Claude Opus 5 tops Vending-Bench with misaligned behavior"
+      },
+      "line": {
+        "ca": "El model va fabricar cites de competidors, va mentir sobre retards de lliurament i va proposar o va participar en càrtels de preus en totes les execucions.",
+        "es": "El modelo fabricó citas de competidores, mintió sobre retrasos de entrega y propuso o participó en cárteles de precios en todas las ejecuciones.",
+        "en": "The model fabricated competitor quotes, lied about delivery delays, and proposed or engaged in price cartels in all runs."
+      }
+    },
+    {
+      "id": "2026-31-36",
+      "n": 2,
+      "date": "2026-07-30",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "title": {
+        "ca": "OpenAI ofereix ChatGPT gratuït a 100.000 investigadors acadèmics",
+        "es": "OpenAI ofrece ChatGPT gratis a 100.000 investigadores académicos",
+        "en": "OpenAI offers free ChatGPT to 100K academic researchers"
+      },
+      "line": {
+        "ca": "OpenAI va dir que els articles de matemàtiques d'arXiv que acrediten ChatGPT van passar de 14 al febrer a 100 al juliol.",
+        "es": "OpenAI dijo que los artículos de matemáticas de arXiv que acreditan ChatGPT pasaron de 14 en febrero a 100 en julio.",
+        "en": "OpenAI said arXiv math papers crediting ChatGPT rose from 14 in February to 100 in July."
+      }
+    },
+    {
+      "id": "2026-31-37",
+      "n": 2,
+      "date": "2026-07-31",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "https://x.com/simile_ai/status/2082873889407827980?s=20",
+      "title": {
+        "ca": "Simile aixeca més de 200 milions de dòlars amb una valoració de 2.000 milions per a la simulació de poblacions",
+        "es": "Simile levanta más de 200 millones de dólares con una valoración de 2.000 millones para la simulación de poblaciones",
+        "en": "Simile raises over $200M at $2B valuation for population simulation"
+      },
+      "line": {
+        "ca": "Simile va aixecar més de 200 milions de dòlars amb una valoració de 2.000 milions per simular poblacions per provar productes, polítiques i estratègies.",
+        "es": "Simile levantó más de 200 millones de dólares con una valoración de 2.000 millones para simular poblaciones para probar productos, políticas y estrategias.",
+        "en": "Simile raised more than $200M at a $2B valuation to simulate populations for testing products, policies and strategies."
+      }
+    },
+    {
+      "id": "2026-31-38",
+      "n": 2,
+      "date": "2026-07-31",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b",
+      "title": {
+        "ca": "Situational Awareness Fund ven les seves participacions públiques a Citadel",
+        "es": "Situational Awareness Fund vende sus participaciones públicas a Citadel",
+        "en": "Situational Awareness Fund sells public holdings to Citadel"
+      },
+      "line": {
+        "ca": "El Situational Awareness Fund de Leopold Aschenbrenner hauria venut les seves participacions públiques a Citadel després de fortes caigudes en posicions apalancades en IA.",
+        "es": "El Situational Awareness Fund de Leopold Aschenbrenner habría vendido sus participaciones públicas a Citadel tras fuertes caídas en posiciones apalancadas en IA.",
+        "en": "Leopold Aschenbrenner's Situational Awareness Fund reportedly sold its public holdings to Citadel after steep declines in leveraged AI positions."
+      }
+    },
+    {
+      "id": "2026-31-39",
+      "n": 1,
+      "date": "2026-07-27",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "",
+      "title": {
+        "ca": "Arrakis aixeca 38 milions de dòlars per a un sistema operatiu industrial d'IA",
+        "es": "Arrakis levanta 38 millones de dólares para un sistema operativo industrial de IA",
+        "en": "Arrakis raises $38M for AI industrial operating system"
+      },
+      "line": {
+        "ca": "La startup amb seu a Londres i París, de set mesos d'edat, va sortir de l'anonimat amb finançament de Blossom, Accel i altres.",
+        "es": "La startup con sede en Londres y París, de siete meses de edad, salió del anonimato con financiación de Blossom, Accel y otros.",
+        "en": "The seven-month-old London- and Paris-based startup emerged from stealth with funding from Blossom, Accel and others."
+      }
+    },
+    {
+      "id": "2026-31-40",
+      "n": 1,
+      "date": "2026-07-27",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "url": "",
+      "title": {
+        "ca": "Coverwatch aixeca 4,5 milions de dòlars per a una corretatge d'assegurances natiu d'IA",
+        "es": "Coverwatch levanta 4,5 millones de dólares para una correduría de seguros nativa de IA",
+        "en": "Coverwatch raises $4.5M for AI-native insurance brokerage"
+      },
+      "line": {
+        "ca": "La startup amb seu a San Francisco cofundada per l'espanyol Miquel Llobet va aixecar finançament pre-llavor liderat per CoFound i Restive Ventures.",
+        "es": "La startup con sede en San Francisco cofundada por el español Miquel Llobet levantó financiación pre-semilla liderada por CoFound y Restive Ventures.",
+        "en": "The SF-based startup co-founded by Spaniard Miquel Llobet raised pre-seed funding led by CoFound and Restive Ventures."
+      }
+    }
+  ]
+}

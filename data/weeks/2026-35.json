@@ -1,0 +1,785 @@
+{
+  "week": "2026-35",
+  "from": "2026-08-24",
+  "to": "2026-08-30",
+  "newsletters": 6,
+  "candidates": 268,
+  "note": null,
+  "items": [
+    {
+      "id": "2026-35-01",
+      "n": 5,
+      "date": "2026-08-24",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "title": {
+        "ca": "Anonymous Ox Alpha processa 26T de tokens a OpenCode, bat el rècord de llançament d'OpenRouter",
+        "es": "Anonymous Ox Alpha procesa 26T de tokens en OpenCode, rompe el récord de lanzamiento de OpenRouter",
+        "en": "Anonymous Ox Alpha processes 26T tokens on OpenCode, breaks OpenRouter launch record"
+      },
+      "line": {
+        "ca": "Ox Alpha va registrar 327.000 usuaris únics i 8.328.244 sessions completades en els seus primers quatre dies, sense cap creador ni metadades de llançament llistades.",
+        "es": "Ox Alpha registró 327.000 usuarios únicos y 8.328.244 sesiones completadas en sus primeros cuatro días, sin ningún creador ni metadatos de lanzamiento listados.",
+        "en": "Ox Alpha recorded 327,000 unique users and 8,328,244 completed sessions in its first four days, with no maker or release metadata listed."
+      },
+      "og": {
+        "ca": "Ox Alpha: 26T tokens a OpenCode",
+        "es": "Ox Alpha: 26T tokens en OpenCode",
+        "en": "Ox Alpha: 26T tokens on OpenCode"
+      }
+    },
+    {
+      "id": "2026-35-02",
+      "n": 5,
+      "date": "2026-08-28",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "title": {
+        "ca": "Google presenta Gemini Omni 1.1 Flash",
+        "es": "Google presenta Gemini Omni 1.1 Flash",
+        "en": "Google introduces Gemini Omni 1.1 Flash"
+      },
+      "line": {
+        "ca": "Nous controls per ampliar escenes, interpolar el primer i l'últim fotograma, escalat 4K i iteració de vídeo més ràpida mitjançant l'API de Gemini.",
+        "es": "Nuevos controles para extender escenas, interpolar el primer y último fotograma, escalado 4K y iteración de vídeo más rápida mediante la API de Gemini.",
+        "en": "New controls for extending scenes, interpolating first and last frames, 4K upscaling, and faster video iteration via the Gemini API."
+      },
+      "og": {
+        "ca": "Google llança Gemini Omni 1.1 Flash",
+        "es": "Google lanza Gemini Omni 1.1 Flash",
+        "en": "Google launches Gemini Omni 1.1 Flash"
+      }
+    },
+    {
+      "id": "2026-35-03",
+      "n": 4,
+      "date": "2026-08-24",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.businessinsider.com/hugging-face-could-be-acquired-13-billion-2026-8",
+      "title": {
+        "ca": "Hugging Face hauria explorat una venda amb una valoració de 13.000 milions de dòlars",
+        "es": "Hugging Face habría explorado una venta con una valoración de 13.000 millones de dólares",
+        "en": "Hugging Face reportedly explored sale at $13B valuation"
+      },
+      "line": {
+        "ca": "Hugging Face va treballar amb un banc per sondejar l'interès de compradors amb una valoració de 13.000 milions de dòlars o més, gairebé el triple de la seva valoració del 2023.",
+        "es": "Hugging Face trabajó con un banco para sondear el interés de compradores con una valoración de 13.000 millones de dólares o más, casi el triple de su valoración de 2023.",
+        "en": "Hugging Face worked with a bank to gauge buyer interest at a valuation of $13 billion or more, nearly triple its 2023 valuation."
+      },
+      "og": {
+        "ca": "Hugging Face explora venda per 13.000M$",
+        "es": "Hugging Face explora venta por 13.000M$",
+        "en": "Hugging Face explores $13B sale"
+      }
+    },
+    {
+      "id": "2026-35-04",
+      "n": 4,
+      "date": "2026-08-26",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "url": "https://openai.com/index/jalapeno-first-results/",
+      "title": {
+        "ca": "El Jalapeño d'OpenAI optimitza el rendiment d'inferència i la latència de tokens",
+        "es": "El Jalapeño de OpenAI optimiza el rendimiento de inferencia y la latencia de tokens",
+        "en": "OpenAI's Jalapeño optimizes inference throughput and token latency"
+      },
+      "line": {
+        "ca": "El xip d'inferència Jalapeño d'OpenAI es va dissenyar al voltant de les seves pròpies càrregues de treball de models, amb benchmarks inicials que mostren un rendiment màxim per quilowatt més alt i una latència de tokens més baixa que els sistemes comercials provats amb GPT-OSS 120B.",
+        "es": "El chip de inferencia Jalapeño de OpenAI se diseñó en torno a sus propias cargas de trabajo de modelos, con benchmarks iniciales que muestran un rendimiento máximo por kilovatio más alto y una latencia de tokens más baja que los sistemas comerciales probados con GPT-OSS 120B.",
+        "en": "OpenAI's Jalapeño inference chip was designed around its own model workloads, with early benchmarks showing higher peak throughput per kilowatt and lower token latency than commercial systems tested on GPT-OSS 120B."
+      }
+    },
+    {
+      "id": "2026-35-05",
+      "n": 4,
+      "date": "2026-08-26",
+      "company": "NVIDIA",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.perplexity.ai/hub/blog/introducing-portable-computer-for-local-first-ai",
+      "title": {
+        "ca": "Perplexity s'associa amb NVIDIA per llançar Portable Computer",
+        "es": "Perplexity se asocia con NVIDIA para lanzar Portable Computer",
+        "en": "Perplexity partners with NVIDIA to launch Portable Computer"
+      },
+      "line": {
+        "ca": "Portable Computer de Perplexity executa la seva plataforma agentica Computer completament en maquinari local sense costos de tokens, disponible ara a Linux per a subscriptors Pro i Enterprise.",
+        "es": "Portable Computer de Perplexity ejecuta su plataforma agéntica Computer completamente en hardware local sin costes de tokens, disponible ahora en Linux para suscriptores Pro y Enterprise.",
+        "en": "Perplexity's Portable Computer runs its agentic Computer platform entirely on local hardware with no token costs, available now on Linux for Pro and Enterprise subscribers."
+      }
+    },
+    {
+      "id": "2026-35-06",
+      "n": 4,
+      "date": "2026-08-26",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "title": {
+        "ca": "Anthropic fusiona la memòria de Claude chat i Cowork, activada per defecte",
+        "es": "Anthropic fusiona la memoria de Claude chat y Cowork, activada por defecto",
+        "en": "Anthropic merges Claude chat and Cowork memory, on by default"
+      },
+      "line": {
+        "ca": "Anthropic va fusionar els sistemes de memòria de Claude i Claude Cowork perquè les plataformes recordin les mateixes converses, amb tot emmagatzemat com a fitxers editables sota Topics.",
+        "es": "Anthropic fusionó los sistemas de memoria de Claude y Claude Cowork para que las plataformas recuerden las mismas conversaciones, con todo almacenado como archivos editables bajo Topics.",
+        "en": "Anthropic merged Claude and Claude Cowork's memory systems so the platforms remember the same conversations, with everything stored as editable files under Topics."
+      }
+    },
+    {
+      "id": "2026-35-07",
+      "n": 4,
+      "date": "2026-08-26",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://tech.therundown.ai/p/apple-mac-mini-makes-ai-comeback",
+      "title": {
+        "ca": "Apple presenta el M6 Mac mini i el M5 Ultra Mac Studio per a IA local",
+        "es": "Apple presenta el M6 Mac mini y el M5 Ultra Mac Studio para IA local",
+        "en": "Apple unveils M6 Mac mini and M5 Ultra Mac Studio for local AI"
+      },
+      "line": {
+        "ca": "Apple afirma que el M6 Mac mini ofereix fins a 4 vegades més rendiment d'IA i el M5 Ultra Mac Studio fins a 4,3 vegades, amb acceleradors neuronals a cada nucli de GPU.",
+        "es": "Apple afirma que el M6 Mac mini ofrece hasta 4 veces más rendimiento de IA y el M5 Ultra Mac Studio hasta 4,3 veces, con aceleradores neuronales en cada núcleo de GPU.",
+        "en": "Apple says the M6 Mac mini delivers up to 4x faster AI performance and the M5 Ultra Mac Studio up to 4.3x, with Neural Accelerators in each GPU core."
+      }
+    },
+    {
+      "id": "2026-35-08",
+      "n": 4,
+      "date": "2026-08-27",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "title": {
+        "ca": "Investigació de l'incident de pirateig d'agents d'OpenAI/Hugging Face",
+        "es": "Investigación del incidente de hackeo de agentes de OpenAI/Hugging Face",
+        "en": "Investigation of OpenAI/Hugging Face agent hacking incident"
+      },
+      "line": {
+        "ca": "La publicació examina les accions dels agents, la col·laboració en un tauler de missatges, el raonament i la recerca sobre la manipulació de les seves pròpies transcripcions.",
+        "es": "La publicación examina las acciones de los agentes, la colaboración en un tablón de mensajes, el razonamiento y la investigación sobre la manipulación de sus propias transcripciones.",
+        "en": "The post examines the agents' actions, collaboration on a message board, reasoning, and research into tampering with their own transcripts."
+      }
+    },
+    {
+      "id": "2026-35-09",
+      "n": 3,
+      "date": "2026-08-24",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+      "title": {
+        "ca": "Anthropic dirà als inversors de l'IPO que veu 30 bilions de dòlars en ingressos potencials",
+        "es": "Anthropic dirá a los inversores de la IPO que ve 30 billones de dólares en ingresos potenciales",
+        "en": "Anthropic to tell IPO investors it sees $30 trillion in potential revenue"
+      },
+      "line": {
+        "ca": "Anthropic prepara la documentació de l'IPO fixant el seu mercat adreçable total per sobre dels 30 bilions de dòlars, superant la reclamació de 28,5 bilions de dòlars de SpaceX.",
+        "es": "Anthropic prepara la documentación de la IPO fijando su mercado direccionable total por encima de los 30 billones de dólares, superando la reclamación de 28,5 billones de dólares de SpaceX.",
+        "en": "Anthropic is preparing IPO paperwork pegging its total addressable market above $30 trillion, beating SpaceX's $28.5 trillion claim."
+      }
+    },
+    {
+      "id": "2026-35-10",
+      "n": 3,
+      "date": "2026-08-24",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "title": {
+        "ca": "Anthropic fa disponible Claude Mythos 5 per a escaneig de codi",
+        "es": "Anthropic pone disponible Claude Mythos 5 para escaneo de código",
+        "en": "Anthropic makes Claude Mythos 5 available for code scanning"
+      },
+      "line": {
+        "ca": "Claude Mythos 5 està disponible a Claude Security per a escaneig de codi, amb eines associades que ofereixen pedaços suggerits o alertes però sense manera de fer prompts al model.",
+        "es": "Claude Mythos 5 está disponible en Claude Security para escaneo de código, con herramientas asociadas que ofrecen parches sugeridos o alertas pero sin forma de hacer prompts al modelo.",
+        "en": "Claude Mythos 5 is available in Claude Security for code scanning, with partner tools giving suggested patches or alerts but no way to prompt the model."
+      }
+    },
+    {
+      "id": "2026-35-11",
+      "n": 3,
+      "date": "2026-08-24",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.implicator.ai/anthropic-opus-5-overtakes-fable-5-corporate-spending/",
+      "title": {
+        "ca": "L'Opus 5 més barat d'Anthropic supera Fable 5 en despesa corporativa",
+        "es": "El Opus 5 más barato de Anthropic supera a Fable 5 en gasto corporativo",
+        "en": "Anthropic's cheaper Opus 5 overtakes Fable 5 in corporate spending"
+      },
+      "line": {
+        "ca": "Opus 5 va superar Fable 5 en despesa corporativa de models en un mes des del llançament, amb Opus 5 costant la meitat de les tarifes de Fable.",
+        "es": "Opus 5 superó a Fable 5 en gasto corporativo de modelos en un mes desde el lanzamiento, con Opus 5 costando la mitad de las tarifas de Fable.",
+        "en": "Opus 5 overtook Fable 5 in corporate model spending within a month of launch, with Opus 5 costing half of Fable's rates."
+      }
+    },
+    {
+      "id": "2026-35-12",
+      "n": 3,
+      "date": "2026-08-25",
+      "company": "Alibaba",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.therundown.ai/tools/wan-3-0",
+      "title": {
+        "ca": "Alibaba llança el model de vídeo IA Wan3.0 després d'una venda rècord de 10.000 milions de dòlars en accions",
+        "es": "Alibaba lanza el modelo de vídeo IA Wan3.0 tras una venta récord de 10.000 millones de dólares en acciones",
+        "en": "Alibaba launches Wan3.0 AI video model after record $10 billion share sale"
+      },
+      "line": {
+        "ca": "Wan3.0 és un model d'IA que pot generar vídeos de 30 segons a partir de text i dades.",
+        "es": "Wan3.0 es un modelo de IA que puede generar vídeos de 30 segundos a partir de texto y datos.",
+        "en": "Wan3.0 is an AI model that can generate 30-second videos from text and data."
+      }
+    },
+    {
+      "id": "2026-35-13",
+      "n": 3,
+      "date": "2026-08-26",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-data-center-executive-chris-malone-departs-the-ai-startup",
+      "title": {
+        "ca": "El cap de centres de dades d'OpenAI ha deixat l'empresa",
+        "es": "El jefe de centros de datos de OpenAI ha dejado la empresa",
+        "en": "OpenAI's head of data centers has left the company"
+      },
+      "line": {
+        "ca": "Chris Malone, l'executiu que supervisava l'expansió de centres de dades d'OpenAI, va deixar l'empresa la setmana passada.",
+        "es": "Chris Malone, el ejecutivo que supervisaba la expansión de centros de datos de OpenAI, dejó la empresa la semana pasada.",
+        "en": "Chris Malone, the executive who was overseeing OpenAI's data-center build-out, left the company last week."
+      }
+    },
+    {
+      "id": "2026-35-14",
+      "n": 3,
+      "date": "2026-08-27",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "title": {
+        "ca": "Bill Gates adverteix sobre els riscos de la IA",
+        "es": "Bill Gates advierte sobre los riesgos de la IA",
+        "en": "Bill Gates warns about AI risks"
+      },
+      "line": {
+        "ca": "Gates, abans optimista sobre la IA, ara adverteix que podria convertir-se en una font important d'injustícia i causar atur generalitzat.",
+        "es": "Gates, antes optimista sobre la IA, ahora advierte que podría convertirse en una fuente importante de injusticia y causar desempleo generalizado.",
+        "en": "Gates, once optimistic about AI, now warns it could become a major source of injustice and cause widespread unemployment."
+      }
+    },
+    {
+      "id": "2026-35-15",
+      "n": 3,
+      "date": "2026-08-27",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "title": {
+        "ca": "Model de veu a text Gemini 3.5 Transcribe",
+        "es": "Modelo de voz a texto Gemini 3.5 Transcribe",
+        "en": "Gemini 3.5 Transcribe speech-to-text model"
+      },
+      "line": {
+        "ca": "El model converteix àudio en brut en text formatat i està disponible a l'API de Gemini a Google AI Studio i Gemini Enterprise Agent Platform.",
+        "es": "El modelo convierte audio en bruto en texto formateado y está disponible en la API de Gemini en Google AI Studio y Gemini Enterprise Agent Platform.",
+        "en": "The model converts raw audio into formatted text and is available on the Gemini API in Google AI Studio and Gemini Enterprise Agent Platform."
+      }
+    },
+    {
+      "id": "2026-35-16",
+      "n": 3,
+      "date": "2026-08-27",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.therundown.ai/tools/h3-max",
+      "title": {
+        "ca": "fal llança el model de vídeo H3 Max",
+        "es": "fal lanza el modelo de vídeo H3 Max",
+        "en": "fal releases H3 Max video model"
+      },
+      "line": {
+        "ca": "Una versió post-entrenada de MiniMax H3 que genera un vídeo de 5 segons en menys de 3 segons, disponible a fal.",
+        "es": "Una versión post-entrenada de MiniMax H3 que genera un vídeo de 5 segundos en menos de 3 segundos, disponible en fal.",
+        "en": "A post-trained version of MiniMax H3 that generates a 5-second video in under 3 seconds, available on fal."
+      }
+    },
+    {
+      "id": "2026-35-17",
+      "n": 3,
+      "date": "2026-08-27",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://claude.com/blog/cowork-built-in-browser/",
+      "title": {
+        "ca": "Claude obté un navegador integrat a Cowork",
+        "es": "Claude obtiene un navegador integrado en Cowork",
+        "en": "Claude gets built-in browser in Cowork"
+      },
+      "line": {
+        "ca": "El navegador intern de Claude es desplega aquesta setmana per als plans Pro, Max i Team a l'aplicació d'escriptori de Claude.",
+        "es": "El navegador interno de Claude se despliega esta semana para los planes Pro, Max y Team en la aplicación de escritorio de Claude.",
+        "en": "Claude's internal browser rolls out this week to Pro, Max, and Team plans in the Claude desktop app."
+      }
+    },
+    {
+      "id": "2026-35-18",
+      "n": 3,
+      "date": "2026-08-27",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.thedeepview.com/articles/anthropic-s-claude-gets-a-salesforce-home",
+      "title": {
+        "ca": "Salesforce i Anthropic amplien la seva associació amb Claudeforce",
+        "es": "Salesforce y Anthropic amplían su asociación con Claudeforce",
+        "en": "Salesforce and Anthropic expand partnership with Claudeforce"
+      },
+      "line": {
+        "ca": "Claude es converteix en el model per defecte per a Slack i en una capa de raonament a tota la plataforma Agentforce de Salesforce.",
+        "es": "Claude se convierte en el modelo por defecto para Slack y en una capa de razonamiento en toda la plataforma Agentforce de Salesforce.",
+        "en": "Claude becomes the default model for Slack and a reasoning layer across Salesforce's Agentforce platform."
+      }
+    },
+    {
+      "id": "2026-35-19",
+      "n": 3,
+      "date": "2026-08-28",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "title": {
+        "ca": "Anthropic presenta l'Estàndard de Maquinari de Model per a agents d'IA",
+        "es": "Anthropic presenta el Estándar de Hardware de Modelo para agentes de IA",
+        "en": "Anthropic introduces Model Hardware Standard for AI agents"
+      },
+      "line": {
+        "ca": "La previsualització de recerca permet als agents d'IA operar màquines de fàbrica com microscopis i braços robòtics, amb configuració en hores en lloc de setmanes.",
+        "es": "La vista previa de investigación permite a los agentes de IA operar máquinas de fábrica como microscopios y brazos robóticos, con configuración en horas en lugar de semanas.",
+        "en": "Research preview lets AI agents operate factory machines like microscopes and robotic arms, with setup in hours instead of weeks."
+      }
+    },
+    {
+      "id": "2026-35-20",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "NVIDIA",
+      "category": "products",
+      "is_release": false,
+      "url": "https://wccftech.com/nvidia-becomes-a-buyer-of-last-resort-for-its-own-gpus-by-earmarking-7-billion-for-poolside-just-as-sam-altman-admits-he-was-wrong-on-the-ai-timeline/",
+      "title": {
+        "ca": "Nvidia apuja els preus dels xips Grace Blackwell i Vera Rubin un 15-17%",
+        "es": "Nvidia sube los precios de los chips Grace Blackwell y Vera Rubin un 15-17%",
+        "en": "Nvidia raising prices on Grace Blackwell and Vera Rubin chips 15-17%"
+      },
+      "line": {
+        "ca": "L'augment comença a principis de l'any vinent i afegeix aproximadament 5.000 milions de dòlars al cost d'un gran centre de dades.",
+        "es": "El aumento comienza a principios del próximo año y añade aproximadamente 5.000 millones de dólares al coste de un gran centro de datos.",
+        "en": "The increase starts early next year and adds roughly $5 billion to the cost of one large data center."
+      }
+    },
+    {
+      "id": "2026-35-21",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "url": "https://gizmodo.com/dr-dre-says-he-uses-ai-to-produce-songs-2000802009",
+      "title": {
+        "ca": "Dr. Dre diu que utilitza IA en la producció musical",
+        "es": "Dr. Dre dice que utiliza IA en la producción musical",
+        "en": "Dr. Dre says he uses AI in music production"
+      },
+      "line": {
+        "ca": "El productor va dir al NYT que veu la IA com una eina de creativitat, no com una amenaça.",
+        "es": "El productor dijo al NYT que ve la IA como una herramienta de creatividad, no como una amenaza.",
+        "en": "The producer told the NYT he sees AI as a creativity tool, not a threat."
+      }
+    },
+    {
+      "id": "2026-35-22",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "Other",
+      "category": "research",
+      "is_release": true,
+      "url": "https://www.outerbio.com/news/why-we-are-building-outer-bio",
+      "title": {
+        "ca": "Una startup entrena IA amb teixit de pell humana viva",
+        "es": "Una startup entrena IA con tejido de piel humana viva",
+        "en": "Startup trains AI on living human skin tissue"
+      },
+      "line": {
+        "ca": "Outer Biosciences manté viu teixit de pell humana donat i mesura com respon als compostos, després entrena models amb les dades biològiques resultants.",
+        "es": "Outer Biosciences mantiene vivo tejido de piel humana donado y mide cómo responde a los compuestos, luego entrena modelos con los datos biológicos resultantes.",
+        "en": "Outer Biosciences keeps donated human skin tissue alive and measures how it responds to compounds, then trains models on the resulting biological data."
+      }
+    },
+    {
+      "id": "2026-35-23",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "DeepSeek",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/deepseek-unveils-test-model-to-rival-anthropic-s-opus-4-8",
+      "title": {
+        "ca": "DeepSeek llança el model experimental Flash Vision",
+        "es": "DeepSeek lanza el modelo experimental Flash Vision",
+        "en": "DeepSeek releases experimental Flash Vision model"
+      },
+      "line": {
+        "ca": "DeepSeek V4-Flash-Vision-Exp és un model multimodal experimental que afegeix comprensió d'imatges i gairebé iguala Opus 4.8 en tasques d'agent.",
+        "es": "DeepSeek V4-Flash-Vision-Exp es un modelo multimodal experimental que añade comprensión de imágenes y casi iguala a Opus 4.8 en tareas de agente.",
+        "en": "DeepSeek V4-Flash-Vision-Exp is an experimental multimodal model that adds image understanding and nearly matches Opus 4.8 on agent tasks."
+      }
+    },
+    {
+      "id": "2026-35-24",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/anthropic-taps-google-chip-veteran-as-part-of-push-into-hardware",
+      "title": {
+        "ca": "Anthropic contracta el veterà de TPU de Google Amir Salek per al seu propi impuls de xips",
+        "es": "Anthropic contrata al veterano de TPU de Google Amir Salek para su propio impulso de chips",
+        "en": "Anthropic hires Google TPU veteran Amir Salek for its own chip push"
+      },
+      "line": {
+        "ca": "Amir Salek va ser l'enginyer que va fundar el programa de xips personalitzats de Google i va dirigir el seu negoci de Tensor Processing Unit.",
+        "es": "Amir Salek fue el ingeniero que fundó el programa de chips personalizados de Google y dirigió su negocio de Tensor Processing Unit.",
+        "en": "Amir Salek was the engineer who founded Google's custom-chip program and ran its Tensor Processing Unit business."
+      }
+    },
+    {
+      "id": "2026-35-25",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "url": "https://x.com/antigravity/status/2090853908138676507?s=20",
+      "title": {
+        "ca": "Es llança Antigravity Remote Control",
+        "es": "Se lanza Antigravity Remote Control",
+        "en": "Antigravity Remote Control launched"
+      },
+      "line": {
+        "ca": "La funció permet als usuaris accedir a sessions actives en navegadors compatibles i dispositius iOS i Android.",
+        "es": "La función permite a los usuarios acceder a sesiones activas en navegadores compatibles y dispositivos iOS y Android.",
+        "en": "The feature lets users access active sessions on supported browsers and iOS and Android devices."
+      }
+    },
+    {
+      "id": "2026-35-26",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "url": "https://x.com/i/trending/2090890057972691242?s=20",
+      "title": {
+        "ca": "OpenAI retalla els preus de GPT-5.6 Sol més d'un 20% per als desenvolupadors",
+        "es": "OpenAI recorta los precios de GPT-5.6 Sol más de un 20% para los desarrolladores",
+        "en": "OpenAI cuts GPT-5.6 Sol prices by more than 20% for developers"
+      },
+      "line": {
+        "ca": "El model ara costa 4 dòlars per milió de tokens d'entrada i 20 dòlars per milió de tokens de sortida per a ús estàndard de context curt.",
+        "es": "El modelo ahora cuesta 4 dólares por millón de tokens de entrada y 20 dólares por millón de tokens de salida para uso estándar de contexto corto.",
+        "en": "The model now costs $4 per million input tokens and $20 per million output tokens for standard short-context use."
+      }
+    },
+    {
+      "id": "2026-35-27",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc",
+      "title": {
+        "ca": "Nvidia tanca un acord de 6.000 milions de dòlars per llicenciar la tecnologia de Poolside",
+        "es": "Nvidia cierra un acuerdo de 6.000 millones de dólares para licenciar la tecnología de Poolside",
+        "en": "Nvidia strikes $6B deal to license Poolside technology"
+      },
+      "line": {
+        "ca": "Més de 100 enginyers s'uniran a l'equip Nemotron per construir models de pesos oberts com a alternativa dels EUA a la IA xinesa.",
+        "es": "Más de 100 ingenieros se unirán al equipo Nemotron para construir modelos de pesos abiertos como alternativa de EE. UU. a la IA china.",
+        "en": "Over 100 engineers will join the Nemotron team to build open-weight models as a US alternative to Chinese AI."
+      }
+    },
+    {
+      "id": "2026-35-28",
+      "n": 2,
+      "date": "2026-08-24",
+      "company": "Meta",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.axios.com/2026/08/24/meta-hires-openai-luke-metz",
+      "title": {
+        "ca": "Meta contracta el veterà d'OpenAI Luke Metz",
+        "es": "Meta contrata al veterano de OpenAI Luke Metz",
+        "en": "Meta hires OpenAI veteran Luke Metz"
+      },
+      "line": {
+        "ca": "Luke Metz va deixar OpenAI el 2024 per unir-se a Thinking Machines, després va tornar a OpenAI a principis d'aquest any abans d'unir-se a Meta.",
+        "es": "Luke Metz dejó OpenAI en 2024 para unirse a Thinking Machines, luego volvió a OpenAI a principios de este año antes de unirse a Meta.",
+        "en": "Luke Metz left OpenAI in 2024 to join Thinking Machines, then rejoined OpenAI earlier this year before joining Meta."
+      }
+    },
+    {
+      "id": "2026-35-29",
+      "n": 2,
+      "date": "2026-08-25",
+      "company": "Alibaba",
+      "category": "models",
+      "is_release": true,
+      "url": "https://www.thomsonreuters.com/en-us/posts/innovation/how-we-built-thomson/",
+      "title": {
+        "ca": "Thomson Reuters construeix el seu propi model legal d'IA",
+        "es": "Thomson Reuters construye su propio modelo legal de IA",
+        "en": "Thomson Reuters builds its own legal AI model"
+      },
+      "line": {
+        "ca": "El gegant de la recerca legal va gastar 40 milions de dòlars en dos anys readaptant el Qwen de codi obert d'Alibaba amb dècades del seu propi contingut.",
+        "es": "El gigante de la investigación legal gastó 40 millones de dólares en dos años readaptando el Qwen de código abierto de Alibaba con décadas de su propio contenido.",
+        "en": "The legal research giant spent $40M over two years retooling Alibaba's open-source Qwen on decades of its own content."
+      }
+    },
+    {
+      "id": "2026-35-30",
+      "n": 2,
+      "date": "2026-08-25",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.theinformation.com/articles/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-considered-tech-licensing-deal?rc=a8sc5q",
+      "title": {
+        "ca": "Perplexity en converses per a finançament de Nvidia amb una valoració de fins a 30.000 milions de dòlars",
+        "es": "Perplexity en conversaciones para financiación de Nvidia con una valoración de hasta 30.000 millones de dólares",
+        "en": "Perplexity in talks for Nvidia funding at up to $30B valuation"
+      },
+      "line": {
+        "ca": "Perplexity està discutint una ronda d'accions amb Nvidia amb una valoració de fins a 30.000 milions de dòlars, amb ingressos més que triplicats fins a més de 750 milions de dòlars.",
+        "es": "Perplexity está discutiendo una ronda de acciones con Nvidia con una valoración de hasta 30.000 millones de dólares, con ingresos más que triplicados hasta más de 750 millones de dólares.",
+        "en": "Perplexity is discussing an equity round with Nvidia at a valuation as high as $30B, with revenue more than tripling to over $750M."
+      }
+    },
+    {
+      "id": "2026-35-31",
+      "n": 2,
+      "date": "2026-08-25",
+      "company": "NVIDIA",
+      "category": "products",
+      "is_release": true,
+      "url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale",
+      "title": {
+        "ca": "SpaceX construirà centres de dades d'IA orbitals en racks Nvidia Vera Rubin",
+        "es": "SpaceX construirá centros de datos de IA orbitales en racks Nvidia Vera Rubin",
+        "en": "SpaceX to build orbital AI data centers on Nvidia Vera Rubin racks"
+      },
+      "line": {
+        "ca": "SpaceX basarà els seus centres de dades espacials Starmind en el rack Vera Rubin NVL72 de Nvidia, amb els primers racks destinats a l'òrbita per a finals de 2027.",
+        "es": "SpaceX basará sus centros de datos espaciales Starmind en el rack Vera Rubin NVL72 de Nvidia, con los primeros racks destinados a la órbita para finales de 2027.",
+        "en": "SpaceX will base its space-based Starmind data centers on Nvidia's Vera Rubin NVL72 rack, with first racks targeted for orbit by late 2027."
+      }
+    },
+    {
+      "id": "2026-35-32",
+      "n": 2,
+      "date": "2026-08-25",
+      "company": "DeepSeek",
+      "category": "society",
+      "is_release": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/chinese-hackers-use-deepseek-to-boost-attacks-researchers-say-mt7o4205",
+      "title": {
+        "ca": "Els pirates informàtics xinesos dupliquen els atacs amb DeepSeek",
+        "es": "Los hackers chinos duplican los ataques con DeepSeek",
+        "en": "Chinese hackers double attacks with DeepSeek"
+      },
+      "line": {
+        "ca": "L'empresa de recerca taiwanesa TeamT5 diu que grups vinculats a l'estat van més que duplicar els atacs després d'adoptar models de codi obert com DeepSeek.",
+        "es": "La empresa de investigación taiwanesa TeamT5 dice que grupos vinculados al estado más que duplicaron los ataques después de adoptar modelos de código abierto como DeepSeek.",
+        "en": "Taiwanese research firm TeamT5 says state-tied groups more than doubled attacks after adopting open-source models like DeepSeek."
+      }
+    },
+    {
+      "id": "2026-35-33",
+      "n": 2,
+      "date": "2026-08-25",
+      "company": "Mistral",
+      "category": "money",
+      "is_release": false,
+      "url": "https://mistral.ai/news/mistral-x-humain/",
+      "title": {
+        "ca": "Mistral s'associa amb HUMAIN de l'Aràbia Saudita en models d'IA sobirans",
+        "es": "Mistral se asocia con HUMAIN de Arabia Saudí en modelos de IA soberanos",
+        "en": "Mistral partners with Saudi Arabia's HUMAIN on sovereign AI models"
+      },
+      "line": {
+        "ca": "Mistral va tancar un acord de centenars de milions d'euros amb HUMAIN per construir models d'IA sobirans per a l'Orient Mitjà.",
+        "es": "Mistral cerró un acuerdo de cientos de millones de euros con HUMAIN para construir modelos de IA soberanos para Oriente Medio.",
+        "en": "Mistral struck a hundreds-of-millions-euro deal with HUMAIN to build sovereign AI models for the Middle East."
+      }
+    },
+    {
+      "id": "2026-35-34",
+      "n": 2,
+      "date": "2026-08-26",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal",
+      "title": {
+        "ca": "Google Cloud llança Gemini Enterprise per a serveis legals i financers",
+        "es": "Google Cloud lanza Gemini Enterprise para servicios legales y financieros",
+        "en": "Google Cloud launches Gemini Enterprise for legal and financial services"
+      },
+      "line": {
+        "ca": "Les edicions de Gemini Enterprise ajustades per indústria estan en previsualització, amb salut i ciències de la vida a continuació.",
+        "es": "Las ediciones de Gemini Enterprise ajustadas por industria están en vista previa, con salud y ciencias de la vida a continuación.",
+        "en": "Industry-tuned Gemini Enterprise editions are in preview, with healthcare and life sciences coming next."
+      }
+    },
+    {
+      "id": "2026-35-35",
+      "n": 2,
+      "date": "2026-08-27",
+      "company": "Meta",
+      "category": "society",
+      "is_release": false,
+      "url": "https://mezha.net/eng/bukvy/1c4180c5_meta_scrapped_a/",
+      "title": {
+        "ca": "Meta va cancel·lar la segona onada d'acomiadaments impulsada per IA després de la reacció dels empleats",
+        "es": "Meta canceló la segunda ola de despidos impulsada por IA tras la reacción de los empleados",
+        "en": "Meta scrapped second AI-driven layoff wave after employee backlash"
+      },
+      "line": {
+        "ca": "El pla de reconstruir l'empresa al voltant d'agents d'IA va provocar una revolta dels empleats, un pic de codi amb errors i una violació de seguretat.",
+        "es": "El plan de reconstruir la empresa en torno a agentes de IA provocó una revuelta de los empleados, un pico de código con errores y una brecha de seguridad.",
+        "en": "The plan to rebuild the company around AI agents sparked employee revolt, a spike in buggy code, and a breach."
+      }
+    },
+    {
+      "id": "2026-35-36",
+      "n": 2,
+      "date": "2026-08-27",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
+      "title": {
+        "ca": "Anthropic i Nscale tanquen un acord cloud de 45.000 milions de dòlars",
+        "es": "Anthropic y Nscale cierran un acuerdo cloud de 45.000 millones de dólares",
+        "en": "Anthropic and Nscale strike $45 billion cloud deal"
+      },
+      "line": {
+        "ca": "Anthropic llogarà al voltant de 460 megawatts de capacitat de càlcul en un centre de dades de Nscale a Virgínia Occidental utilitzant xips Nvidia Vera Rubin.",
+        "es": "Anthropic alquilará alrededor de 460 megavatios de capacidad de cómputo en un centro de datos de Nscale en Virginia Occidental utilizando chips Nvidia Vera Rubin.",
+        "en": "Anthropic will rent around 460 megawatts of compute capacity at an Nscale data center in West Virginia using Nvidia Vera Rubin chips."
+      }
+    },
+    {
+      "id": "2026-35-37",
+      "n": 2,
+      "date": "2026-08-27",
+      "company": "Google",
+      "category": "society",
+      "is_release": false,
+      "url": "https://x.com/barret_zoph/status/2092790775524516206?s=20",
+      "title": {
+        "ca": "Barret Zoph torna a Google com a vicepresident de recerca",
+        "es": "Barret Zoph vuelve a Google como vicepresidente de investigación",
+        "en": "Barret Zoph rejoins Google as research VP"
+      },
+      "line": {
+        "ca": "El cofundador de Thinking Machines torna per treballar en aprenentatge per reforç per a Gemini després d'una breu segona etapa a OpenAI.",
+        "es": "El cofundador de Thinking Machines vuelve para trabajar en aprendizaje por refuerzo para Gemini después de una breve segunda etapa en OpenAI.",
+        "en": "Thinking Machines co-founder returns to work on reinforcement learning for Gemini after a brief second stint at OpenAI."
+      }
+    },
+    {
+      "id": "2026-35-38",
+      "n": 2,
+      "date": "2026-08-27",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "url": "https://time.com/article/2026/08/26/openai-sam-altman-interview/",
+      "title": {
+        "ca": "Sam Altman va dir a TIME que OpenAI encara no està a l'AGI",
+        "es": "Sam Altman dijo a TIME que OpenAI aún no está en la AGI",
+        "en": "Sam Altman told TIME OpenAI is not at AGI yet"
+      },
+      "line": {
+        "ca": "Altman espera un sistema intern per a finals d'any que ell personalment anomenaria AGI, mentre que el director de recerca d'OpenAI va situar l'empresa al 80% del camí.",
+        "es": "Altman espera un sistema interno para finales de año que él personalmente llamaría AGI, mientras que el director de investigación de OpenAI situó a la empresa al 80% del camino.",
+        "en": "Altman expects an internal system by year's end he'd personally call AGI, while OpenAI's chief research officer put the company at 80% of the way there."
+      }
+    },
+    {
+      "id": "2026-35-39",
+      "n": 2,
+      "date": "2026-08-28",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://x.com/ClementDelangue/status/2092931447644442635?s=20",
+      "title": {
+        "ca": "Hugging Face presenta el robot de codi obert Microduck",
+        "es": "Hugging Face presenta el robot de código abierto Microduck",
+        "en": "Hugging Face unveils Microduck open-source robot"
+      },
+      "line": {
+        "ca": "El robot de 399 dòlars aprèn nous comportaments mitjançant aprenentatge per reforç i s'assembla al robot de recerca Blue de Nvidia.",
+        "es": "El robot de 399 dólares aprende nuevos comportamientos mediante aprendizaje por refuerzo y se parece al robot de investigación Blue de Nvidia.",
+        "en": "The $399 robot learns new behaviors through reinforcement learning and resembles Nvidia's Blue research robot."
+      }
+    },
+    {
+      "id": "2026-35-40",
+      "n": 2,
+      "date": "2026-08-28",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "url": "https://cohere.com/blog/parse",
+      "title": {
+        "ca": "Cohere llança el model de visió Parse per al processament de documents empresarials",
+        "es": "Cohere lanza el modelo de visión Parse para el procesamiento de documentos empresariales",
+        "en": "Cohere launches Parse vision model for enterprise document processing"
+      },
+      "line": {
+        "ca": "Cohere Parse converteix documents multimodals complexos en dades llegibles per màquina a 1,50 dòlars per 1.000 pàgines, dirigit a fluxos de treball empresarials de RAG i agents.",
+        "es": "Cohere Parse convierte documentos multimodales complejos en datos legibles por máquina a 1,50 dólares por 1.000 páginas, dirigido a flujos de trabajo empresariales de RAG y agentes.",
+        "en": "Cohere Parse converts complex multi-modal documents into machine-readable data at $1.50 per 1,000 pages, targeting enterprise RAG and agent workflows."
+      }
+    }
+  ]
+}
