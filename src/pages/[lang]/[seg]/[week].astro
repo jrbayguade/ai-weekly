@@ -1,0 +1,18 @@
+---
+import Pagina from '../../../components/Pagina.astro';
+import { setmanes } from '../../../lib/dades.js';
+import { T, LANGS, urlSetmana, numSetmana, BASE } from '../../../lib/i18n.js';
+export function getStaticPaths() {
+  const ss = setmanes();
+  return LANGS.flatMap((lang) => ss.map((s) => ({ params: { lang, seg: T[lang].seg, week: s.week }, props: { setmana: s } })));
+}
+const { lang, week } = Astro.params;
+const { setmana } = Astro.props;
+const t = T[lang];
+const ss = setmanes();
+const titol = `AI Weekly · ${t.setmana(numSetmana(week))}`;
+const descripcio = setmana.items.slice(0, 3).map((i) => i.title[lang]).join(' · ');
+const alternates = LANGS.map((l) => ({ lang: l, url: urlSetmana(l, week) }));
+---
+<Pagina {lang} setmanes={ss} oberta={week} title={titol} description={descripcio}
+  ogImage={`${BASE}/og/${lang}/${week}.png`} ogAlt={descripcio} url={urlSetmana(lang, week)} {alternates} />

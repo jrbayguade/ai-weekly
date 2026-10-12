@@ -1,0 +1,17 @@
+---
+import { T, LANGS } from '../lib/i18n.js';
+const { lang, alternates } = Astro.props;  // alternates: {lang, url}[]
+---
+<header class="dalt">
+  <div>
+    <p class="logo">AI<br />WEEKLY</p>
+    <div class="tag">{T[lang].tagline}</div>
+  </div>
+  <nav class="botons">
+    {LANGS.map((l) => {
+      const a = alternates.find((x) => x.lang === l);
+      return <a class="btn" href={a.url} hreflang={l} aria-current={l === lang ? 'true' : 'false'}>{l.toUpperCase()}</a>;
+    })}
+    <a class="btn" href="https://github.com/jrbayguade/ai-weekly">★ GitHub</a>
+  </nav>
+</header>

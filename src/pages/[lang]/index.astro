@@ -1,0 +1,12 @@
+---
+import Pagina from '../../components/Pagina.astro';
+import { setmanes } from '../../lib/dades.js';
+import { T, LANGS, urlInici, BASE } from '../../lib/i18n.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params;
+const ss = setmanes();
+const alternates = LANGS.map((l) => ({ lang: l, url: urlInici(l) }));
+---
+<Pagina {lang} setmanes={ss} oberta={ss[0]?.week} title="AI Weekly — keep up with it"
+  description={T[lang].aboutText[0]} ogImage={`${BASE}/og/default.png`} ogAlt="AI Weekly"
+  url={urlInici(lang)} {alternates} />

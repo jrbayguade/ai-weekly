@@ -1,0 +1,41 @@
+---
+import { T, numSetmana, rangSetmana } from '../lib/i18n.js';
+import { CATEGORIES } from '../lib/dades.js';
+const { setmana: s, lang, oberta } = Astro.props;
+const t = T[lang];
+// De més a menys newsletters que en parlen (com al mockup): el primer és el «top».
+const ordenats = [...s.items].sort((a, b) => b.n - a.n);
+const top = ordenats[0];
+---
+<details class="setmana" data-week={s.week} id={`s-${s.week}`} open={oberta}>
+  <summary>
+    <span>{t.setmana(numSetmana(s.week))} · {rangSetmana(s.from, s.to, lang)}</span>
+    <span class="tease">{t.novetats(s.items.length)}{top && ` · ${t.top}: ${top.title[lang]}`}</span>
+  </summary>
+  <div class="cos">
+    {s.note
+      ? <div class="nota"><b>{t.nota}</b>{s.note[lang]}</div>
+      : <div class="sense-nota">{t.senseNota}</div>}
+    {CATEGORIES.map((c) => {
+      const its = ordenats.filter((i) => i.category === c);
+      if (!its.length) return null;
+      return (
+        <section class="categoria" data-cat={c}>
+          <div class="cat">{t.cats[c]}</div>
+          <ul class="items">
+            {its.map((i) => (
+              <li class="item" data-co={i.company} id={i.id}>
+                <div class="tx">
+                  {i.url ? <a href={i.url} rel="noopener nofollow" target="_blank">{i.title[lang]}</a> : <strong>{i.title[lang]}</strong>}
+                  <div>{i.line[lang]}</div>
+                </div>
+                {i.company !== 'Other' && <span class="co">{i.company}</span>}
+                <span class="n" title={t.enParlen}>{i.n >= 10 ? '🔥' : ''}×{i.n}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      );
+    })}
+  </div>
+</details>

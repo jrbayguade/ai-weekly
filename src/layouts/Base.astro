@@ -1,0 +1,28 @@
+---
+import '../styles/brutal.css';
+const { lang, title, description, ogImage, ogAlt, url, alternates = [] } = Astro.props;
+const abs = (p) => new URL(p, Astro.site).toString();
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={abs(url)} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={abs(a.url)} />)}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AI Weekly" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={abs(url)} />
+    <meta property="og:image" content={abs(ogImage)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={ogAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={abs(ogImage)} />
+  </head>
+  <body><slot /></body>
+</html>

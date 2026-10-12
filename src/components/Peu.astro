@@ -1,0 +1,8 @@
+---
+import { T, urlAbout } from '../lib/i18n.js';
+const { lang } = Astro.props;
+---
+<footer class="peu">
+  <span>{T[lang].peu}</span>
+  <span><a href={urlAbout(lang)}>{T[lang].aboutTitol}</a> · <a href="https://github.com/jrbayguade/ai-weekly">GitHub</a></span>
+</footer>
