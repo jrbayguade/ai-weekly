@@ -17,4 +17,5 @@ Codi sota llicència MIT (vegeu `LICENSE`). Textos sota CC BY 4.0.
 
 ## Setmanes
 
-(L'índex de setmanes es regenera automàticament.)
+<!-- index -->
+<!-- /index -->
