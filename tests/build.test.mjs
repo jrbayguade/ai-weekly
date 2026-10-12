@@ -142,6 +142,28 @@ test('la portada sense setmanes diu una línia d’estat buit en cada idioma', a
     assert.ok(html.includes(linia), `${l}: falta ${linia}`);
   }
   no(llegeix('ca/index.html'), /class="buit"/);
+  // Sense setmanes, l'OG torna a ser el per defecte (arrel i portades).
+  for (const rel of ['index.html', 'ca/index.html', 'es/index.html', 'en/index.html']) {
+    hi(buida(rel), /<meta property="og:image" content="https:\/\/[^"]*\/og\/default\.png"/);
+  }
+});
+
+test('les portades i l’arrel porten l’OG de la darrera setmana (arrel: en anglès)', () => {
+  for (const l of ['ca', 'es', 'en']) {
+    const html = llegeix(`${l}/index.html`);
+    hi(html, new RegExp(`<meta property="og:image" content="https://[^"]*/og/${l}/2026-41\.png"`));
+    hi(html, new RegExp(`<meta name="twitter:image" content="https://[^"]*/og/${l}/2026-41\.png"`));
+    hi(html, /<meta property="og:title" content="AI Weekly · [^"]*41[^"]*"/);
+    hi(html, /<meta property="og:image:width" content="1200"/);
+    no(html, /og\/default\.png/);
+  }
+  const arrelHtml = llegeix('index.html');
+  hi(arrelHtml, /<meta property="og:image" content="https:\/\/[^"]*\/og\/en\/2026-41\.png"/);
+  hi(arrelHtml, /<meta name="twitter:image" content="https:\/\/[^"]*\/og\/en\/2026-41\.png"/);
+  hi(arrelHtml, /og:image:width/);
+  hi(arrelHtml, /location\.replace/);
+  hi(arrelHtml, /hreflang="x-default"/);
+  no(arrelHtml, /og\/default\.png/);
 });
 
 test('accessibilitat: un sol h1, aria-pressed als botons d’empresa i emojis amagats al lector', () => {
