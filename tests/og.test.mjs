@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 
 process.env.AI_WEEKLY_DATA = 'tests/fixtures/data';
 const { fonts, encaixa, linies, glifsQueFalten, pngSetmana, pngDefecte, fontsSatori, AMPLE_TITOL, ALT_TITOL, ALT_FILA,
-  AMPLE_PEU } = await import('../src/lib/og-encaix.js')
+  AMPLE_PEU, textPeu, netejaPerFont, titolsOg } = await import('../src/lib/og-encaix.js')
   .then(async (m) => ({ ...m, ...(await import('../src/lib/og.js')) }));
 const { setmanes } = await import('../src/lib/dades.js');
 const { T, LANGS } = await import('../src/lib/i18n.js');
@@ -61,11 +61,60 @@ test('glifsQueFalten detecta un caràcter que la font no té', () => {
   assert.deepEqual(glifsQueFalten(F.text, 'hola 漢'), ['漢']);
 });
 
-test('el peu hi cap: «+N més» i el segell més llarg no se superposen', () => {
-  for (const l of LANGS) for (const s of T[l].segells) {
-    const mes = F.mono.getAdvanceWidth(T[l].mes(40, 31), 24) + 24;
-    const seg = F.display.getAdvanceWidth(s, 28) + 32 + 10;
-    assert.ok(mes + seg + 40 <= AMPLE_PEU, `${l}: ${s}`);
+test('el peu sense resta no diu «+0»: només el nombre de newsletters', () => {
+  assert.equal(textPeu('ca', 0, 30), 'de 30 newsletters');
+  assert.equal(textPeu('es', 0, 30), 'de 30 newsletters');
+  assert.equal(textPeu('en', 0, 30), 'from 30 newsletters');
+  for (const l of LANGS) assert.equal(textPeu(l, 5, 30), T[l].mes(5, 30));
+});
+
+test('el peu hi cap: «+N més» (o només el total) i el segell més llarg no se superposen', () => {
+  for (const l of LANGS) for (const peu of [textPeu(l, 40, 31), textPeu(l, 0, 31), textPeu(l, 999, 999)]) {
+    assert.deepEqual(glifsQueFalten(F.mono, peu), [], peu);
+    for (const s of T[l].segells) {
+      const mes = F.mono.getAdvanceWidth(peu, 24) + 24;
+      const seg = F.display.getAdvanceWidth(s, 28) + 32 + 10;
+      assert.ok(mes + seg + 40 <= AMPLE_PEU, `${l}: ${peu} + ${s}`);
+    }
+  }
+});
+
+// Una font de mentida: només té els caràcters que se li diuen.
+const fontAmb = (cars) => ({ charToGlyphIndex: (c) => (cars.includes(c) ? 1 : 0) });
+
+test('netejaPerFont: substitucions deterministes només si falta el glif', () => {
+  const sense = fontAmb('abc <->\'".');
+  assert.deepEqual(netejaPerFont(sense, '‘a’ “b” c → a ← b – c — a… b'),
+    { text: '\'a\' "b" c -> a <- b - c - a... b', trets: [] });
+  const amb = fontAmb('abc ‘’“”→–—…');
+  assert.deepEqual(netejaPerFont(amb, '‘a’ “b” → – — …'), { text: '‘a’ “b” → – — …', trets: [] });
+});
+
+test('netejaPerFont: el que no té glif ni substitut es treu, sense espais dobles', () => {
+  const r = netejaPerFont(F.text, 'Claude 🚀 arriba 漢字 → ja');
+  assert.equal(r.text, 'Claude arriba -> ja');
+  assert.deepEqual(r.trets, ['🚀', '漢', '字']);
+  assert.deepEqual(glifsQueFalten(F.text, r.text), []);
+  assert.deepEqual(netejaPerFont(F.text, 'L·LÚGUBRE ÇÀÑ ¿¡ €'), { text: 'L·LÚGUBRE ÇÀÑ ¿¡ €', trets: [] });
+});
+
+test('titolsOg: els títols surten nets i encaixats (cap glif que falti arriba a la imatge)', () => {
+  const s = { week: '2026-41', newsletters: 30, items: [{ n: 3, og: { ca: 'Nou model 🤖 → més ràpid', es: 'x', en: 'x' } }] };
+  const [t] = titolsOg(s, 'ca');
+  assert.deepEqual(t.linies, ['Nou model -> més ràpid']);
+  assert.deepEqual(t.trets, ['🤖']);
+});
+
+test('dades REALS (data/): cada caràcter tret del títol curt de l’OG s’avisa (passa si no n’hi ha)', () => {
+  const abans = process.env.AI_WEEKLY_DATA;
+  delete process.env.AI_WEEKLY_DATA;
+  try {
+    for (const s of setmanes()) for (const l of LANGS) for (const t of titolsOg(s, l)) {
+      for (const c of t.trets) console.warn(`AVÍS: ${s.week} ${l} «${c}» (U+${c.codePointAt(0).toString(16).toUpperCase()}) tret de l’OG`);
+      assert.deepEqual(glifsQueFalten(F.text, t.linies.join(' ')), [], `${s.week} ${l}`);
+    }
+  } finally {
+    process.env.AI_WEEKLY_DATA = abans;
   }
 });
 

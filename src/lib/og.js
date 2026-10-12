@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
-import { fonts, encaixa, FITXERS } from './og-encaix.js';
+import { fonts, encaixa, netejaPerFont, FITXERS } from './og-encaix.js';
 import { T, numSetmana, segell } from './i18n.js';
 
 export const AMPLE = 1200;
@@ -28,6 +28,12 @@ export const ALT_TITOL = 100;
 
 const TEXT_DEFECTE = 'Weekly AI news from 30 newsletters. In català, español & English.';
 
+// El text del peu: «+N més · de M newsletters», o només «de M newsletters» si no en queda cap més.
+export const textPeu = (lang, resta, total) => (resta > 0 ? T[lang].mes(resta, total) : T[lang].newslettersN(total));
+
+// Tot text passa per la font que el pintarà ABANS de mesurar-lo: cap glif que falti arriba a la imatge.
+const net = (font, text) => netejaPerFont(font, text).text;
+
 const h = (type, style, ...children) => ({ type, props: { style, children: children.length === 1 ? children[0] : children } });
 
 let cauSatori;
@@ -49,14 +55,14 @@ async function png(arbre) {
 
 const capcalera = (dreta) => h('div', { display: 'flex', height: ALT_CAP, flexShrink: 0, justifyContent: 'space-between', alignItems: 'center' },
   h('div', { fontFamily: 'Archivo Black', fontSize: 76, letterSpacing: -3, lineHeight: 1 }, 'AI WEEKLY'),
-  h('div', { fontFamily: 'Archivo Black', fontSize: 30, background: '#000', color: '#fff35c', padding: '10px 18px', whiteSpace: 'nowrap' }, dreta));
+  h('div', { fontFamily: 'Archivo Black', fontSize: 30, background: '#000', color: '#fff35c', padding: '10px 18px', whiteSpace: 'nowrap' }, net(fonts().display, dreta)));
 
 const segellDiv = (text) => h('div', { fontFamily: 'Archivo Black', fontSize: 28, border: '5px solid #000', background: '#ff6b9d',
-  padding: '4px 16px', transform: 'rotate(-3deg)', whiteSpace: 'nowrap' }, text);
+  padding: '4px 16px', transform: 'rotate(-3deg)', whiteSpace: 'nowrap' }, net(fonts().display, text));
 
 const peu = (esquerra, dreta) => h('div', { display: 'flex', height: ALT_PEU, flexShrink: 0, marginTop: SEPARACIO,
   justifyContent: esquerra ? 'space-between' : 'flex-end', alignItems: 'center' },
-  ...(esquerra ? [h('div', { fontFamily: 'JetBrains Mono', fontSize: 24, background: '#000', color: '#fff35c', padding: '6px 12px', whiteSpace: 'nowrap' }, esquerra)] : []),
+  ...(esquerra ? [h('div', { fontFamily: 'JetBrains Mono', fontSize: 24, background: '#000', color: '#fff35c', padding: '6px 12px', whiteSpace: 'nowrap' }, net(fonts().mono, esquerra))] : []),
   segellDiv(dreta));
 
 const marc = (...fills) => h('div', { width: AMPLE, height: ALT, display: 'flex', flexDirection: 'column',
@@ -64,27 +70,34 @@ const marc = (...fills) => h('div', { width: AMPLE, height: ALT, display: 'flex'
 
 // El mig de la imatge per defecte: la frase, encaixada a la franja (mai en surt).
 function migDefecte() {
-  const e = encaixa(fonts().display, TEXT_DEFECTE, { ample: AMPLE_PEU, alt: ALT_MIG, max: 64, min: 40, maxLinies: 4 });
+  const e = encaixa(fonts().display, net(fonts().display, TEXT_DEFECTE), { ample: AMPLE_PEU, alt: ALT_MIG, max: 64, min: 40, maxLinies: 4 });
   return h('div', { display: 'flex', flexDirection: 'column', justifyContent: 'center', height: ALT_MIG, flexShrink: 0, marginTop: SEPARACIO,
     fontFamily: 'Archivo Black', fontSize: e.mida, lineHeight: 1.05 },
     ...e.linies.map((l) => h('div', { whiteSpace: 'nowrap' }, l)));
 }
 
+// Els (fins a) tres titulars de la setmana, nets per a la font i encaixats a la caixa.
+export function titolsOg(s, lang) {
+  const F = fonts();
+  return s.items.filter((i) => i.og).slice(0, FILES).map((i) => {
+    const { text, trets } = netejaPerFont(F.text, i.og[lang]);
+    return { n: i.n, trets, ...encaixa(F.text, text, { ample: AMPLE_TITOL, alt: ALT_TITOL }) };
+  });
+}
+
 export async function pngSetmana(s, lang) {
   const t = T[lang];
-  const F = fonts();
-  const top = s.items.filter((i) => i.og).slice(0, FILES);
+  const top = titolsOg(s, lang);
   const resta = Math.max(0, s.items.length - top.length);
   const wk = t.setmana(numSetmana(s.week));
-  const peuSetmana = peu(t.mes(resta, s.newsletters), segell(lang, s.week));
+  const peuSetmana = peu(textPeu(lang, resta, s.newsletters), segell(lang, s.week));
   // Cap item amb títol curt (p. ex. tots duien l'adreça de l'usuari): la imatge per defecte, amb la capçalera i el peu de la setmana.
   if (!top.length) return png(marc(capcalera(wk), migDefecte(), peuSetmana));
 
-  const files = top.map((i, k) => {
-    const e = encaixa(F.text, i.og[lang], { ample: AMPLE_TITOL, alt: ALT_TITOL });
+  const files = top.map((e, k) => {
     return h('div', { display: 'flex', height: ALT_FILA, flexShrink: 0, marginTop: k ? ENTRE_FILES : 0, alignItems: 'center',
       background: '#fff', border: `${VORA}px solid #000`, boxShadow: '10px 10px 0 #000', padding: '0 22px 0 18px', overflow: 'hidden' },
-      h('div', { fontFamily: 'Archivo Black', fontSize: 46, width: 128, flexShrink: 0 }, `×${i.n}`),
+      h('div', { fontFamily: 'Archivo Black', fontSize: 46, width: 128, flexShrink: 0 }, `×${e.n}`),
       h('div', { display: 'flex', flexDirection: 'column', fontSize: e.mida, fontWeight: 800, lineHeight: 1.05, width: AMPLE_TITOL, flexShrink: 0 },
         ...e.linies.map((l) => h('div', { whiteSpace: 'nowrap' }, l))));
   });

@@ -25,6 +25,31 @@ export function glifsQueFalten(font, text) {
   return [...new Set([...text])].filter((c) => !/\s/.test(c) && font.charToGlyphIndex(c) === 0);
 }
 
+// Substituts d'un caràcter que la font no tingui (només s'apliquen si falta).
+const SUBSTITUTS = {
+  '‘': "'", '’': "'", '‚': "'", '‛': "'", '′': "'",
+  '“': '"', '”': '"', '„': '"', '″': '"', '«': '"', '»': '"',
+  '→': '->', '⇒': '->', '⟶': '->', '←': '<-', '⇐': '<-', '↔': '<->',
+  '–': '-', '—': '-', '―': '-', '−': '-', '…': '...',
+};
+
+// Les dades REALS poden dur un caràcter que la font no té (un emoji, «→», CJK):
+// a la imatge sortiria un quadradet. No fem fallar el build (es quedaria sense
+// publicar tota la setmana): el substituïm si hi ha substitut i, si no, el
+// traiem. `trets` diu què s'ha tret, per avisar-ne.
+export function netejaPerFont(font, text) {
+  const te = (c) => /\s/.test(c) || font.charToGlyphIndex(c) !== 0;
+  const trets = [];
+  let out = '';
+  for (const c of String(text)) {
+    if (te(c)) { out += c; continue; }
+    const sub = SUBSTITUTS[c];
+    if (sub && [...sub].every(te)) { out += sub; continue; }
+    if (!trets.includes(c)) trets.push(c);
+  }
+  return { text: out.replace(/\s+/g, ' ').trim(), trets };
+}
+
 // Parteix per paraules. Una paraula sola més ampla que `ample` queda sola a
 // la seva línia (i sobresurt): és `encaixa` qui ho detecta i ho talla.
 export function linies(font, text, mida, ample) {
