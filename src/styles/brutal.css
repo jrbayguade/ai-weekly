@@ -30,7 +30,7 @@ details.setmana[open] > summary .capsal::before { content:'▾ '; }
 details.setmana[open] > summary { border-bottom:3px solid var(--negre); background:var(--negre); color:var(--groc); }
 .capsal { flex:1 1 auto; white-space:nowrap; }
 @media (max-width: 400px) { .capsal { white-space:normal; } }
-summary .tease { font-weight:600; font-size:12px; }
+.setmana .tease { font-weight:600; font-size:12px; }
 .cos { padding:0 14px 14px; }
 .buit { font-weight:800; margin-top:22px; }
 .nota { background:var(--rosa); border:3px solid var(--negre); padding:10px 12px; margin-top:12px; transform:rotate(-.5deg); font-size:15px; white-space:pre-line; }
@@ -50,7 +50,7 @@ li.item.flaix { background:#fff8b0; }
 [hidden] { display:none !important; }
 @media (max-width: 600px) {
   .h small { display:none; }
-  summary .tease { flex-basis:100%; padding-left:1.1em; }
+  .setmana .tease { flex-basis:100%; padding-left:1.1em; }
 }
 
 /* Cronologia: Qui ha tret què */
