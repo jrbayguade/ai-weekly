@@ -18,6 +18,7 @@ function construeix(dades, nom) {
 }
 
 const llegeix = construeix(path.join(arrel, 'tests/fixtures/data'), 'mostra');
+const llegeixHot = construeix(path.join(arrel, 'tests/fixtures/data-hot'), 'hot');
 const compta = (html, re) => (html.match(re) ?? []).length;
 // Sense bolcar l'HTML sencer al missatge d'error.
 const hi = (html, re) => assert.ok(re.test(html), `hi hauria de ser: ${re}`);
@@ -232,7 +233,7 @@ test('feedback per GitHub Issues: «Suggeriments» al peu de tot arreu i «Algun
   for (const [rel, txt] of [['ca/index.html', 'Suggeriments'], ['es/semana/2026-40/index.html', 'Sugerencias'], ['en/how-its-made/index.html', 'Feedback']]) {
     const html = llegeix(rel);
     hi(html, new RegExp(`<footer class="peu">[\\s\\S]*<a href="${ISSUES}/new/choose">${txt}</a>`));
-    no(html, /mailto:|@gmail|jbosc/);
+    no(html.split('https://www.linkedin.com/in/jboschayguade/').join(''), /mailto:|@gmail|jbosc/);
   }
   const html = llegeix('ca/index.html');
   // Una per setmana amb cos (dues a la portada), amb la plantilla i el títol preomplert.
@@ -250,4 +251,74 @@ test('el formulari d’issue: tres camps i el desplegable de tipus; issues en bl
   for (const x of ['id: setmana', 'id: que', 'id: tipus', 'type: dropdown', 'type: textarea', 'type: input']) assert.ok(f.includes(x), x);
   const c = fs.readFileSync(path.join(arrel, '.github/ISSUE_TEMPLATE/config.yml'), 'utf8');
   assert.match(c, /blank_issues_enabled: true/);
+});
+
+const LINKEDIN = 'https://www.linkedin.com/in/jboschayguade/';
+
+
+test('autoria: «Jesús Bosch» enllaçat a LinkedIn al peu de totes les pàgines, i a «Com es fa»', async () => {
+  const { T } = await import('../src/lib/i18n.js');
+  const enllac = `<a href="${LINKEDIN}" rel="me noopener" target="_blank">Jesús Bosch</a>`;
+  for (const rel of ['ca/index.html', 'es/index.html', 'en/index.html', 'ca/setmana/2026-40/index.html', 'en/week/2026-40/index.html', 'ca/com-es-fa/index.html', 'es/como-se-hace/index.html', 'en/how-its-made/index.html']) {
+    const html = llegeix(rel);
+    hi(html, /<footer class="peu">[\s\S]*<\/footer>/);
+    assert.ok(html.match(/<footer class="peu">[\s\S]*<\/footer>/)[0].includes(enllac), `peu ${rel}`);
+  }
+  hi(llegeix('ca/com-es-fa/index.html'), new RegExp(`Fet per ${enllac.replace(/[.*+?^${}()|[\]\/]/g, '\$&')}`));
+  hi(llegeix('es/como-se-hace/index.html'), /Hecho por <a href="https:\/\/www\.linkedin\.com\/in\/jboschayguade\/"/);
+  hi(llegeix('en/how-its-made/index.html'), /Made by <a href="https:\/\/www\.linkedin\.com\/in\/jboschayguade\/"/);
+  // Cap altra mostra de nom o contacte: tret d'aquesta URL exacta, res de jbosc, mailto ni gmail.
+  for (const rel of ['ca/index.html', 'ca/com-es-fa/index.html']) {
+    no(llegeix(rel).split(LINKEDIN).join(''), /mailto:|@gmail|jbosc/);
+  }
+  assert.ok(T.ca.autoria && T.es.autoria && T.en.autoria);
+});
+
+test('🔥: el booleà hot mana si hi és; si no, el llindar d’n; un rumor no en porta mai', () => {
+  const html = llegeixHot('en/week/2026-42/index.html');
+  const li = (id) => html.match(new RegExp(`<li class="item"[^>]*id="${id}".*?</li>`, 's'))[0];
+  hi(li('2026-42-01'), /class="calent"/);      // n=1 però hot
+  no(li('2026-42-02'), /class="calent"/);      // n=7 però hot:false
+  no(li('2026-42-03'), /class="calent"/);      // hot + rumor: res de flama
+  no(li('2026-42-04'), /class="calent"/);
+  // Dades velles (sense hot): la regla d'abans.
+  hi(llegeix('en/week/2026-41/index.html'), /class="calent"/);
+});
+
+test('rumor: etiqueta discreta «no confirmat» al costat del títol, en els tres idiomes', () => {
+  for (const [rel, txt] of [['ca/setmana/2026-42/index.html', 'no confirmat'], ['es/semana/2026-42/index.html', 'no confirmado'], ['en/week/2026-42/index.html', 'unconfirmed']]) {
+    const html = llegeixHot(rel);
+    assert.equal(compta(html, /class="rumor"/g), 2, rel);
+    hi(html, new RegExp(`<span class="rumor">${txt}</span>`));
+  }
+  const li = llegeixHot('en/week/2026-42/index.html').match(/<li class="item"[^>]*id="2026-42-03"[\s\S]*?<\/li>/)[0];
+  hi(li, /<a [^>]*>Google is preparing Gemini 4<\/a> <span class="rumor">unconfirmed<\/span>/);
+  no(llegeix('en/week/2026-41/index.html'), /class="rumor"/);
+});
+
+test('filtre per categoria: cinc botons amb aria-pressed, i els resums porten els parells empresa-categoria', () => {
+  for (const [rel, txt] of [['ca/index.html', 'MODELS'], ['es/index.html', 'MODELOS'], ['en/index.html', 'MODELS']]) {
+    const html = llegeix(rel);
+    const botons = html.match(/<button class="cat-btn"[^>]*>[^<]*<\/button>/g) ?? [];
+    assert.equal(botons.length, 5, rel);
+    for (const b of botons) assert.match(b, /aria-pressed="false"/);
+    assert.ok(botons[0].includes('data-cat="models"') && botons[0].includes(`>${txt}<`), botons[0]);
+  }
+  const resum = llegeix('en/week/2026-40/index.html').match(/<a[^>]*class="setmana setmana-resum"[^>]*>/)[0];
+  assert.match(resum, /data-pars="[^"]*Anthropic~models/);
+  const filtre = fs.readFileSync(path.join(arrel, 'public/filtre.js'), 'utf8');
+  assert.match(filtre, /cat-btn/);
+  assert.match(filtre, /estat\.cat|cat:/);
+});
+
+test('«Com es fa» ampliat: newsletters, cadència, mapa, 🔥, no confirmat i autoria', async () => {
+  const { T, LANGS } = await import('../src/lib/i18n.js');
+  for (const l of LANGS) {
+    const t = T[l].aboutText.join(' ');
+    for (const x of ['The Neuron', 'The Deep View', 'TLDR AI', 'Towards Data Science', 'AI Adopters Club', '🔥', '5']) assert.ok(t.includes(x), `${l}: ${x}`);
+    assert.match(t, new RegExp(l === 'ca' ? 'diumenge' : l === 'es' ? 'domingo' : 'Sunday'));
+    assert.match(t, new RegExp(l === 'ca' ? 'no confirmat' : l === 'es' ? 'no confirmado' : 'unconfirmed', 'i'));
+    assert.ok(t.includes('3'), l);
+    assert.ok(!t.includes('×'), l);
+  }
 });

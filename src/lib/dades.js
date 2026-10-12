@@ -33,6 +33,8 @@ export function errorsSetmana(s) {
     if (!CATEGORIES.includes(it.category)) e.push(`${it.id}: category`);
     if (!tresIdiomes(it.title)) e.push(`${it.id}: title`);
     if (!tresIdiomes(it.line)) e.push(`${it.id}: line`);
+    if (it.hot !== undefined && typeof it.hot !== 'boolean') e.push(`${it.id}: hot`);
+    if (it.rumor !== undefined && typeof it.rumor !== 'boolean') e.push(`${it.id}: rumor`);
     if (it.og !== undefined && !tresIdiomes(it.og)) e.push(`${it.id}: og`);
   }
   return e;

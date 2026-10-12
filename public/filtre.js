@@ -32,7 +32,7 @@
   const fila = mp.querySelector('.pinca-fila');
   const pinca = mp.querySelector('.pinca');
   const caselles = [...mp.querySelectorAll('.casella')];
-  const estat = { r0: 0, r1: N, co: null };
+  const estat = { r0: 0, r1: N, co: null, cat: null };
   mp.classList.add('js-on');
   // Al mòbil la graella pot ser més ampla que la pantalla: les setmanes més noves, a la vista.
   const alFinal = () => { scroll.scrollLeft = scroll.scrollWidth; };
@@ -43,7 +43,7 @@
   const comptaSetmanes = (n) => (n === 1 ? txt.setmana1 : txt.setmanes.replace('{n}', n));
 
   function aplica() {
-    const { r0, r1, co } = estat;
+    const { r0, r1, co, cat } = estat;
     pinca.style.left = `${(r0 / N) * 100}%`;
     pinca.style.width = `${((r1 - r0) / N) * 100}%`;
     pinca.setAttribute('aria-valuenow', r1 - r0);
@@ -58,13 +58,20 @@
       b.classList.toggle('off', !!co && b.dataset.co !== co);
       b.setAttribute('aria-pressed', String(b.dataset.co === co));
     });
+    mp.querySelectorAll('.cat-btn').forEach((b) => {
+      b.classList.toggle('on', b.dataset.cat === cat);
+      b.setAttribute('aria-pressed', String(b.dataset.cat === cat));
+    });
     document.querySelectorAll('.setmana[data-week]').forEach((d) => {
       const i = setmanes.indexOf(d.dataset.week);
       const visible = i >= r0 && i < r1;
       // Un resum (permanent d'una altra setmana) no té items: diu les seves empreses a data-cos.
-      let alguna = d.dataset.cos !== undefined && (!co || d.dataset.cos.split('|').includes(co));
+      let alguna = d.dataset.pars !== undefined && d.dataset.pars.split('|').some((p) => {
+        const [pc, pk] = p.split('~');
+        return (!co || pc === co) && (!cat || pk === cat);
+      });
       d.querySelectorAll('li.item').forEach((li) => {
-        const ok = !co || li.dataset.co === co;
+        const ok = (!co || li.dataset.co === co) && (!cat || li.dataset.cat === cat);
         li.hidden = !ok;
         alguna ||= ok;
       });
@@ -78,9 +85,10 @@
       m.hidden = ![...m.querySelectorAll('.setmana[data-week]')].some((d) => !d.hidden);
     });
     const tot = r0 === 0 && r1 === N;
+    const filtres = [co && txt.nomes.replace('{c}', co), cat && txt.cats[cat]].filter(Boolean);
     const badge = mp.querySelector('.rang-txt');
-    badge.hidden = tot && !co;
-    badge.textContent = (tot ? txt.tot : comptaSetmanes(r1 - r0)) + (co ? ` · ${txt.nomes.replace('{c}', co)}` : '');
+    badge.hidden = tot && !filtres.length;
+    badge.textContent = [tot ? txt.tot : comptaSetmanes(r1 - r0), ...filtres].join(' · ');
     // El select i els botons segueixen la pinça: «on» només si el rang coincideix amb un preset.
     const preset = tot ? 'tot' : r1 === N ? String(r1 - r0) : null;
     const sel = mp.querySelector('.rang-mobil');
@@ -96,6 +104,11 @@
   mp.querySelector('.rang-mobil').addEventListener('change', (e) => rang(e.target.value));
   mp.querySelectorAll('.empresa').forEach((b) => b.addEventListener('click', () => {
     estat.co = estat.co === b.dataset.co ? null : b.dataset.co;
+    aplica();
+  }));
+
+  mp.querySelectorAll('.cat-btn').forEach((b) => b.addEventListener('click', () => {
+    estat.cat = estat.cat === b.dataset.cat ? null : b.dataset.cat;
     aplica();
   }));
 
@@ -227,6 +240,7 @@
       if (idx < estat.r0) estat.r0 = idx;
       if (idx >= estat.r1) estat.r1 = idx + 1;
       if (estat.co && estat.co !== c.dataset.co) estat.co = null;
+      if (estat.cat && !document.querySelector(`details.setmana[data-week="${c.dataset.week}"] li.item[data-co="${CSS.escape(c.dataset.co)}"][data-cat="${estat.cat}"]`)) estat.cat = null;
       aplica();
       const d = document.querySelector(`details.setmana[data-week="${c.dataset.week}"]`);
       if (!d) return;

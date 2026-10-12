@@ -1,5 +1,6 @@
 ---
 import { mapaCalor } from '../lib/mapa.js';
+import { CATEGORIES } from '../lib/dades.js';
 import { T, urlSetmana } from '../lib/i18n.js';
 // propia: a la permanent d'una setmana, les caselles de les ALTRES setmanes enllacen a la seva permanent (aquí no hi tenen cos).
 const { setmanes, empreses, lang, propia } = Astro.props;
@@ -11,10 +12,13 @@ const F = m.files.length;
 ---
 {F > 0 && (
 <section class="caixa mapa" data-setmanes={JSON.stringify(m.columnes.map((c) => c.week))}
-  data-txt={JSON.stringify({ setmana1: t.setmanes(1), setmanes: t.setmanes('{n}'), nomes: t.nomes('{c}'), tot: t.rangs.tot })}>
+  data-txt={JSON.stringify({ setmana1: t.setmanes(1), setmanes: t.setmanes('{n}'), nomes: t.nomes('{c}'), tot: t.rangs.tot, cats: t.cats })}>
   <div class="mapa-cap">
     <h2 class="h"><span><span aria-hidden="true">🚀</span> {t.quiHaTret}</span></h2>
     <div class="llegenda" aria-hidden="true">{['0', '1', '2', '3+'].map((x, i) => <span><i class={`q n${i}`}></i>{x}</span>)}</div>
+  </div>
+  <div class="cats" role="group" aria-label={t.categories}>
+    {CATEGORIES.map((c) => <button class="cat-btn" type="button" data-cat={c} aria-pressed="false">{t.cats[c]}</button>)}
   </div>
   <div class="mapa-scroll">
     <div class="graella" style={`--n:${n}`}>

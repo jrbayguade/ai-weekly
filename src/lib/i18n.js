@@ -21,11 +21,15 @@ export const T = {
     segells: ['ZERO HYPE (MENTIDA)', 'FET AMB MASSA CAFÈ', 'LLEGIT PER TU', 'SENSE CLICKBAIT (GAIREBÉ)'],
     mes: (n, total) => `+${n} més · de ${total} newsletters`,
     aboutTitol: 'Com es fa',
+    autoria: 'Fet per', rumor: 'no confirmat',
+    categories: 'Categories',
     aboutText: [
-      "Cada setmana llegim unes trenta newsletters d'IA perquè tu no ho hagis de fer.",
-      'Un model en treu les notícies, les ajunta quan diverses newsletters parlen del mateix i les tradueix.',
-      'El 🔥 marca les notícies de què parlen moltes newsletters alhora.',
-      'Les notícies són factuals i enllacen la font. Les bromes són meves.',
+      "Cada diumenge llegim unes trenta newsletters d'IA perquè tu no ho hagis de fer: The Neuron, The Deep View, TLDR AI, Towards Data Science, AI Adopters Club i unes quantes més.",
+      "Un model en treu les notícies, les ajunta quan diverses newsletters parlen del mateix i les tradueix.",
+      "El mapa compta els llançaments de models i productes de cada empresa cada setmana: 0, 1, 2 o 3 i més.",
+      "El 🔥 marca els temes que surten a més newsletters, com a molt 5 per setmana.",
+      "«No confirmat» vol dir que és un rumor: s'hi diu, però ningú no ho ha confirmat.",
+      "Les notícies són factuals i enllacen la font. Les bromes són meves.",
     ],
   },
   es: {
@@ -47,11 +51,15 @@ export const T = {
     segells: ['CERO HYPE (MENTIRA)', 'HECHO CON DEMASIADO CAFÉ', 'LEÍDO POR TI', 'SIN CLICKBAIT (CASI)'],
     mes: (n, total) => `+${n} más · de ${total} newsletters`,
     aboutTitol: 'Cómo se hace',
+    autoria: 'Hecho por', rumor: 'no confirmado',
+    categories: 'Categorías',
     aboutText: [
-      'Cada semana leemos unas treinta newsletters de IA para que tú no tengas que hacerlo.',
-      'Un modelo extrae las noticias, las junta cuando varias newsletters hablan de lo mismo y las traduce.',
-      'El 🔥 marca las noticias de las que hablan muchas newsletters a la vez.',
-      'Las noticias son factuales y enlazan la fuente. Los chistes son míos.',
+      "Cada domingo leemos unas treinta newsletters de IA para que tú no tengas que hacerlo: The Neuron, The Deep View, TLDR AI, Towards Data Science, AI Adopters Club y unas cuantas más.",
+      "Un modelo extrae las noticias, las junta cuando varias newsletters hablan de lo mismo y las traduce.",
+      "El mapa cuenta los lanzamientos de modelos y productos de cada empresa cada semana: 0, 1, 2 o 3 y más.",
+      "El 🔥 marca los temas que salen en más newsletters, como mucho 5 por semana.",
+      "«No confirmado» significa que es un rumor: se dice por ahí, pero nadie lo ha confirmado.",
+      "Las noticias son factuales y enlazan la fuente. Los chistes son míos.",
     ],
   },
   en: {
@@ -73,17 +81,24 @@ export const T = {
     segells: ['ZERO HYPE (LIES)', 'MADE WITH TOO MUCH COFFEE', 'READ FOR YOU', 'NO CLICKBAIT (MOSTLY)'],
     mes: (n, total) => `+${n} more · from ${total} newsletters`,
     aboutTitol: "How it's made",
+    autoria: 'Made by', rumor: 'unconfirmed',
+    categories: 'Categories',
     aboutText: [
-      'Every week we read about thirty AI newsletters so you do not have to.',
-      'A model extracts the stories, merges them when several newsletters cover the same thing, and translates them.',
-      'The 🔥 marks the stories that many newsletters are covering at once.',
-      'Stories are factual and link to the source. The jokes are mine.',
+      "Every Sunday we read about thirty AI newsletters so you do not have to: The Neuron, The Deep View, TLDR AI, Towards Data Science, AI Adopters Club and a few more.",
+      "A model extracts the stories, merges them when several newsletters cover the same thing, and translates them.",
+      "The map counts each company's model and product launches every week: 0, 1, 2 or 3 and more.",
+      "The 🔥 marks the topics that appear in the most newsletters, at most 5 per week.",
+      "\"Unconfirmed\" means it is a rumor: people are saying it, but nobody has confirmed it.",
+      "Stories are factual and link to the source. The jokes are mine.",
     ],
   },
 };
 
 // Des de quantes newsletters que en parlen una notícia porta el 🔥 (escala real: 1-4).
 export const LLINDAR_CALENT = 3;
+export const AUTOR = { nom: 'Jesús Bosch', url: 'https://www.linkedin.com/in/jboschayguade/' };
+// 🔥: si l'ítem porta `hot` (booleà), mana; si no (dades velles), el llindar. Un rumor no en porta mai.
+export const esCalent = (i) => i.rumor !== true && (typeof i.hot === 'boolean' ? i.hot : i.n >= LLINDAR_CALENT);
 export const LANGS = ['ca', 'es', 'en'];
 export const urlInici = (lang) => `${BASE}/${lang}/`;
 export const urlSetmana = (lang, week) => `${BASE}/${lang}/${T[lang].seg}/${week}/`;

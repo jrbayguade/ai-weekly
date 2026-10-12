@@ -1,8 +1,8 @@
 ---
-import { T, urlAbout, ISSUES } from '../lib/i18n.js';
+import { T, urlAbout, ISSUES, AUTOR } from '../lib/i18n.js';
 const { lang } = Astro.props;
 ---
 <footer class="peu">
   <span>{T[lang].peu}</span>
-  <span><a href={urlAbout(lang)}>{T[lang].aboutTitol}</a> · <a href={`${ISSUES}/new/choose`}>{T[lang].suggeriments}</a> · <a href="https://github.com/jrbayguade/ai-weekly">GitHub</a></span>
+  <span><a href={urlAbout(lang)}>{T[lang].aboutTitol}</a> · <a href={`${ISSUES}/new/choose`}>{T[lang].suggeriments}</a> · <a href="https://github.com/jrbayguade/ai-weekly">GitHub</a> · <a href={AUTOR.url} rel="me noopener" target="_blank">{AUTOR.nom}</a></span>
 </footer>

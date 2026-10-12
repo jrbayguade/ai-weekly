@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Capcalera from '../../components/Capcalera.astro';
 import Peu from '../../components/Peu.astro';
-import { T, LANGS, urlAbout, urlInici, BASE } from '../../lib/i18n.js';
+import { T, LANGS, urlAbout, urlInici, BASE, AUTOR } from '../../lib/i18n.js';
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang, about: T[lang].about } })); }
 const { lang } = Astro.params;
 const t = T[lang];
@@ -13,7 +13,7 @@ const alternates = LANGS.map((l) => ({ lang: l, url: urlAbout(l) }));
   <main class="pagina">
     <Capcalera {lang} {alternates} logoNoEsTitol />
     <p class="tornar-fila"><a class="tornar" href={urlInici(lang)}>{t.tornar}</a></p>
-    <div class="caixa"><h1 class="h">{t.aboutTitol}</h1>{t.aboutText.map((p) => <p>{p}</p>)}</div>
+    <div class="caixa"><h1 class="h">{t.aboutTitol}</h1>{t.aboutText.map((p) => <p>{p}</p>)}<p class="autoria">{t.autoria} <a href={AUTOR.url} rel="me noopener" target="_blank">{AUTOR.nom}</a></p></div>
     <Peu {lang} />
   </main>
 </Base>

@@ -1,0 +1,22 @@
+{
+  "week": "2026-42", "from": "2026-10-12", "to": "2026-10-18", "newsletters": 12, "candidates": 90,
+  "note": null,
+  "items": [
+    { "id": "2026-42-01", "n": 1, "hot": true, "rumor": false, "date": "2026-10-13", "company": "Apple", "category": "products", "is_release": true,
+      "url": "https://example.com/apple",
+      "title": { "ca": "Apple estrena Siri nova", "es": "Apple estrena Siri nueva", "en": "Apple ships new Siri" },
+      "line": { "ca": "Per fi.", "es": "Por fin.", "en": "At last." } },
+    { "id": "2026-42-02", "n": 7, "hot": false, "rumor": false, "date": "2026-10-14", "company": "OpenAI", "category": "models", "is_release": true,
+      "url": "https://example.com/oai",
+      "title": { "ca": "OpenAI actualitza un model", "es": "OpenAI actualiza un modelo", "en": "OpenAI updates a model" },
+      "line": { "ca": "Res de nou.", "es": "Nada nuevo.", "en": "Nothing new." } },
+    { "id": "2026-42-03", "n": 2, "hot": true, "rumor": true, "date": "2026-10-15", "company": "Google", "category": "models", "is_release": false,
+      "url": "https://example.com/g",
+      "title": { "ca": "Google prepara Gemini 4", "es": "Google prepara Gemini 4", "en": "Google is preparing Gemini 4" },
+      "line": { "ca": "Diuen.", "es": "Dicen.", "en": "Allegedly." } },
+    { "id": "2026-42-04", "n": 1, "rumor": true, "date": "2026-10-16", "company": "Meta", "category": "money", "is_release": false,
+      "url": "https://example.com/m",
+      "title": { "ca": "Meta compraria una startup", "es": "Meta compraría una startup", "en": "Meta would buy a startup" },
+      "line": { "ca": "Potser.", "es": "Quizá.", "en": "Maybe." } }
+  ]
+}

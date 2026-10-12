@@ -109,4 +109,13 @@ details.mes[open] > summary .mes-nom::before { content:'▾ '; }
   .rang [data-rang] { display:none; }
   .rang-mobil { display:inline-block; }
 }
+/* Filtre per categoria: una fila de botons sota el títol del mapa; al mòbil, es llisca. */
+.cats { display:flex; gap:6px; margin-top:12px; flex-wrap:wrap; }
+.cat-btn { border:2px solid #000; background:#fff; font-family:inherit; font-weight:800; font-size:11px; padding:3px 8px; cursor:pointer; white-space:nowrap; }
+.cat-btn.on { background:var(--rosa); }
+.mapa:not(.js-on) .cats { display:none; }
+@media (max-width: 600px) { .cats { flex-wrap:nowrap; overflow-x:auto; padding-bottom:4px; } }
+/* «No confirmat»: etiqueta discreta, gris, ni groc d'empresa ni 🔥. */
+.rumor { display:inline-block; font-size:10px; font-weight:700; font-style:italic; color:#444; border:1px dashed #444; padding:0 5px; vertical-align:1px; white-space:nowrap; }
+.autoria { margin-top:14px; font-weight:700; }
 .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
