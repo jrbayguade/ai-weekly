@@ -14,5 +14,5 @@ const titol = `AI Weekly · ${t.setmana(numSetmana(week))}`;
 const descripcio = setmana.items.slice(0, 3).map((i) => i.title[lang]).join(' · ');
 const alternates = LANGS.map((l) => ({ lang: l, url: urlSetmana(l, week) }));
 ---
-<Pagina {lang} setmanes={ss} oberta={week} title={titol} description={descripcio}
+<Pagina {lang} setmanes={ss} oberta={week} permanent title={titol} description={descripcio}
   ogImage={`${BASE}/og/${lang}/${week}.png`} ogAlt={descripcio} url={urlSetmana(lang, week)} {alternates} />

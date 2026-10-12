@@ -18,13 +18,18 @@ a { color: inherit; text-decoration-thickness: 2px; }
 .caixa { background:var(--blanc); border:3px solid var(--negre); box-shadow:6px 6px 0 var(--negre); padding:16px; margin-top:22px; }
 .h { font-family:'Archivo Black',sans-serif; font-size:15px; text-transform:uppercase; margin:0; display:flex; justify-content:space-between; gap:8px; flex-wrap:wrap; }
 .h small { font-family:Inter,sans-serif; font-size:11px; text-transform:none; font-weight:600; }
-details.setmana { background:var(--blanc); border:3px solid var(--negre); margin-top:14px; box-shadow:4px 4px 0 var(--negre); }
-details.setmana > summary { padding:10px 14px; font-weight:900; display:flex; justify-content:space-between; gap:10px; cursor:pointer; list-style:none; flex-wrap:wrap; }
+/* Una setmana: <details> sencer, o (a la permanent d'una altra setmana) un enllaç amb l'aspecte d'una de plegada. */
+.setmana { display:block; background:var(--blanc); border:3px solid var(--negre); margin-top:14px; box-shadow:4px 4px 0 var(--negre); }
+details.setmana > summary, .setmana-resum { padding:10px 14px; font-weight:900; display:flex; justify-content:space-between; gap:10px; cursor:pointer; list-style:none; flex-wrap:wrap; }
+.setmana-resum { text-decoration:none; color:inherit; }
+.setmana-resum:hover .capsal, .setmana-resum:focus-visible .capsal { text-decoration:underline; text-decoration-thickness:2px; }
 details.setmana > summary::-webkit-details-marker { display:none; }
-details.setmana > summary::before { content:'▸ '; }
-details.setmana[open] > summary::before { content:'▾ '; }
+/* La fletxa va dins del títol: mai sola en una línia quan el títol baixa. */
+.capsal::before { content:'▸ '; }
+details.setmana[open] > summary .capsal::before { content:'▾ '; }
 details.setmana[open] > summary { border-bottom:3px solid var(--negre); background:var(--negre); color:var(--groc); }
-details.setmana > summary > span:first-child { flex:1 1 auto; white-space:nowrap; }
+.capsal { flex:1 1 auto; white-space:nowrap; }
+@media (max-width: 400px) { .capsal { white-space:normal; } }
 summary .tease { font-weight:600; font-size:12px; }
 .cos { padding:0 14px 14px; }
 .nota { background:var(--rosa); border:3px solid var(--negre); padding:10px 12px; margin-top:12px; transform:rotate(-.5deg); font-size:15px; white-space:pre-line; }

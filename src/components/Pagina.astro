@@ -6,14 +6,17 @@ import Peu from './Peu.astro';
 import Cronologia from './Cronologia.astro';
 import { empreses } from '../lib/dades.js';
 import { BASE } from '../lib/i18n.js';
-const { lang, setmanes, oberta, title, description, ogImage, ogAlt, url, alternates } = Astro.props;
+// permanent: la pàgina d'una setmana (només aquella amb cos; la resta, en resum). Si no, la portada (totes senceres).
+const { lang, setmanes, oberta, permanent, title, description, ogImage, ogAlt, url, alternates } = Astro.props;
+// A la permanent d'una setmana que no és la més nova, filtre.js hi fa scroll en carregar.
+const obre = permanent && oberta !== setmanes[0]?.week ? oberta : undefined;
 ---
 <Base {lang} {title} {description} {ogImage} {ogAlt} {url} {alternates}>
   <main class="pagina">
     <Capcalera {lang} {alternates} />
-    <Cronologia setmanes={setmanes} empreses={empreses()} {lang} />
-    <div id="setmanes">
-      {setmanes.map((s) => <Setmana setmana={s} {lang} oberta={s.week === oberta} />)}
+    <Cronologia setmanes={setmanes} empreses={empreses()} {lang} propia={permanent ? oberta : undefined} />
+    <div id="setmanes" data-obre={obre}>
+      {setmanes.map((s) => <Setmana setmana={s} {lang} oberta={s.week === oberta} resum={permanent && s.week !== oberta} />)}
     </div>
     <Peu {lang} />
     <script is:inline src={`${BASE}/filtre.js`} defer></script>

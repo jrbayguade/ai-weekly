@@ -1,7 +1,9 @@
 ---
 import { cronologia } from '../lib/cronologia.js';
-import { T } from '../lib/i18n.js';
-const { setmanes, empreses, lang } = Astro.props;
+import { T, urlSetmana } from '../lib/i18n.js';
+// propia: a la permanent d'una setmana, els punts de les ALTRES setmanes enllacen a la seva permanent (aquí no hi tenen cos).
+const { setmanes, empreses, lang, propia } = Astro.props;
+const href = (p) => (propia && p.week !== propia ? `${urlSetmana(lang, p.week)}#${p.id}` : `#${p.id}`);
 const t = T[lang];
 const c = cronologia(setmanes, empreses, lang);
 const n = c.setmanesAsc.length;
@@ -15,7 +17,7 @@ const n = c.setmanesAsc.length;
       <button class="empresa" type="button" data-co={k.name}>{k.name}</button>
       <div class="pista">
         {k.punts.map((p) => (
-          <a class="punt" href={`#${p.id}`} data-week={p.week} data-idx={p.idx} data-t={`${p.title} · ${p.date}`}
+          <a class="punt" href={href(p)} data-week={p.week} data-idx={p.idx} data-t={`${p.title} · ${p.date}`}
              style={`left:calc(${p.x}% - ${p.r}px);width:${2 * p.r}px;height:${2 * p.r}px`}
              aria-label={p.title}></a>
         ))}

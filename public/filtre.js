@@ -1,6 +1,13 @@
 // filtre.js -- la pinça (rang de setmanes), el filtre per empresa i el globus dels punts.
 // Sense JS la pàgina funciona igual, només sense filtre.
 (() => {
+  // A la permanent d'una setmana que no és la més nova: que es vegi la setmana compartida en obrir l'enllaç.
+  const obre = document.getElementById('setmanes')?.dataset.obre;
+  if (obre && !location.hash) {
+    const reduit = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.getElementById(`s-${obre}`)?.scrollIntoView({ behavior: reduit ? 'auto' : 'smooth', block: 'start' });
+  }
+
   const cr = document.querySelector('.cronologia');
   if (!cr) return;
   const setmanes = JSON.parse(cr.dataset.setmanes);
@@ -27,10 +34,11 @@
       b.classList.toggle('on', b.dataset.co === co);
       b.classList.toggle('off', !!co && b.dataset.co !== co);
     });
-    document.querySelectorAll('details.setmana').forEach((d) => {
+    document.querySelectorAll('.setmana[data-week]').forEach((d) => {
       const i = setmanes.indexOf(d.dataset.week);
       const visible = i >= r0 && i < r1;
-      let alguna = false;
+      // Un resum (permanent d'una altra setmana) no té items: diu les seves empreses a data-cos.
+      let alguna = d.dataset.cos !== undefined && (!co || d.dataset.cos.split('|').includes(co));
       d.querySelectorAll('li.item').forEach((li) => {
         const ok = !co || li.dataset.co === co;
         li.hidden = !ok;
