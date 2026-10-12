@@ -37,3 +37,21 @@ export function errorsSetmana(s) {
   }
   return e;
 }
+
+// El mes d'una setmana és el del seu DIJOUS (conveni ISO): així cap setmana es parteix entre dos mesos.
+export function mesDeSetmana(s) {
+  const d = new Date(`${s.from}T12:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + 3);
+  return d.toISOString().slice(0, 7);
+}
+
+// Les setmanes (de la més nova a la més vella) agrupades per mes, del més nou al més vell.
+export function agrupaPerMes(ss) {
+  const mesos = [];
+  for (const s of ss) {
+    const mes = mesDeSetmana(s);
+    if (mesos.at(-1)?.mes !== mes) mesos.push({ mes, setmanes: [] });
+    mesos.at(-1).setmanes.push(s);
+  }
+  return mesos;
+}

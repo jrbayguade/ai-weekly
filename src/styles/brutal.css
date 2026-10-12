@@ -9,6 +9,7 @@
 body { margin:0; background:var(--groc); color:var(--negre); font-family:Inter,system-ui,sans-serif; }
 .pagina { max-width: 980px; margin: 0 auto; padding: 22px 16px 40px; }
 a { color: inherit; text-decoration-thickness: 2px; }
+.logo a { text-decoration:none; }
 .logo { font-family:'Archivo Black',sans-serif; font-weight:400; font-size: clamp(34px, 8vw, 56px); line-height:.9; letter-spacing:-2px; margin:0; }
 .tag { font-family:'JetBrains Mono',monospace; font-size:12px; background:var(--negre); color:var(--groc); display:inline-block; padding:3px 8px; margin-top:6px; }
 .dalt { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; flex-wrap:wrap; }
@@ -45,7 +46,9 @@ li.item.flaix { background:#fff8b0; }
 .item .tx a, .item .tx strong { font-weight:800; }
 .item .tx div { font-size:13px; color:#222; margin-top:2px; }
 .co { font-size:10px; font-weight:800; border:2px solid var(--negre); padding:0 5px; background:var(--groc); white-space:nowrap; }
-.n { font-family:'Archivo Black',sans-serif; font-size:13px; text-align:right; white-space:nowrap; }
+.calent { font-size:13px; }
+.feedback { margin:12px 0 0; text-align:right; font-size:11px; font-weight:700; }
+.tornar-fila { margin:18px 0 0; font-weight:800; }
 .peu { margin-top:28px; font-family:'JetBrains Mono',monospace; font-size:11px; border-top:3px solid var(--negre); padding-top:10px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
 [hidden] { display:none !important; }
 @media (max-width: 600px) {
@@ -53,36 +56,58 @@ li.item.flaix { background:#fff8b0; }
   .setmana .tease { flex-basis:100%; padding-left:1.1em; }
 }
 
-/* Cronologia: Qui ha tret què */
-.carril { display:flex; align-items:center; gap:8px; margin-top:12px; }
-.empresa { width:96px; font-weight:800; font-size:12px; border:2px solid #000; padding:2px 6px; background:#fff; cursor:pointer; font-family:inherit; }
+/* La llista per mesos: un <details> per mes (el del dijous de cada setmana). */
+details.mes { margin-top:22px; }
+details.mes > summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:baseline; gap:10px;
+  font-family:'Archivo Black',sans-serif; font-size:18px; border-bottom:3px solid var(--negre); padding-bottom:3px; }
+details.mes > summary::-webkit-details-marker { display:none; }
+.mes-nom::before { content:'▸ '; }
+details.mes[open] > summary .mes-nom::before { content:'▾ '; }
+.mes-n { font-family:'JetBrains Mono',monospace; font-size:11px; }
+
+/* Mapa de calor: Qui ha tret què (empresa × setmana). */
+.mapa-cap { display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; }
+.llegenda { display:flex; gap:8px; font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:700; }
+.llegenda span { display:flex; align-items:center; gap:3px; }
+.q { display:inline-block; width:12px; height:12px; }
+.mapa-scroll { overflow-x:auto; margin-top:14px; padding:0 8px 4px 0; }
+.graella { --nom:100px; display:grid; grid-template-columns:var(--nom) repeat(var(--n), minmax(16px, 1fr)); row-gap:4px;
+  min-width:calc(var(--nom) + var(--n) * 16px); max-width:calc(var(--nom) + var(--n) * 48px); }
+.empresa { position:sticky; left:0; z-index:2; margin-right:6px; font-weight:800; font-size:11px; border:2px solid #000; padding:0 6px; height:22px;
+  background:#fff; box-shadow:8px 0 0 #fff; cursor:pointer; font-family:inherit; text-align:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .empresa.on { background:var(--rosa); }
 .empresa.off { opacity:.35; }
-.pista { flex:1; height:22px; border-bottom:2px dashed #000; position:relative; }
-.punt { position:absolute; bottom:-8px; border-radius:50%; border:2px solid #000; background:var(--rosa); cursor:pointer; }
-.punt:hover, .punt:focus { background:var(--rosa-fosc); outline:3px solid #000; }
-.punt.apagat { background:#eee; border-color:#aaa; }
-.globus { position:absolute; z-index:5; background:#000; color:var(--groc); font-size:11px; font-weight:700; padding:3px 7px; max-width:180px; text-align:center; pointer-events:none; transform:translate(-50%,-130%); }
-.eix { position:relative; height:16px; margin:10px 0 0 104px; font-size:10px; font-weight:800; }
-.eix span { position:absolute; transform:translateX(-50%); }
-.pinca-fila { margin:6px 0 0 104px; height:26px; border:2px solid #000; position:relative; touch-action:none;
+.nom-buit { position:sticky; left:0; z-index:2; background:#fff; }
+.casella { display:block; height:22px; position:relative; }
+.casella::before, .q { box-sizing:border-box; }
+.casella::before { content:''; position:absolute; inset:0 2px; }
+.n0::before, .q.n0 { background:#f7f7f7; border:1px solid #c8c8c8; }
+.n1::before, .q.n1 { background:#ffc6da; border:2px solid #000; }
+.n2::before, .q.n2 { background:var(--rosa); border:2px solid #000; }
+.n3::before, .q.n3 { background:var(--rosa-fosc); border:2px solid #000; }
+.casella:hover::before, .casella:focus-visible::before { outline:3px solid #000; outline-offset:0; }
+.casella:focus { outline:none; }
+.casella.apagat::before, .casella.off::before { opacity:.2; }
+.mes-mapa { font-size:10px; font-weight:800; padding:2px 0 0 3px; border-left:2px solid #000; white-space:nowrap; overflow:hidden; margin-left:2px; }
+.globus { position:absolute; z-index:5; background:#000; color:var(--groc); font-size:11px; font-weight:700; padding:5px 8px; width:max-content; max-width:280px;
+  pointer-events:none; }
+.globus .g-setmana { font-family:'JetBrains Mono',monospace; font-size:10px; color:#fff; margin-bottom:2px; }
+.globus ul { margin:0; padding:0 0 0 12px; }
+.pinca-fila { grid-column:2 / -1; margin:4px 2px 0; height:26px; border:2px solid #000; position:relative; touch-action:none;
   background:repeating-linear-gradient(45deg,#fff,#fff 4px,#f3f3f3 4px,#f3f3f3 8px); }
 .pinca { position:absolute; top:-2px; bottom:-2px; background:rgba(255,107,157,.55); border:3px solid #000; cursor:grab; touch-action:none; }
 .pinca .ma { position:absolute; top:2px; bottom:2px; width:10px; background:#000; cursor:ew-resize; }
+.pinca .ma::after { content:''; position:absolute; top:-6px; bottom:-6px; left:50%; width:28px; transform:translateX(-50%); }
 .pinca .esq { left:-7px; }
 .pinca .dre { right:-7px; }
 .rang { display:flex; gap:6px; align-items:center; flex-wrap:wrap; margin-top:12px; font-size:12px; font-weight:700; }
 .rang-txt { background:#000; color:var(--groc); padding:2px 8px; }
 .rang-mobil { display:none; border:3px solid #000; font-weight:800; padding:3px; }
+.mapa:not(.js-on) .rang, .mapa:not(.js-on) .pinca-fila { display:none; }
 @media (max-width: 600px) {
-  .empresa { width:72px; font-size:10px; }
-  .eix, .pinca-fila { margin-left:80px; }
+  .graella { --nom:78px; }
+  .empresa { font-size:10px; padding:0 4px; }
   .rang [data-rang] { display:none; }
   .rang-mobil { display:inline-block; }
 }
-
-.cronologia:not(.js-on) .rang, .cronologia:not(.js-on) .pinca-fila { display:none; }
-.globus.sota { transform:translate(-50%,30%); }
-.pinca .ma::after { content:''; position:absolute; top:-6px; bottom:-6px; left:50%; width:28px; transform:translateX(-50%); }
-.cronologia .h + .carril { margin-top:44px; }
 .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }

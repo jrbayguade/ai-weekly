@@ -5,7 +5,11 @@ export const T = {
   ca: {
     nomIdioma: 'Català', seg: 'setmana', about: 'com-es-fa',
     tagline: "KEEP UP WITH IT. OR DON'T. WE DID IT FOR YOU.",
-    setmana: (n) => `SETMANA ${n}`, novetats: (n) => (n === 1 ? '1 novetat' : `${n} novetats`), top: 'top',
+    setmana: (n) => `SETMANA ${n}`,
+    mesos: ['GENER', 'FEBRER', 'MARÇ', 'ABRIL', 'MAIG', 'JUNY', 'JULIOL', 'AGOST', 'SETEMBRE', 'OCTUBRE', 'NOVEMBRE', 'DESEMBRE'],
+    ariaCasella: (co, n, k) => `${co}, setmana ${n}: ${k === 1 ? '1 llançament' : `${k} llançaments`}`,
+    tornar: '← Tornar a les setmanes', suggeriments: 'Suggeriments', noQuadra: 'Alguna cosa no quadra?',
+    titolIssue: (n, week) => `Setmana ${n} (${week})`,
     buit: "Encara no hi ha cap setmana: ens estem llegint les newsletters.",
     nota: "✍️ NOTA DE L'EDITOR", senseNota: "(Sense nota aquesta setmana: l'editor era a la platja.)",
     cats: { models: 'MODELS', products: 'PRODUCTES', money: 'DINERS', research: 'RECERCA', society: 'SOCIETAT I REGULACIÓ' },
@@ -21,13 +25,17 @@ export const T = {
       "Cada setmana llegim unes trenta newsletters d'IA perquè tu no ho hagis de fer.",
       'Un model en treu les notícies, les ajunta quan diverses newsletters parlen del mateix i les tradueix.',
       'El 🔥 marca les notícies de què parlen moltes newsletters alhora.',
-      'Les notícies són factuals i enllacen la font. Les bromes són nostres.',
+      'Les notícies són factuals i enllacen la font. Les bromes són meves.',
     ],
   },
   es: {
     nomIdioma: 'Español', seg: 'semana', about: 'como-se-hace',
     tagline: "KEEP UP WITH IT. OR DON'T. WE DID IT FOR YOU.",
-    setmana: (n) => `SEMANA ${n}`, novetats: (n) => (n === 1 ? '1 novedad' : `${n} novedades`), top: 'top',
+    setmana: (n) => `SEMANA ${n}`,
+    mesos: ['ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO', 'JULIO', 'AGOSTO', 'SEPTIEMBRE', 'OCTUBRE', 'NOVIEMBRE', 'DICIEMBRE'],
+    ariaCasella: (co, n, k) => `${co}, semana ${n}: ${k === 1 ? '1 lanzamiento' : `${k} lanzamientos`}`,
+    tornar: '← Volver a las semanas', suggeriments: 'Sugerencias', noQuadra: '¿Algo no cuadra?',
+    titolIssue: (n, week) => `Semana ${n} (${week})`,
     buit: 'Todavía no hay ninguna semana: aún nos estamos leyendo las newsletters.',
     nota: '✍️ NOTA DEL EDITOR', senseNota: '(Sin nota esta semana: el editor estaba en la playa.)',
     cats: { models: 'MODELOS', products: 'PRODUCTOS', money: 'DINERO', research: 'INVESTIGACIÓN', society: 'SOCIEDAD Y REGULACIÓN' },
@@ -43,13 +51,17 @@ export const T = {
       'Cada semana leemos unas treinta newsletters de IA para que tú no tengas que hacerlo.',
       'Un modelo extrae las noticias, las junta cuando varias newsletters hablan de lo mismo y las traduce.',
       'El 🔥 marca las noticias de las que hablan muchas newsletters a la vez.',
-      'Las noticias son factuales y enlazan la fuente. Los chistes son nuestros.',
+      'Las noticias son factuales y enlazan la fuente. Los chistes son míos.',
     ],
   },
   en: {
     nomIdioma: 'English', seg: 'week', about: 'how-its-made',
     tagline: "KEEP UP WITH IT. OR DON'T. WE DID IT FOR YOU.",
-    setmana: (n) => `WEEK ${n}`, novetats: (n) => (n === 1 ? '1 story' : `${n} stories`), top: 'top',
+    setmana: (n) => `WEEK ${n}`,
+    mesos: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],
+    ariaCasella: (co, n, k) => `${co}, week ${n}: ${k === 1 ? '1 release' : `${k} releases`}`,
+    tornar: '← Back to the weeks', suggeriments: 'Feedback', noQuadra: 'Something off?',
+    titolIssue: (n, week) => `Week ${n} (${week})`,
     buit: "No weeks yet: we're still reading the newsletters.",
     nota: "✍️ EDITOR'S NOTE", senseNota: '(No note this week: the editor was at the beach.)',
     cats: { models: 'MODELS', products: 'PRODUCTS', money: 'MONEY', research: 'RESEARCH', society: 'SOCIETY & POLICY' },
@@ -65,7 +77,7 @@ export const T = {
       'Every week we read about thirty AI newsletters so you do not have to.',
       'A model extracts the stories, merges them when several newsletters cover the same thing, and translates them.',
       'The 🔥 marks the stories that many newsletters are covering at once.',
-      'Stories are factual and link to the source. The jokes are ours.',
+      'Stories are factual and link to the source. The jokes are mine.',
     ],
   },
 };
@@ -77,6 +89,8 @@ export const urlInici = (lang) => `${BASE}/${lang}/`;
 export const urlSetmana = (lang, week) => `${BASE}/${lang}/${T[lang].seg}/${week}/`;
 export const urlAbout = (lang) => `${BASE}/${lang}/${T[lang].about}/`;
 export const numSetmana = (week) => String(parseInt(week.split('-')[1], 10));
+// «OCTUBRE 2026» a partir de «2026-10».
+export const nomMes = (mes, lang) => `${T[lang].mesos[parseInt(mes.slice(5), 10) - 1]} ${mes.slice(0, 4)}`;
 export const segell = (lang, week) => T[lang].segells[parseInt(week.split('-')[1], 10) % T[lang].segells.length];
 
 export function dataCurta(iso, lang) {
@@ -103,3 +117,9 @@ export function idiomaPreferit(llista) {
   }
   return 'en';
 }
+
+// El canal de feedback: GitHub Issues (cap adreça de correu a la web).
+export const ISSUES = 'https://github.com/jrbayguade/ai-weekly/issues';
+// Un issue nou amb el formulari de feedback, el títol i el camp «Setmana» ja omplerts.
+export const urlIssue = (lang, week) =>
+  `${ISSUES}/new?template=feedback.yml&title=${encodeURIComponent(T[lang].titolIssue(numSetmana(week), week))}&setmana=${week}`;

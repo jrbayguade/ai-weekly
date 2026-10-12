@@ -1,25 +1,26 @@
 ---
-import { T, LLINDAR_CALENT, numSetmana, rangSetmana, urlSetmana } from '../lib/i18n.js';
+import { T, LLINDAR_CALENT, numSetmana, rangSetmana, urlSetmana, urlIssue } from '../lib/i18n.js';
 import { CATEGORIES } from '../lib/dades.js';
 // resum: només la capçalera, com un enllaç a la seva permanent (les pàgines permanents no porten el cos de les altres).
 const { setmana: s, lang, oberta, resum } = Astro.props;
 const t = T[lang];
-// De més a menys newsletters que en parlen (com al mockup): el primer és el «top».
+// De més a menys newsletters que en parlen (com al mockup): la primera és la principal.
 const ordenats = [...s.items].sort((a, b) => b.n - a.n);
 const top = ordenats[0];
 // Les empreses que hi surten, perquè el filtre amagui o ensenyi el resum com faria amb la setmana sencera.
 const cos = [...new Set(s.items.map((i) => i.company))].join('|');
+const capsal = `${t.setmana(numSetmana(s.week))} · ${rangSetmana(s.from, s.to, lang)}`;
 ---
 {resum ? (
 <a class="setmana setmana-resum" data-week={s.week} data-cos={cos} id={`s-${s.week}`} href={urlSetmana(lang, s.week)}>
-  <span class="capsal">{t.setmana(numSetmana(s.week))} · {rangSetmana(s.from, s.to, lang)}</span>
-  <span class="tease">{t.novetats(s.items.length)}{top && ` · ${t.top}: ${top.title[lang]}`}</span>
+  <span class="capsal">{capsal}</span>
+  {top && <span class="tease">{top.title[lang]}</span>}
 </a>
 ) : (
 <details class="setmana" data-week={s.week} id={`s-${s.week}`} open={oberta}>
   <summary>
-    <span class="capsal">{t.setmana(numSetmana(s.week))} · {rangSetmana(s.from, s.to, lang)}</span>
-    <span class="tease">{t.novetats(s.items.length)}{top && ` · ${t.top}: ${top.title[lang]}`}</span>
+    <span class="capsal">{capsal}</span>
+    {top && <span class="tease">{top.title[lang]}</span>}
   </summary>
   <div class="cos">
     {s.note
@@ -34,18 +35,13 @@ const cos = [...new Set(s.items.map((i) => i.company))].join('|');
           <ul class="items">
             {its.map((i) => (
               <li class="item" data-co={i.company} id={i.id}>
-                <div class="tx">
-                  {i.url ? <a href={i.url} rel="noopener nofollow" target="_blank">{i.title[lang]}</a> : <strong>{i.title[lang]}</strong>}
-                  <div>{i.line[lang]}</div>
-                </div>
-                {i.company !== 'Other' && <span class="co">{i.company}</span>}
-                <span class="n">{i.n >= LLINDAR_CALENT && <><span aria-hidden="true">🔥</span><span class="sr-only">{t.calent}</span></>}</span>
-              </li>
+                <div class="tx">{i.n >= LLINDAR_CALENT && <span class="calent"><span aria-hidden="true">🔥</span><span class="sr-only">{t.calent}</span></span>}{i.n >= LLINDAR_CALENT && ' '}{i.url ? <a href={i.url} rel="noopener nofollow" target="_blank">{i.title[lang]}</a> : <strong>{i.title[lang]}</strong>}<div>{i.line[lang]}</div></div>{i.company !== 'Other' && <span class="co">{i.company}</span>}</li>
             ))}
           </ul>
         </section>
       );
     })}
+    <p class="feedback"><a class="no-quadra" href={urlIssue(lang, s.week)} rel="noopener" target="_blank">{t.noQuadra}</a></p>
   </div>
 </details>
 )}

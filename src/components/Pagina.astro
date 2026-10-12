@@ -3,21 +3,30 @@ import Base from '../layouts/Base.astro';
 import Capcalera from './Capcalera.astro';
 import Setmana from './Setmana.astro';
 import Peu from './Peu.astro';
-import Cronologia from './Cronologia.astro';
-import { empreses } from '../lib/dades.js';
-import { BASE, T } from '../lib/i18n.js';
+import Mapa from './Mapa.astro';
+import { empreses, agrupaPerMes, mesDeSetmana } from '../lib/dades.js';
+import { BASE, T, nomMes } from '../lib/i18n.js';
 // permanent: la pàgina d'una setmana (només aquella amb cos; la resta, en resum). Si no, la portada (totes senceres).
 const { lang, setmanes, oberta, permanent, title, description, ogImage, ogAlt, url, alternates } = Astro.props;
 // A la permanent d'una setmana que no és la més nova, filtre.js hi fa scroll en carregar.
 const obre = permanent && oberta !== setmanes[0]?.week ? oberta : undefined;
+// La llista, per mesos (el del dijous de cada setmana): obert el de la setmana oberta, la resta plegats.
+const grups = agrupaPerMes(setmanes);
+const objectiu = setmanes.find((s) => s.week === oberta);
+const mesObert = objectiu ? mesDeSetmana(objectiu) : undefined;
 ---
 <Base {lang} {title} {description} {ogImage} {ogAlt} {url} {alternates}>
   <main class="pagina">
     <Capcalera {lang} {alternates} />
-    <Cronologia setmanes={setmanes} empreses={empreses()} {lang} propia={permanent ? oberta : undefined} />
+    <Mapa setmanes={setmanes} empreses={empreses()} {lang} propia={permanent ? oberta : undefined} />
     <div id="setmanes" data-obre={obre}>
       {setmanes.length === 0 && <p class="buit">{T[lang].buit}</p>}
-      {setmanes.map((s) => <Setmana setmana={s} {lang} oberta={s.week === oberta} resum={permanent && s.week !== oberta} />)}
+      {grups.map((g) => (
+        <details class="mes" data-mes={g.mes} open={g.mes === mesObert}>
+          <summary><span class="mes-nom">{nomMes(g.mes, lang)}</span><small class="mes-n"><span aria-hidden="true">{g.setmanes.length}</span><span class="sr-only">{T[lang].setmanes(g.setmanes.length)}</span></small></summary>
+          {g.setmanes.map((s) => <Setmana setmana={s} {lang} oberta={s.week === oberta} resum={permanent && s.week !== oberta} />)}
+        </details>
+      ))}
     </div>
     <Peu {lang} />
     <script is:inline src={`${BASE}/filtre.js`} defer></script>
