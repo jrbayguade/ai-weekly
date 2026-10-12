@@ -32,6 +32,7 @@ details.setmana[open] > summary { border-bottom:3px solid var(--negre); backgrou
 @media (max-width: 400px) { .capsal { white-space:normal; } }
 summary .tease { font-weight:600; font-size:12px; }
 .cos { padding:0 14px 14px; }
+.buit { font-weight:800; margin-top:22px; }
 .nota { background:var(--rosa); border:3px solid var(--negre); padding:10px 12px; margin-top:12px; transform:rotate(-.5deg); font-size:15px; white-space:pre-line; }
 .nota b { font-family:'Archivo Black',sans-serif; font-size:11px; display:block; margin-bottom:3px; }
 .sense-nota { font-size:12px; margin-top:10px; font-style:italic; }

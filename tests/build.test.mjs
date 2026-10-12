@@ -74,3 +74,17 @@ test('cada pàgina té hreflang x-default cap a la seva versió anglesa', () => 
   hi(llegeix('es/semana/2026-40/index.html'), new RegExp(`hreflang="x-default" href="${W}/en/week/2026-40/"`));
   hi(llegeix('ca/com-es-fa/index.html'), new RegExp(`hreflang="x-default" href="${W}/en/how-its-made/"`));
 });
+
+test('la portada sense setmanes diu una línia d’estat buit en cada idioma', async () => {
+  const { T } = await import('../src/lib/i18n.js');
+  const dades = path.join(tmp, 'dades-buides');
+  fs.mkdirSync(path.join(dades, 'weeks'), { recursive: true });
+  fs.copyFileSync(path.join(arrel, 'tests/fixtures/data/empreses.json'), path.join(dades, 'empreses.json'));
+  const buida = construeix(dades, 'buida');
+  for (const l of ['ca', 'es', 'en']) {
+    const html = buida(`${l}/index.html`);
+    const linia = `<p class="buit">${T[l].buit.replace(/'/g, '&#39;')}</p>`;
+    assert.ok(html.includes(linia), `${l}: falta ${linia}`);
+  }
+  no(llegeix('ca/index.html'), /class="buit"/);
+});
