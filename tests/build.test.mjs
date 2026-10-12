@@ -56,3 +56,21 @@ test('la portada continua amb totes les setmanes senceres', () => {
     no(html, /setmana-resum/);
   }
 });
+
+test('l’arrel porta description, canonical, og:url, og:description i hreflang (amb x-default)', () => {
+  const html = llegeix('index.html');
+  const W = 'https://jrbayguade.github.io/ai-weekly';
+  hi(html, /<meta name="description" content="[^"]+"/);
+  hi(html, /<meta property="og:description" content="[^"]+"/);
+  hi(html, new RegExp(`<link rel="canonical" href="${W}/"`));
+  hi(html, new RegExp(`<meta property="og:url" content="${W}/"`));
+  for (const l of ['ca', 'es', 'en']) hi(html, new RegExp(`<link rel="alternate" hreflang="${l}" href="${W}/${l}/"`));
+  hi(html, new RegExp(`<link rel="alternate" hreflang="x-default" href="${W}/en/"`));
+});
+
+test('cada pàgina té hreflang x-default cap a la seva versió anglesa', () => {
+  const W = 'https://jrbayguade.github.io/ai-weekly';
+  hi(llegeix('ca/index.html'), new RegExp(`hreflang="x-default" href="${W}/en/"`));
+  hi(llegeix('es/semana/2026-40/index.html'), new RegExp(`hreflang="x-default" href="${W}/en/week/2026-40/"`));
+  hi(llegeix('ca/com-es-fa/index.html'), new RegExp(`hreflang="x-default" href="${W}/en/how-its-made/"`));
+});

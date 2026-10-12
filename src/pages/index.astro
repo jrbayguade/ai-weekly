@@ -1,10 +1,20 @@
 ---
-import { BASE } from '../lib/i18n.js';
+import { BASE, T, LANGS, urlInici } from '../lib/i18n.js';
+const abs = (p) => new URL(p, Astro.site).toString();
+const descripcio = T.en.aboutText[0];
 ---
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>AI Weekly</title>
+<meta name="description" content={descripcio} />
+<link rel="canonical" href={abs(`${BASE}/`)} />
+{LANGS.map((l) => <link rel="alternate" hreflang={l} href={abs(urlInici(l))} />)}
+<link rel="alternate" hreflang="x-default" href={abs(urlInici('en'))} />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AI Weekly" />
 <meta property="og:title" content="AI Weekly — keep up with it" />
+<meta property="og:description" content={descripcio} />
+<meta property="og:url" content={abs(`${BASE}/`)} />
 <meta property="og:image" content={new URL(`${BASE}/og/default.png`, Astro.site).toString()} />
 <meta name="twitter:card" content="summary_large_image" />
 <script>
