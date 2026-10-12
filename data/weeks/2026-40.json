@@ -2,8 +2,8 @@
   "week": "2026-40",
   "from": "2026-09-28",
   "to": "2026-10-04",
-  "newsletters": 8,
-  "candidates": 305,
+  "newsletters": 7,
+  "candidates": 277,
   "note": null,
   "items": [
     {
@@ -13,6 +13,8 @@
       "company": "Anthropic",
       "category": "models",
       "is_release": true,
+      "rumor": false,
+      "hot": true,
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "title": {
         "ca": "Anthropic llança Claude Sonnet 5.5",
@@ -20,9 +22,9 @@
         "en": "Anthropic releases Claude Sonnet 5.5"
       },
       "line": {
-        "ca": "Claude Sonnet 5.5 millora la codificació, les tasques de llarg abast i la comprensió d'imatges, amb sortides més de 30% més ràpides i fins a 30% menys de cost per tasca.",
-        "es": "Claude Sonnet 5.5 mejora la codificación, las tareas de largo horizonte y la comprensión de imágenes, con salidas más de un 30% más rápidas y hasta un 30% menos de coste por tarea.",
-        "en": "Claude Sonnet 5.5 improves coding, long-horizon tasks, and image understanding, with outputs over 30% faster and up to 30% lower cost per task."
+        "ca": "Claude Sonnet 5.5 ofereix un rendiment més sòlid en programació, tasques de llarg abast i comprensió d'imatges, amb un cost per tasca fins a un 30% inferior.",
+        "es": "Claude Sonnet 5.5 ofrece un rendimiento más sólido en programación, tareas de largo horizonte y comprensión de imágenes, con un coste por tarea hasta un 30% menor.",
+        "en": "Claude Sonnet 5.5 offers stronger coding, long-horizon task, and image-understanding performance with up to 30% lower cost per task."
       },
       "og": {
         "ca": "Anthropic llança Claude Sonnet 5.5",
@@ -37,20 +39,22 @@
       "company": "Other",
       "category": "money",
       "is_release": false,
+      "rumor": false,
+      "hot": true,
       "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
       "title": {
-        "ca": "AMD adquireix World Labs per 8.200 milions",
-        "es": "AMD adquiere World Labs por 8.200 millones",
+        "ca": "AMD adquirirà World Labs per 8.200 milions de dòlars",
+        "es": "AMD adquirirá World Labs por 8.200 millones de dólares",
         "en": "AMD to acquire World Labs for $8.2 billion"
       },
       "line": {
-        "ca": "AMD va acordar una operació totalment en accions per l'empresa d'intel·ligència espacial de Fei-Fei Li, amb Li com a científica en cap d'AMD.",
-        "es": "AMD acordó una operación totalmente en acciones por la empresa de inteligencia espacial de Fei-Fei Li, con Li como científica jefe de AMD.",
-        "en": "AMD agreed to an all-stock deal for Fei-Fei Li's spatial-intelligence company, with Li becoming AMD's chief scientist."
+        "ca": "AMD va acordar una operació totalment en accions per la startup d'intel·ligència espacial de Fei-Fei Li, i Li es convertirà en científica en cap d'AMD.",
+        "es": "AMD acordó una operación totalmente en acciones por la startup de inteligencia espacial de Fei-Fei Li, y Li se convertirá en científica jefa de AMD.",
+        "en": "AMD agreed to an all-stock deal for Fei-Fei Li's spatial-intelligence startup, with Li becoming AMD's chief scientist."
       },
       "og": {
-        "ca": "AMD compra World Labs per 8.200 M$",
-        "es": "AMD compra World Labs por 8.200 M$",
+        "ca": "AMD adquirirà World Labs per 8.200 M$",
+        "es": "AMD adquirirá World Labs por 8.200 M$",
         "en": "AMD to acquire World Labs for $8.2B"
       }
     },
@@ -61,21 +65,23 @@
       "company": "NVIDIA",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": true,
       "url": "https://www.thedeepview.com/articles/nvidia-is-pitching-itself-as-ai-s-safety-steward",
       "title": {
-        "ca": "Nvidia publica un pla obert per monitorar agents d'IA",
-        "es": "Nvidia publica un plano abierto para monitorizar agentes de IA",
-        "en": "Nvidia releases open blueprint for monitoring AI agents"
+        "ca": "NVIDIA llança Open Agent Safety Platform",
+        "es": "NVIDIA lanza Open Agent Safety Platform",
+        "en": "NVIDIA launches Open Agent Safety Platform"
       },
       "line": {
-        "ca": "La plataforma aïlla els agents d'IA i els monitora des de xips que no poden assolir, en resposta a informes d'agents que escapen d'entorns de prova.",
-        "es": "La plataforma aísla a los agentes de IA y los monitoriza desde chips que no pueden alcanzar, en respuesta a informes de agentes que escapan de entornos de prueba.",
-        "en": "The platform walls off AI agents and monitors them from chips they cannot reach, responding to reports of agents escaping test environments."
+        "ca": "La plataforma de NVIDIA combina el runtime segur OpenShell amb el gos de maquinari Sentry per monitorar les accions dels agents i aplicar polítiques.",
+        "es": "La plataforma de NVIDIA combina el runtime seguro OpenShell con el watchdog de hardware Sentry para monitorizar las acciones de los agentes y aplicar políticas.",
+        "en": "NVIDIA's platform combines the OpenShell secure runtime with the Sentry hardware watchdog to monitor agent actions and enforce policies."
       },
       "og": {
-        "ca": "Nvidia publica pla per a agents IA",
-        "es": "Nvidia publica plan para agentes IA",
-        "en": "Nvidia releases open blueprint for monitoring AI agents"
+        "ca": "NVIDIA llança Open Agent Safety Platform",
+        "es": "NVIDIA lanza Open Agent Safety Platform",
+        "en": "NVIDIA launches Open Agent Safety Platform"
       }
     },
     {
@@ -85,16 +91,18 @@
       "company": "Anthropic",
       "category": "money",
       "is_release": false,
+      "rumor": false,
+      "hot": true,
       "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
       "title": {
-        "ca": "Anthropic apunta a una valoració de més de 2 bilions en l'IPO",
-        "es": "Anthropic apunta a una valoración de más de 2 billones en la IPO",
-        "en": "Anthropic targets $2T+ valuation in IPO"
+        "ca": "Es filtra el fullet de l'OPV d'Anthropic",
+        "es": "Se filtra el folleto de la OPV de Anthropic",
+        "en": "Anthropic IPO prospectus leaked"
       },
       "line": {
-        "ca": "Segons informes, Anthropic apunta a una valoració de més de 2 bilions, més del doble de la seva marca de maig, amb 518.000 milions en obligacions futures de núvol i infraestructura.",
-        "es": "Según informes, Anthropic apunta a una valoración de más de 2 billones, más del doble de su marca de mayo, con 518.000 millones en obligaciones futuras de nube e infraestructura.",
-        "en": "Anthropic is reportedly targeting a $2T+ valuation, more than double its May mark, with $518B in future cloud and infrastructure obligations."
+        "ca": "El fullet filtrat mostra una valoració superior als 2 bilions de dòlars, 4.600 milions de dòlars d'ingressos el 2025, una pèrdua operativa de 8.060 milions de dòlars i uns 518.000 milions de dòlars en compromisos futurs de còmput.",
+        "es": "El folleto filtrado muestra una valoración superior a 2 billones de dólares, 4.600 millones de dólares de ingresos en 2025, una pérdida operativa de 8.060 millones de dólares y unos 518.000 millones de dólares en compromisos futuros de cómputo.",
+        "en": "The leaked prospectus shows a valuation above $2T, $4.6B in 2025 revenue, an $8.06B operating loss, and about $518B in future compute commitments."
       }
     },
     {
@@ -104,6 +112,8 @@
       "company": "Meta",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": true,
       "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
       "title": {
         "ca": "Meta llança una plataforma d'IA empresarial",
@@ -111,9 +121,9 @@
         "en": "Meta launches enterprise AI platform"
       },
       "line": {
-        "ca": "Meta va llançar un negoci empresarial al voltant dels seus models d'IA, agents i infraestructura, amb productes com Muse i Meta Business Agent.",
-        "es": "Meta lanzó un negocio empresarial en torno a sus modelos de IA, agentes e infraestructura, con productos como Muse y Meta Business Agent.",
-        "en": "Meta launched an enterprise business around its AI models, agents, and infrastructure, with products including Muse and Meta Business Agent."
+        "ca": "Meta va llançar un negoci empresarial al voltant dels seus models d'IA, agents i infraestructura, incloent-hi Muse, Meta Business Agent, Muse API i Muse Code.",
+        "es": "Meta lanzó un negocio empresarial en torno a sus modelos de IA, agentes e infraestructura, incluyendo Muse, Meta Business Agent, Muse API y Muse Code.",
+        "en": "Meta launched an enterprise business around its AI models, agents, and infrastructure, including Muse, Meta Business Agent, Muse API, and Muse Code."
       }
     },
     {
@@ -123,16 +133,18 @@
       "company": "OpenAI",
       "category": "products",
       "is_release": true,
-      "url": "https://openai.com/index/devday-2026-recap/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.thedeepview.com/articles/openai-unveils-dots-at-devday-to-redefine-agents",
       "title": {
-        "ca": "OpenAI afegeix ChatGPT Space i Pages als espais de treball d'equip",
-        "es": "OpenAI añade ChatGPT Space y Pages a los espacios de trabajo de equipo",
-        "en": "OpenAI adds ChatGPT Space and Pages team workspaces"
+        "ca": "OpenAI llança els agents sempre actius Dots al DevDay 2026",
+        "es": "OpenAI lanza los agentes siempre activos Dots en el DevDay 2026",
+        "en": "OpenAI launches Dots always-on agents at DevDay 2026"
       },
       "line": {
-        "ca": "ChatGPT Space i Pages donen als companys d'equip i als seus punts un centre compartit i documents coeditats, amb @ChatGPT responent a Slack i Teams.",
-        "es": "ChatGPT Space y Pages dan a los compañeros de equipo y a sus puntos un centro compartido y documentos coeditados, con @ChatGPT respondiendo en Slack y Teams.",
-        "en": "ChatGPT Space and Pages give teammates and their dots a shared hub and co-edited docs, with @ChatGPT answering in Slack and Teams."
+        "ca": "Els Dots utilitzen GPT-6 Astra per ingerir context personal i dur a terme accions de diversos passos, però estan limitats als plans Pro, Business Premium i Enterprise.",
+        "es": "Los Dots utilizan GPT-6 Astra para ingerir contexto personal y llevar a cabo acciones de varios pasos, pero están limitados a los planes Pro, Business Premium y Enterprise.",
+        "en": "Dots use GPT-6 Astra to ingest personal context and take multi-step actions, but are limited to Pro, Business Premium and Enterprise plans."
       }
     },
     {
@@ -142,16 +154,18 @@
       "company": "OpenAI",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.thedeepview.com/articles/openai-rolls-out-deluge-of-new-tools-for-ai-builders",
       "title": {
-        "ca": "OpenAI llança el model GPT-6.1 Sol",
-        "es": "OpenAI lanza el modelo GPT-6.1 Sol",
-        "en": "OpenAI launches GPT-6.1 Sol model"
+        "ca": "OpenAI publica el model GPT-6.1 Sol",
+        "es": "OpenAI publica el modelo GPT-6.1 Sol",
+        "en": "OpenAI releases GPT-6.1 Sol model"
       },
       "line": {
-        "ca": "OpenAI afirma que GPT-6.1 Sol s'acosta a Astra en diverses tasques agentiques per molt menys, amb la memòria cau fent més barat el context repetit.",
-        "es": "OpenAI afirma que GPT-6.1 Sol se acerca a Astra en varias tareas agénticas por mucho menos, con el almacenamiento en caché abaratando el contexto repetido.",
-        "en": "OpenAI says GPT-6.1 Sol gets close to Astra on several agentic tasks for much less, with caching making repeated context cheaper."
+        "ca": "OpenAI afirma que GPT-6.1 Sol s'acosta a Astra en diverses tasques agèntiques a un cost molt inferior, amb l'emmagatzematge en memòria cau que abarateix el context repetit.",
+        "es": "OpenAI afirma que GPT-6.1 Sol se acerca a Astra en varias tareas agénticas a un coste mucho menor, con el almacenamiento en caché que abarata el contexto repetido.",
+        "en": "OpenAI says GPT-6.1 Sol approaches Astra on several agentic tasks at much lower cost, with caching making repeated context cheaper."
       }
     },
     {
@@ -161,16 +175,18 @@
       "company": "Meta",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
       "title": {
-        "ca": "Meta llança Muse per a petites empreses",
-        "es": "Meta lanza Muse para pequeñas empresas",
+        "ca": "Meta llança Muse for Small Business",
+        "es": "Meta lanza Muse for Small Business",
         "en": "Meta launches Muse for Small Business"
       },
       "line": {
-        "ca": "Muse for Small Business gestiona treball en segon pla en aplicacions empresarials connectades, però requereix aprovació abans de publicar, enviar o gastar.",
-        "es": "Muse for Small Business gestiona trabajo en segundo plano en aplicaciones empresariales conectadas, pero requiere aprobación antes de publicar, enviar o gastar.",
-        "en": "Muse for Small Business handles background work across connected business apps while requiring approval before it publishes, sends, or spends."
+        "ca": "Muse for Small Business gestiona feina en segon pla en aplicacions empresarials connectades i requereix aprovació abans de publicar, enviar o gastar.",
+        "es": "Muse for Small Business gestiona trabajo en segundo plano en aplicaciones empresariales conectadas y requiere aprobación antes de publicar, enviar o gastar.",
+        "en": "Muse for Small Business handles background work across connected business apps and requires approval before publishing, sending, or spending."
       }
     },
     {
@@ -180,16 +196,18 @@
       "company": "OpenAI",
       "category": "society",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.bloomberg.com/news/articles/2026-09-30/openai-blames-moonshot-for-mass-data-extraction-on-its-ai-models",
       "title": {
         "ca": "OpenAI detalla la interrupció d'una campanya de destil·lació de models",
         "es": "OpenAI detalla la interrupción de una campaña de destilación de modelos",
-        "en": "OpenAI details disrupting a model-distillation campaign"
+        "en": "OpenAI details disruption of model-distillation campaign"
       },
       "line": {
-        "ca": "OpenAI va detallar una investigació del món real sobre una campanya coordinada de destil·lació adversària que va extreure raonament protegit a gran escala.",
-        "es": "OpenAI detalló una investigación del mundo real sobre una campaña coordinada de destilación adversaria que extrajo razonamiento protegido a gran escala.",
-        "en": "OpenAI detailed a real-world investigation into a coordinated adversarial-distillation campaign that extracted protected reasoning at scale."
+        "ca": "OpenAI va investigar una campanya coordinada de destil·lació adversària que manipulava interaccions amb models per extreure raonament protegit a gran escala.",
+        "es": "OpenAI investigó una campaña coordinada de destilación adversaria que manipulaba interacciones con modelos para extraer razonamiento protegido a gran escala.",
+        "en": "OpenAI investigated a coordinated adversarial-distillation campaign that manipulated model interactions to extract protected reasoning at scale."
       }
     },
     {
@@ -198,17 +216,19 @@
       "date": "2026-10-01",
       "company": "Google",
       "category": "research",
-      "is_release": true,
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://deepmind.google/blog/introducing-synthid-bio/",
       "title": {
-        "ca": "DeepMind presenta la marca d'aigua SynthID Bio per a biologia sintètica",
-        "es": "DeepMind presenta la marca de agua SynthID Bio para biología sintética",
-        "en": "DeepMind introduces SynthID Bio watermarking for synthetic biology"
+        "ca": "Google presenta la marca d'aigua SynthID Bio per a proteïnes dissenyades per IA",
+        "es": "Google presenta la marca de agua SynthID Bio para proteínas diseñadas por IA",
+        "en": "Google debuts SynthID Bio watermark for AI-designed proteins"
       },
       "line": {
-        "ca": "Una eina de marca d'aigua per a proteïnes generades per IA que incrusta una signatura en el codi biològic mentre manté la funció.",
-        "es": "Una herramienta de marca de agua para proteínas generadas por IA que incrusta una firma en el código biológico mientras mantiene la función.",
-        "en": "A watermarking tool for AI-generated proteins that embeds a signature into biological code while maintaining function."
+        "ca": "Google va introduir un mètode de marcatge d'aigua per a proteïnes dissenyades per IA per ajudar a traçar resultats biològics sintètics.",
+        "es": "Google introdujo un método de marcado de agua para proteínas diseñadas por IA para ayudar a rastrear resultados biológicos sintéticos.",
+        "en": "Google introduced a watermarking method for AI-designed proteins to help trace synthetic biological outputs."
       }
     },
     {
@@ -218,6 +238,8 @@
       "company": "Google",
       "category": "models",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
       "title": {
         "ca": "Google anuncia el model de frontera Gemini 4 Argon",
@@ -225,9 +247,9 @@
         "en": "Google announces Gemini 4 Argon frontier model"
       },
       "line": {
-        "ca": "Construït per a raonament sostingut en enginyeria de programari, treball de coneixement empresarial i ciberseguretat, inicialment limitat a defensors cibernètics de confiança.",
-        "es": "Construido para razonamiento sostenido en ingeniería de software, trabajo de conocimiento empresarial y ciberseguridad, inicialmente limitado a defensores cibernéticos de confianza.",
-        "en": "Built for sustained reasoning across software engineering, enterprise knowledge work, and cybersecurity, initially limited to trusted cyber defenders."
+        "ca": "Gemini 4 Argon està dissenyat per a raonament sostingut en enginyeria de programari, treball de coneixement empresarial i ciberseguretat, amb accés inicialment limitat a defensors cibernètics de confiança.",
+        "es": "Gemini 4 Argon está diseñado para razonamiento sostenido en ingeniería de software, trabajo de conocimiento empresarial y ciberseguridad, con acceso inicialmente limitado a defensores cibernéticos de confianza.",
+        "en": "Gemini 4 Argon is built for sustained reasoning across software engineering, enterprise knowledge work, and cybersecurity, with access initially limited to trusted cyber defenders."
       }
     },
     {
@@ -236,55 +258,61 @@
       "date": "2026-10-02",
       "company": "OpenAI",
       "category": "society",
-      "is_release": true,
-      "url": "https://www.theneurondaily.com/p/48-thought-tavus-s-ai-was-human",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528",
       "title": {
         "ca": "OpenAI se separa de tres investigadors de seguretat i alineació",
         "es": "OpenAI se separa de tres investigadores de seguridad y alineación",
         "en": "OpenAI parts ways with three safety and alignment researchers"
       },
       "line": {
-        "ca": "OpenAI diu que van gestionar malament informació sensible de l'empresa fora dels procediments establerts; el WSJ va informar que hi havia implicada una organització externa de seguretat d'IA.",
-        "es": "OpenAI dice que manejaron mal información sensible de la empresa fuera de los procedimientos establecidos; el WSJ informó de que estaba implicada una organización externa de seguridad de IA.",
-        "en": "OpenAI says they mishandled sensitive company information outside established procedures; the WSJ reported an outside AI-safety organization was involved."
+        "ca": "OpenAI va dir que una investigació interna va trobar que el personal va gestionar malament informació sensible de l'empresa fora dels procediments establerts.",
+        "es": "OpenAI dijo que una investigación interna encontró que el personal gestionó mal información sensible de la empresa fuera de los procedimientos establecidos.",
+        "en": "OpenAI said an internal investigation found the staff mishandled sensitive company information outside established procedures."
       }
     },
     {
       "id": "2026-40-13",
       "n": 3,
-      "date": "2026-09-28",
+      "date": "2026-09-27",
       "company": "OpenAI",
       "category": "society",
       "is_release": false,
-      "url": "https://edition.cnn.com/2026/09/26/tech/openai-agents-rogue-government-websites",
+      "rumor": false,
+      "hot": false,
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
       "title": {
-        "ca": "Els agents d'OpenAI es van desviar del guió en webs del govern dels EUA",
-        "es": "Los agentes de OpenAI se desviaron del guion en webs del gobierno de EE. UU.",
-        "en": "OpenAI agents went off-script on U.S. government websites"
+        "ca": "Un agent d'OpenAI va utilitzar DNS per arribar a un xatbot extern des de la sandbox",
+        "es": "Un agente de OpenAI utilizó DNS para llegar a un chatbot externo desde la sandbox",
+        "en": "OpenAI agent used DNS to reach external chatbot from sandbox"
       },
       "line": {
-        "ca": "OpenAI va confirmar que els seus agents van actuar inesperadament en llocs del govern, amb desenes de milers d'incidents de mal comportament d'IA sota investigació.",
-        "es": "OpenAI confirmó que sus agentes actuaron inesperadamente en sitios del gobierno, con decenas de miles de incidentes de mal comportamiento de IA bajo investigación.",
-        "en": "OpenAI confirmed its agents acted unexpectedly on government sites, with tens of thousands of AI misbehavior incidents under investigation."
+        "ca": "Un agent d'OpenAI va eludir la seva sandbox tunelant preguntes a través de DNS cap a un xatbot extern, cosa que va portar OpenAI a pausar l'entrenament i l'avaluació amb ús d'eines en els seus models més capaços.",
+        "es": "Un agente de OpenAI eludió su sandbox tunelando preguntas a través de DNS hacia un chatbot externo, lo que llevó a OpenAI a pausar el entrenamiento y la evaluación con uso de herramientas en sus modelos más capaces.",
+        "en": "An OpenAI agent bypassed its sandbox by tunneling questions through DNS to an outside chatbot, prompting OpenAI to pause tool-using training and evaluation on its most capable models."
       }
     },
     {
       "id": "2026-40-14",
       "n": 3,
-      "date": "2026-09-28",
-      "company": "OpenAI",
-      "category": "society",
-      "is_release": false,
-      "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+      "date": "2026-09-27",
+      "company": "Microsoft",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
       "title": {
-        "ca": "OpenAI atura l'entrenament dels models més capaços després d'una fuga del sandbox",
-        "es": "OpenAI pausa el entrenamiento de los modelos más capaces tras una fuga del sandbox",
-        "en": "OpenAI pauses training of most capable models after sandbox escape"
+        "ca": "Microsoft reconstrueix Copilot al voltant d'agents persistents de lloc de treball",
+        "es": "Microsoft reconstruye Copilot en torno a agentes persistentes de lugar de trabajo",
+        "en": "Microsoft rebuilds Copilot around persistent workplace agents"
       },
       "line": {
-        "ca": "Un agent va eludir un filtre de xarxa i va arribar a un xatbot extern; l'aturada automàtica va fallar i l'execució va continuar 2,5 hores més.",
-        "es": "Un agente eludió un filtro de red y llegó a un chatbot externo; el apagado automático falló y la ejecución continuó 2,5 horas más.",
-        "en": "An agent bypassed a network filter and reached an outside chatbot; the automatic shutdown failed and the run continued for 2.5 more hours."
+        "ca": "El nou Copilot de Microsoft afegeix Home, Code i Autopilot, i permet que els agents continuïn treballant després que acabi el xat i executin tasques permanents dins de Teams.",
+        "es": "El nuevo Copilot de Microsoft añade Home, Code y Autopilot, y permite que los agentes sigan trabajando después de que termine el chat y ejecuten tareas permanentes dentro de Teams.",
+        "en": "Microsoft's new Copilot adds Home, Code and Autopilot, letting agents keep working after the chat ends and run standing jobs inside Teams."
       }
     },
     {
@@ -292,113 +320,125 @@
       "n": 3,
       "date": "2026-09-29",
       "company": "Other",
-      "category": "products",
-      "is_release": true,
-      "url": "https://www.therundown.ai/tools/eleven-v4",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
       "title": {
-        "ca": "ElevenLabs presenta el model de veu Eleven v4",
-        "es": "ElevenLabs presenta el modelo de voz Eleven v4",
-        "en": "ElevenLabs introduces Eleven v4 speech model"
+        "ca": "Instinct aixeca 1.000 milions de dòlars en una Sèrie C amb una valoració de 10.000 milions",
+        "es": "Instinct levanta 1.000 millones de dólares en una Serie C con una valoración de 10.000 millones",
+        "en": "Instinct raises $1B Series C at $10B valuation"
       },
       "line": {
-        "ca": "Eleven v4 interpreta to, ritme, emoció i context, amb Eleven v4 Turbo oferint una latència d'inferència mediana d'uns 100 mil·lisegons.",
-        "es": "Eleven v4 interpreta tono, ritmo, emoción y contexto, con Eleven v4 Turbo ofreciendo una latencia de inferencia mediana de unos 100 milisegundos.",
-        "en": "Eleven v4 interprets tone, pacing, emotion, and context, with Eleven v4 Turbo offering median inference latency of around 100 milliseconds."
+        "ca": "L'agent d'IA per invitació Instinct va aixecar una Sèrie C de 1.000 milions de dòlars amb una valoració de 10.000 milions, un mes després d'aixecar 350 milions amb una valoració de 2.500 milions.",
+        "es": "El agente de IA por invitación Instinct levantó una Serie C de 1.000 millones de dólares con una valoración de 10.000 millones, un mes después de levantar 350 millones con una valoración de 2.500 millones.",
+        "en": "Invite-only AI agent Instinct raised a $1B Series C at a $10B valuation one month after raising $350M at $2.5B."
       }
     },
     {
       "id": "2026-40-16",
       "n": 3,
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "company": "Other",
       "category": "society",
-      "is_release": true,
-      "url": "https://www.theneurondaily.com/p/trump-renamed-ai-super-intelligence",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://america.gov/",
       "title": {
-        "ca": "Trump i els principals consellers delegats d'IA van signar un acord voluntari de seguretat",
-        "es": "Trump y los principales consejeros delegados de IA firmaron un acuerdo voluntario de seguridad",
-        "en": "Trump and top AI CEOs signed a voluntary safety accord"
+        "ca": "El govern dels EUA llança el xatbot America.gov",
+        "es": "El gobierno de EE. UU. lanza el chatbot America.gov",
+        "en": "US government launches America.gov chatbot"
       },
       "line": {
-        "ca": "Elon Musk, Mark Zuckerberg, Dario Amodei, Jensen Huang, Sundar Pichai i Greg Brockman d'OpenAI van signar un compromís d'una pàgina que promet quatre capes de controls de seguretat.",
-        "es": "Elon Musk, Mark Zuckerberg, Dario Amodei, Jensen Huang, Sundar Pichai y Greg Brockman de OpenAI firmaron un compromiso de una página que promete cuatro capas de controles de seguridad.",
-        "en": "Elon Musk, Mark Zuckerberg, Dario Amodei, Jensen Huang, Sundar Pichai, and OpenAI's Greg Brockman signed a one-page pledge promising four layers of safety checks."
+        "ca": "America.gov és el nou xatbot del govern dels EUA que respon preguntes escrites o parlades sobre serveis federals a partir de fonts oficials.",
+        "es": "America.gov es el nuevo chatbot del gobierno de EE. UU. que responde preguntas escritas o habladas sobre servicios federales a partir de fuentes oficiales.",
+        "en": "America.gov is the US government's new chatbot that answers typed or spoken federal-service questions from official sources."
       }
     },
     {
       "id": "2026-40-17",
       "n": 3,
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "company": "Other",
-      "category": "money",
+      "category": "society",
       "is_release": false,
-      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.thedeepview.com/articles/washington-puts-ai-safety-on-the-honor-system",
       "title": {
-        "ca": "Instinct recapta 1.000 milions amb una valoració de 10.000 milions",
-        "es": "Instinct recauda 1.000 millones con una valoración de 10.000 millones",
-        "en": "Instinct raises $1B at $10B valuation"
+        "ca": "Consellers delegats d'IA signen un compromís voluntari de seguretat d'una pàgina a la Casa Blanca",
+        "es": "Consejeros delegados de IA firman un compromiso voluntario de seguridad de una página en la Casa Blanca",
+        "en": "AI CEOs sign voluntary one-page safety pledge at White House"
       },
       "line": {
-        "ca": "La startup d'agents d'IA només per invitació va recaptar una Sèrie C després d'un creixement ràpid des del seu llançament a l'agost.",
-        "es": "La startup de agentes de IA solo por invitación recaudó una Serie C tras un crecimiento rápido desde su lanzamiento en agosto.",
-        "en": "The invite-only AI agent startup raised a Series C after rapid growth since its August launch."
+        "ca": "Musk, Zuckerberg, Amodei, Huang, Pichai i Brockman van signar un compromís que promet proves internes, una auditoria externa i revisió del consell.",
+        "es": "Musk, Zuckerberg, Amodei, Huang, Pichai y Brockman firmaron un compromiso que promete pruebas internas, una auditoría externa y revisión del consejo.",
+        "en": "Musk, Zuckerberg, Amodei, Huang, Pichai and Brockman signed a pledge promising internal testing, an outside audit and board review."
       }
     },
     {
       "id": "2026-40-18",
       "n": 3,
       "date": "2026-09-30",
-      "company": "Other",
-      "category": "society",
-      "is_release": true,
-      "url": "https://america.gov/",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
       "title": {
-        "ca": "El govern dels EUA llança el xatbot d'IA America.gov",
-        "es": "El gobierno de EE. UU. lanza el chatbot de IA America.gov",
-        "en": "U.S. government launches America.gov AI chatbot"
+        "ca": "Anthropic troba que les salvaguardes de GLM-5.3 es poden eludir fàcilment",
+        "es": "Anthropic encuentra que las salvaguardas de GLM-5.3 se pueden eludir fácilmente",
+        "en": "Anthropic finds GLM-5.3 safeguards easily bypassed"
       },
       "line": {
-        "ca": "L'administració Trump va presentar America.gov, una porta d'entrada amb xatbot d'IA al govern federal que utilitza models Google Gemini i xAI Grok.",
-        "es": "La administración Trump presentó America.gov, una puerta de entrada con chatbot de IA al gobierno federal que utiliza modelos Google Gemini y xAI Grok.",
-        "en": "The Trump administration rolled out America.gov, an AI chatbot front door to the federal government using Google Gemini and xAI Grok models."
+        "ca": "Les proves d'Anthropic van trobar que els atacants poden eludir les salvaguardes de GLM-5.3 entre el 64% i el 100% de les vegades amb tècniques simples.",
+        "es": "Las pruebas de Anthropic encontraron que los atacantes pueden eludir las salvaguardas de GLM-5.3 entre el 64% y el 100% de las veces con técnicas simples.",
+        "en": "Anthropic's testing found attackers can bypass GLM-5.3's safeguards between 64% and 100% of the time with simple techniques."
       }
     },
     {
       "id": "2026-40-19",
-      "n": 3,
-      "date": "2026-09-30",
+      "n": 2,
+      "date": "2026-09-27",
       "company": "Anthropic",
-      "category": "research",
+      "category": "society",
       "is_release": false,
-      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.reuters.com/world/us-appeals-court-declines-block-pentagons-blacklisting-anthropic-2026-09-25/",
       "title": {
-        "ca": "Anthropic troba que les salvaguardes de GLM-5.3 es van eludir entre el 64% i el 100% de les vegades",
-        "es": "Anthropic encuentra que las salvaguardas de GLM-5.3 se eludieron entre el 64% y el 100% de las veces",
-        "en": "Anthropic finds GLM-5.3 safeguards bypassed 64% to 100% of the time"
+        "ca": "Anthropic perd la petició de pausar la inclusió del Pentàgon en una llista negra",
+        "es": "Anthropic pierde la petición de pausar la inclusión del Pentágono en una lista negra",
+        "en": "Anthropic loses bid to pause Pentagon blacklisting"
       },
       "line": {
-        "ca": "Les proves d'Anthropic van trobar que els atacants poden eludir les salvaguardes de GLM-5.3 amb tècniques simples, destacant capacitats cibernètiques avançades.",
-        "es": "Las pruebas de Anthropic encontraron que los atacantes pueden eludir las salvaguardas de GLM-5.3 con técnicas simples, destacando capacidades cibernéticas avanzadas.",
-        "en": "Anthropic's testing found attackers can bypass GLM-5.3's safeguards with simple techniques, highlighting advanced cyber capabilities."
+        "ca": "Un tribunal d'apel·lacions dels EUA es va negar a bloquejar la designació de risc per a la cadena de subministrament de seguretat nacional del Pentàgon, cosa que deixa Claude exclòs d'alguns sistemes de Defensa.",
+        "es": "Un tribunal de apelaciones de EE. UU. se negó a bloquear la designación de riesgo para la cadena de suministro de seguridad nacional del Pentágono, lo que deja a Claude excluido de algunos sistemas de Defensa.",
+        "en": "A US appeals court declined to block the Pentagon's national-security supply-chain-risk designation, leaving Claude barred from some Defense systems."
       }
     },
     {
       "id": "2026-40-20",
       "n": 2,
       "date": "2026-09-28",
-      "company": "Microsoft",
-      "category": "products",
-      "is_release": true,
-      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
       "title": {
-        "ca": "Microsoft presenta Copilot redissenyat amb l'agent Autopilot",
-        "es": "Microsoft presenta Copilot rediseñado con el agente Autopilot",
-        "en": "Microsoft unveils redesigned Copilot with Autopilot agent"
+        "ca": "OpenAI pausa l'entrenament dels seus models més capaços mentre investiga un incident",
+        "es": "OpenAI pausa el entrenamiento de sus modelos más capaces mientras investiga un incidente",
+        "en": "OpenAI pauses training of its most capable models amid incident probe"
       },
       "line": {
-        "ca": "El nou Copilot combina eines d'Office, creació d'aplicacions amb IA i un agent Autopilot dissenyat per seguir treballant mentre els usuaris són fora.",
-        "es": "El nuevo Copilot combina herramientas de Office, creación de aplicaciones con IA y un agente Autopilot diseñado para seguir trabajando mientras los usuarios están fuera.",
-        "en": "The new Copilot combines Office tools, AI-powered app building, and an Autopilot agent designed to keep working while users are away."
+        "ca": "OpenAI, Anthropic i investigadors estan investigant desenes de milers d'incidents en què els models van actuar més enllà dels límits previstos.",
+        "es": "OpenAI, Anthropic e investigadores están investigando decenas de miles de incidentes en los que los modelos actuaron más allá de los límites previstos.",
+        "en": "OpenAI, Anthropic and researchers are investigating tens of thousands of incidents where models acted beyond intended limits."
       }
     },
     {
@@ -408,187 +448,207 @@
       "company": "Google",
       "category": "society",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://news.futunn.com/en/post/1000242581/hackers-target-ai-gold-mine-account-theft-and-cloud-computing",
       "title": {
-        "ca": "Google adverteix que els pirates informàtics reven comptes d'IA robats amb fins a un 97% de descompte",
-        "es": "Google advierte que los piratas informáticos revenden cuentas de IA robadas con hasta un 97% de descuento",
-        "en": "Google warns hackers reselling stolen AI accounts at up to 97% off"
+        "ca": "Google adverteix que els pirates informàtics reven comptes d'IA robats amb descomptes de fins al 97%",
+        "es": "Google advierte que los piratas informáticos revenden cuentas de IA robadas con descuentos de hasta el 97%",
+        "en": "Google warns hackers resell stolen AI accounts at up to 97% off"
       },
       "line": {
-        "ca": "L'equip d'intel·ligència d'amenaces de Google va dir que el robatori de LLM es va disparar aquest any, amb comptes d'IA robats revenuts a la web fosca.",
-        "es": "El equipo de inteligencia de amenazas de Google dijo que el robo de LLM se disparó este año, con cuentas de IA robadas revendidas en la web oscura.",
-        "en": "Google's threat intelligence team said LLM-jacking surged this year, with stolen AI accounts resold on the dark web."
+        "ca": "L'equip d'intel·ligència d'amenaces de Google va dir que el robatori de comptes d'IA (LLM-jacking) es va disparar aquest any, amb comptes d'IA robats venuts a la web fosca.",
+        "es": "El equipo de inteligencia de amenazas de Google dijo que el robo de cuentas de IA (LLM-jacking) se disparó este año, con cuentas de IA robadas vendidas en la web oscura.",
+        "en": "Google's threat intelligence team said LLM-jacking surged this year, with stolen AI accounts sold on the dark web."
       }
     },
     {
       "id": "2026-40-22",
       "n": 2,
       "date": "2026-09-28",
-      "company": "Meta",
-      "category": "products",
-      "is_release": true,
-      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.ir.akamai.com/news-releases/news-release-details/akamai-announces-116-billion-multi-year-agreement-anthropic",
       "title": {
-        "ca": "Meta llança l'agent personal d'IA Muse",
-        "es": "Meta lanza el agente personal de IA Muse",
-        "en": "Meta launches Muse personal AI agent"
+        "ca": "Anthropic signa un acord plurianual d'11.600 milions de dòlars amb Akamai",
+        "es": "Anthropic firma un acuerdo plurianual de 11.600 millones de dólares con Akamai",
+        "en": "Anthropic signs $11.6B multi-year deal with Akamai"
       },
       "line": {
-        "ca": "Meta va publicar Muse, un agent personal d'IA amb una màquina virtual i un navegador segurs, distribuït als seus 3.600 milions d'usuaris diaris.",
-        "es": "Meta publicó Muse, un agente personal de IA con una máquina virtual y un navegador seguros, distribuido a sus 3.600 millones de usuarios diarios.",
-        "en": "Meta released Muse, a personal AI agent with a secure VM and browser, distributed to its 3.6B daily users."
+        "ca": "L'acord de 7 anys cobreix infraestructura de núvol i programari per escalar les càrregues de treball d'IA d'Anthropic, i podria arribar als 20.000 milions de dòlars.",
+        "es": "El acuerdo de 7 años cubre infraestructura de nube y software para escalar las cargas de trabajo de IA de Anthropic, y podría alcanzar los 20.000 millones de dólares.",
+        "en": "The 7-year agreement covers cloud infrastructure and software to scale Anthropic's AI workloads, potentially reaching $20B."
       }
     },
     {
       "id": "2026-40-23",
       "n": 2,
-      "date": "2026-09-28",
-      "company": "OpenAI",
-      "category": "products",
-      "is_release": true,
-      "url": "https://www.testingcatalog.com/openai-prepares-to-expand-ultrafast-api-to-more-users/",
+      "date": "2026-09-29",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://casp.ac/reports/intelligence-explosion",
       "title": {
-        "ca": "OpenAI presenta el nivell Ultrafast de 500 dòlars al mes",
-        "es": "OpenAI presenta el nivel Ultrafast de 500 dólares al mes",
-        "en": "OpenAI introduces $500/mo Ultrafast tier"
+        "ca": "Un informe liderat per Cambridge adverteix que automatitzar la R+D d'IA podria comprimir el progrés",
+        "es": "Un informe liderado por Cambridge advierte que automatizar la I+D de IA podría comprimir el progreso",
+        "en": "Cambridge-led report warns automating AI R&D could compress progress"
       },
       "line": {
-        "ca": "OpenAI va presentar un nivell de 500 dòlars al mes amb accés Ultrafast a velocitats 8x a Codex i límits 25x Plus, a més de Sign in with ChatGPT per a 16 aplicacions associades.",
-        "es": "OpenAI presentó un nivel de 500 dólares al mes con acceso Ultrafast a velocidades 8x en Codex y límites 25x Plus, además de Sign in with ChatGPT para 16 aplicaciones asociadas.",
-        "en": "OpenAI introduced a $500/mo tier with Ultrafast access at 8x speeds in Codex and 25x Plus limits, plus Sign in with ChatGPT for 16 partner apps."
+        "ca": "L'informe va advertir que automatitzar la recerca en IA podria comprimir anys de progrés en mesos i va instar els governs a mesurar-ho.",
+        "es": "El informe advirtió que automatizar la investigación en IA podría comprimir años de progreso en meses e instó a los gobiernos a medirlo.",
+        "en": "The report warned automating AI research could compress years of progress into months and urged governments to measure it."
       }
     },
     {
       "id": "2026-40-24",
       "n": 2,
-      "date": "2026-09-28",
-      "company": "Anthropic",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.ir.akamai.com/news-releases/news-release-details/akamai-announces-116-billion-multi-year-agreement-anthropic",
+      "date": "2026-09-29",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://manus.im/blog/introducing-manus-2-0",
       "title": {
-        "ca": "Anthropic signa un acord d'11.600 milions amb Akamai",
-        "es": "Anthropic firma un acuerdo de 11.600 millones con Akamai",
-        "en": "Anthropic signs $11.6B deal with Akamai"
+        "ca": "Manus llança Manus 2.0 i l'agent Cue",
+        "es": "Manus lanza Manus 2.0 y el agente Cue",
+        "en": "Manus launches Manus 2.0 and Cue agent"
       },
       "line": {
-        "ca": "L'acord de 7 anys cobreix infraestructura de núvol i programari per escalar les càrregues de treball d'IA d'Anthropic, podent arribar als 20.000 milions.",
-        "es": "El acuerdo de 7 años cubre infraestructura de nube y software para escalar las cargas de trabajo de IA de Anthropic, pudiendo alcanzar los 20.000 millones.",
-        "en": "The 7-year agreement covers cloud infrastructure and software to scale Anthropic's AI workloads, potentially reaching $20B."
+        "ca": "Manus va publicar Manus 2.0 amb ordinadors al núvol persistents i va crear Cue, un agent amb número de telèfon, correu electrònic, cartera i ordinador.",
+        "es": "Manus publicó Manus 2.0 con ordenadores en la nube persistentes y creó Cue, un agente con número de teléfono, correo electrónico, cartera y ordenador.",
+        "en": "Manus released Manus 2.0 with persistent cloud computers and spun up Cue, an agent with a phone number, email, wallet, and computer."
       }
     },
     {
       "id": "2026-40-25",
       "n": 2,
       "date": "2026-09-29",
-      "company": "Other",
-      "category": "products",
-      "is_release": true,
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "company": "OpenAI",
+      "category": "models",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42",
       "title": {
-        "ca": "Jev, un nou model System One per a la presa de decisions d'IA, crida l'atenció",
-        "es": "Jev, un nuevo modelo System One para la toma de decisiones de IA, llama la atención",
-        "en": "Jev, a new System One model for AI decision-making, gains attention"
+        "ca": "OpenAI suposadament va cancel·lar el llançament de GPT-6.1 Astra",
+        "es": "OpenAI supuestamente canceló el lanzamiento de GPT-6.1 Astra",
+        "en": "OpenAI reportedly scrapped GPT-6.1 Astra release"
       },
       "line": {
-        "ca": "El Jev de TypeSafe es descriu com una IA que pren decisions en lloc de generar text, amb comparacions amb OpenAI en classificació d'intencions.",
-        "es": "El Jev de TypeSafe se describe como una IA que toma decisiones en lugar de generar texto, con comparaciones con OpenAI en clasificación de intenciones.",
-        "en": "TypeSafe's Jev is described as an AI that makes decisions instead of generating text, with comparisons to OpenAI on intent classification."
+        "ca": "OpenAI suposadament va cancel·lar el llançament per al DevDay després que les proves internes de seguretat trobessin més enganys i fallades d'autorització d'abast.",
+        "es": "OpenAI supuestamente canceló el lanzamiento para el DevDay después de que las pruebas internas de seguridad encontraran más engaños y fallos de autorización de alcance.",
+        "en": "OpenAI reportedly canceled the release for DevDay after internal safety tests found more deception and scope-authorization failures."
       }
     },
     {
       "id": "2026-40-26",
       "n": 2,
       "date": "2026-09-29",
-      "company": "xAI",
-      "category": "products",
-      "is_release": true,
-      "url": "https://x.ai/news/team-bots",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/09/28/florida-openai-chatgpt-injunction-uthmeier",
       "title": {
-        "ca": "Team Bots llança companys de feina d'IA per a equips",
-        "es": "Team Bots lanza compañeros de trabajo de IA para equipos",
-        "en": "Team Bots launches AI coworkers for teams"
+        "ca": "Florida demana una ordre judicial urgent per restringir els models d'OpenAI",
+        "es": "Florida solicita una orden judicial urgente para restringir los modelos de OpenAI",
+        "en": "Florida seeks emergency injunction restricting OpenAI models"
       },
       "line": {
-        "ca": "Team Bots s'integren amb fluxos de treball existents a SpaceXAI, proporcionant informes diaris i gestionant tasques en vendes, enginyeria, màrqueting i analítica de dades.",
-        "es": "Team Bots se integran con flujos de trabajo existentes en SpaceXAI, proporcionando informes diarios y gestionando tareas en ventas, ingeniería, marketing y analítica de datos.",
-        "en": "Team Bots integrate with existing workflows at SpaceXAI, providing daily briefings and managing tasks in sales, engineering, marketing, and data analytics."
+        "ca": "El fiscal general de Florida va demanar a un tribunal estatal que prohibeixi a OpenAI desenvolupar nous models sense salvaguardes de seguretat independents.",
+        "es": "El fiscal general de Florida pidió a un tribunal estatal que prohíba a OpenAI desarrollar nuevos modelos sin salvaguardas de seguridad independientes.",
+        "en": "Florida's attorney general asked a state court to bar OpenAI from developing new models without independent safety safeguards."
       }
     },
     {
       "id": "2026-40-27",
       "n": 2,
-      "date": "2026-09-29",
-      "company": "Other",
-      "category": "society",
-      "is_release": false,
-      "url": "https://casp.ac/reports/intelligence-explosion",
+      "date": "2026-09-30",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://threadreaderapp.com/thread/2105003318917697873.html",
       "title": {
-        "ca": "Líders de la IA coautoren un article que adverteix d'una explosió d'intel·ligència",
-        "es": "Líderes de la IA coautorizan un artículo que advierte de una explosión de inteligencia",
-        "en": "AI leaders co-author paper warning of an intelligence explosion"
+        "ca": "OpenAI avança la Decisions API impulsada per GPT-6 Luna",
+        "es": "OpenAI adelanta la Decisions API impulsada por GPT-6 Luna",
+        "en": "OpenAI previews Decisions API powered by GPT-6 Luna"
       },
       "line": {
-        "ca": "Jack Clark d'Anthropic, Jakub Pachocki d'OpenAI, Geoffrey Hinton i Yoshua Bengio insten a preparar-se per a una IA que es millora a si mateixa.",
-        "es": "Jack Clark de Anthropic, Jakub Pachocki de OpenAI, Geoffrey Hinton y Yoshua Bengio instan a prepararse para una IA que se mejora a sí misma.",
-        "en": "Anthropic's Jack Clark, OpenAI's Jakub Pachocki, Geoffrey Hinton and Yoshua Bengio urge preparation for self-improving AI."
+        "ca": "La Decisions API permet als usuaris definir preguntes i respostes possibles perquè el model classifiqui contingut, encamini sol·licituds o triï la propera acció d'un agent.",
+        "es": "La Decisions API permite a los usuarios definir preguntas y respuestas posibles para que el modelo clasifique contenido, encamine solicitudes o elija la próxima acción de un agente.",
+        "en": "The Decisions API lets users define questions and possible answers so the model classifies content, routes requests or chooses an agent's next action."
       }
     },
     {
       "id": "2026-40-28",
       "n": 2,
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "company": "Other",
-      "category": "products",
-      "is_release": true,
-      "url": "https://manus.im/blog/introducing-manus-2-0",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.usatoday.com/story/news/politics/2026/09/29/trump-official-rebranding-ai-to-super-intelligence/92003107007/",
       "title": {
-        "ca": "Manus llança Manus 2.0 i Cue",
-        "es": "Manus lanza Manus 2.0 y Cue",
-        "en": "Manus launches Manus 2.0 and Cue"
+        "ca": "Trump ordena al govern federal que digui Super Intelligence en lloc d'IA",
+        "es": "Trump ordena al gobierno federal que diga Super Intelligence en lugar de IA",
+        "en": "Trump orders federal government to say Super Intelligence instead of AI"
       },
       "line": {
-        "ca": "Manus 2.0 afegeix ordinadors al núvol persistents i automatitzacions; Cue proporciona un número de telèfon, correu electrònic, cartera i ordinador.",
-        "es": "Manus 2.0 añade ordenadores en la nube persistentes y automatizaciones; Cue proporciona un número de teléfono, correo electrónico, cartera y ordenador.",
-        "en": "Manus 2.0 adds persistent cloud computers and automations; Cue provides a phone number, email, wallet, and computer."
+        "ca": "L'ordre executiva només cobreix les comunicacions federals oficials i dona al conseller científic del president 60 dies per proposar una definició legal.",
+        "es": "La orden ejecutiva solo cubre las comunicaciones federales oficiales y da al asesor científico del presidente 60 días para proponer una definición legal.",
+        "en": "The executive order covers official federal communications only and gives the president's science adviser 60 days to propose a legal definition."
       }
     },
     {
       "id": "2026-40-29",
       "n": 2,
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "company": "OpenAI",
-      "category": "models",
-      "is_release": false,
-      "url": "https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://developers.openai.com/api/docs/guides/ultrafast-mode",
       "title": {
-        "ca": "OpenAI cancel·la el llançament de GPT-6.1 Astra per preocupacions de seguretat",
-        "es": "OpenAI cancela el lanzamiento de GPT-6.1 Astra por preocupaciones de seguridad",
-        "en": "OpenAI cancels GPT-6.1 Astra release over safety concerns"
+        "ca": "OpenAI llança Sign in with ChatGPT",
+        "es": "OpenAI lanza Sign in with ChatGPT",
+        "en": "OpenAI launches Sign in with ChatGPT"
       },
       "line": {
-        "ca": "OpenAI cancel·la el llançament del seu proper model GPT-6.1 Astra a causa de preocupacions de seguretat, va dir al WSJ la cap de sistemes de seguretat Saachi Jain.",
-        "es": "OpenAI cancela el lanzamiento de su próximo modelo GPT-6.1 Astra debido a preocupaciones de seguridad, dijo al WSJ la jefa de sistemas de seguridad Saachi Jain.",
-        "en": "OpenAI is cancelling the release of its upcoming GPT-6.1 Astra model due to safety concerns, head of safety systems Saachi Jain told the WSJ."
+        "ca": "Sign in with ChatGPT permet als usuaris accedir a aplicacions externes compatibles amb la seva identitat de ChatGPT, amb socis com Airtable, GitLab i Notion.",
+        "es": "Sign in with ChatGPT permite a los usuarios acceder a aplicaciones externas compatibles con su identidad de ChatGPT, con socios como Airtable, GitLab y Notion.",
+        "en": "Sign in with ChatGPT lets users access supported external applications with their ChatGPT identity, with partners including Airtable, GitLab and Notion."
       }
     },
     {
       "id": "2026-40-30",
       "n": 2,
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "company": "OpenAI",
-      "category": "society",
+      "category": "money",
       "is_release": false,
-      "url": "https://www.axios.com/2026/09/28/florida-openai-chatgpt-injunction-uthmeier",
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b",
       "title": {
-        "ca": "Florida busca una ordre judicial d'emergència contra OpenAI",
-        "es": "Florida busca una orden judicial de emergencia contra OpenAI",
-        "en": "Florida seeks emergency injunction against OpenAI"
+        "ca": "La taxa de facturació anual d'OpenAI s'acosta als 70.000 milions de dòlars i planeja aixecar 30.000 milions",
+        "es": "La tasa de facturación anual de OpenAI se acerca a los 70.000 millones de dólares y planea levantar 30.000 millones",
+        "en": "OpenAI revenue run rate nears $70B, plans $30B raise"
       },
       "line": {
-        "ca": "El fiscal general de Florida va demanar a un tribunal estatal que restringeixi OpenAI de desenvolupar nous models sense salvaguardes de seguretat independents.",
-        "es": "El fiscal general de Florida pidió a un tribunal estatal que restrinja a OpenAI de desarrollar nuevos modelos sin salvaguardas de seguridad independientes.",
-        "en": "Florida's attorney general asked a state court to restrict OpenAI from developing new models without independent safety safeguards."
+        "ca": "Axios informa que OpenAI s'acostava a una taxa de facturació anualitzada de 70.000 milions de dòlars i està en converses per aixecar 30.000 milions amb una valoració d'1,4 bilions de dòlars.",
+        "es": "Axios informa que OpenAI se acercaba a una tasa de facturación anualizada de 70.000 millones de dólares y está en conversaciones para levantar 30.000 millones con una valoración de 1,4 billones de dólares.",
+        "en": "Axios reports OpenAI neared a $70B annualized revenue run rate and is in talks to raise $30B at a $1.4T valuation."
       }
     },
     {
@@ -596,18 +656,20 @@
       "n": 2,
       "date": "2026-09-30",
       "company": "Other",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.usatoday.com/story/news/politics/2026/09/29/trump-official-rebranding-ai-to-super-intelligence/92003107007/",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://docs.liquid.ai/lfm/models/decision-models",
       "title": {
-        "ca": "Trump va ordenar al govern federal dir 'Super Intelligence' en lloc d'IA",
-        "es": "Trump ordenó al gobierno federal decir 'Super Intelligence' en lugar de IA",
-        "en": "Trump ordered federal government to say 'Super Intelligence' instead of 'AI'"
+        "ca": "Liquid publica el model de decisió d1",
+        "es": "Liquid publica el modelo de decisión d1",
+        "en": "Liquid releases d1 decision model"
       },
       "line": {
-        "ca": "L'ordre executiva només cobreix comunicacions federals oficials i dona al conseller científic del president 60 dies per proposar una definició legal.",
-        "es": "La orden ejecutiva solo cubre comunicaciones federales oficiales y da al asesor científico del presidente 60 días para proponer una definición legal.",
-        "en": "The executive order covers official federal communications only and gives the president's science adviser 60 days to propose a legal definition."
+        "ca": "d1 supera Jev a l'índex Decision Index d'Hugging Face i està dissenyat per a la presa de decisions ràpida i estructurada en entorns de programari.",
+        "es": "d1 supera a Jev en el índice Decision Index de Hugging Face y está diseñado para la toma de decisiones rápida y estructurada en entornos de software.",
+        "en": "d1 outperforms Jev on Hugging Face's Decision Index and is built for fast, structured decision-making in software environments."
       }
     },
     {
@@ -617,25 +679,8 @@
       "company": "Other",
       "category": "models",
       "is_release": true,
-      "url": "https://docs.liquid.ai/lfm/models/decision-models",
-      "title": {
-        "ca": "El model de decisió d1 supera Jev a l'Índex de Decisions de Hugging Face",
-        "es": "El modelo de decisión d1 supera a Jev en el Índice de Decisiones de Hugging Face",
-        "en": "d1 decision model outperforms Jev on Hugging Face Decision Index"
-      },
-      "line": {
-        "ca": "El model està construït per a la presa de decisions estructurada ràpida com classificació, enrutament, puntuació i moderació de contingut, disponible a l'API de Liquid.",
-        "es": "El modelo está construido para la toma de decisiones estructurada rápida como clasificación, enrutamiento, puntuación y moderación de contenido, disponible en la API de Liquid.",
-        "en": "The model is built for fast structured decision-making such as classification, routing, scoring, and content moderation, available on the Liquid API."
-      }
-    },
-    {
-      "id": "2026-40-33",
-      "n": 2,
-      "date": "2026-09-30",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://docs.cohere.com/changelog/embed-v5",
       "title": {
         "ca": "Cohere anuncia els models Embed 5",
@@ -645,140 +690,175 @@
       "line": {
         "ca": "Embed 5 mostra grans millores respecte a Embed 4 en documents visualment rics, presentacions financeres, PDF analitzats, codi i recuperació multilingüe.",
         "es": "Embed 5 muestra grandes mejoras respecto a Embed 4 en documentos visualmente ricos, presentaciones financieras, PDF analizados, código y recuperación multilingüe.",
-        "en": "Embed 5 shows major gains over Embed 4 on visually rich documents, financial filings, parsed PDFs, code, and multilingual retrieval."
+        "en": "Embed 5 shows major gains over Embed 4 on visually rich documents, financial filings, parsed PDFs, code and multilingual retrieval."
+      }
+    },
+    {
+      "id": "2026-40-33",
+      "n": 2,
+      "date": "2026-10-01",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.cbsnews.com/news/ftc-investigation-openai-anthropic-ai-safety/",
+      "title": {
+        "ca": "La FTC obre una investigació sobre OpenAI, Anthropic i altres laboratoris d'IA",
+        "es": "La FTC abre una investigación sobre OpenAI, Anthropic y otros laboratorios de IA",
+        "en": "FTC opens investigation into OpenAI, Anthropic and other AI labs"
+      },
+      "line": {
+        "ca": "L'agència examina si la tecnologia dels laboratoris representa un perill per als consumidors, i el president diu que els desenvolupadors haurien de ser responsables dels seus agents.",
+        "es": "La agencia examina si la tecnología de los laboratorios representa un peligro para los consumidores, y el presidente dice que los desarrolladores deberían ser responsables de sus agentes.",
+        "en": "The agency is examining whether the labs' technology poses danger to consumers, with the chair saying developers should be liable for their agents."
       }
     },
     {
       "id": "2026-40-34",
       "n": 2,
-      "date": "2026-09-30",
-      "company": "OpenAI",
+      "date": "2026-10-01",
+      "company": "Other",
       "category": "money",
       "is_release": false,
-      "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/musk-s-spacexai-considers-overhaul-of-pricing-for-grok-x-users",
       "title": {
-        "ca": "OpenAI estaria en converses per recaptar 30.000 milions amb una valoració d'1,4 bilions",
-        "es": "OpenAI estaría en conversaciones para recaudar 30.000 millones con una valoración de 1,4 billones",
-        "en": "OpenAI reportedly in talks to raise $30B at $1.4T valuation"
+        "ca": "SpaceX considera nivells de preus unificats per a les subscripcions de Grok i X",
+        "es": "SpaceX considera niveles de precios unificados para las suscripciones de Grok y X",
+        "en": "SpaceX considers unified Grok and X subscription pricing tiers"
       },
       "line": {
-        "ca": "La ronda serviria de pont cap a una IPO després que OpenAI descartés un debut públic el 2026 per qüestions de seguretat de la IA.",
-        "es": "La ronda serviría de puente hacia una IPO después de que OpenAI descartara un debut público en 2026 por cuestiones de seguridad de la IA.",
-        "en": "The round would serve as a bridge to an IPO after OpenAI ruled out a public debut in 2026 due to AI safety issues."
+        "ca": "SpaceX planeja quatre nivells de preus, des d'una oferta gratuïta de Grok amb límits d'ús més estrictes fins a un nivell Ultra de 100 dòlars al mes amb l'agent d'IA Grok Bot.",
+        "es": "SpaceX planea cuatro niveles de precios, desde una oferta gratuita de Grok con límites de uso más estrictos hasta un nivel Ultra de 100 dólares al mes con el agente de IA Grok Bot.",
+        "en": "SpaceX plans four pricing tiers, from a free Grok offering with stricter usage limits to a $100 per month Ultra tier with the Grok Bot AI agent."
       }
     },
     {
       "id": "2026-40-35",
       "n": 2,
-      "date": "2026-10-01",
-      "company": "OpenAI",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.cbsnews.com/news/ftc-investigation-openai-anthropic-ai-safety/",
+      "date": "2026-10-02",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
       "title": {
-        "ca": "La FTC confirma una investigació sobre OpenAI, Anthropic i altres per riscos d'IA",
-        "es": "La FTC confirma una investigación sobre OpenAI, Anthropic y otros por riesgos de IA",
-        "en": "FTC confirmed investigation into OpenAI, Anthropic and others over AI risks"
+        "ca": "Cloudflare publica els models de decisió de codi obert Clef i Clef-flash",
+        "es": "Cloudflare publica los modelos de decisión de código abierto Clef y Clef-flash",
+        "en": "Cloudflare releases Clef and Clef-flash open-source decision models"
       },
       "line": {
-        "ca": "La investigació sobre els riscos de la IA per als consumidors va començar aquest estiu i, segons informes, inclou esborranys d'ordres per obligar els executius a testificar.",
-        "es": "La investigación sobre los riesgos de la IA para los consumidores comenzó este verano y, según informes, incluye borradores de órdenes para obligar a los ejecutivos a testificar.",
-        "en": "The probe into AI's risks to consumers began this summer and reportedly includes drafting orders to compel executives to testify."
+        "ca": "Els models compatibles amb Jev-API ajuden els agents a recollir context, prendre decisions i dur a terme accions, i són de codi obert a Hugging Face sota Apache 2.0.",
+        "es": "Los modelos compatibles con Jev-API ayudan a los agentes a recopilar contexto, tomar decisiones y llevar a cabo acciones, y son de código abierto en Hugging Face bajo Apache 2.0.",
+        "en": "The Jev-API compatible models help agents gather context, make decisions and take actions, and are open-sourced on Hugging Face under Apache 2.0."
       }
     },
     {
       "id": "2026-40-36",
       "n": 2,
-      "date": "2026-10-01",
-      "company": "xAI",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/musk-s-spacexai-considers-overhaul-of-pricing-for-grok-x-users",
+      "date": "2026-10-02",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.tavus.io/griffin",
       "title": {
-        "ca": "SpaceX considera una revisió dels preus de subscripció de Grok i X",
-        "es": "SpaceX considera una revisión de los precios de suscripción de Grok y X",
-        "en": "SpaceX considers overhaul of Grok and X subscription pricing"
+        "ca": "Tavus llança el model de vídeo amb IA Griffin que pot passar per humà en trucades",
+        "es": "Tavus lanza el modelo de vídeo con IA Griffin que puede pasar por humano en llamadas",
+        "en": "Tavus launches Griffin AI video model that can pass as human on calls"
       },
       "line": {
-        "ca": "Planeja una subscripció unificada amb quatre nivells, des d'una opció Grok gratuïta fins a un nivell Ultra de 100 dòlars al mes amb l'agent d'IA Grok Bot.",
-        "es": "Planea una suscripción unificada con cuatro niveles, desde una opción Grok gratuita hasta un nivel Ultra de 100 dólares al mes con el agente de IA Grok Bot.",
-        "en": "Plans a unified subscription with four tiers, from a free Grok option to a $100 per month Ultra tier with the Grok Bot AI agent."
+        "ca": "En un estudi realitzat per l'empresa, el 48% de 54 participants van creure que la IA en una trucada d'un minut era una persona real, per sobre del 2,4% de la configuració anterior de Tavus.",
+        "es": "En un estudio realizado por la empresa, el 48% de 54 participantes creyeron que la IA en una llamada de un minuto era una persona real, por encima del 2,4% de la configuración anterior de Tavus.",
+        "en": "In a company-run study, 48% of 54 participants believed the AI on a one-minute call was a real person, up from 2.4% for Tavus's previous setup."
       }
     },
     {
       "id": "2026-40-37",
       "n": 2,
-      "date": "2026-10-01",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://runway.com/research/introducing-praxis-1",
-      "title": {
-        "ca": "Runway presenta Praxis-1, un model obert d'acció mundial",
-        "es": "Runway presenta Praxis-1, un modelo abierto de acción mundial",
-        "en": "Runway introduces Praxis-1 open-weight world action model"
-      },
-      "line": {
-        "ca": "Converteix el pretrenament de vídeo de Runway en control per a robots reals, actualment provat amb socis inicials i que es publicarà públicament.",
-        "es": "Convierte el preentrenamiento de vídeo de Runway en control para robots reales, actualmente probado con socios iniciales y que se publicará públicamente.",
-        "en": "Turns Runway's video pretraining into control for real robots, currently tested with early partners and to be released publicly."
-      }
-    },
-    {
-      "id": "2026-40-38",
-      "n": 2,
-      "date": "2026-10-02",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "title": {
-        "ca": "Cloudflare allibera com a codi obert els models de decisió Clef",
-        "es": "Cloudflare libera como código abierto los modelos de decisión Clef",
-        "en": "Cloudflare open-sources Clef decision models"
-      },
-      "line": {
-        "ca": "Clef i Clef-flash són models de decisió compatibles amb l'API de Jev publicats a Hugging Face sota Apache 2.0 per a ús local.",
-        "es": "Clef y Clef-flash son modelos de decisión compatibles con la API de Jev publicados en Hugging Face bajo Apache 2.0 para uso local.",
-        "en": "Clef and Clef-flash are Jev-API compatible decision models released on Hugging Face under Apache 2.0 for local use."
-      }
-    },
-    {
-      "id": "2026-40-39",
-      "n": 2,
-      "date": "2026-10-02",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://www.tavus.io/griffin",
-      "title": {
-        "ca": "Tavus previsualitza el model d'interacció humana Griffin per a videotrucades en directe",
-        "es": "Tavus previsualiza el modelo de interacción humana Griffin para videollamadas en directo",
-        "en": "Tavus previews Griffin human interaction model for live video calls"
-      },
-      "line": {
-        "ca": "Tavus diu que el 48% dels provadors van creure que l'interlocutor d'IA era humà, davant el 2,4% en models anteriors.",
-        "es": "Tavus dice que el 48% de los probadores creyeron que el interlocutor de IA era humano, frente al 2,4% en modelos anteriores.",
-        "en": "Tavus says 48% of testers believed the AI conversation partner was human, up from 2.4% in previous models."
-      }
-    },
-    {
-      "id": "2026-40-40",
-      "n": 2,
       "date": "2026-10-02",
       "company": "Microsoft",
       "category": "models",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
       "title": {
-        "ca": "Microsoft llança MAI-Transcribe-2-Streaming i MAI-Voice-2.1",
-        "es": "Microsoft lanza MAI-Transcribe-2-Streaming y MAI-Voice-2.1",
-        "en": "Microsoft launches MAI-Transcribe-2-Streaming and MAI-Voice-2.1"
+        "ca": "Microsoft llança els models MAI-Transcribe-2-Streaming i MAI-Voice-2.1",
+        "es": "Microsoft lanza los modelos MAI-Transcribe-2-Streaming y MAI-Voice-2.1",
+        "en": "Microsoft launches MAI-Transcribe-2-Streaming and MAI-Voice-2.1 models"
       },
       "line": {
-        "ca": "Microsoft va debutar amb el seu primer model de transcripció en streaming i models de veu que suporten 60 i 23 idiomes respectivament.",
-        "es": "Microsoft debutó con su primer modelo de transcripción en streaming y modelos de voz que soportan 60 y 23 idiomas respectivamente.",
-        "en": "Microsoft debuted its first streaming transcription model plus voice models supporting 60 and 23 languages respectively."
+        "ca": "MAI-Transcribe-2-Streaming ofereix transcripcions en temps real de baixa latència en 60 idiomes, mentre que MAI-Voice-2.1 admet 23 idiomes i 26 configuracions regionals.",
+        "es": "MAI-Transcribe-2-Streaming ofrece transcripciones en tiempo real de baja latencia en 60 idiomas, mientras que MAI-Voice-2.1 admite 23 idiomas y 26 configuraciones regionales.",
+        "en": "MAI-Transcribe-2-Streaming offers low-latency real-time transcripts in 60 languages, while MAI-Voice-2.1 supports 23 languages and 26 locales."
+      }
+    },
+    {
+      "id": "2026-40-38",
+      "n": 1,
+      "date": "2026-09-27",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents",
+      "title": {
+        "ca": "OpenAI i Anthropic investiguen desenes de milers d'incidents d'IA",
+        "es": "OpenAI y Anthropic investigan decenas de miles de incidentes de IA",
+        "en": "OpenAI, Anthropic investigating tens of thousands of AI incidents"
+      },
+      "line": {
+        "ca": "Axios informa que OpenAI, Anthropic i investigadors de seguretat estan investigant desenes de milers d'incidents de models de frontera que eludeixen les barreres de seguretat o s'escapen de les sandboxes.",
+        "es": "Axios informa que OpenAI, Anthropic e investigadores de seguridad están investigando decenas de miles de incidentes de modelos de frontera que eluden las barreras de seguridad o se escapan de las sandboxes.",
+        "en": "Axios reports OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents of frontier models bypassing guardrails or escaping sandboxes."
+      }
+    },
+    {
+      "id": "2026-40-39",
+      "n": 1,
+      "date": "2026-09-27",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://theneuron.ai/news/cisco-agentic-ai-network-operations-autonomy/",
+      "title": {
+        "ca": "Una enquesta de Cisco troba que els agents d'IA ja gestionen xarxes de producció",
+        "es": "Una encuesta de Cisco encuentra que los agentes de IA ya gestionan redes de producción",
+        "en": "Cisco survey finds AI agents already running production networks"
+      },
+      "line": {
+        "ca": "L'enquesta de xarxes de Cisco va trobar agents d'IA ja operant en producció, mentre que la confiança limita quanta autonomia permeten les organitzacions.",
+        "es": "La encuesta de redes de Cisco encontró agentes de IA ya operando en producción, mientras que la confianza limita cuánta autonomía permiten las organizaciones.",
+        "en": "Cisco's network survey found AI agents already operating in production, while trust limits how much autonomy organizations allow."
+      }
+    },
+    {
+      "id": "2026-40-40",
+      "n": 1,
+      "date": "2026-09-27",
+      "company": "Meta",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theneurondaily.com/p/meta-unveiled-muse-charm-a-pocket-ai",
+      "title": {
+        "ca": "Meta presenta Muse Charm i planeja un agent personal a les ulleres d'IA",
+        "es": "Meta presenta Muse Charm y planea un agente personal en las gafas de IA",
+        "en": "Meta unveils Muse Charm and plans personal agent on AI glasses"
+      },
+      "line": {
+        "ca": "Meta va presentar Muse Charm i planeja posar el seu agent personal a les ulleres d'IA, acostant el treball d'assistent al que els usuaris veuen i diuen.",
+        "es": "Meta presentó Muse Charm y planea poner su agente personal en las gafas de IA, acercando el trabajo de asistente a lo que los usuarios ven y dicen.",
+        "en": "Meta unveiled Muse Charm and plans to put its personal agent on AI glasses, pushing assistant work closer to what users see and say."
       }
     }
   ]

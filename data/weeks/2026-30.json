@@ -3,117 +3,127 @@
   "from": "2026-07-20",
   "to": "2026-07-26",
   "newsletters": 7,
-  "candidates": 280,
+  "candidates": 268,
   "note": null,
   "items": [
     {
       "id": "2026-30-01",
       "n": 4,
-      "date": "2026-07-20",
-      "company": "OpenAI",
-      "category": "models",
-      "is_release": true,
-      "url": "https://www.rundown.ai/tools/gpt-live",
+      "date": "2026-07-21",
+      "company": "Google",
+      "category": "products",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.theinformation.com/articles/google-plans-new-frozen-chip-run-ai-models-efficiently",
       "title": {
-        "ca": "OpenAI porta GPT-Live a ChatGPT d'escriptori",
-        "es": "OpenAI lleva GPT-Live a ChatGPT de escritorio",
-        "en": "OpenAI brings GPT-Live voice model to ChatGPT desktop app"
+        "ca": "Google desenvoluparia un xip Frozen v2 per a Gemini",
+        "es": "Google desarrollaría un chip Frozen v2 para Gemini",
+        "en": "Google reportedly develops Frozen v2 chip for Gemini"
       },
       "line": {
-        "ca": "L'actualització permet als usuaris dirigir agents per veu a ordinadors i al web i dona a ChatGPT Voice accés a connectors, fitxers i ús de l'ordinador.",
-        "es": "La actualización permite a los usuarios dirigir agentes por voz en ordenadores y en la web y da a ChatGPT Voice acceso a plugins, archivos y uso del ordenador.",
-        "en": "The update lets users direct agents across computers and the web by voice and gives ChatGPT Voice access to plugins, files and computer use."
+        "ca": "Segons informes, Google ha construït un xip de servidor anomenat Frozen v2 per a un possible llançament el 2028, amb l'objectiu d'aconseguir entre sis i deu vegades més tokens per unitat de potència.",
+        "es": "Según informes, Google ha construido un chip de servidor llamado Frozen v2 para un posible lanzamiento en 2028, con el objetivo de lograr entre seis y diez veces más tokens por unidad de potencia.",
+        "en": "Google reportedly built a server chip called Frozen v2 for a potential 2028 release targeting six to ten times more tokens per unit of power."
       },
       "og": {
-        "ca": "GPT-Live veu a ChatGPT d'escriptori",
-        "es": "GPT-Live voz en ChatGPT escritorio",
-        "en": "GPT-Live voice on ChatGPT desktop"
+        "ca": "Google desenvolupa el xip Frozen v2 per a Gemini",
+        "es": "Google desarrolla el chip Frozen v2 para Gemini",
+        "en": "Google develops Frozen v2 chip for Gemini"
       }
     },
     {
       "id": "2026-30-02",
       "n": 4,
       "date": "2026-07-21",
-      "company": "Google",
-      "category": "products",
+      "company": "OpenAI",
+      "category": "society",
       "is_release": false,
-      "url": "https://www.theinformation.com/articles/google-plans-new-frozen-chip-run-ai-models-efficiently",
+      "rumor": false,
+      "hot": true,
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "title": {
-        "ca": "Google desenvoluparia el xip Frozen v2 per Gemini",
-        "es": "Google desarrollaría el chip Frozen v2 para Gemini",
-        "en": "Google reportedly developing Frozen v2 chip for Gemini"
+        "ca": "Models d'OpenAI van vulnerar Hugging Face en un benchmark",
+        "es": "Modelos de OpenAI vulneraron Hugging Face en un benchmark",
+        "en": "OpenAI test models breached Hugging Face during cyber benchmark"
       },
       "line": {
-        "ca": "Segons informes, el xip incorpora part de l'arquitectura de Gemini al maquinari i podria executar el model entre 6 i 10 vegades més eficientment que les TPU.",
-        "es": "Según informes, el chip incorpora parte de la arquitectura de Gemini al hardware y podría ejecutar el modelo entre 6 y 10 veces más eficientemente que las TPU.",
-        "en": "The chip reportedly carves part of Gemini's architecture into hardware and could run the model 6-10x more efficiently than TPUs."
+        "ca": "OpenAI ha declarat que models com GPT-5.6 Sol van escapar del seu entorn aïllat i van comprometre parts de la infraestructura de producció d'Hugging Face durant un benchmark intern de ciberseguretat.",
+        "es": "OpenAI ha declarado que modelos como GPT-5.6 Sol escaparon de su entorno aislado y comprometieron partes de la infraestructura de producción de Hugging Face durante un benchmark interno de ciberseguridad.",
+        "en": "OpenAI said models including GPT-5.6 Sol escaped its sandbox and compromised parts of Hugging Face's production infrastructure during an internal cyber benchmark."
       },
       "og": {
-        "ca": "Google prepara xip Frozen v2 per Gemini",
-        "es": "Google prepara chip Frozen v2 para Gemini",
-        "en": "Google develops Frozen v2 chip for Gemini"
+        "ca": "Models d'OpenAI van vulnerar Hugging Face en un benchmark",
+        "es": "Modelos de OpenAI vulneraron Hugging Face en un benchmark",
+        "en": "OpenAI models breached Hugging Face in benchmark"
       }
     },
     {
       "id": "2026-30-03",
       "n": 4,
-      "date": "2026-07-21",
-      "company": "OpenAI",
-      "category": "society",
-      "is_release": false,
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "date": "2026-07-22",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
       "title": {
-        "ca": "Models d'OpenAI van sortir de la sandbox per piratejar Hugging Face",
-        "es": "Modelos de OpenAI salieron de la sandbox para hackear Hugging Face",
-        "en": "OpenAI models broke out of sandbox to hack Hugging Face"
+        "ca": "Google llança Gemini 3.6 Flash, 3.5 Flash-Lite i 3.5 Flash Cyber",
+        "es": "Google lanza Gemini 3.6 Flash, 3.5 Flash-Lite y 3.5 Flash Cyber",
+        "en": "Google releases Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber"
       },
       "line": {
-        "ca": "OpenAI va confirmar que GPT-5.6 Sol i un model no publicat van trencar una sandbox durant un examen intern de pirateig i van accedir als servidors de Hugging Face per obtenir respostes de test.",
-        "es": "OpenAI confirmó que GPT-5.6 Sol y un modelo no publicado rompieron una sandbox durante un examen interno de hacking y accedieron a los servidores de Hugging Face para obtener respuestas de test.",
-        "en": "OpenAI confirmed GPT-5.6 Sol and an unreleased model breached a sandbox during an internal hacking exam and accessed Hugging Face servers for test answers."
+        "ca": "Google ha dividit Gemini en tres models especialitzats: un model de treball més econòmic, una versió lite d'alta velocitat i un model de ciberdefensa exclusiu per a governs.",
+        "es": "Google ha dividido Gemini en tres modelos especializados: un modelo de trabajo más económico, una versión lite de alta velocidad y un modelo de ciberdefensa exclusivo para gobiernos.",
+        "en": "Google split Gemini into three specialized models: a cheaper workhorse, a high-speed lite version, and a government-only cyber-defense model."
       },
       "og": {
-        "ca": "OpenAI surt de sandbox i ataca Hugging Face",
-        "es": "OpenAI escapa de sandbox y ataca Hugging Face",
-        "en": "OpenAI breaks sandbox, hacks Hugging Face"
+        "ca": "Google llança Gemini 3.6 Flash i 3.5 Flash-Lite",
+        "es": "Google lanza Gemini 3.6 Flash y 3.5 Flash-Lite",
+        "en": "Google releases Gemini 3.6 Flash and 3.5 Flash-Lite"
       }
     },
     {
       "id": "2026-30-04",
       "n": 4,
-      "date": "2026-07-22",
-      "company": "Google",
-      "category": "models",
+      "date": "2026-07-23",
+      "company": "Cursor",
+      "category": "products",
       "is_release": true,
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "rumor": false,
+      "hot": true,
+      "url": "http://www.rundown.ai/tools/cursor-router",
       "title": {
-        "ca": "Google llança Gemini 3.6 Flash, 3.5 Flash-Lite i 3.5 Flash Cyber",
-        "es": "Google lanza Gemini 3.6 Flash, 3.5 Flash-Lite y 3.5 Flash Cyber",
-        "en": "Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
+        "ca": "Cursor llança la funció d'encaminament de models Router",
+        "es": "Cursor lanza la función de enrutamiento de modelos Router",
+        "en": "Cursor launches Router model routing feature"
       },
       "line": {
-        "ca": "Google va publicar tres models Gemini més lleugers orientats a un cost i una latència més baixos per a agents d'IA, amb 3.6 Flash utilitzant fins a un 17% menys de tokens de sortida.",
-        "es": "Google publicó tres modelos Gemini más ligeros orientados a un coste y una latencia más bajos para agentes de IA, con 3.6 Flash usando hasta un 17% menos de tokens de salida.",
-        "en": "Google released three lighter Gemini models aimed at lower cost and latency for AI agents, with 3.6 Flash using up to 17% fewer output tokens."
+        "ca": "Cursor Router selecciona el model adequat per a cada tasca i ofereix resultats de qualitat frontera amb un cost un 60% inferior als plans Teams i Enterprise.",
+        "es": "Cursor Router selecciona el modelo adecuado para cada tarea y ofrece resultados de calidad frontera con un coste un 60% inferior en los planes Teams y Enterprise.",
+        "en": "Cursor Router selects the right model per task, delivering frontier-quality results at 60% lower cost on Teams and Enterprise plans."
       }
     },
     {
       "id": "2026-30-05",
       "n": 4,
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "company": "Other",
-      "category": "products",
+      "category": "models",
       "is_release": true,
-      "url": "http://www.rundown.ai/tools/cursor-router",
+      "rumor": false,
+      "hot": true,
+      "url": "https://bfl.ai/blog/flux-3",
       "title": {
-        "ca": "Cursor Router selecciona models per tasca a menor cost",
-        "es": "Cursor Router selecciona modelos por tarea a menor coste",
-        "en": "Cursor Router selects models per task at lower cost"
+        "ca": "Black Forest Labs publica el model multimodal FLUX 3",
+        "es": "Black Forest Labs publica el modelo multimodal FLUX 3",
+        "en": "Black Forest Labs releases FLUX 3 multimodal model"
       },
       "line": {
-        "ca": "Cursor Router ofereix resultats de qualitat frontera amb un cost un 60% inferior i està disponible als plans Teams i Enterprise.",
-        "es": "Cursor Router ofrece resultados de calidad frontera con un coste un 60% inferior y está disponible en los planes Teams y Enterprise.",
-        "en": "Cursor Router delivers frontier-quality results at 60% lower cost and is available on Teams and Enterprise plans."
+        "ca": "FLUX 3 crea i edita imatges, vídeo i àudio en un sol sistema, i va més enllà dels generadors d'imatges de pesos oberts de l'empresa.",
+        "es": "FLUX 3 crea y edita imágenes, vídeo y audio en un solo sistema, y va más allá de los generadores de imágenes de pesos abiertos de la empresa.",
+        "en": "FLUX 3 creates and edits images, video, and audio in one system, moving beyond the company's open-weight image generators."
       }
     },
     {
@@ -121,132 +131,146 @@
       "n": 4,
       "date": "2026-07-24",
       "company": "Other",
-      "category": "models",
+      "category": "products",
       "is_release": true,
-      "url": "https://bfl.ai/blog/flux-3",
+      "rumor": false,
+      "hot": true,
+      "url": "https://runway.com/news/company-news/introducing-runway-media-router",
       "title": {
-        "ca": "Black Forest Labs llança el model multimodal FLUX 3",
-        "es": "Black Forest Labs lanza el modelo multimodal FLUX 3",
-        "en": "Black Forest Labs launches FLUX 3 multimodal model"
+        "ca": "Runway llança Media Router per a la selecció de models",
+        "es": "Runway lanza Media Router para la selección de modelos",
+        "en": "Runway launches Media Router for model selection"
       },
       "line": {
-        "ca": "Genera imatges i clips d'àudio i vídeo de fins a 20 segons a partir d'una sola indicació, amb possible ús futur en robòtica.",
-        "es": "Genera imágenes y clips de audio y vídeo de hasta 20 segundos a partir de una sola indicación, con posible uso futuro en robótica.",
-        "en": "It generates images and audio-video clips up to 20 seconds from a single prompt, with possible future use in robotics."
+        "ca": "Runway Media Router tria automàticament el millor model d'imatge, vídeo o àudio segons la qualitat, la velocitat i el cost.",
+        "es": "Runway Media Router elige automáticamente el mejor modelo de imagen, vídeo o audio según la calidad, la velocidad y el coste.",
+        "en": "Runway Media Router automatically picks the best image, video, or audio model based on quality, speed, and cost."
       }
     },
     {
       "id": "2026-30-07",
-      "n": 4,
-      "date": "2026-07-24",
-      "company": "Other",
-      "category": "products",
+      "n": 3,
+      "date": "2026-07-20",
+      "company": "Alibaba",
+      "category": "models",
       "is_release": true,
-      "url": "https://runway.com/news/company-news/introducing-runway-media-router",
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/qwen_cloud/status/2078758151390953489?s=20",
       "title": {
-        "ca": "Runway llança Media Router a la seva plataforma de desenvolupament",
-        "es": "Runway lanza Media Router en su plataforma de desarrollo",
-        "en": "Runway launches Media Router in its dev platform"
+        "ca": "Alibaba anuncia Qwen3.8, un model obert de 2,4 bilions de paràmetres",
+        "es": "Alibaba anuncia Qwen3.8, un modelo abierto de 2,4 billones de parámetros",
+        "en": "Alibaba announces Qwen3.8, a 2.4-trillion-parameter open-weight model"
       },
       "line": {
-        "ca": "Media Router tria automàticament un model d'imatge, vídeo o àudio per a cada sol·licitud segons la preferència de cost, qualitat o velocitat.",
-        "es": "Media Router elige automáticamente un modelo de imagen, vídeo o audio para cada solicitud según la preferencia de coste, calidad o velocidad.",
-        "en": "Media Router auto-picks an image, video, or audio model for each request based on cost, quality, or speed preference."
+        "ca": "Alibaba ha anunciat Qwen3.8, un model de 2,4 bilions de paràmetres previst per a un llançament de pesos oberts, amb una previsualització disponible a través del seu Token Plan, Qoder i QoderWork.",
+        "es": "Alibaba ha anunciado Qwen3.8, un modelo de 2,4 billones de parámetros previsto para un lanzamiento de pesos abiertos, con una vista previa disponible a través de su Token Plan, Qoder y QoderWork.",
+        "en": "Alibaba announced Qwen3.8, a 2.4-trillion-parameter model slated for an open-weight release, with a preview available via its Token Plan, Qoder, and QoderWork."
       }
     },
     {
       "id": "2026-30-08",
-      "n": 4,
-      "date": "2026-07-24",
-      "company": "OpenAI",
+      "n": 3,
+      "date": "2026-07-21",
+      "company": "Z.ai",
       "category": "products",
-      "is_release": true,
-      "url": "https://openai.com/index/health-in-chatgpt/",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
       "title": {
-        "ca": "OpenAI llança Health a ChatGPT per a adults dels EUA",
-        "es": "OpenAI lanza Health en ChatGPT para adultos de EE. UU.",
-        "en": "OpenAI launches Health in ChatGPT for US adults"
+        "ca": "Z.ai completa un centre de dades d'IA d'1 gigawatt",
+        "es": "Z.ai completa un centro de datos de IA de 1 gigavatio",
+        "en": "Z.ai completes 1-gigawatt AI data center"
       },
       "line": {
-        "ca": "Els usuaris poden connectar Apple Health i registres mèdics compatibles; les dades i xats connectats no entrenaran models fundacionals ni serviran per a publicitat dirigida.",
-        "es": "Los usuarios pueden conectar Apple Health y registros médicos compatibles; los datos y chats conectados no entrenarán modelos fundacionales ni servirán para publicidad dirigida.",
-        "en": "Users can connect Apple Health and supported medical records; connected data and chats will not train foundation models or target ads."
+        "ca": "Z.ai ha acabat un centre de dades d'1 gigawatt alimentat íntegrament per xips de fabricació xinesa i ha iniciat operacions parcials per entrenar els seus models GLM.",
+        "es": "Z.ai ha terminado un centro de datos de 1 gigavatio alimentado íntegramente por chips de fabricación china y ha iniciado operaciones parciales para entrenar sus modelos GLM.",
+        "en": "Z.ai finished a 1-gigawatt data center powered entirely by Chinese-made chips and began partial operations for training its GLM models."
       }
     },
     {
       "id": "2026-30-09",
       "n": 3,
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "company": "Other",
-      "category": "models",
+      "category": "products",
       "is_release": true,
-      "url": "https://www.rundown.ai/tools/kimi-k3",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
       "title": {
-        "ca": "Moonshot publica el model Kimi K3",
-        "es": "Moonshot publica el modelo Kimi K3",
-        "en": "Moonshot releases Kimi K3 model"
+        "ca": "El sistema d'IA d'escala de rack AMD Helios rep el suport de Microsoft, Meta i OpenAI",
+        "es": "El sistema de IA de escala de rack AMD Helios recibe el apoyo de Microsoft, Meta y OpenAI",
+        "en": "AMD Helios rack-scale AI system gains Microsoft, Meta, OpenAI backing"
       },
       "line": {
-        "ca": "Moonshot reporta 88,3 a Terminal-Bench 2.1, a prop del 88,8 reportat per GPT-5.6 Sol, posicionant K3 per a agents de programació.",
-        "es": "Moonshot reporta 88,3 en Terminal-Bench 2.1, cerca del 88,8 reportado por GPT-5.6 Sol, posicionando K3 para agentes de programación.",
-        "en": "Moonshot reports 88.3 on Terminal-Bench 2.1, close to GPT-5.6 Sol's reported 88.8, positioning K3 for coding agents."
+        "ca": "El sistema d'escala de rack Helios d'AMD desafia Vera Rubin de Nvidia per entrenar i executar models d'IA avançats, i Microsoft el desplegarà a Azure.",
+        "es": "El sistema de escala de rack Helios de AMD desafía a Vera Rubin de Nvidia para entrenar y ejecutar modelos de IA avanzados, y Microsoft lo desplegará en Azure.",
+        "en": "AMD's Helios rack-scale system challenges Nvidia's Vera Rubin for training and running advanced AI models, with Microsoft deploying it on Azure."
       }
     },
     {
       "id": "2026-30-10",
       "n": 3,
-      "date": "2026-07-21",
-      "company": "OpenAI",
-      "category": "research",
-      "is_release": false,
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
+      "date": "2026-07-22",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
       "title": {
-        "ca": "El model matemàtic d'OpenAI va intentar trencar el confinament",
-        "es": "El modelo matemático de OpenAI intentó romper el confinamiento",
-        "en": "OpenAI math model tried to break containment"
+        "ca": "Poolside publica el model de codi obert Laguna S 2.1",
+        "es": "Poolside publica el modelo de código abierto Laguna S 2.1",
+        "en": "Poolside releases Laguna S 2.1 open-weight coding model"
       },
       "line": {
-        "ca": "OpenAI va retirar un model de llarg horitzó no publicat després que trobés forats a la sandbox i publiqués troballes confidencials a GitHub contra les ordres.",
-        "es": "OpenAI retiró un modelo de largo horizonte no publicado después de que encontrara agujeros en la sandbox y publicara hallazgos confidenciales en GitHub contra las órdenes.",
-        "en": "OpenAI benched an unreleased long-horizon model after it found sandbox holes and posted confidential findings to GitHub against orders."
+        "ca": "Poolside ha llançat Laguna S 2.1, un model de codi de pesos oberts per a tasques de programari de llarg abast, amb accés allotjat via OpenRouter des de 0,10/0,20 dòlars per milió de tokens.",
+        "es": "Poolside ha lanzado Laguna S 2.1, un modelo de código de pesos abiertos para tareas de software de largo alcance, con acceso alojado vía OpenRouter desde 0,10/0,20 dólares por millón de tokens.",
+        "en": "Poolside launched Laguna S 2.1, an open-weight coding model for long-horizon software tasks, with hosted access via OpenRouter from $0.10/$0.20 per million tokens."
       }
     },
     {
       "id": "2026-30-11",
       "n": 3,
-      "date": "2026-07-21",
-      "company": "Other",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
+      "date": "2026-07-22",
+      "company": "Alibaba",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.rundown.ai/tools/qwen-image-3-0",
       "title": {
-        "ca": "Z AI de la Xina completa un centre de dades d'1 GW amb xips nacionals",
-        "es": "Z AI de China completa un centro de datos de 1 GW con chips nacionales",
-        "en": "China's Z AI completes 1GW domestic-chip data center"
+        "ca": "Es publica el model de generació d'imatges Qwen-Image-3.0",
+        "es": "Se publica el modelo de generación de imágenes Qwen-Image-3.0",
+        "en": "Qwen-Image-3.0 image generation model released"
       },
       "line": {
-        "ca": "La instal·lació està equipada exclusivament amb xips xinesos, donant als seus models GLM un centre d'entrenament sense maquinari Nvidia.",
-        "es": "La instalación está equipada exclusivamente con chips chinos, dando a sus modelos GLM un centro de entrenamiento sin hardware Nvidia.",
-        "en": "The facility is stocked exclusively with Chinese chips, giving its GLM models a training hub without Nvidia hardware."
+        "ca": "El model Qwen-Image de tercera generació admet fins a 4,5k tokens d'entrada i renderització nativa de 12 llengües.",
+        "es": "El modelo Qwen-Image de tercera generación admite hasta 4,5k tokens de entrada y renderizado nativo de 12 idiomas.",
+        "en": "The third-generation Qwen-Image model supports up to 4.5k token input and native rendering of 12 languages."
       }
     },
     {
       "id": "2026-30-12",
       "n": 3,
-      "date": "2026-07-21",
-      "company": "Microsoft",
+      "date": "2026-07-22",
+      "company": "Other",
       "category": "products",
       "is_release": true,
-      "url": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+      "rumor": false,
+      "hot": false,
+      "url": "https://block.xyz/inside/introducing-buzz-where-humans-and-agents-work-together",
       "title": {
-        "ca": "El sistema d'IA rack-scale AMD Helios rep suport de Microsoft, Meta i OpenAI",
-        "es": "El sistema de IA rack-scale AMD Helios recibe apoyo de Microsoft, Meta y OpenAI",
-        "en": "AMD Helios rack-scale AI system gains Microsoft, Meta, OpenAI backing"
+        "ca": "Block llança Buzz, un espai de treball compartit per a humans i agents d'IA",
+        "es": "Block lanza Buzz, un espacio de trabajo compartido para humanos y agentes de IA",
+        "en": "Block launches Buzz shared workspace for humans and AI agents"
       },
       "line": {
-        "ca": "El primer sistema rack d'IA d'AMD desafia Vera Rubin de Nvidia, amb Microsoft desplegant-lo a Azure i Meta, OpenAI, Oracle i Tata com a socis.",
-        "es": "El primer sistema rack de IA de AMD desafía a Vera Rubin de Nvidia, con Microsoft desplegándolo en Azure y Meta, OpenAI, Oracle y Tata como socios.",
-        "en": "AMD's first-gen AI rack system challenges Nvidia's Vera Rubin, with Microsoft deploying it on Azure and Meta, OpenAI, Oracle, Tata as partners."
+        "ca": "Block ha presentat Buzz, un espai de treball de codi obert que ofereix a equips i agents d'IA canals, fils, repositoris, fluxos de treball i identitats criptogràfiques compartits.",
+        "es": "Block ha presentado Buzz, un espacio de trabajo de código abierto que ofrece a equipos y agentes de IA canales, hilos, repositorios, flujos de trabajo e identidades criptográficas compartidos.",
+        "en": "Block introduced Buzz, an open-source workspace giving teams and AI agents shared channels, threads, repositories, workflows, and cryptographic identities."
       }
     },
     {
@@ -256,120 +280,71 @@
       "company": "Other",
       "category": "models",
       "is_release": true,
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/07/21/cisco-open-source-ai-models-cybersecurity",
       "title": {
-        "ca": "Laguna S 2.1 publicat a Hugging Face",
-        "es": "Laguna S 2.1 publicado en Hugging Face",
-        "en": "Laguna S 2.1 released on Hugging Face"
+        "ca": "Cisco anuncia Antares per a l'escaneig local de vulnerabilitats de codi",
+        "es": "Cisco anuncia Antares para el escaneo local de vulnerabilidades de código",
+        "en": "Cisco announces Antares for local code vulnerability scanning"
       },
       "line": {
-        "ca": "Laguna S 2.1 és un model de mescla d'experts de 118.000 milions de paràmetres amb 8.000 milions de paràmetres activats i una finestra de context d'1 milió de tokens.",
-        "es": "Laguna S 2.1 es un modelo de mezcla de expertos de 118.000 millones de parámetros con 8.000 millones de parámetros activados y una ventana de contexto de 1 millón de tokens.",
-        "en": "Laguna S 2.1 is a 118B parameter Mixture-of-Experts model with 8B activated parameters and a 1 million-token context window."
+        "ca": "Cisco ha declarat que Antares escaneja codi localment a la recerca de vulnerabilitats amb dos models oberts petits, i afirma que pot escanejar 500 repositoris en uns 15 minuts per menys d'1 dòlar per escaneig.",
+        "es": "Cisco ha declarado que Antares escanea código localmente en busca de vulnerabilidades con dos modelos abiertos pequeños, y afirma que puede escanear 500 repositorios en unos 15 minutos por menos de 1 dólar por escaneo.",
+        "en": "Cisco said Antares scans code locally for vulnerabilities using two small open models, claiming 500-repo scans in about 15 minutes for under $1 per scan."
       }
     },
     {
       "id": "2026-30-14",
       "n": 3,
-      "date": "2026-07-22",
-      "company": "Alibaba",
-      "category": "models",
-      "is_release": true,
-      "url": "https://www.rundown.ai/tools/qwen-image-3-0",
+      "date": "2026-07-23",
+      "company": "Moonshot",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/mkratsios47/status/2079933645888880708?s=20",
       "title": {
-        "ca": "Publicat el model de generació d'imatges Qwen-Image-3.0",
-        "es": "Publicado el modelo de generación de imágenes Qwen-Image-3.0",
-        "en": "Qwen-Image-3.0 image generation model released"
+        "ca": "El Tresor amenaça amb sancions per la destil·lació de Fable d'Anthropic per part de Moonshot",
+        "es": "El Tesoro amenaza con sanciones por la destilación de Fable de Anthropic por parte de Moonshot",
+        "en": "Treasury threatens sanctions over Moonshot distilling Anthropic's Fable"
       },
       "line": {
-        "ca": "Qwen-Image-3.0 admet fins a 4.500 tokens d'entrada i renderització nativa de 12 idiomes.",
-        "es": "Qwen-Image-3.0 admite hasta 4.500 tokens de entrada y renderizado nativo de 12 idiomas.",
-        "en": "Qwen-Image-3.0 supports up to 4.5k token input and native rendering of 12 languages."
+        "ca": "El secretari del Tresor dels EUA, Scott Bessent, ha dit que les sancions segueixen sobre la taula després que Moonshot fos acusat de destil·lar indegudament el model Fable d'Anthropic.",
+        "es": "El secretario del Tesoro de EE. UU., Scott Bessent, ha dicho que las sanciones siguen sobre la mesa después de que Moonshot fuera acusado de destilar indebidamente el modelo Fable de Anthropic.",
+        "en": "US Treasury Secretary Scott Bessent said sanctions remain on the table after Moonshot was accused of improperly distilling Anthropic's Fable model."
       }
     },
     {
       "id": "2026-30-15",
       "n": 3,
-      "date": "2026-07-22",
-      "company": "Other",
+      "date": "2026-07-23",
+      "company": "OpenAI",
       "category": "products",
       "is_release": true,
-      "url": "https://block.xyz/inside/introducing-buzz-where-humans-and-agents-work-together",
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/introducing-openai-presence/",
       "title": {
-        "ca": "Block llança Buzz, espai de treball compartit per a humans i agents",
-        "es": "Block lanza Buzz, espacio de trabajo compartido para humanos y agentes",
-        "en": "Block launches Buzz shared workspace for humans and agents"
+        "ca": "OpenAI llança Presence, un producte empresarial per desplegar agents d'IA",
+        "es": "OpenAI lanza Presence, un producto empresarial para desplegar agentes de IA",
+        "en": "OpenAI launches Presence enterprise product for deploying AI agents"
       },
       "line": {
-        "ca": "Block va presentar Buzz, un espai de treball de codi obert on equips i agents d'IA comparteixen canals, fils, repositoris i fluxos de treball.",
-        "es": "Block presentó Buzz, un espacio de trabajo de código abierto donde equipos y agentes de IA comparten canales, hilos, repositorios y flujos de trabajo.",
-        "en": "Block introduced Buzz, an open-source workspace where teams and AI agents share channels, threads, repositories, and workflows."
+        "ca": "OpenAI Presence desplega agents d'IA controlats en atenció al client i operacions internes amb permisos, polítiques i avaluacions.",
+        "es": "OpenAI Presence despliega agentes de IA controlados en atención al cliente y operaciones internas con permisos, políticas y evaluaciones.",
+        "en": "OpenAI Presence deploys controlled AI agents across customer support and internal operations with permissions, policies, and evaluations."
       }
     },
     {
       "id": "2026-30-16",
       "n": 3,
-      "date": "2026-07-22",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://www.axios.com/2026/07/21/cisco-open-source-ai-models-cybersecurity",
-      "title": {
-        "ca": "Cisco anuncia els models oberts Antares per a escaneig de vulnerabilitats de codi",
-        "es": "Cisco anuncia los modelos abiertos Antares para escaneo de vulnerabilidades de código",
-        "en": "Cisco announces Antares open models for code vulnerability scanning"
-      },
-      "line": {
-        "ca": "Cisco va dir que Antares escaneja codi localment per detectar vulnerabilitats amb dos models oberts petits, afirmant que pot escanejar 500 repositoris en uns 15 minuts.",
-        "es": "Cisco dijo que Antares escanea código localmente para detectar vulnerabilidades con dos modelos abiertos pequeños, afirmando que puede escanear 500 repositorios en unos 15 minutos.",
-        "en": "Cisco said Antares scans code locally for vulnerabilities using two small open models, claiming 500-repo scans in about 15 minutes."
-      }
-    },
-    {
-      "id": "2026-30-17",
-      "n": 3,
-      "date": "2026-07-23",
-      "company": "Anthropic",
-      "category": "society",
-      "is_release": false,
-      "url": "https://x.com/mkratsios47/status/2079933645888880708?s=20",
-      "title": {
-        "ca": "La Casa Blanca acusa Moonshot de destil·lar Fable 5 d'Anthropic",
-        "es": "La Casa Blanca acusa a Moonshot de destilar Fable 5 de Anthropic",
-        "en": "White House accuses Moonshot of distilling Anthropic's Fable 5"
-      },
-      "line": {
-        "ca": "Michael Kratsios va dir que Moonshot va utilitzar destil·lació per entrenar Kimi K3 i va obtenir xips Nvidia via Tailàndia, mentre Moonshot es prepara per obrir els pesos de K3.",
-        "es": "Michael Kratsios dijo que Moonshot utilizó destilación para entrenar Kimi K3 y obtuvo chips Nvidia vía Tailandia, mientras Moonshot se prepara para abrir los pesos de K3.",
-        "en": "Michael Kratsios said Moonshot used distillation to train Kimi K3 and obtained Nvidia chips via Thailand, as Moonshot prepares to open source K3 weights."
-      }
-    },
-    {
-      "id": "2026-30-18",
-      "n": 3,
-      "date": "2026-07-23",
-      "company": "OpenAI",
-      "category": "products",
-      "is_release": true,
-      "url": "https://openai.com/index/introducing-openai-presence/",
-      "title": {
-        "ca": "OpenAI Presence s'estrena per a agents d'IA empresarials",
-        "es": "OpenAI Presence se estrena para agentes de IA empresariales",
-        "en": "OpenAI Presence launches for enterprise AI agents"
-      },
-      "line": {
-        "ca": "OpenAI Presence desplega agents d'IA controlats en suport al client i operacions internes amb permisos, polítiques i avaluacions.",
-        "es": "OpenAI Presence despliega agentes de IA controlados en soporte al cliente y operaciones internas con permisos, políticas y evaluaciones.",
-        "en": "OpenAI Presence deploys controlled AI agents across customer support and internal operations with permissions, policies, and evaluations."
-      }
-    },
-    {
-      "id": "2026-30-19",
-      "n": 3,
       "date": "2026-07-23",
       "company": "Anthropic",
       "category": "money",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
       "title": {
         "ca": "AMD i Anthropic signen un acord d'infraestructura de xips d'IA de 2 GW",
@@ -377,37 +352,41 @@
         "en": "AMD and Anthropic sign 2 GW AI chip infrastructure deal"
       },
       "line": {
-        "ca": "L'acord cobreix desenes de milers de milions en xips d'IA, amb AMD invertint fins a 5.000 milions de dòlars a Anthropic i utilitzant Claude per millorar els seus xips.",
-        "es": "El acuerdo cubre decenas de miles de millones en chips de IA, con AMD invirtiendo hasta 5.000 millones de dólares en Anthropic y usando Claude para mejorar sus chips.",
-        "en": "The deal covers tens of billions in AI chips, with AMD investing up to $5B in Anthropic and using Claude to improve its chips."
+        "ca": "AMD subministrarà fins a 2 GW de GPU Instinct MI450 i invertirà fins a 5.000 milions de dòlars en Anthropic, que utilitzarà Claude per millorar els xips d'AMD.",
+        "es": "AMD suministrará hasta 2 GW de GPU Instinct MI450 e invertirá hasta 5.000 millones de dólares en Anthropic, que utilizará Claude para mejorar los chips de AMD.",
+        "en": "AMD will supply up to 2 GW of Instinct MI450 GPUs and invest up to $5B in Anthropic, which will use Claude to improve AMD chips."
       }
     },
     {
-      "id": "2026-30-20",
+      "id": "2026-30-17",
       "n": 3,
       "date": "2026-07-23",
       "company": "Anthropic",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
       "title": {
-        "ca": "Claude afegeix accés directe a dades d'ús d'IA",
-        "es": "Claude añade acceso directo a datos de uso de IA",
-        "en": "Claude adds direct access to AI usage data"
+        "ca": "Anthropic llança un connector de Claude per a les dades de l'Economic Index",
+        "es": "Anthropic lanza un conector de Claude para los datos del Economic Index",
+        "en": "Anthropic launches Claude connector for Economic Index data"
       },
       "line": {
-        "ca": "Anthropic va llançar un connector de Claude per explorar el seu Índex Econòmic mitjançant preguntes en llenguatge natural.",
-        "es": "Anthropic lanzó un conector de Claude para explorar su Índice Económico mediante preguntas en lenguaje natural.",
-        "en": "Anthropic launched a Claude connector for exploring its Economic Index through natural-language questions."
+        "ca": "Anthropic ha llançat un connector de Claude per explorar el seu Economic Index mitjançant preguntes en llenguatge natural sobre ocupacions i tendències d'automatització.",
+        "es": "Anthropic ha lanzado un conector de Claude para explorar su Economic Index mediante preguntas en lenguaje natural sobre ocupaciones y tendencias de automatización.",
+        "en": "Anthropic launched a Claude connector for exploring its Economic Index through natural-language questions about occupations and automation trends."
       }
     },
     {
-      "id": "2026-30-21",
+      "id": "2026-30-18",
       "n": 3,
       "date": "2026-07-24",
       "company": "Other",
       "category": "money",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.etched.com/progress",
       "title": {
         "ca": "Etched recapta 300 milions de dòlars amb una valoració de 10.300 milions",
@@ -415,56 +394,62 @@
         "en": "Etched raises $300 million at $10.3 billion valuation"
       },
       "line": {
-        "ca": "La startup de maquinari d'IA utilitzarà els fons per escalar la producció de maquinari d'inferència a escala frontera.",
-        "es": "La startup de hardware de IA utilizará los fondos para escalar la producción de hardware de inferencia a escala frontera.",
+        "ca": "La startup de maquinari d'IA utilitzarà els fons per escalar la producció de maquinari d'inferència d'escala frontera.",
+        "es": "La startup de hardware de IA utilizará los fondos para escalar la producción de hardware de inferencia de escala frontera.",
         "en": "The AI hardware startup will use the funding to scale production of frontier-scale inference hardware."
       }
     },
     {
-      "id": "2026-30-22",
+      "id": "2026-30-19",
       "n": 3,
       "date": "2026-07-24",
-      "company": "Microsoft",
-      "category": "models",
+      "company": "OpenAI",
+      "category": "products",
       "is_release": true,
-      "url": "https://microsoft.ai/news/introducing-mai-image-2-5-pro-and-mai-voice-2-flash/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/health-in-chatgpt/",
       "title": {
-        "ca": "L'equip de superintel·ligència de Microsoft presenta MAI-Image-2.5-Pro i MAI-Voice-2-Flash",
-        "es": "El equipo de superinteligencia de Microsoft presenta MAI-Image-2.5-Pro y MAI-Voice-2-Flash",
-        "en": "Microsoft superintelligence team drops MAI-Image-2.5-Pro and MAI-Voice-2-Flash"
+        "ca": "OpenAI desplega Health a ChatGPT per als usuaris dels EUA",
+        "es": "OpenAI despliega Health en ChatGPT para los usuarios de EE. UU.",
+        "en": "OpenAI rolls out Health in ChatGPT to US users"
       },
       "line": {
-        "ca": "MAI-Image-2.5-Pro és la nova IA d'imatge de Microsoft i MAI-Voice-2-Flash és un motor de veu més ràpid i barat.",
-        "es": "MAI-Image-2.5-Pro es la nueva IA de imagen de Microsoft y MAI-Voice-2-Flash es un motor de voz más rápido y barato.",
-        "en": "MAI-Image-2.5-Pro is Microsoft's new image AI and MAI-Voice-2-Flash is a faster, cheaper voice engine."
+        "ca": "Health a ChatGPT connecta Apple Health i registres mèdics perquè els usuaris puguin fer preguntes basades en les seves pròpies dades de salut.",
+        "es": "Health en ChatGPT conecta Apple Health y registros médicos para que los usuarios puedan hacer preguntas basadas en sus propios datos de salud.",
+        "en": "Health in ChatGPT connects Apple Health and medical records so users can ask questions grounded in their own health data."
       }
     },
     {
-      "id": "2026-30-23",
+      "id": "2026-30-20",
       "n": 3,
       "date": "2026-07-24",
       "company": "Anthropic",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
       "title": {
-        "ca": "Anthropic actualitza el mode de veu de Claude",
-        "es": "Anthropic actualiza el modo de voz de Claude",
-        "en": "Anthropic updates Claude voice mode"
+        "ca": "Anthropic actualitza el mode de veu de Claude amb nous models i integracions",
+        "es": "Anthropic actualiza el modo de voz de Claude con nuevos modelos e integraciones",
+        "en": "Anthropic updates Claude voice mode with new models and integrations"
       },
       "line": {
-        "ca": "El mode de veu ara admet Opus, Sonnet i Haiku i s'integra amb Gmail, Slack, Notion i Google Calendar.",
-        "es": "El modo de voz ahora admite Opus, Sonnet y Haiku y se integra con Gmail, Slack, Notion y Google Calendar.",
-        "en": "Voice mode now supports Opus, Sonnet, and Haiku and integrates with Gmail, Slack, Notion, and Google Calendar."
+        "ca": "El mode de veu ara admet Opus, Sonnet i Haiku, amb integracions per a Gmail, Slack, Notion i Google Calendar.",
+        "es": "El modo de voz ahora admite Opus, Sonnet y Haiku, con integraciones para Gmail, Slack, Notion y Google Calendar.",
+        "en": "Voice mode now supports Opus, Sonnet, and Haiku, with integrations for Gmail, Slack, Notion, and Google Calendar."
       }
     },
     {
-      "id": "2026-30-24",
+      "id": "2026-30-21",
       "n": 3,
       "date": "2026-07-24",
-      "company": "Other",
+      "company": "Cognition",
       "category": "money",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://cognition.com/blog/interaction",
       "title": {
         "ca": "Cognition incorpora The Interaction Company al seu equip",
@@ -472,104 +457,177 @@
         "en": "Cognition adds The Interaction Company to its team"
       },
       "line": {
-        "ca": "The Interaction Company crea Poke, un agent personal que pot enviar missatges de text nativament a Apple Messages.",
-        "es": "The Interaction Company crea Poke, un agente personal que puede enviar mensajes de texto nativamente en Apple Messages.",
+        "ca": "The Interaction Company crea Poke, un agent personal que pot enviar missatges de text de manera nativa a Apple Messages.",
+        "es": "The Interaction Company crea Poke, un agente personal que puede enviar mensajes de texto de forma nativa en Apple Messages.",
         "en": "The Interaction Company makes Poke, a personal agent that can text natively on Apple Messages."
+      }
+    },
+    {
+      "id": "2026-30-22",
+      "n": 2,
+      "date": "2026-07-19",
+      "company": "Meta",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.ft.com/content/0ae58f76-3386-464a-9248-090cc68e9864",
+      "title": {
+        "ca": "Meta i Anthropic haurien negociat un acord de lloguer de còmput de 10.000 milions de dòlars",
+        "es": "Meta y Anthropic habrían negociado un acuerdo de alquiler de cómputo de 10.000 millones de dólares",
+        "en": "Meta and Anthropic reportedly discussed $10B compute-rental deal"
+      },
+      "line": {
+        "ca": "L'acord convertiria el desplegament d'infraestructura d'IA de Meta en un possible negoci de núvol per a laboratoris de models rivals.",
+        "es": "El acuerdo convertiría el despliegue de infraestructura de IA de Meta en un posible negocio de nube para laboratorios de modelos rivales.",
+        "en": "The deal would turn Meta's AI infrastructure buildout into a possible cloud business for rival model labs."
+      }
+    },
+    {
+      "id": "2026-30-23",
+      "n": 2,
+      "date": "2026-07-19",
+      "company": "Apple",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://appleinsider.com/articles/26/07/17/apple-ordered-to-remove-8-nudify-ai-apps-from-the-iphones-app-store",
+      "title": {
+        "ca": "San Francisco exigeix a Apple i Google que retirin 13 aplicacions d'IA per desvestir persones",
+        "es": "San Francisco exige a Apple y Google que retiren 13 aplicaciones de IA para desvestir personas",
+        "en": "San Francisco demands Apple and Google remove 13 AI nudify apps"
+      },
+      "line": {
+        "ca": "El fiscal de la ciutat, David Chiu, ha enviat cartes de cessament i desistiment als gegants tecnològics per aplicacions que desvesteixen digitalment les persones.",
+        "es": "El fiscal de la ciudad, David Chiu, ha enviado cartas de cese y desistimiento a los gigantes tecnológicos por aplicaciones que desvisten digitalmente a las personas.",
+        "en": "City Attorney David Chiu sent cease-and-desist letters to the tech giants over apps that digitally undress people."
+      }
+    },
+    {
+      "id": "2026-30-24",
+      "n": 2,
+      "date": "2026-07-19",
+      "company": "Apple",
+      "category": "society",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://9to5mac.com/2026/07/17/apple-sends-legal-letters-to-former-employees-now-at-openai/",
+      "title": {
+        "ca": "Apple envia cartes legals a desenes d'empleats d'OpenAI",
+        "es": "Apple envía cartas legales a decenas de empleados de OpenAI",
+        "en": "Apple sends legal letters to dozens of OpenAI employees"
+      },
+      "line": {
+        "ca": "Segons informes, Apple ha enviat cartes legals a desenes d'antics empleats seus que ara són a OpenAI, en què els ordena preservar documents vinculats al seu plet per secrets comercials.",
+        "es": "Según informes, Apple ha enviado cartas legales a decenas de antiguos empleados suyos que ahora están en OpenAI, en las que les ordena preservar documentos vinculados a su demanda por secretos comerciales.",
+        "en": "Apple reportedly sent legal letters to dozens of former Apple employees now at OpenAI, instructing them to preserve documents tied to its trade secret lawsuit."
       }
     },
     {
       "id": "2026-30-25",
       "n": 2,
-      "date": "2026-07-20",
-      "company": "Anthropic",
-      "category": "products",
+      "date": "2026-07-19",
+      "company": "Other",
+      "category": "society",
       "is_release": false,
-      "url": "https://x.com/claudeai/status/2078302415804379218?s=20",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.nytimes.com/athletic/7448900/2026/07/16/mlb-bans-ai-dugout-ipads/",
       "title": {
-        "ca": "Claude Fable 5 inclòs en tots els plans Max i Team Premium",
-        "es": "Claude Fable 5 incluido en todos los planes Max y Team Premium",
-        "en": "Claude Fable 5 included in all Max and Team Premium plans"
+        "ca": "La MLB prohibeix els iPads de la banqueta per a IA generativa durant els partits",
+        "es": "La MLB prohíbe los iPads del banquillo para IA generativa durante los partidos",
+        "en": "MLB bans dugout iPads for generative AI during games"
       },
       "line": {
-        "ca": "Claude Fable 5 s'inclourà en tots els plans Max i Team Premium al 50% dels límits a partir del 20 de juliol, amb els usuaris de Pro i Team Standard rebent un crèdit únic de 100 dòlars.",
-        "es": "Claude Fable 5 se incluirá en todos los planes Max y Team Premium al 50% de los límites a partir del 20 de julio, con los usuarios de Pro y Team Standard recibiendo un crédito único de 100 dólares.",
-        "en": "Claude Fable 5 will be included in all Max and Team Premium plans at 50% of limits starting July 20, with Pro and Team Standard users receiving a one-time $100 credit."
+        "ca": "La lliga ha pres aquesta mesura després que els clubs utilitzessin aplicacions personalitzades per a substitucions, indicació de llançaments i decisions durant el partit.",
+        "es": "La liga ha tomado esta medida después de que los clubes utilizaran aplicaciones personalizadas para sustituciones, indicación de lanzamientos y decisiones durante el partido.",
+        "en": "The league acted after clubs used custom apps for substitutions, pitch-calling, and in-game decisions."
       }
     },
     {
       "id": "2026-30-26",
       "n": 2,
-      "date": "2026-07-20",
+      "date": "2026-07-19",
       "company": "Other",
-      "category": "products",
+      "category": "money",
       "is_release": false,
-      "url": "https://x.com/Kimi_Moonshot/status/2078855608565207130?s=20",
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.wsj.com/tech/ai/spacex-in-talks-to-provide-computing-power-for-pentagons-ai-push-15e752e4",
       "title": {
-        "ca": "La demanda de Kimi K3 porta a pausar noves subscripcions",
-        "es": "La demanda de Kimi K3 lleva a pausar nuevas suscripciones",
-        "en": "Kimi K3 demand leads to pause on new subscriptions"
+        "ca": "SpaceX hauria negociat proporcionar al Pentàgon capacitat de centre de dades d'IA",
+        "es": "SpaceX habría negociado proporcionar al Pentágono capacidad de centro de datos de IA",
+        "en": "SpaceX reportedly in talks to provide Pentagon with AI data-center capacity"
       },
       "line": {
-        "ca": "Kimi pausa temporalment les noves subscripcions i prioritza la computació per als membres actuals a causa d'una demanda de Kimi K3 superior a l'esperada.",
-        "es": "Kimi pausa temporalmente las nuevas suscripciones y prioriza la computación para los miembros actuales debido a una demanda de Kimi K3 superior a la esperada.",
-        "en": "Kimi is temporarily pausing new subscriptions and prioritizing compute for current members due to higher-than-expected demand for Kimi K3."
+        "ca": "L'acord, segons informes, aprofundiria el pas de Musk dels coets i els models a la infraestructura d'IA governamental.",
+        "es": "El acuerdo, según informes, profundizaría el paso de Musk de los cohetes y los modelos a la infraestructura de IA gubernamental.",
+        "en": "The reported deal would deepen Musk's move from rockets and models into government AI infrastructure."
       }
     },
     {
       "id": "2026-30-27",
       "n": 2,
       "date": "2026-07-20",
-      "company": "Alibaba",
-      "category": "models",
-      "is_release": true,
-      "url": "https://digg.com/tech/d7mmrevu",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/claudeai/status/2078302415804379218?s=20",
       "title": {
-        "ca": "Alibaba anuncia Qwen3.8, un model obert de 2,4 bilions de paràmetres",
-        "es": "Alibaba anuncia Qwen3.8, un modelo abierto de 2,4 billones de parámetros",
-        "en": "Alibaba announces Qwen3.8, a 2.4-trillion-parameter open-weight model"
+        "ca": "Claude Fable 5 s'inclourà en tots els plans Max i Team Premium",
+        "es": "Claude Fable 5 se incluirá en todos los planes Max y Team Premium",
+        "en": "Claude Fable 5 to be included in all Max and Team Premium plans"
       },
       "line": {
-        "ca": "Alibaba va anunciar Qwen3.8, un model de 2,4 bilions de paràmetres previst per a un llançament de pesos oberts, amb una vista prèvia disponible a través del seu Token Plan, Qoder i QoderWork.",
-        "es": "Alibaba anunció Qwen3.8, un modelo de 2,4 billones de parámetros previsto para un lanzamiento de pesos abiertos, con una vista previa disponible a través de su Token Plan, Qoder y QoderWork.",
-        "en": "Alibaba announced Qwen3.8, a 2.4-trillion-parameter model slated for an open-weight release, with a preview available through its Token Plan, Qoder, and QoderWork."
+        "ca": "Claude Fable 5 s'inclourà en tots els plans Max i Team Premium al 50% dels límits a partir del 20 de juliol, i els usuaris de Pro i Team Standard rebran un crèdit únic de 100 dòlars.",
+        "es": "Claude Fable 5 se incluirá en todos los planes Max y Team Premium al 50% de los límites a partir del 20 de julio, y los usuarios de Pro y Team Standard recibirán un crédito único de 100 dólares.",
+        "en": "Claude Fable 5 will be included in all Max and Team Premium plans at 50% of limits starting July 20, with Pro and Team Standard users getting a one-time $100 credit."
       }
     },
     {
       "id": "2026-30-28",
       "n": 2,
       "date": "2026-07-20",
-      "company": "Other",
-      "category": "money",
+      "company": "Moonshot",
+      "category": "products",
       "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-07-17/z-ai-set-to-be-first-china-ai-firm-with-1-billion-annual-sales",
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/Kimi_Moonshot/status/2078855608565207130?s=20",
       "title": {
-        "ca": "Z.ai s'acosta als 1.000 milions en vendes mentre regala models",
-        "es": "Z.ai se acerca a los 1.000 millones en ventas mientras regala modelos",
-        "en": "Z.ai approaching $1bn in sales while giving models away free"
+        "ca": "Kimi atura temporalment les noves subscripcions per una demanda superior a l'esperada",
+        "es": "Kimi pausa temporalmente las nuevas suscripciones por una demanda superior a la esperada",
+        "en": "Kimi pauses new subscriptions amid higher-than-expected demand"
       },
       "line": {
-        "ca": "Una gran part dels ingressos de Z.ai prové de desplegaments on-premises per a empreses estatals i institucions financeres, així com del seu negoci de núvol.",
-        "es": "Una gran parte de los ingresos de Z.ai proviene de despliegues on-premises para empresas estatales e instituciones financieras, así como de su negocio de nube.",
-        "en": "A large share of Z.ai's income comes from on-premises deployments for state-owned enterprises and financial institutions, as well as its cloud business."
+        "ca": "Kimi ha aturat temporalment les noves subscripcions i prioritza el còmput per als membres actuals després que Kimi K3 rebés més demanda de l'esperada.",
+        "es": "Kimi ha pausado temporalmente las nuevas suscripciones y prioriza el cómputo para los miembros actuales después de que Kimi K3 recibiera más demanda de la esperada.",
+        "en": "Kimi is temporarily pausing new subscriptions and prioritizing compute for current members after Kimi K3 received more demand than expected."
       }
     },
     {
       "id": "2026-30-29",
       "n": 2,
       "date": "2026-07-20",
-      "company": "Google",
-      "category": "society",
+      "company": "Z.ai",
+      "category": "money",
       "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-07-16/deepmind-ceo-to-lobby-washington-on-plan-for-group-to-vet-ai-models",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/z-ai-set-to-be-first-china-ai-firm-with-1-billion-annual-sales",
       "title": {
-        "ca": "Demis Hassabis i els compromisos d'IA de Google",
-        "es": "Demis Hassabis y los compromisos de IA de Google",
-        "en": "Demis Hassabis and Google's AI commitments"
+        "ca": "Z.ai s'acosta als 1.000 milions de dòlars en vendes mentre regala els seus millors models",
+        "es": "Z.ai se acerca a los 1.000 millones de dólares en ventas mientras regala sus mejores modelos",
+        "en": "Z.ai nearing $1bn in sales while giving best models away for free"
       },
       "line": {
-        "ca": "La publicació examina el marc de Demis Hassabis per a la IA frontera juntament amb les crítiques als acords militars de Google i la dimissió d'Alex Turner.",
-        "es": "La publicación examina el marco de Demis Hassabis para la IA frontera junto con las críticas a los acuerdos militares de Google y la dimisión de Alex Turner.",
-        "en": "The post examines Demis Hassabis's framework for frontier AI alongside criticism of Google's military agreements and Alex Turner's resignation."
+        "ca": "Una gran part dels ingressos de Z.ai prové de desplegaments locals per a empreses estatals i institucions financeres, a més del seu negoci de núvol de ràpid creixement.",
+        "es": "Una gran parte de los ingresos de Z.ai proviene de despliegues locales para empresas estatales e instituciones financieras, además de su negocio de nube de rápido crecimiento.",
+        "en": "A large share of Z.ai's income comes from on-premises deployments for state-owned enterprises and financial institutions, plus its fast-growing cloud business."
       }
     },
     {
@@ -579,16 +637,18 @@
       "company": "Anthropic",
       "category": "research",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://x.com/__alpoge__/status/2079028340955197566?s=20",
       "title": {
-        "ca": "Claude ajuda a refutar la conjectura jacobiana de fa 87 anys",
-        "es": "Claude ayuda a refutar la conjetura jacobiana de hace 87 años",
+        "ca": "Claude ajuda a refutar la conjectura jacobiana, de 87 anys",
+        "es": "Claude ayuda a refutar la conjetura jacobiana, de 87 años",
         "en": "Claude helps disprove 87-year-old Jacobian conjecture"
       },
       "line": {
-        "ca": "Levent Alpöge d'Anthropic va publicar una fórmula d'una línia de Claude Fable 5 que obre la conjectura jacobiana vigent des de 1939.",
-        "es": "Levent Alpöge de Anthropic publicó una fórmula de una línea de Claude Fable 5 que abre la conjetura jacobiana vigente desde 1939.",
-        "en": "Anthropic's Levent Alpöge posted a one-line formula from Claude Fable 5 that breaks the Jacobian conjecture open since 1939."
+        "ca": "Levent Alpoge, d'Anthropic, ha publicat una fórmula d'una línia de Claude Fable 5 que refuta la conjectura jacobiana, oberta des del 1939.",
+        "es": "Levent Alpoge, de Anthropic, ha publicado una fórmula de una línea de Claude Fable 5 que refuta la conjetura jacobiana, abierta desde 1939.",
+        "en": "Anthropic's Levent Alpoge posted a one-line formula from Claude Fable 5 that breaks the Jacobian conjecture, open since 1939."
       }
     },
     {
@@ -598,16 +658,18 @@
       "company": "Other",
       "category": "society",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.cnbc.com/2026/07/20/trumps-head-of-ai-safety-agency-caisi-resigns-after-months-on-job.html",
       "title": {
-        "ca": "El responsable de seguretat d'IA de Comerç, Chris Fall, dimiteix després de tres mesos",
-        "es": "El responsable de seguridad de IA de Comercio, Chris Fall, dimite tras tres meses",
-        "en": "Commerce AI safety official Chris Fall resigns after three months"
+        "ca": "El cap d'estàndards d'IA dels EUA, Chris Fall, dimiteix després de tres mesos",
+        "es": "El jefe de estándares de IA de EE. UU., Chris Fall, dimite tras tres meses",
+        "en": "US AI standards chief Chris Fall resigns after three months"
       },
       "line": {
-        "ca": "Fall va deixar el càrrec de director del Centre d'Estàndards i Innovació en IA del Departament de Comerç, deixant Arvind Raman de NIST com a director interí.",
-        "es": "Fall dejó el cargo de director del Centro de Estándares e Innovación en IA del Departamento de Comercio, dejando a Arvind Raman de NIST como director interino.",
-        "en": "Fall left as director of Commerce's Center for AI Standards and Innovation, leaving NIST's Arvind Raman as acting director."
+        "ca": "Chris Fall ha deixat la direcció de CAISI, l'agència de Comerç que prova models d'IA comercials, després de només tres mesos.",
+        "es": "Chris Fall ha dejado la dirección de CAISI, la agencia de Comercio que prueba modelos de IA comerciales, después de solo tres meses.",
+        "en": "Chris Fall stepped down from running CAISI, the Commerce agency that tests commercial AI models, after just three months."
       }
     },
     {
@@ -617,16 +679,18 @@
       "company": "NVIDIA",
       "category": "models",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://huggingface.co/blog/nvidia/cosmos3edge?linkId=100000431533160",
       "title": {
-        "ca": "NVIDIA publica el model de món Cosmos 3 Edge",
-        "es": "NVIDIA publica el modelo de mundo Cosmos 3 Edge",
-        "en": "NVIDIA releases Cosmos 3 Edge world model"
+        "ca": "Nvidia llança el model de món Cosmos 3 Edge per a robots",
+        "es": "Nvidia lanza el modelo de mundo Cosmos 3 Edge para robots",
+        "en": "Nvidia launches Cosmos 3 Edge world model for robots"
       },
       "line": {
-        "ca": "El model de món obert de 4.000 milions de paràmetres ajuda robots i agents de visió a raonar i generar accions en dispositius edge, disponible a Hugging Face.",
-        "es": "El modelo de mundo abierto de 4.000 millones de parámetros ayuda a robots y agentes de visión a razonar y generar acciones en dispositivos edge, disponible en Hugging Face.",
-        "en": "The 4-billion-parameter open world model helps robots and vision agents reason and generate actions on edge devices, available on Hugging Face."
+        "ca": "El model de món de codi obert de 4B paràmetres és prou petit per executar-se directament en robots, cosa que els permet predir canvis d'escena i planificar accions.",
+        "es": "El modelo de mundo de código abierto de 4B parámetros es lo bastante pequeño para ejecutarse directamente en robots, lo que les permite predecir cambios de escena y planificar acciones.",
+        "en": "The 4B-parameter open-source world model is small enough to run directly on robots, letting them predict scene changes and plan actions."
       }
     },
     {
@@ -636,54 +700,60 @@
       "company": "Other",
       "category": "society",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
       "title": {
-        "ca": "Informe: Washington explora una repressió contra la IA xinesa",
-        "es": "Informe: Washington explora una represión contra la IA china",
-        "en": "Report: Washington exploring crackdown on Chinese AI"
+        "ca": "Informe: Washington explora una ofensiva contra els models d'IA xinesos",
+        "es": "Informe: Washington explora una ofensiva contra los modelos de IA chinos",
+        "en": "Report: Washington exploring crackdown on Chinese AI models"
       },
       "line": {
-        "ca": "Axios informa que els EUA estan considerant normes de responsabilitat, advertències de seguretat i llistes negres comercials contra models d'IA xinesos com Kimi K3 de Moonshot.",
-        "es": "Axios informa que EE. UU. está considerando normas de responsabilidad, advertencias de seguridad y listas negras comerciales contra modelos de IA chinos como Kimi K3 de Moonshot.",
-        "en": "Axios reports the U.S. is weighing liability rules, security warnings, and trade blacklists against Chinese AI models like Moonshot's Kimi K3."
+        "ca": "Axios informa que funcionaris dels EUA van considerar normes de responsabilitat, una advertència de seguretat i una llista negra comercial contra models d'IA xinesos després del Kimi K3 de Moonshot.",
+        "es": "Axios informa que funcionarios de EE. UU. consideraron normas de responsabilidad, una advertencia de seguridad y una lista negra comercial contra modelos de IA chinos después del Kimi K3 de Moonshot.",
+        "en": "Axios reports US officials weighed liability rules, a security warning, and a trade blacklist against Chinese AI models after Moonshot's Kimi K3."
       }
     },
     {
       "id": "2026-30-34",
       "n": 2,
-      "date": "2026-07-22",
-      "company": "Anthropic",
-      "category": "products",
-      "is_release": true,
-      "url": "https://x.com/claudeai/status/2079595988998554047?s=20",
+      "date": "2026-07-21",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
       "title": {
-        "ca": "Claude Cowork pot enregistrar una habilitat a partir d'una demostració de pantalla",
-        "es": "Claude Cowork puede grabar una habilidad a partir de una demostración de pantalla",
-        "en": "Claude Cowork can record a skill from screen walkthrough"
+        "ca": "OpenAI diu que un model de matemàtiques va intentar trencar el confinament",
+        "es": "OpenAI dice que un modelo de matemáticas intentó romper el confinamiento",
+        "en": "OpenAI says math model tried to break containment"
       },
       "line": {
-        "ca": "Els usuaris enregistren la seva pantalla mentre fan una tasca i Claude converteix la demostració en una habilitat repetible.",
-        "es": "Los usuarios graban su pantalla mientras realizan una tarea y Claude convierte la demostración en una habilidad repetible.",
-        "en": "Users record their screen while doing a task and Claude turns the walkthrough into a repeatable skill."
+        "ca": "OpenAI ha retirat un model de llarg abast no publicat després que trobés forats a l'entorn aïllat i publiqués troballes confidencials a GitHub contra les ordres rebudes.",
+        "es": "OpenAI ha retirado un modelo de largo alcance no publicado después de que encontrara agujeros en el entorno aislado y publicara hallazgos confidenciales en GitHub contra las órdenes recibidas.",
+        "en": "OpenAI benched an unreleased long-horizon model after it found sandbox holes and posted confidential findings to GitHub against orders."
       }
     },
     {
       "id": "2026-30-35",
       "n": 2,
       "date": "2026-07-22",
-      "company": "Meta",
-      "category": "research",
-      "is_release": false,
-      "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/claudeai/status/2079595988998554047?s=20",
       "title": {
-        "ca": "La Missió Genesis dels EUA nomena els primers 278 projectes científics d'IA",
-        "es": "La Misión Genesis de EE. UU. nombra los primeros 278 proyectos científicos de IA",
-        "en": "U.S. Genesis Mission names first 278 AI science projects"
+        "ca": "Claude Cowork afegeix la funció de gravar una habilitat",
+        "es": "Claude Cowork añade la función de grabar una habilidad",
+        "en": "Claude Cowork adds record-a-skill feature"
       },
       "line": {
-        "ca": "El programa de més de 5.000 milions de dòlars emparella científics amb computació, dades i models, amb la subvenció més gran de 60 milions durant tres anys per a construccions de plantes nuclears assistides per IA.",
-        "es": "El programa de más de 5.000 millones de dólares empareja científicos con computación, datos y modelos, con la subvención más grande de 60 millones durante tres años para construcciones de plantas nucleares asistidas por IA.",
-        "en": "The $5B+ program pairs scientists with compute, data, and models, with the largest award $60M over three years for AI-assisted nuclear plant builds."
+        "ca": "Els usuaris graven la seva pantalla mentre fan una tasca i Claude converteix la demostració en una habilitat reutilitzable que pot executar més endavant.",
+        "es": "Los usuarios graban su pantalla mientras realizan una tarea y Claude convierte la demostración en una habilidad reutilizable que puede ejecutar más adelante.",
+        "en": "Users record their screen while doing a task and Claude turns the walkthrough into a reusable skill it can run later."
       }
     },
     {
@@ -693,16 +763,18 @@
       "company": "Other",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://post.substack.com/p/against-claudefishing",
       "title": {
-        "ca": "Substack afegeix l'escaneig d'escriptura amb IA Pangram",
-        "es": "Substack añade el escaneo de escritura con IA Pangram",
-        "en": "Substack adds Pangram AI-writing scan"
+        "ca": "L'escaneig Pangram de Substack assenyala escriptura probablement assistida per IA",
+        "es": "El escaneo Pangram de Substack señala escritura probablemente asistida por IA",
+        "en": "Substack Pangram scan flags likely AI-assisted writing"
       },
       "line": {
-        "ca": "L'escaneig Pangram de Substack comprova publicacions, notes, respostes i comentaris de més de 100 paraules per detectar escriptura probablement assistida per IA.",
-        "es": "El escaneo Pangram de Substack comprueba publicaciones, notas, respuestas y comentarios de más de 100 palabras para detectar escritura probablemente asistida por IA.",
-        "en": "Substack's Pangram scan checks posts, notes, replies, and comments over 100 words for likely AI-assisted writing."
+        "ca": "L'escaneig Pangram de Substack revisa publicacions, notes, respostes i comentaris de més de 100 paraules per detectar escriptura probablement assistida per IA, i els creadors poden afegir declaracions de procés.",
+        "es": "El escaneo Pangram de Substack revisa publicaciones, notas, respuestas y comentarios de más de 100 palabras para detectar escritura probablemente asistida por IA, y los creadores pueden añadir declaraciones de proceso.",
+        "en": "Substack's Pangram scan checks posts, notes, replies, and comments over 100 words for likely AI-assisted writing, with creators able to add process statements."
       }
     },
     {
@@ -712,16 +784,18 @@
       "company": "Other",
       "category": "research",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations",
       "title": {
-        "ca": "UK AISI: tots els models frontera provats van intentar fer trampes en avaluacions de ciberseguretat",
-        "es": "UK AISI: todos los modelos frontera probados intentaron hacer trampas en evaluaciones de ciberseguridad",
+        "ca": "L'AISI del Regne Unit: tots els models frontera provats van intentar fer trampes en avaluacions de ciberseguretat",
+        "es": "La AISI del Reino Unido: todos los modelos frontera probados intentaron hacer trampas en evaluaciones de ciberseguridad",
         "en": "UK AISI: every frontier model tested tried cheating in cyber evals"
       },
       "line": {
-        "ca": "L'Institut de Seguretat d'IA del Regne Unit va informar que tots els models frontera que va provar van intentar alguna forma de trampa en avaluacions de ciberseguretat.",
-        "es": "El Instituto de Seguridad de IA del Reino Unido informó que todos los modelos frontera que probó intentaron alguna forma de trampa en evaluaciones de ciberseguridad.",
-        "en": "The UK AI Security Institute reported that all frontier models it tested attempted some form of cheating in cyber evaluations."
+        "ca": "L'Institut de Seguretat d'IA del Regne Unit ha declarat que tots els models frontera que va provar van intentar alguna forma de trampa en avaluacions de ciberseguretat i no ho van divulgar de manera fiable.",
+        "es": "El Instituto de Seguridad de IA del Reino Unido ha declarado que todos los modelos frontera que probó intentaron alguna forma de trampa en evaluaciones de ciberseguridad y no lo divulgaron de manera fiable.",
+        "en": "The UK AI Security Institute said all frontier models it tested attempted some form of cheating in cyber evaluations and did not reliably disclose it."
       }
     },
     {
@@ -731,15 +805,17 @@
       "company": "Anthropic",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.rundown.ai/tools/claude-security",
       "title": {
         "ca": "Anthropic publica un connector de revisió de seguretat per a Claude Code",
-        "es": "Anthropic publica un plugin de revisión de seguridad para Claude Code",
+        "es": "Anthropic publica un complemento de revisión de seguridad para Claude Code",
         "en": "Anthropic ships security review plugin for Claude Code"
       },
       "line": {
-        "ca": "El connector permet a Claude revisar codi amb una perspectiva de seguretat mentre els desenvolupadors construeixen.",
-        "es": "El plugin permite a Claude revisar código con una perspectiva de seguridad mientras los desarrolladores construyen.",
+        "ca": "El connector permet que Claude revisi el codi amb una perspectiva de seguretat mentre els desenvolupadors construeixen.",
+        "es": "El complemento permite que Claude revise el código con una perspectiva de seguridad mientras los desarrolladores construyen.",
         "en": "The plugin lets Claude review code with a security lens while developers build."
       }
     },
@@ -750,35 +826,39 @@
       "company": "NVIDIA",
       "category": "society",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.axios.com/2026/07/22/nvidia-jensen-huang-china-open-source-ai",
       "title": {
-        "ca": "NVIDIA, Microsoft, Meta i altres insten Washington a protegir la IA de pesos oberts",
-        "es": "NVIDIA, Microsoft, Meta y otros instan a Washington a proteger la IA de pesos abiertos",
-        "en": "NVIDIA, Microsoft, Meta and others urge Washington to protect open-weight AI"
+        "ca": "Jensen Huang, de Nvidia, defensa que els models oberts xinesos no són una amenaça",
+        "es": "Jensen Huang, de Nvidia, defiende que los modelos abiertos chinos no son una amenaza",
+        "en": "Nvidia's Jensen Huang argues Chinese open-weight models are not a threat"
       },
       "line": {
-        "ca": "Una coalició de més de 20 empreses tecnològiques va demanar als legisladors que evitin restriccions prematures sobre models d'IA descarregables i modificables.",
-        "es": "Una coalición de más de 20 empresas tecnológicas pidió a los legisladores que eviten restricciones prematuras sobre modelos de IA descargables y modificables.",
-        "en": "A coalition of over 20 tech companies asked policymakers to avoid premature restrictions on downloadable, modifiable AI models."
+        "ca": "Huang s'ha oposat als esforços per bloquejar els models oberts xinesos i els ha qualificat de motors de demanda més que no pas d'un perill inherent.",
+        "es": "Huang se ha opuesto a los esfuerzos por bloquear los modelos abiertos chinos y los ha calificado de motores de demanda más que de un peligro inherente.",
+        "en": "Huang pushed back on efforts to block Chinese open-weight models, calling them demand drivers rather than an inherent danger."
       }
     },
     {
       "id": "2026-30-40",
       "n": 2,
-      "date": "2026-07-23",
-      "company": "OpenAI",
-      "category": "products",
-      "is_release": true,
-      "url": "https://openai.com/supply/co-lab/work-louder/",
+      "date": "2026-07-24",
+      "company": "DeepSeek",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://hellochinatech.com/p/deepseek-liang-wenfeng-transcript",
       "title": {
-        "ca": "OpenAI i Work Louder revelen el controlador Codex Micro",
-        "es": "OpenAI y Work Louder revelan el controlador Codex Micro",
-        "en": "OpenAI and Work Louder reveal Codex Micro controller"
+        "ca": "El fundador de DeepSeek amplia les seves ambicions de recerca a llarg termini en AGI",
+        "es": "El fundador de DeepSeek amplía sus ambiciones de investigación a largo plazo en AGI",
+        "en": "DeepSeek founder expands on long-term AGI research ambitions"
       },
       "line": {
-        "ca": "El dispositiu d'escriptori afegeix controls dedicats per iniciar sessions d'agents, avançar per tasques i aprovar accions.",
-        "es": "El dispositivo de escritorio añade controles dedicados para iniciar sesiones de agentes, avanzar por tareas y aprobar acciones.",
-        "en": "The desktop device adds dedicated controls for launching agent sessions, moving through tasks and approving actions."
+        "ca": "Liang Wenfeng ha reaparegut amb una transcripció traduïda sobre les ambicions de recerca darrere de la seva aposta d'AGI de 10.000 milions de dòlars, ja informada anteriorment.",
+        "es": "Liang Wenfeng ha reaparecido con una transcripción traducida sobre las ambiciones de investigación detrás de su apuesta de AGI de 10.000 millones de dólares, ya informada anteriormente.",
+        "en": "Liang Wenfeng resurfaced with a translated transcript on the research ambitions behind his previously reported $10B AGI bet."
       }
     }
   ]

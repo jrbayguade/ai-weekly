@@ -3,31 +3,33 @@
   "from": "2026-07-13",
   "to": "2026-07-19",
   "newsletters": 6,
-  "candidates": 274,
+  "candidates": 230,
   "note": null,
   "items": [
     {
       "id": "2026-29-01",
-      "n": 5,
-      "date": "2026-07-16",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://www.kimi.com/blog/kimi-k3",
+      "n": 4,
+      "date": "2026-07-13",
+      "company": "Apple",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.documentcloud.org/documents/28453229-apple-v-openai/",
       "title": {
-        "ca": "Primeres generacions de Kimi K3 detectades en proves",
-        "es": "Primeras generaciones de Kimi K3 detectadas en pruebas",
-        "en": "Early Kimi K3 generations spotted on Arena-style testing"
+        "ca": "Apple demanda OpenAI per suposat robatori de secrets comercials de maquinari",
+        "es": "Apple demanda a OpenAI por supuesto robo de secretos comerciales de hardware",
+        "en": "Apple sues OpenAI over alleged hardware trade secret theft"
       },
       "line": {
-        "ca": "Ja s'han detectat primeres generacions de Kimi K3 en proves d'estil Arena, però el model encara no ha rebut un llançament oficial complet.",
-        "es": "Ya se han detectado primeras generaciones de Kimi K3 en pruebas de estilo Arena, pero el modelo aún no ha recibido un lanzamiento oficial completo.",
-        "en": "Early Kimi K3 generations are already being spotted around Arena-style testing, but the model has not received a full official launch."
+        "ca": "Apple al·lega que OpenAI va convertir una onada de fitxatges en robatori de secrets confidencials de maquinari i demana un redisseny del seu dispositiu no llançat.",
+        "es": "Apple alega que OpenAI convirtió una ola de fichajes en robo de secretos confidenciales de hardware y pide un rediseño de su dispositivo no lanzado.",
+        "en": "Apple alleges OpenAI turned a poaching spree into theft of confidential hardware secrets and seeks a redesign of its unreleased device."
       },
       "og": {
-        "ca": "Kimi K3 aviat a les proves",
-        "es": "Kimi K3 pronto en pruebas",
-        "en": "Early Kimi K3 spotted in tests"
+        "ca": "Apple demanda OpenAI per robatori de secrets",
+        "es": "Apple demanda a OpenAI por robo de secretos",
+        "en": "Apple sues OpenAI over alleged theft"
       }
     },
     {
@@ -36,22 +38,24 @@
       "date": "2026-07-13",
       "company": "Anthropic",
       "category": "products",
-      "is_release": true,
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-extends-fable-5-access-through-july-19/articleshow/132350610.cms",
       "title": {
-        "ca": "Anthropic amplia l'accés a Claude Fable 5",
-        "es": "Anthropic amplía el acceso a Claude Fable 5",
+        "ca": "Anthropic torna a ampliar l'accés a Claude Fable 5",
+        "es": "Anthropic vuelve a ampliar el acceso a Claude Fable 5",
         "en": "Anthropic extends Claude Fable 5 access again"
       },
       "line": {
-        "ca": "Anthropic va ampliar l'accés a Claude Fable 5 i va elevar els límits de Claude Code fins al 19 de juliol, destacant la incertesa sobre la disponibilitat del model.",
-        "es": "Anthropic amplió el acceso a Claude Fable 5 y elevó los límites de Claude Code hasta el 19 de julio, destacando la incertidumbre sobre la disponibilidad del modelo.",
-        "en": "Anthropic extended Claude Fable 5 access and elevated Claude Code limits through July 19, highlighting uncertainty around model availability."
+        "ca": "Anthropic va ampliar l'accés a Claude Fable 5 i va augmentar els límits de Claude Code fins al 19 de juliol, mentre que OpenAI va eliminar temporalment els límits d'ús de GPT-5.6 Sol.",
+        "es": "Anthropic amplió el acceso a Claude Fable 5 y elevó los límites de Claude Code hasta el 19 de julio, mientras que OpenAI eliminó temporalmente los límites de uso de GPT-5.6 Sol.",
+        "en": "Anthropic extended Claude Fable 5 access and raised Claude Code limits through July 19, while OpenAI temporarily removed GPT-5.6 Sol usage caps."
       },
       "og": {
-        "ca": "Anthropic amplia Fable 5",
-        "es": "Anthropic amplía Fable 5",
-        "en": "Anthropic extends Fable 5"
+        "ca": "Anthropic amplia l'accés a Claude Fable 5",
+        "es": "Anthropic amplía el acceso a Claude Fable 5",
+        "en": "Anthropic extends Claude Fable 5 access"
       }
     },
     {
@@ -61,11 +65,13 @@
       "company": "Other",
       "category": "models",
       "is_release": true,
+      "rumor": false,
+      "hot": true,
       "url": "https://thinkingmachines.ai/news/introducing-inkling/",
       "title": {
-        "ca": "Thinking Machines llança Inkling",
-        "es": "Thinking Machines lanza Inkling",
-        "en": "Thinking Machines releases Inkling open model"
+        "ca": "Thinking Machines publica Inkling, un model obert de 975B paràmetres",
+        "es": "Thinking Machines publica Inkling, un modelo abierto de 975B parámetros",
+        "en": "Thinking Machines releases Inkling, a 975B-parameter open model"
       },
       "line": {
         "ca": "Inkling és un model de mescla d'experts de 975B paràmetres amb 41B paràmetres actius, raonament multimodal i una finestra de context d'un milió de tokens.",
@@ -73,9 +79,9 @@
         "en": "Inkling is a 975B-parameter mixture-of-experts model with 41B active parameters, multimodal reasoning, and a one-million-token context window."
       },
       "og": {
-        "ca": "Thinking Machines llança Inkling",
-        "es": "Thinking Machines lanza Inkling",
-        "en": "Thinking Machines releases Inkling"
+        "ca": "Thinking Machines llança Inkling, 975B",
+        "es": "Thinking Machines lanza Inkling, 975B",
+        "en": "Thinking Machines releases Inkling, 975B"
       }
     },
     {
@@ -85,10 +91,12 @@
       "company": "xAI",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": true,
       "url": "https://x.com/SpaceXAI/status/2077494535387828644",
       "title": {
-        "ca": "xAI llança Grok Build, agent de codificació de terminal",
-        "es": "xAI lanza Grok Build, agente de codificación de terminal",
+        "ca": "xAI publica Grok Build, un agent de codificació de terminal",
+        "es": "xAI publica Grok Build, un agente de codificación de terminal",
         "en": "xAI releases Grok Build terminal coding agent"
       },
       "line": {
@@ -104,6 +112,8 @@
       "company": "Google",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": true,
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
       "title": {
         "ca": "Google canvia el nom de NotebookLM a Gemini Notebook",
@@ -111,56 +121,20 @@
         "en": "Google rebrands NotebookLM as Gemini Notebook"
       },
       "line": {
-        "ca": "Google va canviar el nom de NotebookLM a Gemini Notebook, afegint una nova eina d'ordinador al núvol per executar codi i millorar l'anàlisi de dades.",
-        "es": "Google cambió el nombre de NotebookLM a Gemini Notebook, añadiendo una nueva herramienta de computadora en la nube para ejecutar código y mejorar el análisis de datos.",
-        "en": "Google rebranded NotebookLM as Gemini Notebook, adding a new cloud computer tool to run code for better data analysis."
+        "ca": "Google va canviar el nom de NotebookLM a Gemini Notebook i va ampliar la seva integració a l'aplicació Gemini i a Google Search.",
+        "es": "Google cambió el nombre de NotebookLM a Gemini Notebook y amplió su integración en la aplicación Gemini y en Google Search.",
+        "en": "Google rebranded NotebookLM as Gemini Notebook, expanding its integration across the Gemini app and Google Search."
       }
     },
     {
       "id": "2026-29-06",
       "n": 3,
       "date": "2026-07-13",
-      "company": "OpenAI",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.documentcloud.org/documents/28453229-apple-v-openai/",
-      "title": {
-        "ca": "Apple demanda OpenAI per suposat robatori de secrets comercials per als plans de maquinari",
-        "es": "Apple demanda a OpenAI por presunto robo de secretos comerciales para los planes de hardware",
-        "en": "Apple sues OpenAI over alleged trade secret theft for hardware plans"
-      },
-      "line": {
-        "ca": "Apple al·lega que antics empleats van portar dissenys confidencials a l'equip de maquinari d'OpenAI, cosa que podria retardar les ambicions d'OpenAI en dispositius.",
-        "es": "Apple alega que antiguos empleados llevaron diseños confidenciales al equipo de hardware de OpenAI, lo que podría retrasar las ambiciones de OpenAI en dispositivos.",
-        "en": "Apple alleges former employees took confidential designs to OpenAI's hardware team, potentially delaying OpenAI's device ambitions."
-      }
-    },
-    {
-      "id": "2026-29-07",
-      "n": 3,
-      "date": "2026-07-13",
-      "company": "OpenAI",
-      "category": "models",
-      "is_release": true,
-      "url": "https://openai.com/index/gpt-5-6",
-      "title": {
-        "ca": "OpenAI desplega la família GPT-5.6: Sol, Terra i Luna",
-        "es": "OpenAI despliega la familia GPT-5.6: Sol, Terra y Luna",
-        "en": "OpenAI rolls out GPT-5.6 family: Sol, Terra, and Luna"
-      },
-      "line": {
-        "ca": "GPT-5.6 s'està desplegant a ChatGPT, Codex i l'API com una família de tres models amb diferents nivells de capacitat.",
-        "es": "GPT-5.6 se está desplegando en ChatGPT, Codex y la API como una familia de tres modelos con diferentes niveles de capacidad.",
-        "en": "GPT-5.6 is rolling out across ChatGPT, Codex, and the API as a family of three models with different capability tiers."
-      }
-    },
-    {
-      "id": "2026-29-08",
-      "n": 3,
-      "date": "2026-07-13",
       "company": "Meta",
       "category": "products",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
       "title": {
         "ca": "Meta retira una nova funció d'imatge amb IA després de les crítiques",
@@ -168,227 +142,230 @@
         "en": "Meta pulls new AI image feature after backlash"
       },
       "line": {
-        "ca": "Muse Image de Meta permetia a les persones utilitzar contingut de comptes públics per crear contingut generat o alterat per IA, cosa que va despertar preocupacions sobre la privacitat.",
-        "es": "Muse Image de Meta permitía a las personas utilizar contenido de cuentas públicas para crear contenido generado o alterado por IA, lo que despertó preocupaciones sobre la privacidad.",
-        "en": "Meta's Muse Image let people use content from public accounts to create AI-generated or altered content, sparking privacy concerns."
+        "ca": "Muse Image de Meta permetia utilitzar contingut de comptes públics per crear contingut generat o alterat amb IA, cosa que va suscitar preocupacions per la privacitat.",
+        "es": "Muse Image de Meta permitía usar contenido de cuentas públicas para crear contenido generado o alterado con IA, lo que suscitó preocupaciones de privacidad.",
+        "en": "Meta's Muse Image let people use content from public-facing accounts to create AI-generated or altered content, sparking privacy concerns."
       }
     },
     {
-      "id": "2026-29-09",
+      "id": "2026-29-07",
       "n": 3,
       "date": "2026-07-13",
       "company": "OpenAI",
       "category": "society",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://www.wired.com/story/openai-head-of-safety-leaving/",
       "title": {
-        "ca": "El cap de seguretat d'OpenAI marxa",
-        "es": "El jefe de seguridad de OpenAI se marcha",
-        "en": "OpenAI head of safety is leaving"
+        "ca": "El cap de seguretat d'OpenAI se'n va en una reorganització",
+        "es": "El jefe de seguridad de OpenAI se va en una reorganización",
+        "en": "OpenAI head of safety reportedly leaving in reorganization"
       },
       "line": {
-        "ca": "El cap de seguretat d'OpenAI marxa mentre l'empresa integra encara més els seus equips de seguretat i recerca.",
-        "es": "El jefe de seguridad de OpenAI se marcha mientras la empresa integra aún más sus equipos de seguridad e investigación.",
-        "en": "OpenAI's head of safety is departing as the company further integrates its safety and research teams."
+        "ca": "Saachi Jain serà cap interí de sistemes de seguretat després de la marxa de Johannes Heidecke com a part d'una reorganització de l'empresa.",
+        "es": "Saachi Jain será jefe interino de sistemas de seguridad tras la marcha de Johannes Heidecke como parte de una reorganización de la empresa.",
+        "en": "Saachi Jain will be interim head of safety systems following Johannes Heidecke's departure as part of a company reorganization."
+      }
+    },
+    {
+      "id": "2026-29-08",
+      "n": 3,
+      "date": "2026-07-13",
+      "company": "OpenAI",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/thsottiaux/status/2075452680760443190?s=20",
+      "title": {
+        "ca": "OpenAI relaxa temporalment els límits d'ús de GPT-5.6 Sol",
+        "es": "OpenAI relaja temporalmente los límites de uso de GPT-5.6 Sol",
+        "en": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits"
+      },
+      "line": {
+        "ca": "OpenAI elimina temporalment la restricció d'ús de cinc hores per als plans Plus, Pro i Business i reinicia l'ús actual per a tothom.",
+        "es": "OpenAI elimina temporalmente la restricción de uso de cinco horas para los planes Plus, Pro y Business y reinicia el uso actual para todos.",
+        "en": "OpenAI is temporarily removing the five-hour usage restriction for Plus, Pro and Business plans and resetting current usage for everyone."
+      }
+    },
+    {
+      "id": "2026-29-09",
+      "n": 3,
+      "date": "2026-07-14",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.wemustactnow.ai/",
+      "title": {
+        "ca": "Economistes i investigadors signen una declaració sobre la disrupció laboral per IA",
+        "es": "Economistas e investigadores firman una declaración sobre la disrupción laboral por IA",
+        "en": "Economists and researchers sign statement on AI job disruption"
+      },
+      "line": {
+        "ca": "Més de 200 experts, incloent-hi 16 guanyadors del Nobel, insten els governs a preparar xarxes de seguretat per al ràpid canvi econòmic impulsat per la IA.",
+        "es": "Más de 200 expertos, incluidos 16 ganadores del Nobel, instan a los gobiernos a preparar redes de seguridad para el rápido cambio económico impulsado por la IA.",
+        "en": "Over 200 experts, including 16 Nobel winners, urge governments to prepare safety nets for rapid AI-driven economic change."
       }
     },
     {
       "id": "2026-29-10",
       "n": 3,
       "date": "2026-07-14",
-      "company": "Other",
-      "category": "society",
+      "company": "Anthropic",
+      "category": "money",
       "is_release": false,
-      "url": "https://www.wemustactnow.ai/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/t_blom/status/2076580921398931788",
       "title": {
-        "ca": "200 economistes i líders d'IA insten a preparar-se més ràpidament per l'impacte laboral de la IA",
-        "es": "200 economistas y líderes de IA instan a prepararse más rápido para el impacto laboral de la IA",
-        "en": "200 economists and AI leaders urge faster AI labor-impact prep"
+        "ca": "Tom Blomfield deixa YC per unir-se a l'equip de còmput d'Anthropic",
+        "es": "Tom Blomfield deja YC para unirse al equipo de cómputo de Anthropic",
+        "en": "Tom Blomfield leaves YC to join Anthropic compute team"
       },
       "line": {
-        "ca": "Més de 200 economistes i líders d'IA, incloent-hi 16 premiats Nobel, van instar a preparar-se més ràpidament per l'impacte de la IA en el mercat laboral.",
-        "es": "Más de 200 economistas y líderes de IA, incluidos 16 premios Nobel, instaron a prepararse más rápido para el impacto de la IA en el mercado laboral.",
-        "en": "More than 200 economists and AI leaders, including 16 Nobel laureates, urged faster preparation for AI's labor-market impact."
+        "ca": "Blomfield es pren una excedència de Y Combinator per treballar amb Tom Brown a l'equip de còmput.",
+        "es": "Blomfield se toma una excedencia de Y Combinator para trabajar con Tom Brown en el equipo de cómputo.",
+        "en": "Blomfield is taking a leave of absence from Y Combinator to work with Tom Brown on the compute team."
       }
     },
     {
       "id": "2026-29-11",
       "n": 3,
       "date": "2026-07-14",
-      "company": "Anthropic",
-      "category": "money",
+      "company": "xAI",
+      "category": "products",
       "is_release": false,
-      "url": "https://x.com/t_blom/status/2076580921398931788",
+      "rumor": false,
+      "hot": false,
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
       "title": {
-        "ca": "Tom Blomfield s'uneix a l'equip de còmput d'Anthropic",
-        "es": "Tom Blomfield se une al equipo de cómputo de Anthropic",
-        "en": "Tom Blomfield joins Anthropic compute team"
+        "ca": "SpaceXAI esborra dades de clients després de descobrir una càrrega de Grok Build",
+        "es": "SpaceXAI borra datos de clientes tras descubrir una carga de Grok Build",
+        "en": "SpaceXAI deletes customer data after Grok Build upload discovery"
       },
       "line": {
-        "ca": "El soci de Y Combinator i emprenedor va anunciar que s'uneix a l'equip de còmput d'Anthropic.",
-        "es": "El socio de Y Combinator y emprendedor anunció que se une al equipo de cómputo de Anthropic.",
-        "en": "The Y Combinator partner and entrepreneur announced he is joining Anthropic's compute team."
+        "ca": "SpaceXAI està esborrant dades de clients carregades després que un investigador descobrís que el seu agent de codificació Grok Build enviava repositoris sencers a un contenidor al núvol controlat per l'empresa.",
+        "es": "SpaceXAI está borrando datos de clientes cargados después de que un investigador descubriera que su agente de codificación Grok Build enviaba repositorios enteros a un contenedor en la nube controlado por la empresa.",
+        "en": "SpaceXAI is deleting uploaded customer data after a researcher found its Grok Build coding agent shipping whole repositories to a company-controlled cloud bucket."
       }
     },
     {
       "id": "2026-29-12",
       "n": 3,
-      "date": "2026-07-14",
-      "company": "Meta",
-      "category": "money",
+      "date": "2026-07-15",
+      "company": "Google",
+      "category": "society",
       "is_release": false,
-      "url": "https://about.fb.com/news/2026/07/teachers-local-businesses-win-as-meta-expands-louisiana-data-center/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/demishassabis/status/2076957440109625718",
       "title": {
-        "ca": "Meta amplia el centre de dades de Louisiana a més de 50.000 milions de dòlars",
-        "es": "Meta amplía el centro de datos de Louisiana a más de 50.000 millones de dólares",
-        "en": "Meta expands Louisiana data center to over $50B"
+        "ca": "El CEO de DeepMind, Demis Hassabis, proposa un organisme de supervisió de seguretat de la IA als EUA",
+        "es": "El CEO de DeepMind, Demis Hassabis, propone un organismo de supervisión de seguridad de la IA en EE. UU.",
+        "en": "DeepMind CEO Demis Hassabis proposes U.S. AI safety oversight body"
       },
       "line": {
-        "ca": "Meta va ampliar el seu compromís amb el centre de dades del nord-est de Louisiana de 27.000 milions a més de 50.000 milions de dòlars i cinc gigawatts de capacitat.",
-        "es": "Meta amplió su compromiso con el centro de datos del noreste de Louisiana de 27.000 millones a más de 50.000 millones de dólares y cinco gigavatios de capacidad.",
-        "en": "Meta expanded its Northeast Louisiana data-center commitment from $27B to more than $50B and five gigawatts of capacity."
+        "ca": "Hassabis va publicar un pla per a un organisme dels EUA a l'estil de FINRA que provaria la seguretat dels models d'IA de frontera 30 dies abans del llançament, amb l'objectiu d'estar operatiu aquest any.",
+        "es": "Hassabis publicó un plan para un organismo de EE. UU. al estilo de FINRA que probaría la seguridad de los modelos de IA de frontera 30 días antes del lanzamiento, con el objetivo de estar operativo este año.",
+        "en": "Hassabis published a plan for a FINRA-style U.S. body that would safety-test frontier AI models 30 days before release, aiming to be operational this year."
       }
     },
     {
       "id": "2026-29-13",
       "n": 3,
-      "date": "2026-07-14",
-      "company": "xAI",
-      "category": "products",
+      "date": "2026-07-15",
+      "company": "Other",
+      "category": "society",
       "is_release": false,
-      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
       "title": {
-        "ca": "Grok Build CLI va pujar repositoris Git sencers al núvol de xAI",
-        "es": "Grok Build CLI subió repositorios Git enteros a la nube de xAI",
-        "en": "Grok Build CLI uploaded entire Git repositories to xAI cloud"
+        "ca": "Nova York atura els permisos per a grans centres de dades d'IA",
+        "es": "Nueva York detiene los permisos para grandes centros de datos de IA",
+        "en": "New York halts permits for large AI data centers"
       },
       "line": {
-        "ca": "Un investigador de seguretat va trobar que l'assistent de codificació va pujar repositoris complets, historial de commits i claus API sense censurar malgrat les instruccions de no llegir un fitxer.",
-        "es": "Un investigador de seguridad encontró que el asistente de codificación subió repositorios completos, historial de commits y claves API sin censurar a pesar de las instrucciones de no leer un archivo.",
-        "en": "A security researcher found the coding assistant uploaded full repos, commit history, and unredacted API keys despite instructions not to read a file."
+        "ca": "La governadora Kathy Hochul va congelar els nous permisos per a centres de dades d'hiperescala mitjançant una ordre executiva, una pausa de fins a 12 mesos que afecta més d'una dotzena de propostes per sobre de 50 megawatts.",
+        "es": "La gobernadora Kathy Hochul congeló los nuevos permisos para centros de datos de hiperescala mediante una orden ejecutiva, una pausa de hasta 12 meses que afecta a más de una docena de propuestas por encima de 50 megavatios.",
+        "en": "Governor Kathy Hochul froze new permits for hyperscale data centers via executive order, a pause of up to 12 months affecting over a dozen proposals above 50 megawatts."
       }
     },
     {
       "id": "2026-29-14",
       "n": 3,
       "date": "2026-07-15",
-      "company": "Google",
-      "category": "society",
-      "is_release": false,
-      "url": "https://x.com/demishassabis/status/2076957440109625718",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
       "title": {
-        "ca": "Demis Hassabis demana un organisme de vigilància de la IA fronterera liderat pels EUA",
-        "es": "Demis Hassabis pide un organismo de vigilancia de la IA fronteriza liderado por EE. UU.",
-        "en": "Demis Hassabis calls for U.S.-led frontier AI watchdog"
+        "ca": "Anthropic llança Claude for Teachers",
+        "es": "Anthropic lanza Claude for Teachers",
+        "en": "Anthropic launches Claude for Teachers"
       },
       "line": {
-        "ca": "El CEO de Google DeepMind va proposar un organisme a l'estil de FINRA per provar models avançats per riscos cibernètics, biològics i d'engany abans del llançament.",
-        "es": "El CEO de Google DeepMind propuso un organismo al estilo de FINRA para probar modelos avanzados por riesgos cibernéticos, biológicos y de engaño antes del lanzamiento.",
-        "en": "Google DeepMind's CEO proposed a FINRA-style body to test advanced models for cyber, biological, and deception risks before release."
+        "ca": "Anthropic va llançar Claude for Teachers, que ofereix als educadors verificats dels EUA de K-12 un any gratuït d'accés premium amb planificació de lliçons alineada amb els estàndards acadèmics estatals.",
+        "es": "Anthropic lanzó Claude for Teachers, que ofrece a los educadores verificados de EE. UU. de K-12 un año gratuito de acceso premium con planificación de lecciones alineada con los estándares académicos estatales.",
+        "en": "Anthropic launched Claude for Teachers, giving verified U.S. K-12 educators a free year of premium access with lesson planning aligned to state academic standards."
       }
     },
     {
       "id": "2026-29-15",
       "n": 3,
       "date": "2026-07-15",
-      "company": "Other",
-      "category": "society",
+      "company": "OpenAI",
+      "category": "products",
       "is_release": false,
-      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion",
       "title": {
-        "ca": "Nova York atura nous permisos per a centres de dades d'hiperescala",
-        "es": "Nueva York pausa nuevos permisos para centros de datos de hiperescala",
-        "en": "New York pauses new hyperscale data-center permits"
+        "ca": "Informe: el primer dispositiu d'OpenAI és un altaveu d'IA sense pantalla",
+        "es": "Informe: el primer dispositivo de OpenAI es un altavoz de IA sin pantalla",
+        "en": "Report: OpenAI's first device is a screenless AI speaker"
       },
       "line": {
-        "ca": "Nova York es va convertir en el primer estat dels EUA a aturar nous permisos per a centres de dades d'hiperescala, posant les demandes d'energia i aigua de la IA en la política estatal.",
-        "es": "Nueva York se convirtió en el primer estado de EE. UU. en detener nuevos permisos para centros de datos de hiperescala, poniendo las demandas de energía y agua de la IA en la política estatal.",
-        "en": "New York became the first U.S. state to halt new hyperscale data-center permits, putting AI power and water demands into state policy."
+        "ca": "Bloomberg informa que el maquinari d'OpenAI dissenyat per Jony Ive serà un altaveu sense pantalla alimentat per bateria i construït al voltant d'una personalitat humana, amb la demanda d'Apple per secrets comercials planant.",
+        "es": "Bloomberg informa de que el hardware de OpenAI diseñado por Jony Ive será un altavoz sin pantalla alimentado por batería y construido en torno a una personalidad humana, con la demanda de Apple por secretos comerciales planeando.",
+        "en": "Bloomberg reports OpenAI's Jony Ive-designed hardware will be a battery-powered, screen-free speaker built around a humanlike personality, with Apple's trade-secrets suit looming."
       }
     },
     {
       "id": "2026-29-16",
       "n": 3,
-      "date": "2026-07-15",
-      "company": "Anthropic",
-      "category": "products",
-      "is_release": true,
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "date": "2026-07-16",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement",
       "title": {
-        "ca": "Claude for Teachers s'estrena amb accés gratuït per a educadors de K-12",
-        "es": "Claude for Teachers se estrena con acceso gratuito para educadores de K-12",
-        "en": "Claude for Teachers launches with free access for K-12 educators"
+        "ca": "Investigadors informen de la primera evidència experimental d'automillora recursiva",
+        "es": "Investigadores informan de la primera evidencia experimental de automejora recursiva",
+        "en": "Researchers report first experimental evidence of recursive self-improvement"
       },
       "line": {
-        "ca": "Anthropic va llançar accés gratuït premium a Claude per a educadors verificats de K-12 dels EUA, més una biblioteca d'habilitats docents mapades a estàndards acadèmics.",
-        "es": "Anthropic lanzó acceso gratuito premium a Claude para educadores verificados de K-12 de EE. UU., más una biblioteca de habilidades docentes mapeadas a estándares académicos.",
-        "en": "Anthropic launched free premium Claude access for verified U.S. K-12 educators plus a library of teaching skills mapped to academic standards."
+        "ca": "Un sistema autònom que optimitzava el seu propi entorn va superar un entorn ajustat manualment i va dissenyar un algorisme de cerca nou mentre reduïa la mida del prompt 16 vegades.",
+        "es": "Un sistema autónomo que optimizaba su propio entorno superó un entorno ajustado manualmente y diseñó un algoritmo de búsqueda nuevo mientras reducía el tamaño del prompt 16 veces.",
+        "en": "An autonomous system optimizing its own harness beat a hand-tuned harness and designed a novel search algorithm while cutting prompt size 16x."
       }
     },
     {
       "id": "2026-29-17",
       "n": 3,
-      "date": "2026-07-15",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://www.rundown.ai/tools/bonsai-27b",
-      "title": {
-        "ca": "PrismML anuncia el model Bonsai 27B per a telèfons",
-        "es": "PrismML anuncia el modelo Bonsai 27B para teléfonos",
-        "en": "PrismML announces Bonsai 27B phone model"
-      },
-      "line": {
-        "ca": "PrismML va anunciar Bonsai 27B, el primer model de classe 27B que funciona en un telèfon, utilitzant pesos d'1 bit i ternaris a 3,9 GB i 5,9 GB.",
-        "es": "PrismML anunció Bonsai 27B, el primer modelo de clase 27B que funciona en un teléfono, utilizando pesos de 1 bit y ternarios a 3,9 GB y 5,9 GB.",
-        "en": "PrismML announced Bonsai 27B, the first 27B-class model running on a phone, using 1-bit and ternary weights at 3.9 GB and 5.9 GB."
-      }
-    },
-    {
-      "id": "2026-29-18",
-      "n": 3,
-      "date": "2026-07-15",
-      "company": "OpenAI",
-      "category": "products",
-      "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion",
-      "title": {
-        "ca": "Informe: el primer dispositiu d'OpenAI és un altaveu amb IA",
-        "es": "Informe: el primer dispositivo de OpenAI es un altavoz con IA",
-        "en": "Report: OpenAI's first device is an AI speaker"
-      },
-      "line": {
-        "ca": "Bloomberg informa que el maquinari d'OpenAI dissenyat per Jony Ive serà un altaveu company d'IA sense pantalla i amb bateria.",
-        "es": "Bloomberg informa que el hardware de OpenAI diseñado por Jony Ive será un altavoz compañero de IA sin pantalla y con batería.",
-        "en": "Bloomberg reports OpenAI's Jony Ive-designed hardware will be a screen-free, battery-powered AI companion speaker."
-      }
-    },
-    {
-      "id": "2026-29-19",
-      "n": 3,
-      "date": "2026-07-16",
-      "company": "Other",
-      "category": "research",
-      "is_release": false,
-      "url": "https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement",
-      "title": {
-        "ca": "Evidència experimental d'automillora recursiva en agents",
-        "es": "Evidencia experimental de automejora recursiva en agentes",
-        "en": "Experimental evidence of recursive self-improvement in agents"
-      },
-      "line": {
-        "ca": "Un sistema autònom d'autorecerca va superar un entorn ajustat manualment, va dissenyar un algorisme de cerca nou i va reduir la mida del prompt 16 vegades.",
-        "es": "Un sistema autónomo de autoinvestigación superó un entorno ajustado manualmente, diseñó un algoritmo de búsqueda novedoso y redujo el tamaño del prompt 16 veces.",
-        "en": "An autonomous autoresearch system beat a hand-tuned harness, designed a novel search algorithm, and reduced prompt size by 16x."
-      }
-    },
-    {
-      "id": "2026-29-20",
-      "n": 3,
       "date": "2026-07-16",
       "company": "OpenAI",
       "category": "research",
-      "is_release": true,
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
       "title": {
         "ca": "OpenAI entrena GPT-Red per a proves de seguretat adversàries",
@@ -396,389 +373,492 @@
         "en": "OpenAI trains GPT-Red for adversarial safety testing"
       },
       "line": {
-        "ca": "Incorporar els atacs de GPT-Red a l'entrenament va reduir sis vegades les fallades en un punt de referència difícil d'injecció de prompts per a GPT-5.6 Sol.",
-        "es": "Incorporar los ataques de GPT-Red al entrenamiento redujo seis veces los fallos en un punto de referencia difícil de inyección de prompts para GPT-5.6 Sol.",
-        "en": "Incorporating GPT-Red's attacks into training reduced failures on a difficult prompt-injection benchmark by sixfold for GPT-5.6 Sol."
+        "ca": "Incorporar els atacs de GPT-Red a l'entrenament va reduir sis vegades les fallades en un benchmark difícil d'injecció de prompts per a GPT-5.6 Sol, segons informes.",
+        "es": "Incorporar los ataques de GPT-Red al entrenamiento redujo seis veces los fallos en un benchmark difícil de inyección de prompts para GPT-5.6 Sol, según informes.",
+        "en": "Incorporating GPT-Red's attacks into training reportedly cut failures on a difficult prompt-injection benchmark sixfold for GPT-5.6 Sol."
+      }
+    },
+    {
+      "id": "2026-29-18",
+      "n": 3,
+      "date": "2026-07-16",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/supply/co-lab/work-louder/",
+      "title": {
+        "ca": "OpenAI llança el teclat Codex Micro per dirigir agents de codificació",
+        "es": "OpenAI lanza el teclado Codex Micro para dirigir agentes de codificación",
+        "en": "OpenAI launches Codex Micro keyboard for steering coding agents"
+      },
+      "line": {
+        "ca": "El teclat Work Louder de 230 dòlars afegeix tecles d'ordre, llums d'estat, un joystick i un dial d'esforç de raonament per als agents Codex.",
+        "es": "El teclado Work Louder de 230 dólares añade teclas de comando, luces de estado, un joystick y un dial de esfuerzo de razonamiento para los agentes Codex.",
+        "en": "The $230 Work Louder keyboard adds command keys, status lights, a joystick and a reasoning-effort dial for Codex agents."
+      }
+    },
+    {
+      "id": "2026-29-19",
+      "n": 3,
+      "date": "2026-07-16",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/",
+      "title": {
+        "ca": "Una filtració de codi de Suno mostra dades d'entrenament extretes",
+        "es": "Una filtración de código de Suno muestra datos de entrenamiento extraídos",
+        "en": "Suno code leak reportedly shows scraped training data"
+      },
+      "line": {
+        "ca": "La filtració va mostrar dades d'entrenament extretes de YouTube Music, Deezer, Genius, podcasts i biblioteques de música de fons, segons informes.",
+        "es": "La filtración mostró datos de entrenamiento extraídos de YouTube Music, Deezer, Genius, podcasts y bibliotecas de música de fondo, según informes.",
+        "en": "The leak reportedly showed training data scraped from YouTube Music, Deezer, Genius, podcasts, and stock-music libraries."
+      }
+    },
+    {
+      "id": "2026-29-20",
+      "n": 3,
+      "date": "2026-07-16",
+      "company": "Perplexity",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.perplexity.ai/hub/blog/secure-sandboxes-for-agents",
+      "title": {
+        "ca": "Perplexity llança la plataforma de sandbox SPACE per a agents d'IA",
+        "es": "Perplexity lanza la plataforma de sandbox SPACE para agentes de IA",
+        "en": "Perplexity launches SPACE sandbox platform for AI agents"
+      },
+      "line": {
+        "ca": "SPACE utilitza sandboxs efímers destruïts després de completar la tasca i aïllament de credencials per protegir agents que gestionen tasques sensibles.",
+        "es": "SPACE utiliza sandboxs efímeros destruidos tras completar la tarea y aislamiento de credenciales para proteger agentes que gestionan tareas sensibles.",
+        "en": "SPACE uses ephemeral sandboxes destroyed after task completion and credential isolation to secure agents handling sensitive tasks."
       }
     },
     {
       "id": "2026-29-21",
       "n": 3,
-      "date": "2026-07-16",
-      "company": "Alibaba",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.reuters.com/technology/apple-intelligence-ai-service-registered-with-chinas-cyberspace-regulator-2026-07-15/",
+      "date": "2026-07-17",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
       "title": {
-        "ca": "Apple Intelligence aprovada per a iPhones a la Xina",
-        "es": "Apple Intelligence aprobada para iPhones en China",
-        "en": "Apple Intelligence approved for iPhones in China"
+        "ca": "Google afegeix integracions d'Instacart, Canva i YouTube a AI Mode",
+        "es": "Google añade integraciones de Instacart, Canva y YouTube a AI Mode",
+        "en": "Google adds Instacart, Canva and YouTube integrations to AI Mode"
       },
       "line": {
-        "ca": "Apple Intelligence s'ha registrat i aprovat per al seu ús en iPhones a la Xina, tot i que l'assistent d'IA Siri requereix passos regulatoris addicionals.",
-        "es": "Apple Intelligence se ha registrado y aprobado para su uso en iPhones en China, aunque el asistente de IA Siri requiere pasos regulatorios adicionales.",
-        "en": "Apple Intelligence has been registered and approved for use on iPhones in China, though Siri AI assistant requires additional regulatory steps."
+        "ca": "Google va afegir integracions amb Instacart, Canva i YouTube a AI Mode, permetent als usuaris completar tasques en les aplicacions compatibles.",
+        "es": "Google añadió integraciones con Instacart, Canva y YouTube a AI Mode, permitiendo a los usuarios completar tareas en las aplicaciones compatibles.",
+        "en": "Google added integrations with Instacart, Canva, and YouTube to AI Mode, allowing users to complete tasks across supported apps."
       }
     },
     {
       "id": "2026-29-22",
       "n": 3,
-      "date": "2026-07-16",
-      "company": "Google",
+      "date": "2026-07-17",
+      "company": "Moonshot",
       "category": "models",
-      "is_release": false,
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.kimi.com/blog/kimi-k3",
       "title": {
-        "ca": "Google retarda Gemini 3.5 Pro per problemes de rendiment",
-        "es": "Google retrasa Gemini 3.5 Pro por problemas de rendimiento",
-        "en": "Google delays Gemini 3.5 Pro over performance issues"
+        "ca": "Moonshot AI publica el model obert Kimi K3 amb 2,8T paràmetres",
+        "es": "Moonshot AI publica el modelo abierto Kimi K3 con 2,8T parámetros",
+        "en": "Moonshot AI releases Kimi K3 open model with 2.8T parameters"
       },
       "line": {
-        "ca": "El tan esperat Gemini 3.5 Pro de Google s'enfronta a més retards, quedant per darrere de rivals fronterers i superat per Meta, SpaceXAI i models xinesos.",
-        "es": "El tan esperado Gemini 3.5 Pro de Google se enfrenta a más retrasos, quedando por detrás de rivales fronterizos y superado por Meta, SpaceXAI y modelos chinos.",
-        "en": "Google's long-awaited Gemini 3.5 Pro faces more delays, lagging behind frontier rivals and surpassed by Meta, SpaceXAI, and Chinese models."
+        "ca": "Moonshot afirma que K3 utilitza experts dispersos per reduir els costos d'execució i superar GPT-5.6 Sol en BrowseComp i Automation Bench a la seva pròpia taula.",
+        "es": "Moonshot afirma que K3 utiliza expertos dispersos para reducir los costes de ejecución y superar a GPT-5.6 Sol en BrowseComp y Automation Bench en su propia tabla.",
+        "en": "Moonshot says K3 uses sparse experts to lower runtime costs and beat GPT-5.6 Sol on BrowseComp and Automation Bench in its own table."
       }
     },
     {
       "id": "2026-29-23",
-      "n": 3,
-      "date": "2026-07-16",
-      "company": "OpenAI",
+      "n": 2,
+      "date": "2026-07-13",
+      "company": "Microsoft",
       "category": "products",
-      "is_release": true,
-      "url": "https://openai.com/supply/co-lab/work-louder/",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/",
       "title": {
-        "ca": "OpenAI llança el panell de control Codex Micro per a agents de codificació",
-        "es": "OpenAI lanza el panel de control Codex Micro para agentes de codificación",
-        "en": "OpenAI launches Codex Micro control pad for coding agents"
+        "ca": "Microsoft fa de GPT-5.6 el model preferit a Microsoft 365 Copilot",
+        "es": "Microsoft hace de GPT-5.6 el modelo preferido en Microsoft 365 Copilot",
+        "en": "Microsoft makes GPT-5.6 preferred model in Microsoft 365 Copilot"
       },
       "line": {
-        "ca": "El primer maquinari de marca d'OpenAI és un teclat de 230 dòlars construït amb Work Louder per controlar agents de codificació.",
-        "es": "El primer hardware de marca de OpenAI es un teclado de 230 dólares construido con Work Louder para controlar agentes de codificación.",
-        "en": "OpenAI's first branded hardware is a $230 keypad built with Work Louder to control coding agents."
+        "ca": "OpenAI va dir que GPT-5.6 es va convertir en el model preferit a Microsoft 365 Copilot, mostrant la demanda del model més fort quan la qualitat importa.",
+        "es": "OpenAI dijo que GPT-5.6 se convirtió en el modelo preferido en Microsoft 365 Copilot, mostrando la demanda del modelo más fuerte cuando la calidad importa.",
+        "en": "OpenAI said GPT-5.6 became the preferred model in Microsoft 365 Copilot, showing demand for the strongest model when quality matters."
       }
     },
     {
       "id": "2026-29-24",
-      "n": 3,
-      "date": "2026-07-16",
-      "company": "Other",
-      "category": "society",
+      "n": 2,
+      "date": "2026-07-14",
+      "company": "Meta",
+      "category": "money",
       "is_release": false,
-      "url": "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://about.fb.com/news/2026/07/teachers-local-businesses-win-as-meta-expands-louisiana-data-center/",
       "title": {
-        "ca": "Una bretxa de seguretat revela que Suno va fer scraping de YouTube, Deezer i Genius",
-        "es": "Una brecha de seguridad revela que Suno hizo scraping de YouTube, Deezer y Genius",
-        "en": "Hacker breach reveals Suno scraped YouTube, Deezer, Genius"
+        "ca": "Meta amplia el centre de dades de Louisiana a més de 50.000 milions de dòlars i cinc gigawatts",
+        "es": "Meta amplía el centro de datos de Luisiana a más de 50.000 millones de dólares y cinco gigavatios",
+        "en": "Meta expands Louisiana data center to over $50B and five gigawatts"
       },
       "line": {
-        "ca": "El codi font filtrat mostra que el generador de música amb IA va fer scraping de cançons de les plataformes, validant les preocupacions del sector.",
-        "es": "El código fuente filtrado muestra que el generador de música con IA hizo scraping de canciones de las plataformas, validando las preocupaciones del sector.",
-        "en": "Leaked source code shows the AI music generator scraped songs from the platforms, validating industry concerns."
+        "ca": "Meta va augmentar el seu compromís amb el centre de dades del nord-est de Louisiana de 27.000 milions a més de 50.000 milions de dòlars.",
+        "es": "Meta aumentó su compromiso con el centro de datos del noreste de Luisiana de 27.000 millones a más de 50.000 millones de dólares.",
+        "en": "Meta increased its Northeast Louisiana data-center commitment from $27B to more than $50B."
       }
     },
     {
       "id": "2026-29-25",
-      "n": 3,
-      "date": "2026-07-16",
-      "company": "Other",
-      "category": "products",
-      "is_release": true,
-      "url": "https://www.perplexity.ai/hub/blog/secure-sandboxes-for-agents",
+      "n": 2,
+      "date": "2026-07-14",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.anthropic.com/research/claude-values-models-languages",
       "title": {
-        "ca": "Perplexity llança la plataforma de sandbox SPACE per a agents",
-        "es": "Perplexity lanza la plataforma de sandbox SPACE para agentes",
-        "en": "Perplexity launches SPACE sandbox platform for agents"
+        "ca": "Un informe d'Anthropic troba que els valors expressats per Claude varien segons el model i l'idioma",
+        "es": "Un informe de Anthropic encuentra que los valores expresados por Claude varían según el modelo y el idioma",
+        "en": "Anthropic report finds Claude's expressed values vary by model and language"
       },
       "line": {
-        "ca": "SPACE utilitza sandboxes efímers destruïts després de completar la tasca i aïllament de credencials per a agents d'IA que gestionen tasques sensibles.",
-        "es": "SPACE utiliza sandboxes efímeros destruidos tras completar la tarea y aislamiento de credenciales para agentes de IA que gestionan tareas sensibles.",
-        "en": "SPACE uses ephemeral sandboxes destroyed after task completion and credential isolation for AI agents handling sensitive tasks."
+        "ca": "L'estudi d'Anthropic segueix quatre eixos de valors i troba que Claude tendeix a la calidesa en àrab i hindi i al rigor en anglès i rus.",
+        "es": "El estudio de Anthropic sigue cuatro ejes de valores y encuentra que Claude tiende a la calidez en árabe e hindi y al rigor en inglés y ruso.",
+        "en": "Anthropic's study tracks four value axes and finds Claude leans toward warmth in Arabic and Hindi and rigor in English and Russian."
       }
     },
     {
       "id": "2026-29-26",
-      "n": 3,
-      "date": "2026-07-17",
+      "n": 2,
+      "date": "2026-07-14",
       "company": "Google",
       "category": "products",
       "is_release": true,
-      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
       "title": {
-        "ca": "Google afegeix aplicacions connectades al Mode IA",
-        "es": "Google añade aplicaciones conectadas al Modo IA",
-        "en": "Google adds connected apps to AI Mode"
+        "ca": "Waze afegeix cerca de destinacions amb Gemini i informes de carretera conversacionals",
+        "es": "Waze añade búsqueda de destinos con Gemini e informes de carretera conversacionales",
+        "en": "Waze adds Gemini-powered destination search and conversational road reports"
       },
       "line": {
-        "ca": "Google va afegir integracions amb Instacart, Canva i YouTube al Mode IA per completar tasques en aplicacions compatibles.",
-        "es": "Google añadió integraciones con Instacart, Canva y YouTube al Modo IA para completar tareas en aplicaciones compatibles.",
-        "en": "Google added integrations with Instacart, Canva, and YouTube to AI Mode for completing tasks across supported apps."
+        "ca": "L'aplicació gratuïta va afegir cerca de destinacions amb IA, informes de carretera conversacionals, rutes per a motocicletes i navegació personalitzada.",
+        "es": "La aplicación gratuita añadió búsqueda de destinos con IA, informes de carretera conversacionales, rutas para motocicletas y navegación personalizada.",
+        "en": "The free app added AI destination search, conversational road reports, motorcycle routing and personalized navigation."
       }
     },
     {
       "id": "2026-29-27",
       "n": 2,
-      "date": "2026-07-13",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://x.com/reve/status/2075248950756716747?s=20",
+      "date": "2026-07-15",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/claudeai/status/2075271759289303522?s=20",
       "title": {
-        "ca": "L'API Reve ofereix generació d'imatges nativa en 4K",
-        "es": "La API Reve ofrece generación de imágenes nativa en 4K",
-        "en": "Reve API offers native-4K image generation"
+        "ca": "Anthropic rep crítiques per les imatges d'un anunci sobre seguretat de la IA",
+        "es": "Anthropic recibe críticas por las imágenes de un anuncio sobre seguridad de la IA",
+        "en": "Anthropic faces backlash over AI safety ad imagery"
       },
       "line": {
-        "ca": "L'API Reve proporciona generació d'imatges nativa en 4K amb control d'edició a nivell d'element.",
-        "es": "La API Reve proporciona generación de imágenes nativa en 4K con control de edición a nivel de elemento.",
-        "en": "The Reve API provides native-4K image generation with element-level editing control."
+        "ca": "Anthropic s'enfronta a crítiques per un nou anunci que inclou imatges com un cementiri i una casa en flames juntament amb preguntes reals d'usuaris sobre la seguretat i l'impacte de la IA.",
+        "es": "Anthropic se enfrenta a críticas por un nuevo anuncio que incluye imágenes como un cementerio y una casa en llamas junto a preguntas reales de usuarios sobre la seguridad y el impacto de la IA.",
+        "en": "Anthropic is facing backlash for a new ad featuring imagery like a graveyard and a burning house alongside real user questions on AI's safety and impact."
       }
     },
     {
       "id": "2026-29-28",
       "n": 2,
-      "date": "2026-07-13",
-      "company": "OpenAI",
+      "date": "2026-07-15",
+      "company": "Google",
       "category": "products",
-      "is_release": false,
-      "url": "https://x.com/thsottiaux/status/2077114635308986427?s=61",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/",
       "title": {
-        "ca": "OpenAI relaxa temporalment els límits d'ús de GPT-5.6 Sol",
-        "es": "OpenAI relaja temporalmente los límites de uso de GPT-5.6 Sol",
-        "en": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits"
+        "ca": "Google afegeix generació d'imatges amb IA a Search pel 25è aniversari d'Images",
+        "es": "Google añade generación de imágenes con IA en Search por el 25.º aniversario de Images",
+        "en": "Google adds AI image generation in Search for Images 25th anniversary"
       },
       "line": {
-        "ca": "OpenAI està eliminant temporalment la restricció d'ús de cinc hores per als plans Plus, Pro i Business i reiniciant l'ús actual.",
-        "es": "OpenAI está eliminando temporalmente la restricción de uso de cinco horas para los planes Plus, Pro y Business y reiniciando el uso actual.",
-        "en": "OpenAI is temporarily removing the five-hour usage restriction for Plus, Pro, and Business plans and resetting current usage."
+        "ca": "Google celebra 25 anys de Google Images amb una galeria personalitzada dinàmica i generació directa d'imatges amb IA mitjançant Search.",
+        "es": "Google celebra 25 años de Google Images con una galería personalizada dinámica y generación directa de imágenes con IA mediante Search.",
+        "en": "Google celebrates 25 years of Google Images with a dynamic personalized gallery and direct AI image generation via Search."
       }
     },
     {
       "id": "2026-29-29",
       "n": 2,
-      "date": "2026-07-13",
-      "company": "OpenAI",
-      "category": "products",
-      "is_release": true,
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/",
+      "date": "2026-07-15",
+      "company": "DeepSeek",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
       "title": {
-        "ca": "GPT-5.6 es converteix en el model preferit a Microsoft 365 Copilot",
-        "es": "GPT-5.6 se convierte en el modelo preferido en Microsoft 365 Copilot",
-        "en": "GPT-5.6 becomes preferred model in Microsoft 365 Copilot"
+        "ca": "DeepSeek hauria explorat una ronda de 1.500 milions de dòlars amb una valoració de 71.000 milions abans d'una possible OPV",
+        "es": "DeepSeek habría explorado una ronda de 1.500 millones de dólares con una valoración de 71.000 millones antes de una posible OPV",
+        "en": "DeepSeek reportedly explored $1.5B raise at $71B valuation ahead of possible IPO"
       },
       "line": {
-        "ca": "OpenAI va dir que GPT-5.6 s'ha convertit en el model preferit a Microsoft 365 Copilot.",
-        "es": "OpenAI dijo que GPT-5.6 se ha convertido en el modelo preferido en Microsoft 365 Copilot.",
-        "en": "OpenAI said GPT-5.6 became the preferred model in Microsoft 365 Copilot."
+        "ca": "DeepSeek hauria explorat recaptar 1.500 milions de dòlars amb una valoració de 71.000 milions abans d'una possible OPV a finals del 2026 o el 2027.",
+        "es": "DeepSeek habría explorado recaudar 1.500 millones de dólares con una valoración de 71.000 millones antes de una posible OPV a finales de 2026 o 2027.",
+        "en": "DeepSeek reportedly explored raising $1.5 billion at a $71 billion valuation before a possible IPO in late 2026 or 2027."
       }
     },
     {
       "id": "2026-29-30",
       "n": 2,
-      "date": "2026-07-14",
-      "company": "Other",
-      "category": "research",
+      "date": "2026-07-16",
+      "company": "Meta",
+      "category": "society",
       "is_release": false,
-      "url": "https://x.com/RichardSSutton/status/2076663628301058329?s=20",
+      "rumor": false,
+      "hot": false,
+      "url": "https://apnews.com/article/meta-lawsuit-workers-target-ai-layoffs-leave-019fb9c7fdc09167e91547546bce5be8",
       "title": {
-        "ca": "Richard Sutton cofunda Oak Lab",
-        "es": "Richard Sutton cofunda Oak Lab",
-        "en": "Richard Sutton co-founds Oak Lab"
+        "ca": "Meta s'enfronta a una demanda de 26 empleats per acomiadaments esbiaixats per la IA",
+        "es": "Meta se enfrenta a una demanda de 26 empleados por despidos sesgados por la IA",
+        "en": "Meta faces lawsuit from 26 employees over AI-skewed layoffs"
       },
       "line": {
-        "ca": "El guanyador del Premi Turing va cofundar una empresa que construeix intel·ligència semblant a la animal que aprèn de la seva pròpia experiència.",
-        "es": "El ganador del Premio Turing cofundó una empresa que construye inteligencia similar a la animal que aprende de su propia experiencia.",
-        "en": "The Turing Award winner co-founded a company building animal-like intelligence that learns from its own experience."
+        "ca": "Els empleats diuen que la IA va esbiaixar els acomiadaments recents cap al personal en permís mèdic, tot i que Meta diu que les decisions les van prendre persones.",
+        "es": "Los empleados dicen que la IA sesgó los despidos recientes hacia el personal en permiso médico, aunque Meta dice que las decisiones las tomaron personas.",
+        "en": "Employees say AI skewed recent layoffs toward staff on medical leave, despite Meta saying decisions were made by people."
       }
     },
     {
       "id": "2026-29-31",
       "n": 2,
-      "date": "2026-07-14",
+      "date": "2026-07-16",
       "company": "Anthropic",
-      "category": "research",
+      "category": "money",
       "is_release": false,
-      "url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html",
       "title": {
-        "ca": "Una recerca d'Anthropic troba que la personalitat de Claude varia segons el model i l'idioma",
-        "es": "Una investigación de Anthropic encuentra que la personalidad de Claude varía según el modelo y el idioma",
-        "en": "Anthropic research finds Claude personality varies by model and language"
+        "ca": "Anthropic es prepara per a una possible OPV amb reunions amb inversors",
+        "es": "Anthropic se prepara para una posible OPV con reuniones con inversores",
+        "en": "Anthropic prepares for potential IPO with investor meetings"
       },
       "line": {
-        "ca": "L'anàlisi de 309.000 converses va trobar que els models Claude difereixen en temperament i canvien de personalitat segons l'idioma de l'usuari.",
-        "es": "El análisis de 309.000 conversaciones encontró que los modelos Claude difieren en temperamento y cambian de personalidad según el idioma del usuario.",
-        "en": "Analysis of 309K conversations found Claude models differ in temperament and shift personality based on user language."
+        "ca": "Anthropic planeja reunions amb inversors amb Goldman Sachs, Morgan Stanley i JPMorgan Chase abans d'una possible OPV a finals d'aquest any.",
+        "es": "Anthropic planea reuniones con inversores con Goldman Sachs, Morgan Stanley y JPMorgan Chase antes de una posible OPV a finales de este año.",
+        "en": "Anthropic plans investor meetings with Goldman Sachs, Morgan Stanley, and JPMorgan Chase ahead of a possible IPO later this year."
       }
     },
     {
       "id": "2026-29-32",
       "n": 2,
-      "date": "2026-07-14",
-      "company": "Google",
-      "category": "products",
-      "is_release": true,
-      "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+      "date": "2026-07-16",
+      "company": "Apple",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.reuters.com/technology/apple-intelligence-ai-service-registered-with-chinas-cyberspace-regulator-2026-07-15/",
       "title": {
-        "ca": "Waze afegeix cerca de destinacions i informes de carretera amb Gemini",
-        "es": "Waze añade búsqueda de destinos e informes de carretera con Gemini",
-        "en": "Waze adds Gemini-powered destination search and road reports"
+        "ca": "Apple Intelligence aprovada per al seu ús en iPhones a la Xina",
+        "es": "Apple Intelligence aprobada para su uso en iPhones en China",
+        "en": "Apple Intelligence approved for use on iPhones in China"
       },
       "line": {
-        "ca": "Waze va afegir cerca de destinacions amb Gemini, informes de carretera conversacionals i rutes per a motocicletes a la seva aplicació de navegació.",
-        "es": "Waze añadió búsqueda de destinos con Gemini, informes de carretera conversacionales y rutas para motocicletas a su aplicación de navegación.",
-        "en": "Waze added Gemini-powered destination search, conversational road reports, and motorcycle routing to its navigation app."
+        "ca": "Apple Intelligence ha estat registrada i aprovada per al seu ús en iPhones a la Xina, segons informes.",
+        "es": "Apple Intelligence ha sido registrada y aprobada para su uso en iPhones en China, según informes.",
+        "en": "Apple Intelligence has reportedly been registered and approved for use on iPhones in China."
       }
     },
     {
       "id": "2026-29-33",
       "n": 2,
-      "date": "2026-07-15",
-      "company": "Anthropic",
-      "category": "society",
+      "date": "2026-07-16",
+      "company": "Other",
+      "category": "money",
       "is_release": false,
-      "url": "https://x.com/claudeai/status/2075271759289303522?s=20",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-15/toyota-backed-robotics-startup-walden-launches-with-1-1-billion-valuation",
       "title": {
-        "ca": "Anthropic s'enfronta a crítiques per un nou anunci",
-        "es": "Anthropic se enfrenta a críticas por un nuevo anuncio",
-        "en": "Anthropic faces backlash over new ad"
+        "ca": "Walden Robotics es llança amb 300 milions de dòlars de llavor i una valoració de 1.100 milions",
+        "es": "Walden Robotics se lanza con 300 millones de dólares de semilla y una valoración de 1.100 millones",
+        "en": "Walden Robotics launches with $300 million seed at $1.1 billion valuation"
       },
       "line": {
-        "ca": "Anthropic s'enfronta a crítiques per un anunci que inclou imatges com un cementiri i una casa en flames juntament amb preguntes reals d'usuaris sobre seguretat de la IA.",
-        "es": "Anthropic se enfrenta a críticas por un anuncio que incluye imágenes como un cementerio y una casa en llamas junto con preguntas reales de usuarios sobre seguridad de la IA.",
-        "en": "Anthropic is facing criticism for an ad featuring imagery like a graveyard and a burning house alongside real user questions on AI safety."
+        "ca": "La startup de robòtica Walden Robotics, recolzada per Toyota, es va llançar amb una ronda llavor de 300 milions de dòlars i una valoració de 1.100 milions.",
+        "es": "La startup de robótica Walden Robotics, respaldada por Toyota, se lanzó con una ronda semilla de 300 millones de dólares y una valoración de 1.100 millones.",
+        "en": "Toyota-backed robotics startup Walden Robotics launched with a $300 million seed round at a $1.1 billion valuation."
       }
     },
     {
       "id": "2026-29-34",
       "n": 2,
-      "date": "2026-07-15",
-      "company": "DeepSeek",
-      "category": "money",
+      "date": "2026-07-17",
+      "company": "Google",
+      "category": "models",
       "is_release": false,
-      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
       "title": {
-        "ca": "DeepSeek va explorar una recaptació de 1.500 milions de dòlars amb una valoració de 71.000 milions abans d'una possible IPO",
-        "es": "DeepSeek exploró una recaudación de 1.500 millones de dólares con una valoración de 71.000 millones antes de una posible IPO",
-        "en": "DeepSeek explored $1.5B raise at $71B valuation before possible IPO"
+        "ca": "Google hauria ajornat Gemini 3.5 Pro per millorar el rendiment",
+        "es": "Google habría retrasado Gemini 3.5 Pro para mejorar el rendimiento",
+        "en": "Google reportedly delayed Gemini 3.5 Pro to improve performance"
       },
       "line": {
-        "ca": "Segons informes, DeepSeek va explorar recaptar 1.500 milions de dòlars amb una valoració de 71.000 milions abans d'una possible IPO a finals de 2026 o 2027.",
-        "es": "Según informes, DeepSeek exploró recaudar 1.500 millones de dólares con una valoración de 71.000 millones antes de una posible IPO a finales de 2026 o 2027.",
-        "en": "DeepSeek reportedly explored raising $1.5 billion at a $71 billion valuation before a possible IPO in late 2026 or 2027."
+        "ca": "Les accions d'Alphabet van caure un 4% després que un informe digués que Google va ajornar Gemini 3.5 Pro mentre treballava per millorar el seu rendiment de codificació.",
+        "es": "Las acciones de Alphabet cayeron un 4% después de que un informe dijera que Google retrasó Gemini 3.5 Pro mientras trabajaba para mejorar su rendimiento de codificación.",
+        "en": "Alphabet shares fell 4% after a report said Google delayed Gemini 3.5 Pro while working to improve its coding performance."
       }
     },
     {
       "id": "2026-29-35",
       "n": 2,
-      "date": "2026-07-15",
-      "company": "Google",
-      "category": "products",
-      "is_release": true,
-      "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/",
+      "date": "2026-07-17",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://fireworks.ai/blog/series-d-announcement",
       "title": {
-        "ca": "Google Images celebra 25 anys amb generació d'imatges per IA a la Cerca",
-        "es": "Google Images celebra 25 años con generación de imágenes por IA en la Búsqueda",
-        "en": "Google Images marks 25 years with AI image generation in Search"
+        "ca": "Fireworks assoleix una valoració de 17.500 milions de dòlars amb el suport de NVIDIA",
+        "es": "Fireworks alcanza una valoración de 17.500 millones de dólares con el respaldo de NVIDIA",
+        "en": "Fireworks hits $17.5 billion valuation backed by NVIDIA"
       },
       "line": {
-        "ca": "Google celebra 25 anys de Google Images amb una galeria d'imatges personalitzada dinàmica i generació directa d'imatges per IA mitjançant IA a la Cerca.",
-        "es": "Google celebra 25 años de Google Images con una galería de imágenes personalizada dinámica y generación directa de imágenes por IA mediante IA en la Búsqueda.",
-        "en": "Google celebrates 25 years of Google Images with a dynamic personalized image gallery and direct AI image generation via AI in Search."
+        "ca": "Fireworks, recolzada per Nvidia, va aconseguir una valoració de 17.500 milions de dòlars, impulsada per la demanda de models d'IA més barats mentre les empreses exploren opcions de codi obert.",
+        "es": "Fireworks, respaldada por Nvidia, logró una valoración de 17.500 millones de dólares, impulsada por la demanda de modelos de IA más baratos mientras las empresas exploran opciones de código abierto.",
+        "en": "Nvidia-backed Fireworks secured a $17.5 billion valuation, driven by demand for cheaper AI models as companies explore open-source options."
       }
     },
     {
       "id": "2026-29-36",
       "n": 2,
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "company": "Meta",
-      "category": "society",
-      "is_release": false,
-      "url": "https://apnews.com/article/meta-lawsuit-workers-target-ai-layoffs-leave-019fb9c7fdc09167e91547546bce5be8",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://about.fb.com/news/2026/07/keeping-parents-informed-teens-distress-conversations-meta-ai/",
       "title": {
-        "ca": "Meta s'enfronta a una demanda per acomiadaments esbiaixats per IA",
-        "es": "Meta se enfrenta a una demanda por despidos sesgados por IA",
-        "en": "Meta faces lawsuit over AI-skewed layoffs"
+        "ca": "Meta afegeix alertes per a pares sobre el malestar adolescent detectat per la seva IA",
+        "es": "Meta añade alertas para padres sobre el malestar adolescente detectado por su IA",
+        "en": "Meta adds parent alerts for teen distress detected by its AI"
       },
       "line": {
-        "ca": "26 empleats diuen que la IA va esbiaixar els acomiadaments recents cap al personal en permís mèdic, tot i que Meta nega que la IA prengués les decisions.",
-        "es": "26 empleados dicen que la IA sesgó los despidos recientes hacia el personal en permiso médico, aunque Meta niega que la IA tomara las decisiones.",
-        "en": "26 employees say AI skewed recent layoffs toward staff on medical leave, despite Meta denying AI made the decisions."
+        "ca": "Meta va introduir alertes quan la seva IA detecta senyals que un adolescent pot estar en un malestar emocional greu.",
+        "es": "Meta introdujo alertas cuando su IA detecta señales de que un adolescente puede estar en un malestar emocional grave.",
+        "en": "Meta introduced alerts when its AI detects signs a teen may be in serious emotional distress."
       }
     },
     {
       "id": "2026-29-37",
       "n": 2,
-      "date": "2026-07-16",
-      "company": "Anthropic",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html",
+      "date": "2026-07-17",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://1password.com/blog/1password-for-claude",
       "title": {
-        "ca": "Anthropic es prepara per a una possible IPO amb reunions amb inversors",
-        "es": "Anthropic se prepara para una posible IPO con reuniones con inversores",
-        "en": "Anthropic prepares for potential IPO with investor meetings"
+        "ca": "1Password llança la integració de 1Password per a Claude al navegador",
+        "es": "1Password lanza la integración de 1Password para Claude en el navegador",
+        "en": "1Password launches 1Password for Claude browser integration"
       },
       "line": {
-        "ca": "Anthropic planeja reunions amb inversors amb Goldman Sachs, Morgan Stanley i JPMorgan Chase després de tancar una ronda de 65.000 milions de dòlars amb una valoració de 965.000 milions.",
-        "es": "Anthropic planea reuniones con inversores con Goldman Sachs, Morgan Stanley y JPMorgan Chase después de cerrar una ronda de 65.000 millones de dólares con una valoración de 965.000 millones.",
-        "en": "Anthropic plans investor meetings with Goldman Sachs, Morgan Stanley, and JPMorgan Chase after closing a $65 billion round at a $965 billion valuation."
+        "ca": "La integració dona als agents de Claude accés a credencials emmagatzemades sense exposar-les al model, a la memòria ni a Anthropic.",
+        "es": "La integración da a los agentes de Claude acceso a credenciales almacenadas sin exponerlas al modelo, a la memoria ni a Anthropic.",
+        "en": "The integration gives Claude agents access to stored credentials without exposing them to the model, memory, or Anthropic."
       }
     },
     {
       "id": "2026-29-38",
       "n": 2,
-      "date": "2026-07-16",
-      "company": "Other",
-      "category": "money",
+      "date": "2026-07-17",
+      "company": "Google",
+      "category": "society",
       "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-07-15/toyota-backed-robotics-startup-walden-launches-with-1-1-billion-valuation",
+      "rumor": false,
+      "hot": false,
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1634",
       "title": {
-        "ca": "Walden Robotics s'estrena amb 300 milions de dòlars de llavor i una valoració de 1.100 milions",
-        "es": "Walden Robotics se estrena con 300 millones de dólares de semilla y una valoración de 1.100 millones",
-        "en": "Walden Robotics launches with $300 million seed at $1.1 billion valuation"
+        "ca": "La UE ordena a Google obrir Android als assistents d'IA rivals",
+        "es": "La UE ordena a Google abrir Android a los asistentes de IA rivales",
+        "en": "EU orders Google to open Android to rival AI assistants"
       },
       "line": {
-        "ca": "La startup de robòtica recolzada per Toyota es va estrenar amb una ronda llavor de 300 milions de dòlars.",
-        "es": "La startup de robótica respaldada por Toyota se estrenó con una ronda semilla de 300 millones de dólares.",
-        "en": "The Toyota-backed robotics startup launched with a $300 million seed round."
+        "ca": "La Comissió Europea requereix que Google obri 11 funcions d'Android als assistents d'IA rivals i comparteixi dades de cerca sota la Digital Markets Act.",
+        "es": "La Comisión Europea requiere que Google abra 11 funciones de Android a los asistentes de IA rivales y comparta datos de búsqueda bajo la Digital Markets Act.",
+        "en": "The European Commission requires Google to open 11 Android features to rival AI assistants and share search data under the Digital Markets Act."
       }
     },
     {
       "id": "2026-29-39",
-      "n": 2,
-      "date": "2026-07-17",
-      "company": "NVIDIA",
+      "n": 1,
+      "date": "2026-07-13",
+      "company": "Other",
       "category": "money",
       "is_release": false,
-      "url": "https://fireworks.ai/blog/series-d-announcement",
+      "rumor": false,
+      "hot": false,
+      "url": "",
       "title": {
-        "ca": "Fireworks, recolzada per Nvidia, arriba a una valoració de 17.500 milions de dòlars",
-        "es": "Fireworks, respaldada por Nvidia, alcanza una valoración de 17.500 millones de dólares",
-        "en": "Nvidia-backed Fireworks hits $17.5 billion valuation"
+        "ca": "Sherpa.ai recapta 18 milions de dòlars liderats per Forgepoint Capital",
+        "es": "Sherpa.ai recauda 18 millones de dólares liderados por Forgepoint Capital",
+        "en": "Sherpa.ai raises $18M led by Forgepoint Capital"
       },
       "line": {
-        "ca": "Fireworks va aconseguir una valoració de 17.500 milions de dòlars, impulsada per la demanda de models d'IA més barats mentre les empreses exploren opcions de codi obert.",
-        "es": "Fireworks consiguió una valoración de 17.500 millones de dólares, impulsada por la demanda de modelos de IA más baratos mientras las empresas exploran opciones de código abierto.",
-        "en": "Fireworks secured a $17.5 billion valuation, driven by demand for cheaper AI models as companies explore open-source options."
+        "ca": "La plataforma d'IA basca centrada en la privacitat va tancar una ronda de 18 milions de dòlars amb la participació de Mundi Ventures, Ekarpen, Allegra Holdings i SETT.",
+        "es": "La plataforma de IA vasca centrada en la privacidad cerró una ronda de 18 millones de dólares con la participación de Mundi Ventures, Ekarpen, Allegra Holdings y SETT.",
+        "en": "The Basque privacy-focused AI platform closed a $18M round with participation from Mundi Ventures, Ekarpen, Allegra Holdings and SETT."
       }
     },
     {
       "id": "2026-29-40",
-      "n": 2,
-      "date": "2026-07-17",
-      "company": "Meta",
-      "category": "products",
-      "is_release": true,
-      "url": "https://about.fb.com/news/2026/07/keeping-parents-informed-teens-distress-conversations-meta-ai/",
+      "n": 1,
+      "date": "2026-07-13",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "",
       "title": {
-        "ca": "Meta afegeix alertes per a pares sobre el malestar adolescent detectat per IA",
-        "es": "Meta añade alertas para padres sobre el malestar adolescente detectado por IA",
-        "en": "Meta adds parent alerts for teen distress detected by AI"
+        "ca": "MITO adquireix la startup de vídeo amb IA Kluster.ai",
+        "es": "MITO adquiere la startup de vídeo con IA Kluster.ai",
+        "en": "MITO acquires AI video startup Kluster.ai"
       },
       "line": {
-        "ca": "La funció notifica els pares quan Meta AI detecta senyals que un adolescent pot estar en greu malestar emocional.",
-        "es": "La función notifica a los padres cuando Meta AI detecta señales de que un adolescente puede estar en grave malestar emocional.",
-        "en": "The feature notifies parents when Meta AI detects signs a teen may be in serious emotional distress."
+        "ca": "Tres membres fundadors de Kluster es convertiran en CTO, cap de vendes i cap d'IA de Mito.",
+        "es": "Tres miembros fundadores de Kluster se convertirán en CTO, jefe de ventas y jefe de IA de Mito.",
+        "en": "Three Kluster founding members will become CTO, Head of Sales and Head of AI at Mito."
       }
     }
   ]

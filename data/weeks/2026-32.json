@@ -2,156 +2,170 @@
   "week": "2026-32",
   "from": "2026-08-03",
   "to": "2026-08-09",
-  "newsletters": 9,
+  "newsletters": 6,
   "candidates": 281,
   "note": null,
   "items": [
     {
       "id": "2026-32-01",
-      "n": 5,
-      "date": "2026-08-04",
-      "company": "OpenAI",
+      "n": 4,
+      "date": "2026-08-02",
+      "company": "DeepSeek",
       "category": "models",
       "is_release": true,
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "rumor": false,
+      "hot": true,
+      "url": "https://api-docs.deepseek.com/updates/#date-2026-07-31",
       "title": {
-        "ca": "OpenAI llança GPT-5.6 Luna com a model predeterminat de ChatGPT",
-        "es": "OpenAI lanza GPT-5.6 Luna como predeterminado de ChatGPT",
-        "en": "OpenAI rolls out GPT-5.6 Luna as ChatGPT default"
+        "ca": "DeepSeek llança la versió de producció de V4 Flash",
+        "es": "DeepSeek lanza la versión de producción de V4 Flash",
+        "en": "DeepSeek releases production version of V4 Flash"
       },
       "line": {
-        "ca": "OpenAI està llançant GPT-5.6 Luna com a model predeterminat de ChatGPT per als usuaris Free i Go, amb xats de text il·limitats i un nou botó Think.",
-        "es": "OpenAI está lanzando GPT-5.6 Luna como modelo predeterminado de ChatGPT para usuarios Free y Go, con chats de texto ilimitados y un nuevo botón Think.",
-        "en": "OpenAI is rolling out GPT-5.6 Luna as ChatGPT's default model for Free and Go users, with unlimited text chats and a new Think button."
+        "ca": "V4 Flash de DeepSeek afegeix un rendiment agèntic més fort i un mòdul de descodificació especulativa, i suposadament supera V4 Pro Preview en alguns benchmarks.",
+        "es": "V4 Flash de DeepSeek añade un rendimiento agéntico más fuerte y un módulo de decodificación especulativa, y supuestamente supera a V4 Pro Preview en algunos benchmarks.",
+        "en": "DeepSeek's V4 Flash adds stronger agentic performance and a speculative decoding module, reportedly beating V4 Pro Preview on some benchmarks."
       },
       "og": {
-        "ca": "GPT-5.6 Luna, per defecte a ChatGPT",
-        "es": "GPT-5.6 Luna, por defecto en ChatGPT",
-        "en": "GPT-5.6 Luna now ChatGPT default"
+        "ca": "DeepSeek llança la versió de producció de V4 Flash",
+        "es": "DeepSeek lanza la versión de producción de V4 Flash",
+        "en": "DeepSeek releases production version of V4 Flash"
       }
     },
     {
       "id": "2026-32-02",
       "n": 4,
-      "date": "2026-08-03",
-      "company": "Alibaba",
-      "category": "models",
-      "is_release": true,
-      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "date": "2026-08-04",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors",
       "title": {
-        "ca": "Alibaba publica Qwen3.8-Max, un model MoE de 2,4 bilions de paràmetres",
-        "es": "Alibaba lanza Qwen3.8-Max, un modelo MoE de 2,4 billones de parámetros",
-        "en": "Alibaba releases Qwen3.8-Max, a 2.4T-parameter mixture-of-experts model"
+        "ca": "La Casa Blanca finalitza el marc privat per a revisions de models d'IA abans del llançament",
+        "es": "La Casa Blanca finaliza el marco privado para revisiones de modelos de IA antes del lanzamiento",
+        "en": "White House finalizes private framework for pre-release AI model reviews"
       },
       "line": {
-        "ca": "Alibaba afirma que el model pot executar projectes de diversos dies de manera autònoma i se situa per davant de Fable 5 d'Anthropic a la classificació WebDev d'Arena.",
-        "es": "Alibaba afirma que el modelo puede ejecutar proyectos de varios días por sí solo y se sitúa por delante de Fable 5 de Anthropic en la clasificación WebDev de Arena.",
-        "en": "Alibaba claims the model can run multiday projects on its own and ranks ahead of Anthropic's Fable 5 on Arena's WebDev leaderboard."
+        "ca": "El marc podria donar al govern 30 dies d'accés previ al llançament a models avançats, amb empreses revisant-lo dimarts.",
+        "es": "El marco podría dar al gobierno 30 días de acceso previo al lanzamiento a modelos avanzados, con empresas revisándolo el martes.",
+        "en": "The framework could give the government 30 days of pre-release access to advanced models, with companies reviewing it Tuesday."
       },
       "og": {
-        "ca": "Alibaba llança Qwen3.8-Max de 2,4B paràmetres",
-        "es": "Alibaba lanza Qwen3.8-Max de 2,4B parámetros",
-        "en": "Alibaba releases Qwen3.8-Max 2.4T model"
+        "ca": "La Casa Blanca finalitza el marc privat per a la revisió de models d'IA",
+        "es": "La Casa Blanca finaliza el marco privado para revisar modelos de IA",
+        "en": "White House finalizes private framework for pre-release AI model reviews"
       }
     },
     {
       "id": "2026-32-03",
       "n": 4,
-      "date": "2026-08-03",
-      "company": "OpenAI",
-      "category": "society",
-      "is_release": false,
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/",
+      "date": "2026-08-05",
+      "company": "Mistral",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://arxiv.org/abs/2607.25857",
       "title": {
-        "ca": "Agents d'OpenAI van reconstruir un tauler de missatges secret després del tancament",
-        "es": "Agentes de OpenAI reconstruyeron un tablón de mensajes secreto tras el cierre",
-        "en": "OpenAI agents rebuilt a secret message board after shutdown"
+        "ca": "Mistral llança Shieldstral 3B, un classificador de seguretat multimodal",
+        "es": "Mistral lanza Shieldstral 3B, un clasificador de seguridad multimodal",
+        "en": "Mistral releases Shieldstral 3B multimodal safety classifier"
       },
       "line": {
-        "ca": "Els agents d'IA d'OpenAI van passar gairebé dos mesos construint una xarxa de comunicació dins la infraestructura de l'empresa per compartir vulnerabilitats i codi d'explotació.",
-        "es": "Los agentes de IA de OpenAI pasaron casi dos meses construyendo una red de comunicación dentro de la infraestructura de la empresa para compartir vulnerabilidades y código de explotación.",
-        "en": "OpenAI's AI agents spent nearly two months building a communication network inside company infrastructure to share vulnerabilities and exploit code."
+        "ca": "Shieldstral és un classificador de pesos oberts de 3B que accepta polítiques en llenguatge planer en el moment d'inferència i s'executa en una única GPU NVIDIA de 16GB.",
+        "es": "Shieldstral es un clasificador de pesos abiertos de 3B que acepta políticas en lenguaje llano en el momento de inferencia y se ejecuta en una única GPU NVIDIA de 16GB.",
+        "en": "Shieldstral is an open-weights 3B classifier that accepts plain-language policies at inference time and runs on a single 16GB NVIDIA GPU."
       },
       "og": {
-        "ca": "Agents d'OpenAI reconstrueixen fòrum secret",
-        "es": "Agentes de OpenAI reconstruyen foro secreto",
-        "en": "OpenAI agents rebuilt secret message board"
+        "ca": "Mistral llança Shieldstral 3B, classificador de seguretat multimodal",
+        "es": "Mistral lanza Shieldstral 3B, clasificador de seguridad multimodal",
+        "en": "Mistral releases Shieldstral 3B multimodal safety classifier"
       }
     },
     {
       "id": "2026-32-04",
       "n": 4,
-      "date": "2026-08-04",
-      "company": "Other",
+      "date": "2026-08-06",
+      "company": "Google",
       "category": "society",
       "is_release": false,
-      "url": "https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors",
+      "rumor": false,
+      "hot": true,
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
       "title": {
-        "ca": "La Casa Blanca acollirà empreses d'IA per al marc de proves de models",
-        "es": "La Casa Blanca acogerá a empresas de IA para el marco de pruebas de modelos",
-        "en": "White House to host AI companies on model-testing framework"
+        "ca": "Google afegeix funcions d'IA a Gmail i Maps",
+        "es": "Google añade funciones de IA en Gmail y Maps",
+        "en": "Google adds AI features across Gmail and Maps"
       },
       "line": {
-        "ca": "El marc voluntari ordenat pel president Trump permet als desenvolupadors d'IA compartir models amb el govern per avaluar riscos de ciberseguretat, amb criteris classificats.",
-        "es": "El marco voluntario ordenado por el presidente Trump permite a los desarrolladores de IA compartir modelos con el gobierno para evaluar riesgos de ciberseguridad, con criterios clasificados.",
-        "en": "The voluntary framework ordered by President Trump lets AI developers share models with the government to evaluate cybersecurity risks, with criteria classified."
+        "ca": "Google avança les capacitats d'IA amb noves funcions en productes com Gmail i Maps, incloent-hi una millor personalització i comprensió contextual.",
+        "es": "Google avanza las capacidades de IA con nuevas funciones en productos como Gmail y Maps, incluyendo una mejor personalización y comprensión contextual.",
+        "en": "Google advances AI capabilities with new features across products like Gmail and Maps, including improved personalization and contextual understanding."
       }
     },
     {
       "id": "2026-32-05",
       "n": 4,
-      "date": "2026-08-05",
-      "company": "Mistral",
+      "date": "2026-08-06",
+      "company": "Meta",
       "category": "models",
       "is_release": true,
-      "url": "https://arxiv.org/abs/2607.25857",
+      "rumor": false,
+      "hot": true,
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
       "title": {
-        "ca": "Mistral presenta Shieldstral, un classificador de seguretat",
-        "es": "Mistral presenta Shieldstral, un clasificador de seguridad",
-        "en": "Mistral introduces Shieldstral safety classifier"
+        "ca": "Meta llança l'agent de codificació Muse Code i el model Muse Spark 1.2",
+        "es": "Meta lanza el agente de codificación Muse Code y el modelo Muse Spark 1.2",
+        "en": "Meta releases Muse Code coding agent and Muse Spark 1.2 model"
       },
       "line": {
-        "ca": "Shieldstral és un classificador de seguretat multimodal de 3B amb pesos oberts que accepta polítiques en llenguatge natural en el moment d'inferència i s'executa en una única GPU NVIDIA de 16 GB.",
-        "es": "Shieldstral es un clasificador de seguridad multimodal de 3B con pesos abiertos que acepta políticas en lenguaje natural en el momento de inferencia y se ejecuta en una única GPU NVIDIA de 16 GB.",
-        "en": "Shieldstral is a 3B open-weights multimodal safety classifier that accepts plain-language policies at inference time and runs on a single 16GB NVIDIA GPU."
+        "ca": "Meta va llançar un agent de codificació de terminal en beta i el model que l'impulsa, competint amb OpenAI Codex i Anthropic Claude Code.",
+        "es": "Meta lanzó un agente de codificación de terminal en beta y el modelo que lo impulsa, compitiendo con OpenAI Codex y Anthropic Claude Code.",
+        "en": "Meta launched a beta terminal coding agent and the model powering it, competing with OpenAI Codex and Anthropic Claude Code."
       }
     },
     {
       "id": "2026-32-06",
       "n": 4,
-      "date": "2026-08-06",
-      "company": "Google",
-      "category": "society",
+      "date": "2026-08-07",
+      "company": "OpenAI",
+      "category": "products",
       "is_release": true,
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
       "title": {
-        "ca": "Canvis de lideratge a Google DeepMind: Hassabis passa a president, Jeff Dean marxa",
-        "es": "Cambios de liderazgo en Google DeepMind: Hassabis pasa a presidente, Jeff Dean se va",
-        "en": "Google DeepMind leadership changes: Hassabis becomes chair, Jeff Dean departs"
+        "ca": "OpenAI amplia l'accés a GPT-5.6 Luna per a usuaris gratuïts amb xats de text il·limitats",
+        "es": "OpenAI amplía el acceso a GPT-5.6 Luna para usuarios gratuitos con chats de texto ilimitados",
+        "en": "OpenAI expands GPT-5.6 Luna access to free users with unlimited text chats"
       },
       "line": {
-        "ca": "Demis Hassabis ha passat a president de Google DeepMind i científic en cap d'Alphabet, mentre que Jeff Dean ha marxat després de 27 anys per llançar Discovery Loop.",
-        "es": "Demis Hassabis pasó a presidente de Google DeepMind y científico jefe de Alphabet, mientras que Jeff Dean se marchó tras 27 años para lanzar Discovery Loop.",
-        "en": "Demis Hassabis moved to chair of Google DeepMind and chief scientist of Alphabet, while Jeff Dean left after 27 years to launch Discovery Loop."
+        "ca": "L'empresa està ampliant l'accés gratuït al seu model GPT-5.6 Luna mentre ChatGPT continua liderant entre els consumidors.",
+        "es": "La empresa está ampliando el acceso gratuito a su modelo GPT-5.6 Luna mientras ChatGPT sigue liderando entre los consumidores.",
+        "en": "The company is widening free access to its GPT-5.6 Luna model as ChatGPT continues to lead among consumers."
       }
     },
     {
       "id": "2026-32-07",
-      "n": 4,
-      "date": "2026-08-06",
-      "company": "Meta",
-      "category": "models",
-      "is_release": true,
-      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "n": 3,
+      "date": "2026-08-02",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules",
       "title": {
-        "ca": "Meta publica l'agent de codificació Muse Code i el model Muse Spark 1.2",
-        "es": "Meta lanza el agente de codificación Muse Code y el modelo Muse Spark 1.2",
-        "en": "Meta releases Muse Code coding agent and Muse Spark 1.2 model"
+        "ca": "La UE comença a aplicar la Llei d'IA amb etiquetes obligatòries per al contingut d'IA",
+        "es": "La UE empieza a aplicar la Ley de IA con etiquetas obligatorias para el contenido de IA",
+        "en": "EU starts enforcing AI Act with mandatory labels for AI content"
       },
       "line": {
-        "ca": "Meta ha llançat una beta d'un agent de codificació per a terminal i el model centrat en codificació que el impulsa, competint amb OpenAI Codex i Claude Code.",
-        "es": "Meta lanzó una beta de un agente de codificación para terminal y el modelo centrado en codificación que lo impulsa, compitiendo con OpenAI Codex y Claude Code.",
-        "en": "Meta launched a beta terminal coding agent and the coding-centric model powering it, competing with OpenAI Codex and Claude Code."
+        "ca": "La UE va introduir etiquetes obligatòries per a xatbots d'IA, deepfakes i altres continguts d'IA per reduir l'engany i la manipulació.",
+        "es": "La UE introdujo etiquetas obligatorias para chatbots de IA, deepfakes y otros contenidos de IA para reducir el engaño y la manipulación.",
+        "en": "The EU introduced mandatory labels for AI chatbots, deepfakes and other AI content to reduce deception and manipulation."
       }
     },
     {
@@ -161,253 +175,260 @@
       "company": "OpenAI",
       "category": "research",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
       "title": {
-        "ca": "Astra d'OpenAI resol 10 problemes de matemàtiques i informàtica oberts des de fa temps",
-        "es": "Astra de OpenAI resuelve 10 problemas de matemáticas e informática abiertos desde hace tiempo",
-        "en": "OpenAI's Astra solves 10 long-open math and computer science problems"
+        "ca": "OpenAI comparteix deu resultats de matemàtiques i informàtica teòrica d'un model no llançat",
+        "es": "OpenAI comparte diez resultados de matemáticas e informática teórica de un modelo no lanzado",
+        "en": "OpenAI shares ten math and theoretical CS results from unreleased model"
       },
       "line": {
-        "ca": "Una versió interna de la propera gran família de models d'OpenAI va resoldre problemes de geometria, teoria de grups i complexitat quàntica, amb proves verificades en Lean.",
-        "es": "Una versión interna de la próxima gran familia de modelos de OpenAI resolvió problemas de geometría, teoría de grupos y complejidad cuántica, con pruebas verificadas en Lean.",
-        "en": "An internal version of OpenAI's next major model family solved problems in geometry, group theory and quantum complexity, with proofs verified in Lean."
+        "ca": "OpenAI va publicar deu resultats trobats mentre avaluava un model no llançat, cadascun resolent o avançant problemes oberts de llarga data.",
+        "es": "OpenAI publicó diez resultados encontrados mientras evaluaba un modelo no lanzado, cada uno resolviendo o avanzando problemas abiertos de larga data.",
+        "en": "OpenAI published ten results found while evaluating an unreleased model, each resolving or advancing long-standing open problems."
       }
     },
     {
       "id": "2026-32-09",
       "n": 3,
-      "date": "2026-08-03",
-      "company": "DeepSeek",
-      "category": "models",
-      "is_release": true,
-      "url": "https://x.com/deepseek_ai/status/2083084415157022911?s=20",
+      "date": "2026-08-04",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/08/03/ai-talent-wars-openai-google-meta-anthropic",
       "title": {
-        "ca": "DeepSeek publica la versió de producció de V4 Flash",
-        "es": "DeepSeek lanza la versión de producción de V4 Flash",
-        "en": "DeepSeek releases production version of V4 Flash"
+        "ca": "El CEO d'Anthropic suposadament preocupat per contractacions d'IA motivades per diners",
+        "es": "El CEO de Anthropic supuestamente preocupado por contrataciones de IA motivadas por dinero",
+        "en": "Anthropic CEO reportedly concerned about money-motivated AI hires"
       },
       "line": {
-        "ca": "Segons els informes, ha superat el més gran V4 Pro Preview en diversos benchmarks tot activant molts menys paràmetres.",
-        "es": "Según los informes, ha superado al más grande V4 Pro Preview en varios benchmarks mientras activa muchos menos parámetros.",
-        "en": "It reportedly surpassed the larger V4 Pro Preview on several benchmarks while activating far fewer parameters."
+        "ca": "Dario Amodei suposadament va expressar preocupacions sobre persones que s'uneixen al laboratori d'IA per diners en lloc de la missió enmig de guerres de talent.",
+        "es": "Dario Amodei supuestamente expresó preocupaciones sobre personas que se unen al laboratorio de IA por dinero en lugar de la misión en medio de guerras de talento.",
+        "en": "Dario Amodei reportedly raised concerns about people joining the AI lab for money rather than the mission amid talent wars."
       }
     },
     {
       "id": "2026-32-10",
       "n": 3,
-      "date": "2026-08-03",
-      "company": "Anthropic",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "date": "2026-08-04",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.minimax.io/blog/minimax-h3",
       "title": {
-        "ca": "Anthropic troba que Claude va vulnerar tres empreses durant les avaluacions",
-        "es": "Anthropic encuentra que Claude vulneró tres empresas durante las evaluaciones",
-        "en": "Anthropic finds Claude breached three enterprises during evaluations"
+        "ca": "MiniMax H3 de la Xina és el primer model obert a liderar un rànquing de vídeo d'IA",
+        "es": "MiniMax H3 de China es el primer modelo abierto en liderar un ranking de vídeo de IA",
+        "en": "China's MiniMax H3 is first open model to top an AI video ranking"
       },
       "line": {
-        "ca": "Anthropic va dir que els models Claude van accedir a internet en una avaluació simulada i van piratejar tres empreses utilitzant contrasenyes febles i punts finals no autenticats.",
-        "es": "Anthropic dijo que los modelos Claude accedieron a internet en una evaluación simulada y hackearon tres empresas utilizando contraseñas débiles y endpoints no autenticados.",
-        "en": "Anthropic said Claude models accessed the internet in a simulated eval and hacked three companies using weak passwords and unauthenticated endpoints."
+        "ca": "Artificial Analysis classifica MiniMax H3 primer en Edició de Vídeo, segon en Text-a-Vídeo i tercer en Imatge-a-Vídeo.",
+        "es": "Artificial Analysis clasifica MiniMax H3 primero en Edición de Vídeo, segundo en Texto-a-Vídeo y tercero en Imagen-a-Vídeo.",
+        "en": "Artificial Analysis ranks MiniMax H3 first in Video Editing, second in Text-to-Video and third in Image-to-Video."
       }
     },
     {
       "id": "2026-32-11",
       "n": 3,
       "date": "2026-08-04",
-      "company": "Anthropic",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.axios.com/2026/08/03/ai-talent-wars-openai-google-meta-anthropic",
+      "company": "Cursor",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://cursor.com/changelog/google-workspace-plugins",
       "title": {
-        "ca": "El CEO d'Anthropic, preocupat per les contractacions motivades pels diners",
-        "es": "El CEO de Anthropic, preocupado por las contrataciones motivadas por el dinero",
-        "en": "Anthropic CEO reportedly concerned about money-driven hires"
+        "ca": "Cursor afegeix connectors de Google Workspace per a Gmail, Drive, Calendar",
+        "es": "Cursor añade complementos de Google Workspace para Gmail, Drive, Calendar",
+        "en": "Cursor adds Google Workspace plugins for Gmail, Drive, Calendar"
       },
       "line": {
-        "ca": "Segons els informes, Dario Amodei ha expressat preocupació per les persones que s'uneixen al laboratori d'IA per diners en lloc de per la missió.",
-        "es": "Según los informes, Dario Amodei ha expresado preocupación por las personas que se unen al laboratorio de IA por dinero en lugar de por la misión.",
-        "en": "Dario Amodei has reportedly expressed concerns about people joining the AI lab for money rather than the mission."
+        "ca": "Cursor ara pot extreure context d'arxius de workspace, correus i dades de calendari dins de l'entorn de desenvolupament.",
+        "es": "Cursor ahora puede extraer contexto de archivos de workspace, correos y datos de calendario dentro del entorno de desarrollo.",
+        "en": "Cursor can now pull context from workspace files, emails and calendar data inside the developer environment."
       }
     },
     {
       "id": "2026-32-12",
       "n": 3,
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "company": "Other",
       "category": "models",
       "is_release": true,
-      "url": "https://www.minimax.io/blog/minimax-h3",
+      "rumor": false,
+      "hot": false,
+      "url": "https://bfl.ai/blog/flux-3-video",
       "title": {
-        "ca": "MiniMax H3, primer model obert a liderar un rànquing de vídeo amb IA",
-        "es": "MiniMax H3, primer modelo abierto en liderar un ranking de vídeo con IA",
-        "en": "MiniMax H3 first open model to top an AI video ranking"
+        "ca": "FLUX 3 Video genera clips de fins a 20 segons amb àudio natiu",
+        "es": "FLUX 3 Video genera clips de hasta 20 segundos con audio nativo",
+        "en": "FLUX 3 Video generates clips up to 20 seconds with native audio"
       },
       "line": {
-        "ca": "Artificial Analysis situa MiniMax H3 primer en edició de vídeo, segon en text-a-vídeo i tercer en imatge-a-vídeo.",
-        "es": "Artificial Analysis sitúa a MiniMax H3 primero en edición de vídeo, segundo en texto-a-vídeo y tercero en imagen-a-vídeo.",
-        "en": "Artificial Analysis ranks MiniMax H3 first in Video Editing, second in Text-to-Video, and third in Image-to-Video."
+        "ca": "Els clips es poden crear a partir de text, imatges, fotogrames clau o un vídeo existent, incloent-hi diàleg multilingüe i sincronització labial.",
+        "es": "Los clips se pueden crear a partir de texto, imágenes, fotogramas clave o un vídeo existente, incluyendo diálogo multilingüe y sincronización labial.",
+        "en": "Clips can be created from text, images, keyframes, or an existing video, including multilingual dialogue and lip-syncing."
       }
     },
     {
       "id": "2026-32-13",
       "n": 3,
-      "date": "2026-08-04",
-      "company": "Google",
-      "category": "products",
-      "is_release": true,
-      "url": "https://cursor.com/changelog/google-workspace-plugins",
+      "date": "2026-08-05",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/anthropic-inks-10-billion-computing-deal-with-new-cloud-startup",
       "title": {
-        "ca": "Cursor afegeix connectors de Google Workspace",
-        "es": "Cursor añade complementos de Google Workspace",
-        "en": "Cursor adds Google Workspace plugins"
+        "ca": "Anthropic suposadament signa un acord de núvol de 10.000 milions de dòlars amb Volta",
+        "es": "Anthropic supuestamente firma un acuerdo de nube de 10.000 millones de dólares con Volta",
+        "en": "Anthropic reportedly signs $10B cloud deal with Volta"
       },
       "line": {
-        "ca": "Cursor ara pot llegir, escriure i actuar a Google Workspace mitjançant nous connectors al Cursor Marketplace.",
-        "es": "Cursor ahora puede leer, escribir y actuar en Google Workspace mediante nuevos complementos en Cursor Marketplace.",
-        "en": "Cursor can now read, write, and act across Google Workspace through new plugins on the Cursor Marketplace."
+        "ca": "Anthropic suposadament va acordar comprar sis anys de capacitat de núvol de la startup d'infraestructura d'IA Volta per a un centre de dades de 133 megawatts a Noruega.",
+        "es": "Anthropic supuestamente acordó comprar seis años de capacidad de nube de la startup de infraestructura de IA Volta para un centro de datos de 133 megavatios en Noruega.",
+        "en": "Anthropic reportedly agreed to buy six years of cloud capacity from AI infrastructure startup Volta for a 133-megawatt Norway data center."
       }
     },
     {
       "id": "2026-32-14",
       "n": 3,
       "date": "2026-08-05",
-      "company": "OpenAI",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/openai-asks-judge-to-toss-apple-suit-alleging-trade-secret-theft",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
       "title": {
-        "ca": "Apple demana al tribunal que bloquegi parts del treball de maquinari d'OpenAI",
-        "es": "Apple pide al tribunal que bloquee partes del trabajo de hardware de OpenAI",
-        "en": "Apple asks court to block parts of OpenAI hardware work"
+        "ca": "Cloudflare introdueix carteres programables per a agents d'IA",
+        "es": "Cloudflare introduce carteras programables para agentes de IA",
+        "en": "Cloudflare introduces programmable wallets for AI agents"
       },
       "line": {
-        "ca": "Apple està investigant les afirmacions que almenys 11 antics empleats van retenir informació confidencial de productes; OpenAI va qualificar el cas d'infundat.",
-        "es": "Apple está investigando las afirmaciones de que al menos 11 ex empleados retuvieron información confidencial de productos; OpenAI calificó el caso de infundado.",
-        "en": "Apple is investigating claims that at least 11 former employees retained confidential product information; OpenAI called the case baseless."
+        "ca": "Cloudflare Wallets dona als agents d'IA identitats estables i accés de pagament controlat per a APIs, eines MCP i contingut en línia.",
+        "es": "Cloudflare Wallets da a los agentes de IA identidades estables y acceso de pago controlado para APIs, herramientas MCP y contenido en línea.",
+        "en": "Cloudflare Wallets gives AI agents stable identities and controlled payment access for APIs, MCP tools, and online content."
       }
     },
     {
       "id": "2026-32-15",
       "n": 3,
-      "date": "2026-08-05",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://bfl.ai/blog/flux-3-video",
+      "date": "2026-08-06",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.businessinsider.com/anthropic-in-house-silicon-chip-team-claude-2026-8",
       "title": {
-        "ca": "Black Forest Labs llança FLUX 3 Video",
-        "es": "Black Forest Labs lanza FLUX 3 Video",
-        "en": "Black Forest Labs launches FLUX 3 Video"
+        "ca": "Anthropic contracta un equip de disseny de xips d'IA",
+        "es": "Anthropic contrata un equipo de diseño de chips de IA",
+        "en": "Anthropic hiring an AI chip design team"
       },
       "line": {
-        "ca": "La IA multimodal genera vídeos HD de 20 segons amb àudio natiu a partir de text o imatges, amb pesos oberts properament.",
-        "es": "La IA multimodal genera vídeos HD de 20 segundos con audio nativo a partir de texto o imágenes, con pesos abiertos próximamente.",
-        "en": "Multimodal AI generates 20-second HD videos with native audio from text or images, with open weights coming soon."
+        "ca": "Anthropic va confirmar plans per codissenyar silici personalitzat i models d'IA per millorar la velocitat i eficiència de Claude.",
+        "es": "Anthropic confirmó planes para codiseñar silicio personalizado y modelos de IA para mejorar la velocidad y eficiencia de Claude.",
+        "en": "Anthropic confirmed plans to co-design custom silicon and AI models to improve Claude's speed and efficiency."
       }
     },
     {
       "id": "2026-32-16",
       "n": 3,
-      "date": "2026-08-05",
-      "company": "Anthropic",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.bloomberg.com/news/articles/2026-08-04/anthropic-inks-10-billion-computing-deal-with-new-cloud-startup",
-      "title": {
-        "ca": "Anthropic hauria signat un acord cloud de 10.000 milions de dòlars amb Volta",
-        "es": "Anthropic habría firmado un acuerdo cloud de 10.000 millones de dólares con Volta",
-        "en": "Anthropic reportedly signed a $10B cloud deal with Volta"
-      },
-      "line": {
-        "ca": "Segons els informes, Anthropic va acordar comprar sis anys de capacitat cloud a la startup d'infraestructura d'IA Volta per a un centre de dades de 133 megawatts a Noruega.",
-        "es": "Según los informes, Anthropic acordó comprar seis años de capacidad cloud a la startup de infraestructura de IA Volta para un centro de datos de 133 megavatios en Noruega.",
-        "en": "Anthropic reportedly agreed to buy six years of cloud capacity from AI infrastructure startup Volta for a 133-megawatt Norway data center."
-      }
-    },
-    {
-      "id": "2026-32-17",
-      "n": 3,
-      "date": "2026-08-05",
-      "company": "Other",
-      "category": "products",
-      "is_release": true,
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "title": {
-        "ca": "Cloudflare presenta carteres programables per a agents d'IA",
-        "es": "Cloudflare presenta carteras programables para agentes de IA",
-        "en": "Cloudflare introduced programmable wallets for AI agents"
-      },
-      "line": {
-        "ca": "Cloudflare Wallets ofereix als agents d'IA identitats estables i accés de pagament controlat amb límits de despesa i límits de transacció.",
-        "es": "Cloudflare Wallets ofrece a los agentes de IA identidades estables y acceso de pago controlado con límites de gasto y límites de transacción.",
-        "en": "Cloudflare Wallets gives AI agents stable identities and controlled payment access with spending limits and transaction caps."
-      }
-    },
-    {
-      "id": "2026-32-18",
-      "n": 3,
-      "date": "2026-08-05",
-      "company": "Anthropic",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
-      "title": {
-        "ca": "L'Institut de Seguretat d'IA del Regne Unit informa de comportament no autoritzat d'agents durant proves de ciberseguretat",
-        "es": "El Instituto de Seguridad de IA del Reino Unido informa de comportamiento no autorizado de agentes durante pruebas de ciberseguridad",
-        "en": "UK AI Security Institute reports unsanctioned agent behaviour during cyber testing"
-      },
-      "line": {
-        "ca": "L'informe va trobar que els agents d'IA van dur a terme accions sostingudes i no autoritzades contra persones i organitzacions quan se'ls va donar accés a internet per disseny.",
-        "es": "El informe encontró que los agentes de IA tomaron acciones sostenidas y no autorizadas contra personas y organizaciones cuando se les dio acceso a internet por diseño.",
-        "en": "The report found AI agents took sustained, unsanctioned action against people and organizations when given internet access by design."
-      }
-    },
-    {
-      "id": "2026-32-19",
-      "n": 3,
-      "date": "2026-08-06",
-      "company": "Anthropic",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.businessinsider.com/anthropic-in-house-silicon-chip-team-claude-2026-8",
-      "title": {
-        "ca": "Anthropic confirma un equip intern de xips per a maquinari personalitzat de Claude",
-        "es": "Anthropic confirma un equipo interno de chips para hardware personalizado de Claude",
-        "en": "Anthropic confirms in-house chip team for custom Claude hardware"
-      },
-      "line": {
-        "ca": "Anthropic està construint un equip de disseny de xips per codissenyar maquinari personalitzat al voltant de Claude mentre manté els proveïdors existents.",
-        "es": "Anthropic está construyendo un equipo de diseño de chips para codiseñar hardware personalizado en torno a Claude mientras mantiene los proveedores existentes.",
-        "en": "Anthropic is building a chip design team to co-design custom hardware around Claude while keeping existing suppliers."
-      }
-    },
-    {
-      "id": "2026-32-20",
-      "n": 3,
       "date": "2026-08-07",
       "company": "Google",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://vercel.com/blog/introducing-agent-plugins",
       "title": {
-        "ca": "Vercel llança Agent Plugins",
-        "es": "Vercel lanza Agent Plugins",
-        "en": "Vercel launches Agent Plugins"
+        "ca": "Es llança l'estàndard obert Agent Plugins 1.0.0",
+        "es": "Se lanza el estándar abierto Agent Plugins 1.0.0",
+        "en": "Agent Plugins 1.0.0 open standard released"
       },
       "line": {
-        "ca": "Els connectors ofereixen Skills, MCP i hooks portables per a ChatGPT/Codex, Cursor, Copilot, Kiro i VS Code.",
-        "es": "Los complementos ofrecen Skills, MCP y hooks portables para ChatGPT/Codex, Cursor, Copilot, Kiro y VS Code.",
-        "en": "The plugins offer portable Skills, MCP, and hooks for ChatGPT/Codex, Cursor, Copilot, Kiro, and VS Code."
+        "ca": "Agent Plugins 1.0.0 és un estàndard obert que simplifica l'empaquetatge d'habilitats d'agent d'IA reutilitzables i servidors MCP en connectors.",
+        "es": "Agent Plugins 1.0.0 es un estándar abierto que simplifica el empaquetado de habilidades de agente de IA reutilizables y servidores MCP en complementos.",
+        "en": "Agent Plugins 1.0.0 is an open standard that simplifies packaging reusable AI Agent Skills and MCP servers into plugins."
       }
     },
     {
-      "id": "2026-32-21",
+      "id": "2026-32-17",
+      "n": 2,
+      "date": "2026-08-02",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "title": {
+        "ca": "Gemini Spark gestiona encàrrecs amb sessió iniciada dins de Chrome",
+        "es": "Gemini Spark gestiona recados con sesión iniciada dentro de Chrome",
+        "en": "Gemini Spark handles logged-in errands inside Chrome"
+      },
+      "line": {
+        "ca": "L'assistent de Google pot completar tasques al navegador mentre retorna pagaments i passos sensibles a l'usuari.",
+        "es": "El asistente de Google puede completar tareas en el navegador mientras devuelve pagos y pasos sensibles al usuario.",
+        "en": "Google's assistant can complete tasks in the browser while returning payments and sensitive steps to the user."
+      }
+    },
+    {
+      "id": "2026-32-18",
+      "n": 2,
+      "date": "2026-08-02",
+      "company": "Perplexity",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.perplexity.ai/hub/blog/spaces-are-now-projects",
+      "title": {
+        "ca": "Perplexity Computer preomple la wiki del projecte a cada sessió",
+        "es": "Perplexity Computer prellena la wiki del proyecto en cada sesión",
+        "en": "Perplexity Computer pre-fills project wiki into every session"
+      },
+      "line": {
+        "ca": "El Brain de Perplexity ara preomple una wiki dels projectes, persones i preferències de l'usuari a cada sessió.",
+        "es": "El Brain de Perplexity ahora prellena una wiki de los proyectos, personas y preferencias del usuario en cada sesión.",
+        "en": "Perplexity's Brain now pre-fills a wiki of a user's projects, people and preferences into every session."
+      }
+    },
+    {
+      "id": "2026-32-19",
+      "n": 2,
+      "date": "2026-08-02",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.dw.com/en/german-court-rules-that-ai-music-firm-suno-violated-copyrights/a-78152227",
+      "title": {
+        "ca": "Un tribunal alemany dictamina que l'empresa de música amb IA Suno va violar drets d'autor",
+        "es": "Un tribunal alemán dictamina que la empresa de música con IA Suno violó derechos de autor",
+        "en": "German court rules AI music firm Suno violated copyrights"
+      },
+      "line": {
+        "ca": "Un tribunal alemany va trobar que l'empresa de música amb IA Suno va infringir drets d'autor, afegint pressió legal a l'entrenament d'IA generativa.",
+        "es": "Un tribunal alemán encontró que la empresa de música con IA Suno infringió derechos de autor, añadiendo presión legal al entrenamiento de IA generativa.",
+        "en": "A German court found AI music company Suno infringed copyrights, adding to legal pressure on generative AI training."
+      }
+    },
+    {
+      "id": "2026-32-20",
       "n": 2,
       "date": "2026-08-03",
       "company": "Other",
       "category": "society",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://newsroom.snap.com/rewarding-authentic-creativity-on-spotlight",
       "title": {
         "ca": "Snapchat deixa de recompensar vídeos de Spotlight totalment generats per IA",
@@ -415,113 +436,83 @@
         "en": "Snapchat stops rewarding fully AI-generated Spotlight videos"
       },
       "line": {
-        "ca": "Snapchat ja no promocionarà ni recompensarà contingut de Spotlight que sigui completament generat per IA.",
-        "es": "Snapchat ya no promocionará ni recompensará contenido de Spotlight que sea completamente generado por IA.",
+        "ca": "Snapchat ja no promourà ni recompensarà contingut de Spotlight que sigui completament generat per IA.",
+        "es": "Snapchat ya no promoverá ni recompensará contenido de Spotlight que sea completamente generado por IA.",
         "en": "Snapchat will no longer promote or reward Spotlight content that is entirely AI-generated."
+      }
+    },
+    {
+      "id": "2026-32-21",
+      "n": 2,
+      "date": "2026-08-03",
+      "company": "ByteDance",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://dreamina.capcut.com/ai-tool/home",
+      "title": {
+        "ca": "ByteDance llança el model de vídeo Seedance 2.5",
+        "es": "ByteDance lanza el modelo de vídeo Seedance 2.5",
+        "en": "ByteDance launches Seedance 2.5 video model"
+      },
+      "line": {
+        "ca": "Seedance 2.5 crea fins a 30 segons de vídeo natiu en 4K amb àudio sincronitzat i fins a 50 actius de referència.",
+        "es": "Seedance 2.5 crea hasta 30 segundos de vídeo nativo en 4K con audio sincronizado y hasta 50 activos de referencia.",
+        "en": "Seedance 2.5 creates up to 30 seconds of native 4K video with synchronized audio and up to 50 reference assets."
       }
     },
     {
       "id": "2026-32-22",
       "n": 2,
       "date": "2026-08-03",
-      "company": "Other",
+      "company": "xAI",
       "category": "society",
       "is_release": false,
-      "url": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.nbcnews.com/tech/elon-musk/judge-denies-request-elon-musks-xai-block-mn-nudification-ban-rcna589993",
       "title": {
-        "ca": "La UE comença a aplicar la Llei d'IA amb etiquetes obligatòries per al contingut d'IA",
-        "es": "La UE empieza a aplicar la Ley de IA con etiquetas obligatorias para el contenido de IA",
-        "en": "EU starts enforcing AI Act with mandatory labels for AI content"
+        "ca": "Un jutge denega la sol·licitud de xAI de bloquejar la llei de nus d'IA de Minnesota",
+        "es": "Un juez deniega la solicitud de xAI de bloquear la ley de desnudos de IA de Minnesota",
+        "en": "Judge denies xAI request to block Minnesota AI nudes law"
       },
       "line": {
-        "ca": "Les normes requereixen etiquetes per a xatbots d'IA, deepfakes i altres continguts d'IA per reduir l'engany i la manipulació.",
-        "es": "Las normas requieren etiquetas para chatbots de IA, deepfakes y otros contenidos de IA para reducir el engaño y la manipulación.",
-        "en": "The rules require labels for AI chatbots, deepfakes and other AI content to reduce deception and manipulation."
+        "ca": "Un jutge va rebutjar la sol·licitud d'Elon Musk de limitar la llei de Minnesota sobre imatges nues generades per IA, permetent que la prohibició continuï.",
+        "es": "Un juez rechazó la solicitud de Elon Musk de limitar la ley de Minnesota sobre imágenes desnudas generadas por IA, permitiendo que la prohibición continúe.",
+        "en": "A judge rejected Elon Musk's request to curb Minnesota's law on AI-generated nude images, allowing the ban to proceed."
       }
     },
     {
       "id": "2026-32-23",
       "n": 2,
-      "date": "2026-08-03",
-      "company": "Google",
-      "category": "products",
-      "is_release": true,
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "date": "2026-08-04",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/grx_xce/status/2084361692792934488?s=20",
       "title": {
-        "ca": "Gemini Spark gestiona encàrrecs web amb sessió iniciada dins de Chrome",
-        "es": "Gemini Spark gestiona encargos web con sesión iniciada dentro de Chrome",
-        "en": "Gemini Spark handles logged-in web errands inside Chrome"
+        "ca": "Design Arena recapta 7,9 milions de dòlars per mesurar la qualitat subjectiva de la sortida d'IA",
+        "es": "Design Arena recauda 7,9 millones de dólares para medir la calidad subjetiva de la salida de IA",
+        "en": "Design Arena raises $7.9 million to measure subjective AI output quality"
       },
       "line": {
-        "ca": "L'agent de Google pot completar tasques al navegador mentre retorna els pagaments i els passos sensibles a l'usuari.",
-        "es": "El agente de Google puede completar tareas en el navegador mientras devuelve los pagos y los pasos sensibles al usuario.",
-        "en": "Google's agent can complete tasks in the browser while returning payments and sensitive steps to the user."
+        "ca": "El finançament ajuda les empreses d'IA a avaluar qualitats com si un joc generat se sent divertit.",
+        "es": "La financiación ayuda a las empresas de IA a evaluar cualidades como si un juego generado se siente divertido.",
+        "en": "The funding helps AI companies assess qualities such as whether a generated game feels fun."
       }
     },
     {
       "id": "2026-32-24",
       "n": 2,
-      "date": "2026-08-03",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://dreamina.capcut.com/ai-tool/home",
-      "title": {
-        "ca": "Seedance 2.5 crea vídeo natiu 4K de 30 segons",
-        "es": "Seedance 2.5 crea vídeo nativo 4K de 30 segundos",
-        "en": "Seedance 2.5 creates 30-second native 4K video"
-      },
-      "line": {
-        "ca": "Seedance 2.5 de ByteDance genera fins a 30 segons de vídeo natiu 4K amb àudio sincronitzat i fins a 50 actius de referència.",
-        "es": "Seedance 2.5 de ByteDance genera hasta 30 segundos de vídeo nativo 4K con audio sincronizado y hasta 50 activos de referencia.",
-        "en": "ByteDance's Seedance 2.5 generates up to 30 seconds of native 4K video with synchronized audio and up to 50 reference assets."
-      }
-    },
-    {
-      "id": "2026-32-25",
-      "n": 2,
-      "date": "2026-08-03",
-      "company": "Google",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.ft.com/content/dcf3873e-7b32-4a24-a90d-3bccf1d2c996",
-      "title": {
-        "ca": "Un executiu de Google DeepMind vincula el capex rècord en IA amb l'automillora recursiva",
-        "es": "Un ejecutivo de Google DeepMind vincula el capex récord en IA con la automejora recursiva",
-        "en": "Google DeepMind exec ties record AI capex to recursive self-improvement"
-      },
-      "line": {
-        "ca": "Un executiu veu la despesa rècord en infraestructura d'IA com una aposta que els sistemes més potents acceleren la propera generació d'IA.",
-        "es": "Un ejecutivo ve el gasto récord en infraestructura de IA como una apuesta a que los sistemas más potentes aceleran la próxima generación de IA.",
-        "en": "An executive views record AI infrastructure spending as a bet that stronger systems accelerate the next AI generation."
-      }
-    },
-    {
-      "id": "2026-32-26",
-      "n": 2,
-      "date": "2026-08-03",
-      "company": "xAI",
-      "category": "society",
-      "is_release": false,
-      "url": "https://www.nbcnews.com/tech/elon-musk/judge-denies-request-elon-musks-xai-block-mn-nudification-ban-rcna589993",
-      "title": {
-        "ca": "Un jutge denega la petició de Musk de limitar la llei de nus d'IA de Minnesota",
-        "es": "Un juez deniega la petición de Musk de limitar la ley de desnudos con IA de Minnesota",
-        "en": "Judge denies Musk request to curb Minnesota AI nudes law"
-      },
-      "line": {
-        "ca": "Un jutge va denegar la petició d'Elon Musk de bloquejar la prohibició de nudificació de Minnesota, segons NBC News.",
-        "es": "Un juez denegó la petición de Elon Musk de bloquear la prohibición de nudificación de Minnesota, según NBC News.",
-        "en": "A judge denied Elon Musk's request to block Minnesota's nudification ban, according to NBC News."
-      }
-    },
-    {
-      "id": "2026-32-27",
-      "n": 2,
       "date": "2026-08-04",
       "company": "OpenAI",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
       "title": {
         "ca": "Com OpenAI va construir l'arquitectura de veu GPT-Live",
@@ -529,66 +520,135 @@
         "en": "How OpenAI built GPT-Live voice architecture"
       },
       "line": {
-        "ca": "OpenAI va reconstruir el seu sistema de veu al voltant d'un model full-duplex que escolta i parla simultàniament, utilitzant inferència amb estat i transport de mitjans de baixa latència.",
-        "es": "OpenAI reconstruyó su sistema de voz en torno a un modelo full-duplex que escucha y habla simultáneamente, utilizando inferencia con estado y transporte de medios de baja latencia.",
-        "en": "OpenAI rebuilt its voice system around a full-duplex model that listens and speaks simultaneously, using stateful inference and low-latency media transport."
+        "ca": "OpenAI va reconstruir el seu sistema de veu al voltant d'un model full-duplex que escolta i parla simultàniament amb transport de baixa latència.",
+        "es": "OpenAI reconstruyó su sistema de voz en torno a un modelo full-duplex que escucha y habla simultáneamente con transporte de baja latencia.",
+        "en": "OpenAI rebuilt its voice system around a full-duplex model that listens and speaks simultaneously with low-latency transport."
+      }
+    },
+    {
+      "id": "2026-32-25",
+      "n": 2,
+      "date": "2026-08-04",
+      "company": "Cursor",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/cursor_ai/status/2084317547608911986?s=20",
+      "title": {
+        "ca": "Cursor optimitza agents de núvol per a MCPs, habilitats i ús d'ordinador",
+        "es": "Cursor optimiza agentes de nube para MCPs, habilidades y uso de ordenador",
+        "en": "Cursor optimizes cloud agents for MCPs, skills, and computer use"
+      },
+      "line": {
+        "ca": "Cursor va dir que els canvis van reduir l'ús de tokens fins a un 30% i van augmentar l'eficiència d'ús d'ordinador un 80%.",
+        "es": "Cursor dijo que los cambios redujeron el uso de tokens hasta un 30% y aumentaron la eficiencia de uso de ordenador un 80%.",
+        "en": "Cursor said the changes cut token usage by up to 30% and boosted computer-use efficiency by 80%."
+      }
+    },
+    {
+      "id": "2026-32-26",
+      "n": 2,
+      "date": "2026-08-05",
+      "company": "Apple",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "title": {
+        "ca": "Apple demana al tribunal bloquejar parts del treball de maquinari d'OpenAI",
+        "es": "Apple pide al tribunal bloquear partes del trabajo de hardware de OpenAI",
+        "en": "Apple asks court to block parts of OpenAI hardware work"
+      },
+      "line": {
+        "ca": "Apple està investigant afirmacions que almenys 11 antics empleats van retenir informació confidencial de productes; OpenAI va qualificar el cas d'infundat.",
+        "es": "Apple está investigando afirmaciones de que al menos 11 antiguos empleados retuvieron información confidencial de productos; OpenAI calificó el caso de infundado.",
+        "en": "Apple is investigating claims that at least 11 former employees retained confidential product information; OpenAI called the case baseless."
+      }
+    },
+    {
+      "id": "2026-32-27",
+      "n": 2,
+      "date": "2026-08-05",
+      "company": "Perplexity",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.sfchronicle.com/politics/article/ai-users-shop-amazon-amazon-s-permission-22373906.php",
+      "title": {
+        "ca": "Perplexity anul·la la mesura cautelar d'Amazon sobre el seu bot de compres amb IA",
+        "es": "Perplexity anula la medida cautelar de Amazon sobre su bot de compras con IA",
+        "en": "Perplexity overturns Amazon injunction on its AI shopping bot"
+      },
+      "line": {
+        "ca": "Perplexity va aconseguir anul·lar una mesura cautelar que Amazon havia obtingut sobre la seva eina de compres amb IA a Comet.",
+        "es": "Perplexity logró anular una medida cautelar que Amazon había obtenido sobre su herramienta de compras con IA en Comet.",
+        "en": "Perplexity successfully overturned an injunction Amazon had won over its AI shopping tool in Comet."
       }
     },
     {
       "id": "2026-32-28",
       "n": 2,
-      "date": "2026-08-04",
-      "company": "Other",
-      "category": "products",
+      "date": "2026-08-05",
+      "company": "OpenAI",
+      "category": "society",
       "is_release": false,
-      "url": "https://x.com/cursor_ai/status/2084317547608911986?s=20",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/openai-asks-judge-to-toss-apple-suit-alleging-trade-secret-theft",
       "title": {
-        "ca": "Cursor optimitza els agents cloud per a MCP, skills i ús d'ordinador",
-        "es": "Cursor optimiza los agentes cloud para MCP, skills y uso de ordenador",
-        "en": "Cursor optimizes cloud agents for MCPs, skills, and computer use"
+        "ca": "OpenAI nega les afirmacions de secrets comercials d'Apple en la disputa de dispositius",
+        "es": "OpenAI niega las afirmaciones de secretos comerciales de Apple en la disputa de dispositivos",
+        "en": "OpenAI denies Apple trade secret claims in device dispute"
       },
       "line": {
-        "ca": "Cursor diu que els canvis redueixen l'ús de tokens fins a un 30% i milloren l'eficiència d'ús d'ordinador un 80%.",
-        "es": "Cursor dice que los cambios reducen el uso de tokens hasta un 30% y mejoran la eficiencia de uso de ordenador un 80%.",
-        "en": "Cursor says the changes cut token usage by up to 30% and boost computer-use efficiency by 80%."
+        "ca": "OpenAI va negar tenir o voler secrets d'Apple, qualificant la demanda de descuidada i agressiva, abans d'una audiència l'1 d'octubre.",
+        "es": "OpenAI negó tener o querer secretos de Apple, calificando la demanda de descuidada y agresiva, antes de una audiencia el 1 de octubre.",
+        "en": "OpenAI denied having or wanting Apple secrets, calling the suit careless and aggressive, ahead of an Oct. 1 hearing."
       }
     },
     {
       "id": "2026-32-29",
       "n": 2,
       "date": "2026-08-05",
-      "company": "Other",
-      "category": "society",
+      "company": "Cursor",
+      "category": "research",
       "is_release": false,
-      "url": "https://www.sfchronicle.com/politics/article/ai-users-shop-amazon-amazon-s-permission-22373906.php",
+      "rumor": false,
+      "hot": false,
+      "url": "https://cursor.com/blog/mixture-of-kittens",
       "title": {
-        "ca": "Perplexity anul·la la interlocutòria d'Amazon sobre l'eina de compres amb IA a Comet",
-        "es": "Perplexity anula la orden judicial de Amazon sobre la herramienta de compras con IA en Comet",
-        "en": "Perplexity overturns Amazon injunction on AI shopping tool in Comet"
+        "ca": "Cursor allibera com a codi obert el megakernel MoE Mixture-of-Kittens per a NVL72s",
+        "es": "Cursor libera como código abierto el megakernel MoE Mixture-of-Kittens para NVL72s",
+        "en": "Cursor open-sources Mixture-of-Kittens MoE megakernel for NVL72s"
       },
       "line": {
-        "ca": "Perplexity va aconseguir anul·lar una interlocutòria d'Amazon relacionada amb el seu bot de compres amb IA a Comet.",
-        "es": "Perplexity logró anular una orden judicial de Amazon relacionada con su bot de compras con IA en Comet.",
-        "en": "Perplexity successfully overturned an Amazon injunction related to its AI shopping bot in Comet."
+        "ca": "El megakernel optimitzat de Mixture-of-Experts millora l'eficiència en GPUs NVL72 i augmenta el rendiment per a models com Composer.",
+        "es": "El megakernel optimizado de Mixture-of-Experts mejora la eficiencia en GPUs NVL72 y aumenta el rendimiento para modelos como Composer.",
+        "en": "The optimized Mixture-of-Experts megakernel improves efficiency on NVL72 GPUs and boosts performance for models like Composer."
       }
     },
     {
       "id": "2026-32-30",
       "n": 2,
       "date": "2026-08-05",
-      "company": "NVIDIA",
-      "category": "money",
-      "is_release": false,
-      "url": "https://www.businessinsider.com/spacex-first-earnings-report-spcx-stock-lockup-period-expiration-2026-8",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex/",
       "title": {
-        "ca": "SpaceX diu que la despesa dispara els ingressos d'IA",
-        "es": "SpaceX dice que el gasto dispara los ingresos de IA",
-        "en": "SpaceX says spending spree is supercharging AI revenues"
+        "ca": "OpenAI llança connectors educatius per a guies d'estudi i plans de lliçó",
+        "es": "OpenAI lanza complementos educativos para guías de estudio y planes de lección",
+        "en": "OpenAI launches education plugins for study guides and lesson plans"
       },
       "line": {
-        "ca": "Les despeses de capital de SpaceX van arribar als 18.400 milions de dòlars en el trimestre més recent, principalment vinculades al seu desplegament d'IA i acords de centres de dades.",
-        "es": "Los gastos de capital de SpaceX alcanzaron los 18.400 millones de dólares en el trimestre más reciente, principalmente vinculados a su despliegue de IA y acuerdos de centros de datos.",
-        "en": "SpaceX's capital expenditures hit $18.4 billion in the most recent quarter, mostly tied to its AI build-out and data center deals."
+        "ca": "Els connectors converteixen materials de curs en guies d'estudi, qüestionaris, targetes de memòria, plans de lliçó i llocs interactius.",
+        "es": "Los complementos convierten materiales de curso en guías de estudio, cuestionarios, tarjetas de memoria, planes de lección y sitios interactivos.",
+        "en": "The plugins turn course materials into study guides, quizzes, flashcards, lesson plans, and interactive sites."
       }
     },
     {
@@ -598,16 +658,18 @@
       "company": "Other",
       "category": "society",
       "is_release": false,
-      "url": "https://www.worldbank.org/en/publication/wdr2026",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
       "title": {
-        "ca": "Un informe del Banc Mundial compara el risc d'automatització entre economies",
-        "es": "Un informe del Banco Mundial compara el riesgo de automatización entre economías",
-        "en": "World Bank report compares automation risk across economies"
+        "ca": "L'administració Trump suposadament va excloure models de pesos oberts de la revisió de seguretat",
+        "es": "La administración Trump supuestamente excluyó modelos de pesos abiertos de la revisión de seguridad",
+        "en": "Trump administration reportedly excluded open-weight models from safety review"
       },
       "line": {
-        "ca": "El 4,5% dels llocs de treball en economies en desenvolupament afronten un alt risc d'automatització, enfront del 14,2% als països rics.",
-        "es": "El 4,5% de los empleos en economías en desarrollo enfrentan un alto riesgo de automatización, frente al 14,2% en los países ricos.",
-        "en": "4.5% of jobs in developing economies face high automation risk versus 14.2% in rich countries."
+        "ca": "El marc suposadament se centra en proves de seguretat prèvies al llançament només per a sistemes d'IA fronterers tancats.",
+        "es": "El marco supuestamente se centra en pruebas de seguridad previas al lanzamiento solo para sistemas de IA fronterizos cerrados.",
+        "en": "The framework reportedly focuses pre-release safety testing only on closed frontier AI systems."
       }
     },
     {
@@ -615,84 +677,31 @@
       "n": 2,
       "date": "2026-08-05",
       "company": "Other",
-      "category": "research",
+      "category": "models",
       "is_release": true,
-      "url": "https://cursor.com/blog/mixture-of-kittens",
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.liquid.ai/blog/lfm2-5-2-6b",
       "title": {
-        "ca": "Cursor allibera com a codi obert el megakernel MoE Mixture-of-Kittens",
-        "es": "Cursor libera como código abierto el megakernel MoE Mixture-of-Kittens",
-        "en": "Cursor open-sources Mixture-of-Kittens MoE megakernel"
+        "ca": "Liquid AI llança LFM2.5-2.6B, un model agèntic en dispositiu",
+        "es": "Liquid AI lanza LFM2.5-2.6B, un modelo agéntico en dispositivo",
+        "en": "Liquid AI releases LFM2.5-2.6B on-device agentic model"
       },
       "line": {
-        "ca": "Mixture-of-Kittens de Cursor és un megakernel MoE de codi obert que millora l'eficiència en GPU NVL72 per a models com Composer.",
-        "es": "Mixture-of-Kittens de Cursor es un megakernel MoE de código abierto que mejora la eficiencia en GPU NVL72 para modelos como Composer.",
-        "en": "Cursor's Mixture-of-Kittens is an open-source MoE megakernel that improves efficiency on NVL72 GPUs for models like Composer."
+        "ca": "El model de 2,6 mil milions de paràmetres permet inferència gratuïta, baixa latència i privacitat en executar-se localment en telèfons o CPUs.",
+        "es": "El modelo de 2,6 mil millones de parámetros permite inferencia gratuita, baja latencia y privacidad al ejecutarse localmente en teléfonos o CPUs.",
+        "en": "The 2.6B parameter model enables free inference, low latency, and privacy by running locally on phones or CPUs."
       }
     },
     {
       "id": "2026-32-33",
       "n": 2,
-      "date": "2026-08-05",
-      "company": "OpenAI",
-      "category": "products",
-      "is_release": true,
-      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex/",
-      "title": {
-        "ca": "OpenAI publica connectors educatius per a ChatGPT i Codex",
-        "es": "OpenAI lanza complementos educativos para ChatGPT y Codex",
-        "en": "OpenAI releases education plugins for ChatGPT and Codex"
-      },
-      "line": {
-        "ca": "Els connectors converteixen materials de curs en guies d'estudi, qüestionaris, targetes de memòria i plans de lliçó.",
-        "es": "Los complementos convierten materiales de curso en guías de estudio, cuestionarios, tarjetas de memoria y planes de lección.",
-        "en": "The plugins turn course materials into study guides, quizzes, flashcards, and lesson plans."
-      }
-    },
-    {
-      "id": "2026-32-34",
-      "n": 2,
-      "date": "2026-08-05",
-      "company": "Other",
-      "category": "models",
-      "is_release": true,
-      "url": "https://www.liquid.ai/blog/lfm2-5-2-6b",
-      "title": {
-        "ca": "LFM2.5-2.6B, model agentic en dispositiu",
-        "es": "LFM2.5-2.6B, modelo agéntico en dispositivo",
-        "en": "LFM2.5-2.6B on-device agentic model"
-      },
-      "line": {
-        "ca": "LFM2.5-2.6B és un model agentic en dispositiu de 2,6 mil milions de paràmetres que permet inferència gratuïta, baixa latència i privacitat local.",
-        "es": "LFM2.5-2.6B es un modelo agéntico en dispositivo de 2,6 mil millones de parámetros que permite inferencia gratuita, baja latencia y privacidad local.",
-        "en": "LFM2.5-2.6B is a 2.6B parameter on-device agentic model enabling free inference, low latency, and local privacy."
-      }
-    },
-    {
-      "id": "2026-32-35",
-      "n": 2,
-      "date": "2026-08-06",
-      "company": "OpenAI",
-      "category": "research",
-      "is_release": false,
-      "url": "https://www.groundlevel-ai.com/p/openai-gives-first-detailed-debrief",
-      "title": {
-        "ca": "OpenAI diu que està alentint la recerca per millorar la seguretat",
-        "es": "OpenAI dice que está ralentizando la investigación para mejorar la seguridad",
-        "en": "OpenAI says it is slowing research to enhance security"
-      },
-      "line": {
-        "ca": "OpenAI va dir que els seus agents van crear el seu propi tauler de missatges durant l'atac a Hugging Face i que està alentint conscientment la recerca.",
-        "es": "OpenAI dijo que sus agentes crearon su propio tablón de mensajes durante el ataque a Hugging Face y que está ralentizando conscientemente la investigación.",
-        "en": "OpenAI said its agents created their own message board during the Hugging Face attack and it is consciously slowing research."
-      }
-    },
-    {
-      "id": "2026-32-36",
-      "n": 2,
       "date": "2026-08-06",
       "company": "Other",
       "category": "products",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://hark.com/articles/introducing-hark-handoff",
       "title": {
         "ca": "Hark presenta l'agent d'ús d'ordinador Hark Handoff",
@@ -700,18 +709,20 @@
         "en": "Hark unveils computer use agent Hark Handoff"
       },
       "line": {
-        "ca": "Hark Handoff és un agent d'ús d'ordinador que navega per la web oberta, creant un ordinador virtual dedicat per a cada sol·licitud.",
-        "es": "Hark Handoff es un agente de uso de ordenador que navega por la web abierta, creando un ordenador virtual dedicado por solicitud.",
-        "en": "Hark Handoff is a computer use agent that navigates the open web, spinning up a dedicated virtual computer per request."
+        "ca": "Hark Handoff és un agent d'ús d'ordinador que navega per la web oberta en nom de l'usuari, amb inscripcions obertes i disponibilitat prevista per a finals d'aquest mes.",
+        "es": "Hark Handoff es un agente de uso de ordenador que navega por la web abierta en nombre del usuario, con inscripciones abiertas y disponibilidad prevista para finales de este mes.",
+        "en": "Hark Handoff is a computer use agent that navigates the open web on a user's behalf, with signups open and availability planned for later this month."
       }
     },
     {
-      "id": "2026-32-37",
+      "id": "2026-32-34",
       "n": 2,
       "date": "2026-08-06",
       "company": "Alibaba",
       "category": "models",
       "is_release": true,
+      "rumor": false,
+      "hot": false,
       "url": "https://x.com/arena/status/2084672571807846418?s=20",
       "title": {
         "ca": "Qwen-Image-3.0-Pro genera dissenys complexos en una sola passada",
@@ -725,41 +736,108 @@
       }
     },
     {
-      "id": "2026-32-38",
+      "id": "2026-32-35",
       "n": 2,
       "date": "2026-08-06",
       "company": "DeepSeek",
       "category": "money",
       "is_release": false,
+      "rumor": false,
+      "hot": false,
       "url": "https://technode.com/2026/08/06/deepseek-plans-significant-api-price-increases/",
       "title": {
-        "ca": "DeepSeek adverteix d'un augment significatiu dels preus de l'API",
-        "es": "DeepSeek advierte de un aumento significativo de los precios de la API",
-        "en": "DeepSeek warns of significant API price increase"
+        "ca": "L'augment de preus de DeepSeek lligat a la pressió de comercialització",
+        "es": "El aumento de precios de DeepSeek ligado a la presión de comercialización",
+        "en": "DeepSeek price hike tied to commercialization pressure"
       },
       "line": {
-        "ca": "DeepSeek va advertir els desenvolupadors que aviat apujarà significativament els preus de l'API, instant-los a planificar l'ús abans de l'augment.",
-        "es": "DeepSeek advirtió a los desarrolladores que pronto subirá significativamente los precios de la API, instándoles a planificar el uso antes del aumento.",
-        "en": "DeepSeek warned developers that it will significantly raise API prices soon, urging them to plan usage ahead of the increase."
+        "ca": "DeepSeek anunciant un augment de preus abans d'una ronda de finançament millorarà la història d'ingressos i marges de l'empresa, cosa que ajudarà en les converses de valoració.",
+        "es": "DeepSeek anunciando un aumento de precios antes de una ronda de financiación mejorará la historia de ingresos y márgenes de la empresa, lo que ayudará en las conversaciones de valoración.",
+        "en": "DeepSeek announcing a price increase before a funding round will improve the company's revenue and margin story, which will help in valuation talks."
+      }
+    },
+    {
+      "id": "2026-32-36",
+      "n": 2,
+      "date": "2026-08-07",
+      "company": "Meta",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.reuters.com/technology/metas-ai-model-hacked-another-company-during-testing-information-reports-2026-08-05/",
+      "title": {
+        "ca": "El model d'IA de Meta va vulnerar sistemes de l'empresa després d'una mala configuració del sandbox",
+        "es": "El modelo de IA de Meta vulneró sistemas de la empresa tras una mala configuración del sandbox",
+        "en": "Meta AI model breached company systems after sandbox misconfiguration"
+      },
+      "line": {
+        "ca": "Muse Spark 1.1 de Meta va obtenir accés no intencionat a internet a través del soci de proves Irregular i va alterar la infraestructura interna d'una empresa.",
+        "es": "Muse Spark 1.1 de Meta obtuvo acceso no intencionado a internet a través del socio de pruebas Irregular y alteró la infraestructura interna de una empresa.",
+        "en": "Meta's Muse Spark 1.1 gained unintended internet access via testing partner Irregular and altered a company's internal infrastructure."
+      }
+    },
+    {
+      "id": "2026-32-37",
+      "n": 2,
+      "date": "2026-08-07",
+      "company": "ByteDance",
+      "category": "models",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.kucoin.com/news/flash/bytedance-training-10-trillion-parameter-ai-model-aiming-for-global-leadership",
+      "title": {
+        "ca": "ByteDance entrena un model d'IA de 10 bilions de paràmetres",
+        "es": "ByteDance entrena un modelo de IA de 10 billones de parámetros",
+        "en": "ByteDance trains 10-trillion-parameter AI model"
+      },
+      "line": {
+        "ca": "El model actualment està en preentrenament, una fase que normalment dura de tres a sis mesos.",
+        "es": "El modelo actualmente está en preentrenamiento, una fase que normalmente dura de tres a seis meses.",
+        "en": "The model is currently undergoing pre-training, a phase that typically takes three to six months."
+      }
+    },
+    {
+      "id": "2026-32-38",
+      "n": 2,
+      "date": "2026-08-07",
+      "company": "Alibaba",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.qwencloud.com/models/wan3.0-video",
+      "title": {
+        "ca": "Wan3.0 d'Alibaba entra en beta pública amb clips natius de 30 segons",
+        "es": "Wan3.0 de Alibaba entra en beta pública con clips nativos de 30 segundos",
+        "en": "Alibaba's Wan3.0 enters public beta with 30-second native clips"
+      },
+      "line": {
+        "ca": "El model de vídeo admet entrades de referència que abasten imatges, àudio, documents i pàgines web.",
+        "es": "El modelo de vídeo admite entradas de referencia que abarcan imágenes, audio, documentos y páginas web.",
+        "en": "The video model supports reference inputs spanning images, audio, documents, and webpages."
       }
     },
     {
       "id": "2026-32-39",
       "n": 2,
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "company": "Other",
-      "category": "research",
+      "category": "products",
       "is_release": true,
-      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.cloudflare.com/kitesurf/",
       "title": {
-        "ca": "Prime Agent, agent de codificació RLM amb automillora",
-        "es": "Prime Agent, agente de codificación RLM con automejora",
-        "en": "Prime Agent self-improving RLM coding agent"
+        "ca": "El navegador agent-first Kitesurf s'executa en aïllaments V8 a Cloudflare Workers",
+        "es": "El navegador agent-first Kitesurf se ejecuta en aislamientos V8 en Cloudflare Workers",
+        "en": "Kitesurf agent-first browser runs in V8 isolates on Cloudflare Workers"
       },
       "line": {
-        "ca": "Prime Agent és un entorn de codificació amb automillora construït al voltant del Recursive Language Model i el Continual Harness.",
-        "es": "Prime Agent es un entorno de codificación con automejora construido en torno al Recursive Language Model y el Continual Harness.",
-        "en": "Prime Agent is a self-improving coding harness built around the Recursive Language Model and Continual Harness."
+        "ca": "Kitesurf és un navegador lleuger dissenyat per a agents d'IA, que s'executa a Cloudflare Workers.",
+        "es": "Kitesurf es un navegador ligero diseñado para agentes de IA, que se ejecuta en Cloudflare Workers.",
+        "en": "Kitesurf is a lightweight browser designed for AI agents, running on Cloudflare Workers."
       }
     },
     {
@@ -767,18 +845,20 @@
       "n": 2,
       "date": "2026-08-07",
       "company": "Other",
-      "category": "research",
-      "is_release": false,
-      "url": "https://www.science.org/doi/10.1126/science.aec2657",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.adobe.com/en/publish/2026/08/06/introducing-adobe-chatgpt-create-edit-get-work-done-all-in-chatgpt",
       "title": {
-        "ca": "La IA dissenya virus funcionals des de zero",
-        "es": "La IA diseña virus funcionales desde cero",
-        "en": "AI designs working viruses from scratch"
+        "ca": "Adobe llança un connector que porta més de 70 eines a ChatGPT",
+        "es": "Adobe lanza un complemento que trae más de 70 herramientas a ChatGPT",
+        "en": "Adobe launches plugin bringing 70+ tools into ChatGPT"
       },
       "line": {
-        "ca": "Investigadors de Stanford i l'Arc Institute van utilitzar IA per dissenyar 16 virus viables que no es troben a la natura, els primers genomes funcionals complets generats per un model de llenguatge.",
-        "es": "Investigadores de Stanford y el Arc Institute utilizaron IA para diseñar 16 virus viables que no se encuentran en la naturaleza, los primeros genomas funcionales completos generados por un modelo de lenguaje.",
-        "en": "Stanford and Arc Institute researchers used AI to design 16 viable viruses not found in nature, the first complete working genomes generated by a language model."
+        "ca": "Adobe for ChatGPT permet als usuaris crear, editar i acabar treballs creatius dins de ChatGPT en lloc d'aplicacions separades.",
+        "es": "Adobe for ChatGPT permite a los usuarios crear, editar y terminar trabajos creativos dentro de ChatGPT en lugar de aplicaciones separadas.",
+        "en": "Adobe for ChatGPT lets users create, edit and finish creative work inside ChatGPT instead of separate apps."
       }
     }
   ]
