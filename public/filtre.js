@@ -109,14 +109,17 @@
   document.body.appendChild(globus);
   const mostra = (p) => {
     const r = p.getBoundingClientRect();
-    const cx = r.left + r.width / 2;
-    const marge = 90;
+    const pista = p.parentElement.getBoundingClientRect();
     globus.textContent = p.dataset.t;
+    globus.style.maxWidth = `${Math.min(180, pista.width)}px`;
     globus.hidden = false;
-    // Sota el punt si a sobre no hi cap dins la secció (carril de dalt).
+    const w = globus.offsetWidth;
+    // Mai fora de la pista: així no tapa els botons d'empresa de l'esquerra.
+    const cx = Math.min(Math.max(r.left + r.width / 2, pista.left + w / 2), pista.right - w / 2);
+    // Sota el punt si a sobre no hi cap sense tapar el títol (carril de dalt).
     const sota = r.top - globus.offsetHeight - 6 < cr.querySelector('.h').getBoundingClientRect().bottom + 2;
     globus.classList.toggle('sota', sota);
-    globus.style.left = `${Math.min(Math.max(cx, marge), document.documentElement.clientWidth - marge) + scrollX}px`;
+    globus.style.left = `${cx + scrollX}px`;
     globus.style.top = `${(sota ? r.bottom : r.top) + scrollY}px`;
   };
   const amaga = () => { globus.hidden = true; };
