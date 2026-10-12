@@ -160,3 +160,10 @@ test('la imatge per defecte és un PNG de 1200×630', async () => {
   const png = await pngDefecte();
   assert.ok(esPng(png)); assert.deepEqual(midesPng(png), [1200, 630]);
 });
+
+test('AMPLE_TITOL surt de la caixa fixa de la fila, i el titular més llarg hi cap línia a línia', () => {
+  assert.equal(AMPLE_TITOL, 1048);
+  for (const s of setmanes()) for (const l of LANGS) for (const t of titolsOg(s, l)) {
+    for (const ln of t.linies) assert.ok(F.text.getAdvanceWidth(ln, t.mida) <= AMPLE_TITOL, `${s.week} ${l}`);
+  }
+});

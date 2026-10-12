@@ -105,3 +105,20 @@ test('accessibilitat: un sol h1, aria-pressed als botons d’empresa i emojis am
   const filtre = fs.readFileSync(path.join(arrel, 'public/filtre.js'), 'utf8');
   assert.match(filtre, /aria-pressed/);
 });
+
+test('el recompte «×N» no es mostra enlloc: només el 🔥 (amagat al lector) amb el seu text accessible', () => {
+  for (const pag of ['en/index.html', 'ca/index.html', 'es/index.html', 'en/week/2026-41/index.html', 'ca/week/2026-41/index.html']) {
+    let html; try { html = llegeix(pag); } catch { continue; }
+    no(html, /×\s*\d/);
+  }
+  const html = llegeix('en/week/2026-41/index.html');
+  hi(html, /<span class="n"><span aria-hidden="true">🔥<\/span><span class="sr-only">hot topic<\/span><\/span>/);
+});
+
+test('«Com es fa» ja no explica el «×N»', async () => {
+  const { T, LANGS } = await import('../src/lib/i18n.js');
+  for (const l of LANGS) {
+    assert.ok(!T[l].aboutText.join(' ').includes('×'), l);
+    assert.ok(T[l].aboutText.join(' ').includes('🔥'), l);
+  }
+});

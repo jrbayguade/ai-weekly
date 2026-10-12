@@ -39,7 +39,7 @@ const cos = [...new Set(s.items.map((i) => i.company))].join('|');
                   <div>{i.line[lang]}</div>
                 </div>
                 {i.company !== 'Other' && <span class="co">{i.company}</span>}
-                <span class="n" title={t.enParlen}>{i.n >= LLINDAR_CALENT && <span aria-hidden="true">🔥</span>}×{i.n}</span>
+                <span class="n">{i.n >= LLINDAR_CALENT && <><span aria-hidden="true">🔥</span><span class="sr-only">{t.calent}</span></>}</span>
               </li>
             ))}
           </ul>

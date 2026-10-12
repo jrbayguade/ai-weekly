@@ -23,7 +23,8 @@ const ENTRE_FILES = 16;
 export const ALT_FILA = (ALT_MIG - (FILES - 1) * ENTRE_FILES) / FILES;
 const VORA = 6;
 
-export const AMPLE_TITOL = 920;
+// Ample útil del titular: la caixa (capçalera menys el marge dret de 12) menys les dues vores i el farciment (18 + 22).
+export const AMPLE_TITOL = AMPLE_PEU - 12 - 2 * VORA - 40; // 1048
 export const ALT_TITOL = 100;
 
 const TEXT_DEFECTE = 'Weekly AI news from 30 newsletters. In català, español & English.';
@@ -97,7 +98,6 @@ export async function pngSetmana(s, lang) {
   const files = top.map((e, k) => {
     return h('div', { display: 'flex', height: ALT_FILA, flexShrink: 0, marginTop: k ? ENTRE_FILES : 0, alignItems: 'center',
       background: '#fff', border: `${VORA}px solid #000`, boxShadow: '10px 10px 0 #000', padding: '0 22px 0 18px', overflow: 'hidden' },
-      h('div', { fontFamily: 'Archivo Black', fontSize: 46, width: 128, flexShrink: 0 }, `×${e.n}`),
       h('div', { display: 'flex', flexDirection: 'column', fontSize: e.mida, fontWeight: 800, lineHeight: 1.05, width: AMPLE_TITOL, flexShrink: 0 },
         ...e.linies.map((l) => h('div', { whiteSpace: 'nowrap' }, l))));
   });

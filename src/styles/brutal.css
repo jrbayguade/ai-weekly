@@ -45,7 +45,7 @@ li.item.flaix { background:#fff8b0; }
 .item .tx a, .item .tx strong { font-weight:800; }
 .item .tx div { font-size:13px; color:#222; margin-top:2px; }
 .co { font-size:10px; font-weight:800; border:2px solid var(--negre); padding:0 5px; background:var(--groc); white-space:nowrap; }
-.n { font-family:'Archivo Black',sans-serif; font-size:13px; min-width:46px; text-align:right; white-space:nowrap; }
+.n { font-family:'Archivo Black',sans-serif; font-size:13px; text-align:right; white-space:nowrap; }
 .peu { margin-top:28px; font-family:'JetBrains Mono',monospace; font-size:11px; border-top:3px solid var(--negre); padding-top:10px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
 [hidden] { display:none !important; }
 @media (max-width: 600px) {
@@ -85,3 +85,4 @@ li.item.flaix { background:#fff8b0; }
 .globus.sota { transform:translate(-50%,30%); }
 .pinca .ma::after { content:''; position:absolute; top:-6px; bottom:-6px; left:50%; width:28px; transform:translateX(-50%); }
 .cronologia .h + .carril { margin-top:44px; }
+.sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
