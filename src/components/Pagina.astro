@@ -3,15 +3,19 @@ import Base from '../layouts/Base.astro';
 import Capcalera from './Capcalera.astro';
 import Setmana from './Setmana.astro';
 import Peu from './Peu.astro';
+import Cronologia from './Cronologia.astro';
+import { empreses } from '../lib/dades.js';
+import { BASE } from '../lib/i18n.js';
 const { lang, setmanes, oberta, title, description, ogImage, ogAlt, url, alternates } = Astro.props;
 ---
 <Base {lang} {title} {description} {ogImage} {ogAlt} {url} {alternates}>
   <main class="pagina">
     <Capcalera {lang} {alternates} />
-    <slot name="cronologia" />
+    <Cronologia setmanes={setmanes} empreses={empreses()} {lang} />
     <div id="setmanes">
       {setmanes.map((s) => <Setmana setmana={s} {lang} oberta={s.week === oberta} />)}
     </div>
     <Peu {lang} />
+    <script is:inline src={`${BASE}/filtre.js`} defer></script>
   </main>
 </Base>

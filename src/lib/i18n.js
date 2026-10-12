@@ -88,3 +88,13 @@ export function rangSetmana(from, to, lang) {
   if (any(from) === any(to)) return `${dataCurta(from, lang)}–${dataCurta(to, lang)} ${any(to)}`;
   return `${dataCurta(from, lang)} ${any(from)}–${dataCurta(to, lang)} ${any(to)}`;
 }
+
+// Primer idioma de navigator.languages (EN ORDRE) que sigui ca o es; si cap, en.
+export function idiomaPreferit(llista) {
+  for (const l of llista ?? []) {
+    const x = String(l).toLowerCase();
+    if (x.startsWith('ca')) return 'ca';
+    if (x.startsWith('es')) return 'es';
+  }
+  return 'en';
+}

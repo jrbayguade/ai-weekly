@@ -1,0 +1,43 @@
+---
+import { cronologia } from '../lib/cronologia.js';
+import { T } from '../lib/i18n.js';
+const { setmanes, empreses, lang } = Astro.props;
+const t = T[lang];
+const c = cronologia(setmanes, empreses, lang);
+const n = c.setmanesAsc.length;
+---
+{c.carrils.length > 0 && (
+<section class="caixa cronologia" data-setmanes={JSON.stringify(c.setmanesAsc)}
+  data-txt={JSON.stringify({ setmanes: t.setmanes('{n}'), nomes: t.nomes('{c}'), tot: t.rangs.tot })}>
+  <h2 class="h">{t.quiHaTret}</h2>
+  {c.carrils.map((k) => (
+    <div class="carril">
+      <button class="empresa" type="button" data-co={k.name}>{k.name}</button>
+      <div class="pista">
+        {k.punts.map((p) => (
+          <a class="punt" href={`#${p.id}`} data-week={p.week} data-idx={p.idx} data-t={`${p.title} · ${p.date}`}
+             style={`left:calc(${p.x}% - ${p.r}px);width:${2 * p.r}px;height:${2 * p.r}px`}
+             aria-label={p.title}></a>
+        ))}
+      </div>
+    </div>
+  ))}
+  <div class="eix">{c.mesos.map((m) => <span style={`left:${m.x}%`}>{m.etiqueta}</span>)}</div>
+  <div class="pinca-fila" data-n={n}>
+    <div class="pinca" role="slider" aria-label={t.mostrant} tabindex="0">
+      <span class="ma esq"></span><span class="ma dre"></span>
+    </div>
+  </div>
+  <div class="rang">
+    <span>{t.mostrant}</span><span class="rang-txt"></span>
+    <button class="btn" type="button" data-rang="1">{t.rangs.u}</button>
+    <button class="btn" type="button" data-rang="4">{t.rangs.m}</button>
+    <button class="btn" type="button" data-rang="13">{t.rangs.t}</button>
+    <button class="btn" type="button" data-rang="tot">{t.rangs.tot}</button>
+    <select class="rang-mobil" aria-label={t.mostrant}>
+      <option value="1">{t.rangs.u}</option><option value="4">{t.rangs.m}</option>
+      <option value="13">{t.rangs.t}</option><option value="tot" selected>{t.rangs.tot}</option>
+    </select>
+  </div>
+</section>
+)}

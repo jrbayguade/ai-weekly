@@ -7,9 +7,9 @@ import { BASE } from '../lib/i18n.js';
 <meta property="og:title" content="AI Weekly — keep up with it" />
 <meta property="og:image" content={new URL(`${BASE}/og/default.png`, Astro.site).toString()} />
 <meta name="twitter:card" content="summary_large_image" />
-<script is:inline define:vars={{ BASE }}>
-  const ls = (navigator.languages || [navigator.language || 'en']).map((l) => l.toLowerCase());
-  const l = ls.find((x) => x.startsWith('ca')) ? 'ca' : ls.find((x) => x.startsWith('es')) ? 'es' : 'en';
-  location.replace(`${BASE}/${l}/`);
+<script>
+  import { idiomaPreferit, BASE } from '../lib/i18n.js';
+  const llengues = navigator.languages?.length ? navigator.languages : [navigator.language];
+  location.replace(`${BASE}/${idiomaPreferit(llengues)}/`);
 </script></head>
 <body><noscript><a href={`${BASE}/ca/`}>Català</a> · <a href={`${BASE}/es/`}>Español</a> · <a href={`${BASE}/en/`}>English</a></noscript></body></html>

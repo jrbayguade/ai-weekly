@@ -46,3 +46,31 @@ li.item.flaix { background:#fff8b0; }
   .h small { display:none; }
   summary .tease { flex-basis:100%; padding-left:1.1em; }
 }
+
+/* Cronologia: Qui ha tret què */
+.carril { display:flex; align-items:center; gap:8px; margin-top:12px; }
+.empresa { width:96px; font-weight:800; font-size:12px; border:2px solid #000; padding:2px 6px; background:#fff; cursor:pointer; font-family:inherit; }
+.empresa.on { background:var(--rosa); }
+.empresa.off { opacity:.35; }
+.pista { flex:1; height:22px; border-bottom:2px dashed #000; position:relative; }
+.punt { position:absolute; bottom:-8px; border-radius:50%; border:2px solid #000; background:var(--rosa); cursor:pointer; }
+.punt:hover, .punt:focus { background:var(--rosa-fosc); outline:3px solid #000; }
+.punt.apagat { background:#eee; border-color:#aaa; }
+.globus { position:absolute; z-index:5; background:#000; color:var(--groc); font-size:11px; font-weight:700; padding:3px 7px; max-width:180px; text-align:center; pointer-events:none; transform:translate(-50%,-130%); }
+.eix { position:relative; height:16px; margin:10px 0 0 104px; font-size:10px; font-weight:800; }
+.eix span { position:absolute; transform:translateX(-50%); }
+.pinca-fila { margin:6px 0 0 104px; height:26px; border:2px solid #000; position:relative; touch-action:none;
+  background:repeating-linear-gradient(45deg,#fff,#fff 4px,#f3f3f3 4px,#f3f3f3 8px); }
+.pinca { position:absolute; top:-2px; bottom:-2px; background:rgba(255,107,157,.55); border:3px solid #000; cursor:grab; touch-action:none; }
+.pinca .ma { position:absolute; top:2px; bottom:2px; width:10px; background:#000; cursor:ew-resize; }
+.pinca .esq { left:-7px; }
+.pinca .dre { right:-7px; }
+.rang { display:flex; gap:6px; align-items:center; flex-wrap:wrap; margin-top:12px; font-size:12px; font-weight:700; }
+.rang-txt { background:#000; color:var(--groc); padding:2px 8px; }
+.rang-mobil { display:none; border:3px solid #000; font-weight:800; padding:3px; }
+@media (max-width: 600px) {
+  .empresa { width:72px; font-size:10px; }
+  .eix, .pinca-fila { margin-left:80px; }
+  .rang [data-rang] { display:none; }
+  .rang-mobil { display:inline-block; }
+}
