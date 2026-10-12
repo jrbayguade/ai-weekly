@@ -101,6 +101,9 @@ test('agrupació per mes: a la portada, el mes més nou obert; a la permanent, e
   hi(portada, /<span class="mes-nom">SETEMBRE 2026<\/span>/);
   hi(mesos('en/index.html'), /<span class="mes-nom">OCTOBER 2026<\/span>/);
   hi(mesos('es/index.html'), /<span class="mes-nom">SEPTIEMBRE 2026<\/span>/);
+  // La capçalera de mes no porta cap comptador de setmanes (ni a la portada ni a la permanent).
+  assert.doesNotMatch(portada, /class="mes-n"/);
+  assert.doesNotMatch(mesos('ca/setmana/2026-36/index.html'), /class="mes-n"/);
   // Només la setmana més nova oberta.
   assert.deepEqual((portada.match(/<details class="setmana"[^>]*>/g) ?? []).map((d) => / open/.test(d)), [true, false, false]);
   // La setmana 36 és dins del mes de setembre, encara que comenci a l'agost.

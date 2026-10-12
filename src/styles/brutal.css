@@ -63,7 +63,6 @@ details.mes > summary { list-style:none; cursor:pointer; display:flex; justify-c
 details.mes > summary::-webkit-details-marker { display:none; }
 .mes-nom::before { content:'▸ '; }
 details.mes[open] > summary .mes-nom::before { content:'▾ '; }
-.mes-n { font-family:'JetBrains Mono',monospace; font-size:11px; }
 
 /* Mapa de calor: Qui ha tret què (empresa × setmana). */
 .mapa-cap { display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; }

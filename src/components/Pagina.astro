@@ -23,7 +23,7 @@ const mesObert = objectiu ? mesDeSetmana(objectiu) : undefined;
       {setmanes.length === 0 && <p class="buit">{T[lang].buit}</p>}
       {grups.map((g) => (
         <details class="mes" data-mes={g.mes} open={g.mes === mesObert}>
-          <summary><span class="mes-nom">{nomMes(g.mes, lang)}</span><small class="mes-n"><span aria-hidden="true">{g.setmanes.length}</span><span class="sr-only">{T[lang].setmanes(g.setmanes.length)}</span></small></summary>
+          <summary><span class="mes-nom">{nomMes(g.mes, lang)}</span></summary>
           {g.setmanes.map((s) => <Setmana setmana={s} {lang} oberta={s.week === oberta} resum={permanent && s.week !== oberta} />)}
         </details>
       ))}
