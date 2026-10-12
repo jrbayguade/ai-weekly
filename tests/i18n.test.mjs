@@ -26,3 +26,8 @@ test('rang de setmana amb any', () => {
   assert.equal(rangSetmana('2026-12-28', '2027-01-03', 'ca'), '28 DES 2026–3 GEN 2027');
   assert.equal(rangSetmana('2026-12-28', '2027-01-03', 'es'), '28 DIC 2026–3 ENE 2027');
 });
+
+test('el marcador 🔥 surt a partir de 3 newsletters (escala real 1-4)', async () => {
+  const { LLINDAR_CALENT } = await import('../src/lib/i18n.js');
+  assert.equal(LLINDAR_CALENT, 3);
+});

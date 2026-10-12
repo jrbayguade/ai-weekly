@@ -1,5 +1,5 @@
 ---
-import { T, numSetmana, rangSetmana, urlSetmana } from '../lib/i18n.js';
+import { T, LLINDAR_CALENT, numSetmana, rangSetmana, urlSetmana } from '../lib/i18n.js';
 import { CATEGORIES } from '../lib/dades.js';
 // resum: només la capçalera, com un enllaç a la seva permanent (les pàgines permanents no porten el cos de les altres).
 const { setmana: s, lang, oberta, resum } = Astro.props;
@@ -39,7 +39,7 @@ const cos = [...new Set(s.items.map((i) => i.company))].join('|');
                   <div>{i.line[lang]}</div>
                 </div>
                 {i.company !== 'Other' && <span class="co">{i.company}</span>}
-                <span class="n" title={t.enParlen}>{i.n >= 10 && <span aria-hidden="true">🔥</span>}×{i.n}</span>
+                <span class="n" title={t.enParlen}>{i.n >= LLINDAR_CALENT && <span aria-hidden="true">🔥</span>}×{i.n}</span>
               </li>
             ))}
           </ul>

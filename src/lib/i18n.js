@@ -70,6 +70,8 @@ export const T = {
   },
 };
 
+// Des de quantes newsletters que en parlen una notícia porta el 🔥 (escala real: 1-4).
+export const LLINDAR_CALENT = 3;
 export const LANGS = ['ca', 'es', 'en'];
 export const urlInici = (lang) => `${BASE}/${lang}/`;
 export const urlSetmana = (lang, week) => `${BASE}/${lang}/${T[lang].seg}/${week}/`;
