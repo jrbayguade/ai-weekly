@@ -14,7 +14,9 @@ export function cronologia(setmanes, empreses, lang) {
     punts: asc.flatMap((s) => s.items
       .filter((i) => i.is_release && i.company === e.name)
       .map((i) => ({ week: s.week, idx: idx[s.week], x: pct(i.date || s.from), r: 6 + Math.min(i.n, 16) / 2,
-                     title: i.title[lang], date: i.date, id: i.id }))),
+                     title: i.title[lang], date: i.date, id: i.id,
+                     // Sense data, el globus no acaba en «· ».
+                     globus: i.date ? `${i.title[lang]} · ${i.date}` : i.title[lang] }))),
   })).filter((k) => k.punts.length);
   const mesos = [];
   const d = new Date(t0); d.setUTCDate(1); d.setUTCMonth(d.getUTCMonth() + 1);

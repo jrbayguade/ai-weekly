@@ -39,3 +39,11 @@ test('idiomaPreferit compara el subtag primari exacte', () => {
   assert.equal(idiomaPreferit(['cat', 'es']), 'es');
   assert.equal(idiomaPreferit(['ca-ES']), 'ca');
 });
+
+test('el text del globus: «títol · data», i només el títol si no hi ha data', () => {
+  const ss = setmanes().map((s) => ({ ...s, items: s.items.map((i) => (i.company === 'Anthropic' ? { ...i, date: '' } : i)) }));
+  const c = cronologia(ss, empreses(), 'ca');
+  const [openai, anthropic] = c.carrils.map((k) => k.punts[0]);
+  assert.equal(openai.globus, `${openai.title} · ${openai.date}`);
+  assert.equal(anthropic.globus, anthropic.title);
+});

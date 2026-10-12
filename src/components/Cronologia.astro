@@ -17,7 +17,7 @@ const n = c.setmanesAsc.length;
       <button class="empresa" type="button" data-co={k.name}>{k.name}</button>
       <div class="pista">
         {k.punts.map((p) => (
-          <a class="punt" href={href(p)} data-week={p.week} data-idx={p.idx} data-t={`${p.title} · ${p.date}`}
+          <a class="punt" href={href(p)} data-week={p.week} data-idx={p.idx} data-t={p.globus}
              style={`left:calc(${p.x}% - ${p.r}px);width:${2 * p.r}px;height:${2 * p.r}px`}
              aria-label={p.title}></a>
         ))}
