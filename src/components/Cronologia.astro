@@ -8,7 +8,7 @@ const n = c.setmanesAsc.length;
 ---
 {c.carrils.length > 0 && (
 <section class="caixa cronologia" data-setmanes={JSON.stringify(c.setmanesAsc)}
-  data-txt={JSON.stringify({ setmanes: t.setmanes('{n}'), nomes: t.nomes('{c}'), tot: t.rangs.tot })}>
+  data-txt={JSON.stringify({ setmana1: t.setmanes(1), setmanes: t.setmanes('{n}'), nomes: t.nomes('{c}'), tot: t.rangs.tot })}>
   <h2 class="h">{t.quiHaTret}</h2>
   {c.carrils.map((k) => (
     <div class="carril">
@@ -24,7 +24,7 @@ const n = c.setmanesAsc.length;
   ))}
   <div class="eix">{c.mesos.map((m) => <span style={`left:${m.x}%`}>{m.etiqueta}</span>)}</div>
   <div class="pinca-fila" data-n={n}>
-    <div class="pinca" role="slider" aria-label={t.mostrant} tabindex="0">
+    <div class="pinca" role="slider" aria-label={t.mostrant} tabindex="0" aria-valuemin="1" aria-valuemax={n}>
       <span class="ma esq"></span><span class="ma dre"></span>
     </div>
   </div>
@@ -35,7 +35,7 @@ const n = c.setmanesAsc.length;
     <button class="btn" type="button" data-rang="13">{t.rangs.t}</button>
     <button class="btn" type="button" data-rang="tot">{t.rangs.tot}</button>
     <select class="rang-mobil" aria-label={t.mostrant}>
-      <option value="1">{t.rangs.u}</option><option value="4">{t.rangs.m}</option>
+      <option value="" hidden disabled>—</option><option value="1">{t.rangs.u}</option><option value="4">{t.rangs.m}</option>
       <option value="13">{t.rangs.t}</option><option value="tot" selected>{t.rangs.tot}</option>
     </select>
   </div>

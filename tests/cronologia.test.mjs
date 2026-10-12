@@ -27,3 +27,15 @@ test('idiomaPreferit recorre navigator.languages EN ORDRE', () => {
   assert.equal(idiomaPreferit(['fr', 'de']), 'en');
   assert.equal(idiomaPreferit([]), 'en');
 });
+
+test('setmanes: singular per a 1 i plural per a 2 en els tres idiomes', async () => {
+  const { T } = await import('../src/lib/i18n.js');
+  assert.deepEqual([T.ca.setmanes(1), T.ca.setmanes(2)], ['1 setmana', '2 setmanes']);
+  assert.deepEqual([T.es.setmanes(1), T.es.setmanes(2)], ['1 semana', '2 semanas']);
+  assert.deepEqual([T.en.setmanes(1), T.en.setmanes(2)], ['1 week', '2 weeks']);
+});
+
+test('idiomaPreferit compara el subtag primari exacte', () => {
+  assert.equal(idiomaPreferit(['cat', 'es']), 'es');
+  assert.equal(idiomaPreferit(['ca-ES']), 'ca');
+});

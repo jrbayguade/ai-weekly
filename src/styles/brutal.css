@@ -74,3 +74,7 @@ li.item.flaix { background:#fff8b0; }
   .rang [data-rang] { display:none; }
   .rang-mobil { display:inline-block; }
 }
+
+.cronologia:not(.js-on) .rang, .cronologia:not(.js-on) .pinca-fila { display:none; }
+.globus.sota { transform:translate(-50%,30%); }
+.pinca .ma::after { content:''; position:absolute; top:-6px; bottom:-6px; left:50%; width:28px; transform:translateX(-50%); }

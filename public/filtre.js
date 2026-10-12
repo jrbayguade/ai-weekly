@@ -9,14 +9,16 @@
   const fila = cr.querySelector('.pinca-fila');
   const pinca = cr.querySelector('.pinca');
   const estat = { r0: 0, r1: N, co: null };
+  cr.classList.add('js-on');
+
+  const comptaSetmanes = (n) => (n === 1 ? txt.setmana1 : txt.setmanes.replace('{n}', n));
 
   function aplica() {
     const { r0, r1, co } = estat;
     pinca.style.left = `${(r0 / N) * 100}%`;
     pinca.style.width = `${((r1 - r0) / N) * 100}%`;
-    pinca.setAttribute('aria-valuemin', 1);
-    pinca.setAttribute('aria-valuemax', N);
     pinca.setAttribute('aria-valuenow', r1 - r0);
+    pinca.setAttribute('aria-valuetext', `${setmanes[r0]} → ${setmanes[r1 - 1]} (${comptaSetmanes(r1 - r0)})`);
     cr.querySelectorAll('.punt').forEach((p) => {
       const i = +p.dataset.idx;
       p.classList.toggle('apagat', i < r0 || i >= r1);
@@ -40,12 +42,13 @@
       d.hidden = !visible || !alguna;
     });
     const tot = r0 === 0 && r1 === N;
-    cr.querySelector('.rang-txt').textContent =
-      (tot ? txt.tot : txt.setmanes.replace('{n}', r1 - r0)) + (co ? ` · ${txt.nomes.replace('{c}', co)}` : '');
+    const badge = cr.querySelector('.rang-txt');
+    badge.hidden = tot && !co;
+    badge.textContent = (tot ? txt.tot : comptaSetmanes(r1 - r0)) + (co ? ` · ${txt.nomes.replace('{c}', co)}` : '');
     // El select i els botons segueixen la pinça: «on» només si el rang coincideix amb un preset.
     const preset = tot ? 'tot' : r1 === N ? String(r1 - r0) : null;
     const sel = cr.querySelector('.rang-mobil');
-    if ([...sel.options].some((o) => o.value === preset)) sel.value = preset;
+    sel.value = [...sel.options].some((o) => o.value === preset) ? preset : '';
     cr.querySelectorAll('[data-rang]').forEach((b) => b.classList.toggle('on', b.dataset.rang === preset));
   }
 
@@ -87,8 +90,15 @@
   pinca.addEventListener('pointercancel', fi);
   pinca.addEventListener('keydown', (e) => {
     const len = estat.r1 - estat.r0;
-    if (e.key === 'ArrowLeft' && estat.r0 > 0) { estat.r0--; estat.r1 = estat.r0 + len; aplica(); }
-    if (e.key === 'ArrowRight' && estat.r1 < N) { estat.r1++; estat.r0 = estat.r1 - len; aplica(); }
+    let fet = true;
+    if (e.shiftKey && e.key === 'ArrowRight') estat.r1 = Math.min(N, estat.r1 + 1);
+    else if (e.shiftKey && e.key === 'ArrowLeft') estat.r1 = Math.max(estat.r0 + 1, estat.r1 - 1);
+    else if (e.key === 'ArrowLeft') { estat.r0 = Math.max(0, estat.r0 - 1); estat.r1 = estat.r0 + len; }
+    else if (e.key === 'ArrowRight') { estat.r1 = Math.min(N, estat.r1 + 1); estat.r0 = estat.r1 - len; }
+    else if (e.key === 'Home') { estat.r0 = 0; estat.r1 = len; }
+    else if (e.key === 'End') { estat.r1 = N; estat.r0 = N - len; }
+    else fet = false;
+    if (fet) { e.preventDefault(); aplica(); }
   });
 
   // El globus negre amb el títol d'un punt: ratolí, focus i toc.
@@ -102,11 +112,16 @@
     const cx = r.left + r.width / 2;
     const marge = 90;
     globus.textContent = p.dataset.t;
-    globus.style.left = `${Math.min(Math.max(cx, marge), document.documentElement.clientWidth - marge) + scrollX}px`;
-    globus.style.top = `${r.top + scrollY}px`;
     globus.hidden = false;
+    // Sota el punt si a sobre no hi cap dins la secció (carril de dalt).
+    const sota = r.top - globus.offsetHeight - 6 < cr.querySelector('.h').getBoundingClientRect().bottom + 2;
+    globus.classList.toggle('sota', sota);
+    globus.style.left = `${Math.min(Math.max(cx, marge), document.documentElement.clientWidth - marge) + scrollX}px`;
+    globus.style.top = `${(sota ? r.bottom : r.top) + scrollY}px`;
   };
   const amaga = () => { globus.hidden = true; };
+  addEventListener('scroll', amaga, { passive: true });
+  addEventListener('resize', amaga);
 
   // Un clic a un punt obre la seva setmana, hi ressalta la notícia i en mostra el títol.
   cr.querySelectorAll('.punt').forEach((p) => {
@@ -115,11 +130,17 @@
     p.addEventListener('focus', () => mostra(p));
     p.addEventListener('blur', amaga);
     p.addEventListener('click', () => {
+      // Un punt apagat (fora del rang o d'un carril filtrat): estat coherent abans d'obrir-lo.
+      const idx = +p.dataset.idx;
+      if (idx < estat.r0) estat.r0 = idx;
+      if (idx >= estat.r1) estat.r1 = idx + 1;
+      if (estat.co && estat.co !== p.closest('.carril').querySelector('.empresa').dataset.co) estat.co = null;
+      aplica();
       const d = document.querySelector(`details.setmana[data-week="${p.dataset.week}"]`);
       if (d) {
         d.hidden = false;
         d.open = true;
-        const li = d.querySelector(`[id="${p.getAttribute('href').slice(1)}"]`);
+        const li = document.getElementById(p.getAttribute('href').slice(1));
         if (li) { li.hidden = false; li.classList.add('flaix'); setTimeout(() => li.classList.remove('flaix'), 1500); }
       }
       mostra(p);
