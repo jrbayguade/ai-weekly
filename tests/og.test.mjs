@@ -105,12 +105,13 @@ test('titolsOg: els títols surten nets i encaixats (cap glif que falti arriba a
   assert.deepEqual(t.trets, ['🤖']);
 });
 
-test('dades REALS (data/): cada caràcter tret del títol curt de l’OG s’avisa (passa si no n’hi ha)', () => {
+test('dades REALS (data/): cada caràcter tret i cada títol curt tallat de l’OG s’avisa (passa si no n’hi ha)', () => {
   const abans = process.env.AI_WEEKLY_DATA;
   delete process.env.AI_WEEKLY_DATA;
   try {
     for (const s of setmanes()) for (const l of LANGS) for (const t of titolsOg(s, l)) {
       for (const c of t.trets) console.warn(`AVÍS: ${s.week} ${l} «${c}» (U+${c.codePointAt(0).toString(16).toUpperCase()}) tret de l’OG`);
+      if (t.tallat) console.warn(`AVÍS: ${s.week} ${l} «${t.linies.join(' ')}» s'ha tallat a l’OG: refer el títol curt`);
       assert.deepEqual(glifsQueFalten(F.text, t.linies.join(' ')), [], `${s.week} ${l}`);
     }
   } finally {
