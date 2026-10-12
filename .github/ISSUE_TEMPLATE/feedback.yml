@@ -1,0 +1,27 @@
+name: "Feedback"
+description: "Alguna cosa no quadra? Una idea? · ¿Algo no cuadra? ¿Una idea? · Something off? An idea?"
+body:
+  - type: input
+    id: setmana
+    attributes:
+      label: "Setmana (opcional) · Semana (opcional) · Week (optional)"
+      placeholder: "2026-41"
+    validations:
+      required: false
+  - type: textarea
+    id: que
+    attributes:
+      label: "Què hi has vist? · ¿Qué has visto? · What did you see?"
+    validations:
+      required: true
+  - type: dropdown
+    id: tipus
+    attributes:
+      label: "Tipus · Tipo · Type"
+      options:
+        - "Error en una notícia · Error en una noticia · Wrong story"
+        - "Traducció · Traducción · Translation"
+        - "Idea"
+        - "Altres · Otros · Other"
+    validations:
+      required: true
