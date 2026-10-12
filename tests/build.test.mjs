@@ -322,3 +322,14 @@ test('«Com es fa» ampliat: newsletters, cadència, mapa, 🔥, no confirmat i 
     assert.ok(!t.includes('×'), l);
   }
 });
+
+test('favicon: el robot SVG és a dist i l’enllacen l’arrel, la portada, una setmana i «Com es fa», amb el base /ai-weekly', () => {
+  const svg = llegeix('favicon.svg');
+  hi(svg, /<svg[^>]*width="64"[^>]*height="64"/);
+  hi(svg, /fill="#fff35c"/);
+  hi(svg, /<text[^>]*>🤖<\/text>/);
+  const LINK = /<link rel="icon" type="image\/svg\+xml" href="\/ai-weekly\/favicon\.svg"\s*\/?>/;
+  for (const pag of ['index.html', 'ca/index.html', 'en/week/2026-40/index.html', 'ca/com-es-fa/index.html']) {
+    hi(llegeix(pag), LINK);
+  }
+});

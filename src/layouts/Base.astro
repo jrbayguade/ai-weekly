@@ -1,5 +1,6 @@
 ---
 import '../styles/brutal.css';
+import { BASE } from '../lib/i18n.js';
 const { lang, title, description, ogImage, ogAlt, url, alternates = [] } = Astro.props;
 const abs = (p) => new URL(p, Astro.site).toString();
 // x-default: la versió anglesa de la mateixa pàgina (per a la portada, la portada en anglès).
@@ -10,6 +11,7 @@ const xDefault = alternates.find((a) => a.lang === 'en');
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href={`${BASE}/favicon.svg`} />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={abs(url)} />
