@@ -26,7 +26,7 @@ export const T = {
     subsTitol: 'CADA DILLUNS, AL CORREU', subsBoto: "APUNTA-M'HI", subsCamp: 'Correu', subsPlaceholder: 'el-teu@correu.cat',
     subsOk: 'Mira el correu per confirmar-ho.', subsError: 'No ha funcionat. Torna-ho a provar.', subsFalta: 'Escriu un correu vàlid.', subsEspera: 'Un moment, encara carrega.',
     tanca: 'Tanca', privacitatTitol: 'Privacitat', confirmatTitol: 'Fet ✓',
-    confirmatOk: "Des de dilluns que ve, AI Weekly t'arriba al correu.",
+    confirmatOk: "A partir del dilluns vinent rebràs l'AI Weekly al correu.",
     confirmatCaducat: "L'enllaç ha caducat. Torna-t'hi a apuntar.",
     confirmatError: "No s'ha pogut confirmar. Torna-ho a provar d'aquí a una estona.",
     privacitatText: [
