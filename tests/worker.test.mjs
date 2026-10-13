@@ -66,6 +66,7 @@ test('subscriu: envia la confirmació amb un enllaç signat i respon 202', async
   const correu = JSON.parse(f.crides.find((c) => c.url.endsWith('/emails')).opts.body);
   assert.deepEqual(correu.to, ['a@b.cat']);
   assert.equal(correu.from, env.REMITENT);
+  assert.equal(correu.reply_to, 'hi@zinkforge.com');
   const enllac = correu.text.match(/https:\/\/w\.example\/confirma\?t=\S+/)[0];
   const t = new URL(enllac).searchParams.get('t');
   assert.deepEqual(await W.verifica(t, env.SIGNATURA, ARA), { email: 'a@b.cat', lang: 'es' });

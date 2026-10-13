@@ -77,7 +77,7 @@ export async function subscriu(req, env, { fetch: f = fetch, ara = Date.now() } 
   const c = CONFIRMACIO[lang];
   let r;
   try {
-    r = await resend(f, env.RESEND_KEY, 'POST', '/emails', { from: env.REMITENT, to: [email], subject: c.assumpte,
+    r = await resend(f, env.RESEND_KEY, 'POST', '/emails', { from: env.REMITENT, reply_to: (env.REMITENT.match(/<([^>]+)>/) || [])[1] || env.REMITENT, to: [email], subject: c.assumpte,
       text: `${c.cos}\n\n${url}\n\n${c.peu}`,
       html: `<p>${c.cos}</p><p><a href="${url}">${url}</a></p><p>${c.peu}</p>` });
   } catch { return json(502, env); }

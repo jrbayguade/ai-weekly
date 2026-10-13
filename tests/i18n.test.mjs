@@ -33,6 +33,6 @@ test('el marcador 🔥 surt a partir de 3 newsletters (escala real 1-4)', async 
 });
 
 test('les claus de la subscripció existeixen als tres idiomes', () => {
-  const claus = 'subsCap subsSetmana subsPeu subsTitol subsBoto subsCamp subsPlaceholder subsOk subsError subsFalta tanca privacitatTitol privacitatText confirmatTitol confirmatOk confirmatCaducat confirmatError'.split(' ');
+  const claus = 'subsCap subsSetmana subsPeu subsTitol subsBoto subsCamp subsPlaceholder subsOk subsError subsFalta subsEspera tanca privacitatTitol privacitatText confirmatTitol confirmatOk confirmatCaducat confirmatError'.split(' ');
   for (const l of ['ca', 'es', 'en']) for (const k of claus) assert.ok(T[l][k], `${l}.${k}`);
 });

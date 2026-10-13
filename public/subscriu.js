@@ -32,8 +32,12 @@
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const token = widget !== null ? window.turnstile.getResponse(widget) : '';
-    if (!form.email.checkValidity() || !form.email.value || !token) {
+    if (!form.email.checkValidity() || !form.email.value) {
       estat.textContent = dlg.dataset.msgFalta;
+      return;
+    }
+    if (!token) {
+      estat.textContent = dlg.dataset.msgEspera;
       return;
     }
     boto.disabled = true;

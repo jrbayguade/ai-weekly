@@ -342,6 +342,7 @@ test('subscripció configurada: botó, enllaç a cada setmana, peu i finestra; T
   hi(html, /<dialog id="subscriu"[^>]*data-worker="https:\/\/ai-weekly-subs\.prova\.workers\.dev"/);
   hi(html, /data-sitekey="0x4AAAAAAAprova"/);
   hi(html, /data-msg-falta="Escriu un correu vàlid\."/);
+  hi(html, /data-msg-espera="Un moment, encara carrega\."/);
   hi(html, /href="\/ai-weekly\/ca\/privacitat\/"/);
   hi(html, /src="\/ai-weekly\/subscriu\.js"/);
   no(html, /challenges\.cloudflare\.com/);

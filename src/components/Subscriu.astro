@@ -4,7 +4,7 @@ const { lang, config } = Astro.props;  // config = subs()
 const t = T[lang];
 ---
 <dialog id="subscriu" class="subs" aria-labelledby="subs-titol" data-worker={config.worker} data-sitekey={config.turnstile}
-  data-msg-ok={t.subsOk} data-msg-error={t.subsError} data-msg-falta={t.subsFalta}>
+  data-msg-ok={t.subsOk} data-msg-error={t.subsError} data-msg-falta={t.subsFalta} data-msg-espera={t.subsEspera}>
   <div class="subs-cos">
     <button type="button" class="btn tanca" aria-label={t.tanca}>✕</button>
     <h2 id="subs-titol">{t.subsTitol}</h2>
