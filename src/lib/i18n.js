@@ -70,7 +70,7 @@ export const T = {
     subsTitol: 'CADA LUNES, EN TU CORREO', subsBoto: 'APÚNTAME', subsCamp: 'Correo', subsPlaceholder: 'tu@correo.es',
     subsOk: 'Revisa tu correo para confirmarlo.', subsError: 'No ha funcionado. Vuelve a intentarlo.', subsFalta: 'Escribe un correo válido.', subsEspera: 'Un momento, todavía carga.',
     tanca: 'Cerrar', privacitatTitol: 'Privacidad', confirmatTitol: 'Hecho ✓',
-    confirmatOk: 'Desde el lunes que viene, AI Weekly te llega al correo.',
+    confirmatOk: 'A partir del próximo lunes recibirás el AI Weekly en tu bandeja de entrada.',
     confirmatCaducat: 'El enlace ha caducado. Vuelve a apuntarte.',
     confirmatError: 'No se ha podido confirmar. Vuelve a intentarlo dentro de un rato.',
     privacitatText: [

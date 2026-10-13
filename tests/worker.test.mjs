@@ -15,7 +15,7 @@ function fals(respostes = {}) {
     crides.push({ url: String(url), opts });
     const m = opts.method || 'GET';
     const r = Object.entries(respostes).find(([k]) => {
-      const mm = k.match(/^(GET|POST|PATCH) (.*)$/);
+      const mm = k.match(/^(GET|POST|PATCH|DELETE) (.*)$/);
       return mm ? mm[1] === m && String(url).includes(mm[2]) : String(url).includes(k);
     });
     const [status, cos] = r ? r[1] : [200, {}];
@@ -96,6 +96,23 @@ test('confirma: un contacte que ja existia (o s’havia donat de baixa) queda su
   const patch = f.crides.find((c) => c.opts.method === 'PATCH');
   assert.deepEqual(JSON.parse(patch.opts.body), { unsubscribed: false });
   assert.ok(f.crides.some((c) => c.url.endsWith('/contacts/a%40b.cat/segments/s-ca')));
+});
+
+test('confirma: qui canvia d’idioma surt dels altres segments (un sol correu el dilluns)', async () => {
+  const t = await W.signa({ e: 'a@b.cat', l: 'es', x: ARA + 1000 }, env.SIGNATURA);
+  const f = fals({ '/contacts/a%40b.cat/segments': [200, {}], '/contacts/a%40b.cat': [200, {}], '/contacts': [409, {}] });
+  const r = await W.confirma(new Request(`https://w.example/confirma?t=${t}`), env, { fetch: f, ara: ARA });
+  assert.equal(r.headers.get('Location'), `${env.WEB}/es/confirmado/`);
+  const fora = f.crides.filter((c) => c.opts.method === 'DELETE').map((c) => c.url.split('/').pop()).sort();
+  assert.deepEqual(fora, ['s-ca', 's-en']);
+});
+
+test('confirma: si treure dels altres segments falla (p. ex. 404, no hi era), la confirmació val igual', async () => {
+  const t = await W.signa({ e: 'a@b.cat', l: 'es', x: ARA + 1000 }, env.SIGNATURA);
+  const f = fals({ 'DELETE /segments/': [404, {}], '/contacts/a%40b.cat/segments': [200, {}],
+    '/contacts/a%40b.cat': [200, {}], '/contacts': [409, {}] });
+  const r = await W.confirma(new Request(`https://w.example/confirma?t=${t}`), env, { fetch: f, ara: ARA });
+  assert.equal(r.headers.get('Location'), `${env.WEB}/es/confirmado/`);
 });
 
 test('confirma: caducat, invàlid i error mai no posen el correu a la URL', async () => {

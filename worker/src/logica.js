@@ -84,7 +84,7 @@ export async function subscriu(req, env, { fetch: f = fetch, ara = Date.now() } 
   return json(r.ok ? 202 : 502, env);
 }
 
-export async function afegeix(email, segment, clauApi, f) {
+export async function afegeix(email, segment, clauApi, f, altres = []) {
   const r = await resend(f, clauApi, 'POST', '/contacts', { email, unsubscribed: false, segments: [{ id: segment }] });
   if (r.ok) return true;
   // només si el contacte existeix de debò (no un 401/429/500): torna a subscriure'l i posa'l al segment
@@ -94,7 +94,11 @@ export async function afegeix(email, segment, clauApi, f) {
   const p = await resend(f, clauApi, 'PATCH', `/contacts/${e}`, { unsubscribed: false });
   if (!p.ok) return false;
   const s = await resend(f, clauApi, 'POST', `/contacts/${e}/segments/${segment}`);
-  return s.ok || s.status === 409;
+  if (!(s.ok || s.status === 409)) return false;
+  // qui canvia d'idioma surt dels altres segments: un sol correu el dilluns.
+  // Si no hi era (404) o falla, la confirmació val igual.
+  await Promise.all(altres.map((id) => resend(f, clauApi, 'DELETE', `/contacts/${e}/segments/${id}`).catch(() => null)));
+  return true;
 }
 
 export async function confirma(req, env, { fetch: f = fetch, ara = Date.now() } = {}) {
@@ -102,9 +106,13 @@ export async function confirma(req, env, { fetch: f = fetch, ara = Date.now() } 
   const lang = v.lang || 'en';
   const desti = (e) => Response.redirect(`${env.WEB}/${lang}/${PAG_CONFIRMAT[lang]}/${e ? `?e=${e}` : ''}`, 303);
   if (v.error) return desti(v.error);
-  let segment;
-  try { segment = JSON.parse(env.SEGMENTS)[lang]; } catch { segment = ''; }
+  let segment, altres = [];
+  try {
+    const tots = JSON.parse(env.SEGMENTS);
+    segment = tots[lang];
+    altres = Object.entries(tots).filter(([l, id]) => l !== lang && id).map(([, id]) => id);
+  } catch { segment = ''; }
   if (!segment) return desti('error');
-  const ok = await afegeix(v.email, segment, env.RESEND_KEY, f).catch(() => false);
+  const ok = await afegeix(v.email, segment, env.RESEND_KEY, f, altres).catch(() => false);
   return desti(ok ? '' : 'error');
 }
