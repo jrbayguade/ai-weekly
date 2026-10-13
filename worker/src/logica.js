@@ -64,29 +64,37 @@ export async function subscriu(req, env, { fetch: f = fetch, ara = Date.now() } 
   const email = typeof cos?.email === 'string' ? cos.email.trim().toLowerCase() : '';
   const lang = cos?.lang;
   if (!esCorreu(email) || !LANGS.includes(lang) || typeof cos?.turnstile !== 'string' || !cos.turnstile) return json(400, env);
-  const tv = await f('https://challenges.cloudflare.com/turnstile/v0/siteverify', { method: 'POST',
-    body: new URLSearchParams({ secret: env.TURNSTILE_SECRET, response: cos.turnstile,
-      remoteip: req.headers.get('CF-Connecting-IP') || '' }) });
-  const tj = await tv.json().catch(() => ({}));
-  if (tj.success !== true) return json(403, env);
+  let tj;
+  try {
+    const tv = await f('https://challenges.cloudflare.com/turnstile/v0/siteverify', { method: 'POST',
+      body: new URLSearchParams({ secret: env.TURNSTILE_SECRET, response: cos.turnstile,
+        remoteip: req.headers.get('CF-Connecting-IP') || '' }) });
+    tj = await tv.json().catch(() => ({}));
+  } catch { return json(502, env); }
+  if (tj.success !== true || tj.hostname !== new URL(env.ORIGEN).hostname) return json(403, env);
   const token = await signa({ e: email, l: lang, x: ara + TTL_MS }, env.SIGNATURA);
   const url = `${new URL(req.url).origin}/confirma?t=${token}`;
   const c = CONFIRMACIO[lang];
-  const r = await resend(f, env.RESEND_KEY, 'POST', '/emails', { from: env.REMITENT, to: [email], subject: c.assumpte,
-    text: `${c.cos}\n\n${url}\n\n${c.peu}`,
-    html: `<p>${c.cos}</p><p><a href="${url}">${url}</a></p><p>${c.peu}</p>` });
+  let r;
+  try {
+    r = await resend(f, env.RESEND_KEY, 'POST', '/emails', { from: env.REMITENT, to: [email], subject: c.assumpte,
+      text: `${c.cos}\n\n${url}\n\n${c.peu}`,
+      html: `<p>${c.cos}</p><p><a href="${url}">${url}</a></p><p>${c.peu}</p>` });
+  } catch { return json(502, env); }
   return json(r.ok ? 202 : 502, env);
 }
 
 export async function afegeix(email, segment, clauApi, f) {
   const r = await resend(f, clauApi, 'POST', '/contacts', { email, unsubscribed: false, segments: [{ id: segment }] });
   if (r.ok) return true;
-  // ja hi era (potser donat de baixa): torna a subscriure'l i posa'l al segment
+  // només si el contacte existeix de debò (no un 401/429/500): torna a subscriure'l i posa'l al segment
   const e = encodeURIComponent(email);
+  const g = await resend(f, clauApi, 'GET', `/contacts/${e}`);
+  if (!g.ok) return false;
   const p = await resend(f, clauApi, 'PATCH', `/contacts/${e}`, { unsubscribed: false });
   if (!p.ok) return false;
   const s = await resend(f, clauApi, 'POST', `/contacts/${e}/segments/${segment}`);
-  return s.ok || s.status === 409 || s.status === 422;
+  return s.ok || s.status === 409;
 }
 
 export async function confirma(req, env, { fetch: f = fetch, ara = Date.now() } = {}) {
@@ -94,6 +102,9 @@ export async function confirma(req, env, { fetch: f = fetch, ara = Date.now() } 
   const lang = v.lang || 'en';
   const desti = (e) => Response.redirect(`${env.WEB}/${lang}/${PAG_CONFIRMAT[lang]}/${e ? `?e=${e}` : ''}`, 303);
   if (v.error) return desti(v.error);
-  const ok = await afegeix(v.email, JSON.parse(env.SEGMENTS)[lang], env.RESEND_KEY, f).catch(() => false);
+  let segment;
+  try { segment = JSON.parse(env.SEGMENTS)[lang]; } catch { segment = ''; }
+  if (!segment) return desti('error');
+  const ok = await afegeix(v.email, segment, env.RESEND_KEY, f).catch(() => false);
   return desti(ok ? '' : 'error');
 }
