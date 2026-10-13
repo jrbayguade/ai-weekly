@@ -10,5 +10,5 @@ workers_dev = true
 ORIGEN = "https://jrbayguade.github.io"
 WEB = "https://jrbayguade.github.io/ai-weekly"
 REMITENT = "AI Weekly <hi@zinkforge.com>"
-# L'omple scripts/ai_weekly_butlleti_crea.py (publisher-desktop) a la posada en marxa.
-SEGMENTS = '{"ca":"","es":"","en":""}'
+# Els IDs dels segments de Resend (públics; sense la clau no serveixen de res).
+SEGMENTS = '{"ca":"7d48ff83-4bcc-40fd-b8c5-57bb1dfba76d","es":"046c6b27-5d5e-41e6-803d-5171a7b469f5","en":"c11a51db-08e3-410a-b07e-b09b43cf18e9"}'
