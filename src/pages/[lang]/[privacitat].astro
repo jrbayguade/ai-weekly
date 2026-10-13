@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import Capcalera from '../../components/Capcalera.astro';
+import Peu from '../../components/Peu.astro';
+import { T, LANGS, urlPrivacitat, urlInici, BASE } from '../../lib/i18n.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang, privacitat: T[lang].privacitat } })); }
+const { lang } = Astro.params;
+const t = T[lang];
+const alternates = LANGS.map((l) => ({ lang: l, url: urlPrivacitat(l) }));
+---
+<Base {lang} title={`AI Weekly · ${t.privacitatTitol}`} description={t.privacitatText[0]} ogImage={`${BASE}/og/default.png`}
+  ogAlt="AI Weekly" url={urlPrivacitat(lang)} {alternates}>
+  <main class="pagina">
+    <Capcalera {lang} {alternates} logoNoEsTitol />
+    <p class="tornar-fila"><a class="tornar" href={urlInici(lang)}>{t.tornar}</a></p>
+    <div class="caixa"><h1 class="h">{t.privacitatTitol}</h1>{t.privacitatText.map((p) => <p>{p}</p>)}</div>
+    <Peu {lang} />
+  </main>
+</Base>

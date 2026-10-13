@@ -1,0 +1,20 @@
+---
+import { T, urlPrivacitat } from '../lib/i18n.js';
+const { lang, config } = Astro.props;  // config = subs()
+const t = T[lang];
+---
+<dialog id="subscriu" class="subs" aria-labelledby="subs-titol" data-worker={config.worker} data-sitekey={config.turnstile}
+  data-msg-ok={t.subsOk} data-msg-error={t.subsError} data-msg-falta={t.subsFalta}>
+  <div class="subs-cos">
+    <button type="button" class="btn tanca" aria-label={t.tanca}>✕</button>
+    <h2 id="subs-titol">{t.subsTitol}</h2>
+    <form novalidate>
+      <label class="sr-only" for="subs-email">{t.subsCamp}</label>
+      <input id="subs-email" name="email" type="email" required maxlength="254" autocomplete="email" placeholder={t.subsPlaceholder} />
+      <div class="subs-ts"></div>
+      <button type="submit">{t.subsBoto}</button>
+    </form>
+    <p class="subs-estat" role="status"></p>
+    <small><a href={urlPrivacitat(lang)}>{t.privacitatTitol}</a></small>
+  </div>
+</dialog>

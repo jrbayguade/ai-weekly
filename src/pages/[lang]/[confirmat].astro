@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import Capcalera from '../../components/Capcalera.astro';
+import Peu from '../../components/Peu.astro';
+import { T, LANGS, urlConfirmat, urlInici, BASE } from '../../lib/i18n.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang, confirmat: T[lang].confirmat } })); }
+const { lang } = Astro.params;
+const t = T[lang];
+const alternates = LANGS.map((l) => ({ lang: l, url: urlConfirmat(l) }));
+---
+<Base {lang} title={`AI Weekly · ${t.confirmatTitol}`} description={t.confirmatOk} ogImage={`${BASE}/og/default.png`}
+  ogAlt="AI Weekly" url={urlConfirmat(lang)} {alternates}>
+  <main class="pagina">
+    <Capcalera {lang} {alternates} logoNoEsTitol />
+    <p class="tornar-fila"><a class="tornar" href={urlInici(lang)}>{t.tornar}</a></p>
+    <div class="caixa">
+      <h1 class="h">{t.confirmatTitol}</h1>
+      <p data-e="">{t.confirmatOk}</p>
+      <p data-e="caducat" hidden>{t.confirmatCaducat}</p>
+      <p data-e="invalid" hidden>{t.confirmatCaducat}</p>
+      <p data-e="error" hidden>{t.confirmatError}</p>
+      <script is:inline>
+        (() => {
+          const e = new URLSearchParams(location.search).get('e') || '';
+          const p = document.querySelector(`[data-e="${CSS.escape(e)}"]`) || document.querySelector('[data-e="error"]');
+          document.querySelectorAll('[data-e]').forEach((x) => { x.hidden = x !== p; });
+          if (e) document.querySelector('.h').textContent = '✕';
+        })();
+      </script>
+    </div>
+    <Peu {lang} />
+  </main>
+</Base>

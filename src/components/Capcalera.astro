@@ -1,5 +1,6 @@
 ---
 import { T, LANGS, urlInici } from '../lib/i18n.js';
+import { subs } from '../lib/dades.js';
 const { lang, alternates, logoNoEsTitol } = Astro.props;  // alternates: {lang, url}[]
 // El logo és el h1 de la pàgina, llevat d'on la pàgina ja en té un de propi (Com es fa).
 const Logo = logoNoEsTitol ? 'p' : 'h1';
@@ -15,5 +16,6 @@ const Logo = logoNoEsTitol ? 'p' : 'h1';
       return <a class="btn" href={a.url} hreflang={l} aria-current={l === lang ? 'true' : 'false'}>{l.toUpperCase()}</a>;
     })}
     <a class="btn" href="https://github.com/jrbayguade/ai-weekly">★ GitHub</a>
+    {subs() && <a class="btn btn-subs" href="#subscriu" data-subscriu>{T[lang].subsCap}</a>}
   </nav>
 </header>

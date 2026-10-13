@@ -19,6 +19,15 @@ export function setmanes() {
     .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 }
 
+// La subscripció per correu: l'URL del Worker i la site key PÚBLICA de Turnstile.
+// Sense el fitxer (o amb un camp buit), la web no n'ensenya res.
+export function subs() {
+  const f = path.join(arrelDades(), 'subs.json');
+  if (!fs.existsSync(f)) return null;
+  const s = JSON.parse(fs.readFileSync(f, 'utf8'));
+  return s && typeof s.worker === 'string' && s.worker && typeof s.turnstile === 'string' && s.turnstile ? s : null;
+}
+
 export function empreses() {
   return JSON.parse(fs.readFileSync(path.join(arrelDades(), 'empreses.json'), 'utf8'));
 }

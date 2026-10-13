@@ -1,6 +1,6 @@
 ---
 import { T, esCalent, numSetmana, rangSetmana, urlSetmana, urlIssue } from '../lib/i18n.js';
-import { CATEGORIES } from '../lib/dades.js';
+import { CATEGORIES, subs } from '../lib/dades.js';
 // resum: només la capçalera, com un enllaç a la seva permanent (les pàgines permanents no porten el cos de les altres).
 const { setmana: s, lang, oberta, resum } = Astro.props;
 const t = T[lang];
@@ -42,7 +42,7 @@ const capsal = `${t.setmana(numSetmana(s.week))} · ${rangSetmana(s.from, s.to, 
         </section>
       );
     })}
-    <p class="feedback"><a class="no-quadra" href={urlIssue(lang, s.week)} rel="noopener" target="_blank">{t.noQuadra}</a></p>
+    <p class="feedback">{subs() && <a class="subs-link" href="#subscriu" data-subscriu>{t.subsSetmana}</a>}<a class="no-quadra" href={urlIssue(lang, s.week)} rel="noopener" target="_blank">{t.noQuadra}</a></p>
   </div>
 </details>
 )}

@@ -1,8 +1,13 @@
 ---
-import { T, urlAbout, ISSUES, AUTOR } from '../lib/i18n.js';
+import { T, urlAbout, ISSUES, AUTOR, BASE } from '../lib/i18n.js';
+import { subs } from '../lib/dades.js';
+import Subscriu from './Subscriu.astro';
 const { lang } = Astro.props;
+const config = subs();
 ---
 <footer class="peu">
   <span>{T[lang].peu}</span>
-  <span><a href={urlAbout(lang)}>{T[lang].aboutTitol}</a> · <a href={`${ISSUES}/new/choose`}>{T[lang].suggeriments}</a> · <a href="https://github.com/jrbayguade/ai-weekly">GitHub</a> · <a href={AUTOR.url} rel="me noopener" target="_blank">{AUTOR.nom}</a></span>
+  <span><a href={urlAbout(lang)}>{T[lang].aboutTitol}</a> · <a href={`${ISSUES}/new/choose`}>{T[lang].suggeriments}</a> · {config && <><a href="#subscriu" data-subscriu>{T[lang].subsPeu}</a> · </>}<a href="https://github.com/jrbayguade/ai-weekly">GitHub</a> · <a href={AUTOR.url} rel="me noopener" target="_blank">{AUTOR.nom}</a></span>
 </footer>
+{config && <Subscriu {lang} {config} />}
+{config && <script is:inline src={`${BASE}/subscriu.js`} defer></script>}

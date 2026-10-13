@@ -106,3 +106,17 @@ details.mes[open] > summary .mes-nom::before { content:'▾ '; }
 .rumor { display:inline-block; font-size:10px; font-weight:700; font-style:italic; color:#444; border:1px dashed #444; padding:0 5px; vertical-align:1px; white-space:nowrap; }
 .autoria { margin-top:14px; font-weight:700; }
 .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+.btn-subs { background:var(--rosa); }
+dialog.subs { padding:0; border:3px solid var(--negre); background:var(--rosa); color:var(--negre); box-shadow:8px 8px 0 var(--negre); width:min(460px, calc(100% - 32px)); }
+dialog.subs::backdrop { background:rgba(0,0,0,.55); }
+.subs-cos { position:relative; padding:22px 20px 16px; }
+.subs h2 { font-family:'Archivo Black',sans-serif; font-weight:400; font-size:26px; line-height:1; margin:0 34px 14px 0; }
+.subs form { display:flex; flex-direction:column; gap:8px; }
+.subs input { border:3px solid var(--negre); padding:10px; font:600 16px Inter,sans-serif; background:var(--blanc); }
+.subs button[type="submit"] { border:3px solid var(--negre); background:var(--negre); color:var(--groc); font:900 14px Inter,sans-serif; padding:10px; cursor:pointer; }
+.subs button[disabled] { opacity:.6; cursor:wait; }
+.subs .tanca { position:absolute; top:10px; right:10px; width:30px; height:30px; padding:0; font-size:16px; line-height:1; }
+.subs-estat { margin:10px 0 0; font-weight:700; font-size:14px; }
+.subs-estat:empty { display:none; }
+.subs small { display:block; margin-top:10px; font-family:'JetBrains Mono',monospace; font-size:11px; }
+.feedback .subs-link { margin-right:12px; }

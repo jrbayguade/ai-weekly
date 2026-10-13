@@ -333,3 +333,34 @@ test('favicon: el robot SVG és a dist i l’enllacen l’arrel, la portada, una
     hi(llegeix(pag), LINK);
   }
 });
+
+test('subscripció configurada: botó, enllaç a cada setmana, peu i finestra; Turnstile no es carrega d’entrada', () => {
+  const html = llegeix('ca/index.html');
+  hi(html, /<a class="btn btn-subs" href="#subscriu" data-subscriu>✉ SUBSCRIU-TE<\/a>/);
+  hi(html, /class="subs-link" href="#subscriu" data-subscriu>✉ Rep-ho cada dilluns</);
+  hi(html, /<footer class="peu">[\s\S]*data-subscriu>Subscriu-te<\/a>/);
+  hi(html, /<dialog id="subscriu"[^>]*data-worker="https:\/\/ai-weekly-subs\.prova\.workers\.dev"/);
+  hi(html, /data-sitekey="0x4AAAAAAAprova"/);
+  hi(html, /data-msg-falta="Escriu un correu vàlid\."/);
+  hi(html, /href="\/ai-weekly\/ca\/privacitat\/"/);
+  hi(html, /src="\/ai-weekly\/subscriu\.js"/);
+  no(html, /challenges\.cloudflare\.com/);
+});
+
+test('subscripció sense configurar: cap peça a la web', () => {
+  const html = llegeixHot('ca/index.html');
+  for (const re of [/data-subscriu/, /<dialog/, /subscriu\.js/]) no(html, re);
+});
+
+test('privacitat i confirmació, als tres idiomes', () => {
+  for (const [l, p, c] of [['ca', 'privacitat', 'confirmat'], ['es', 'privacidad', 'confirmado'], ['en', 'privacy', 'confirmed']]) {
+    const priv = llegeix(`${l}/${p}/index.html`);
+    hi(priv, /Sant Cugat del Vallès/);
+    hi(priv, /hi@zinkforge\.com/);
+    hi(priv, /Resend/);
+    no(priv, /@gmail\.com/);
+    const conf = llegeix(`${l}/${c}/index.html`);
+    hi(conf, /data-e="caducat"/);
+    hi(conf, /data-e="invalid"/);
+  }
+});
