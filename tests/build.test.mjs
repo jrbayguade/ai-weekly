@@ -364,3 +364,8 @@ test('privacitat i confirmació, als tres idiomes', () => {
     hi(conf, /data-e="invalid"/);
   }
 });
+
+test('el formulari de subscripció amagat (form.hidden) no el guanya el display:flex', () => {
+  const css = fs.readFileSync(path.join(arrel, 'src/styles/brutal.css'), 'utf8');
+  hi(css, /\.subs form\[hidden\]\s*\{\s*display:\s*none;?\s*\}/);
+});

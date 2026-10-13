@@ -112,6 +112,7 @@ dialog.subs::backdrop { background:rgba(0,0,0,.55); }
 .subs-cos { position:relative; padding:22px 20px 16px; }
 .subs h2 { font-family:'Archivo Black',sans-serif; font-weight:400; font-size:26px; line-height:1; margin:0 34px 14px 0; }
 .subs form { display:flex; flex-direction:column; gap:8px; }
+.subs form[hidden] { display:none; }
 .subs input { border:3px solid var(--negre); padding:10px; font:600 16px Inter,sans-serif; background:var(--blanc); }
 .subs button[type="submit"] { border:3px solid var(--negre); background:var(--negre); color:var(--groc); font:900 14px Inter,sans-serif; padding:10px; cursor:pointer; }
 .subs button[disabled] { opacity:.6; cursor:wait; }
