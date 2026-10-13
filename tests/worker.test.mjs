@@ -107,6 +107,15 @@ test('confirma: qui canvia d’idioma surt dels altres segments (un sol correu e
   assert.deepEqual(fora, ['s-ca', 's-en']);
 });
 
+test('confirma: Resend accepta el POST d’un contacte existent (201) i igualment surt dels altres segments', async () => {
+  const t = await W.signa({ e: 'a@b.cat', l: 'ca', x: ARA + 1000 }, env.SIGNATURA);
+  const f = fals({ 'POST /contacts': [201, { id: 'c1' }] });
+  const r = await W.confirma(new Request(`https://w.example/confirma?t=${t}`), env, { fetch: f, ara: ARA });
+  assert.equal(r.headers.get('Location'), `${env.WEB}/ca/confirmat/`);
+  const fora = f.crides.filter((c) => c.opts.method === 'DELETE').map((c) => c.url.split('/').pop()).sort();
+  assert.deepEqual(fora, ['s-en', 's-es']);
+});
+
 test('confirma: si treure dels altres segments falla (p. ex. 404, no hi era), la confirmació val igual', async () => {
   const t = await W.signa({ e: 'a@b.cat', l: 'es', x: ARA + 1000 }, env.SIGNATURA);
   const f = fals({ 'DELETE /segments/': [404, {}], '/contacts/a%40b.cat/segments': [200, {}],

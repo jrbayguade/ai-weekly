@@ -85,16 +85,20 @@ export async function subscriu(req, env, { fetch: f = fetch, ara = Date.now() } 
 }
 
 export async function afegeix(email, segment, clauApi, f, altres = []) {
-  const r = await resend(f, clauApi, 'POST', '/contacts', { email, unsubscribed: false, segments: [{ id: segment }] });
-  if (r.ok) return true;
-  // només si el contacte existeix de debò (no un 401/429/500): torna a subscriure'l i posa'l al segment
   const e = encodeURIComponent(email);
-  const g = await resend(f, clauApi, 'GET', `/contacts/${e}`);
-  if (!g.ok) return false;
-  const p = await resend(f, clauApi, 'PATCH', `/contacts/${e}`, { unsubscribed: false });
-  if (!p.ok) return false;
-  const s = await resend(f, clauApi, 'POST', `/contacts/${e}/segments/${segment}`);
-  if (!(s.ok || s.status === 409)) return false;
+  // POST /contacts amb un correu que ja existeix NO falla: Resend l'actualitza
+  // (201, mesurat en directe el 2026-10-13). El camí de sota és la xarxa per
+  // si algun dia torna un error.
+  const r = await resend(f, clauApi, 'POST', '/contacts', { email, unsubscribed: false, segments: [{ id: segment }] });
+  if (!r.ok) {
+    // només si el contacte existeix de debò (no un 401/429/500): torna a subscriure'l i posa'l al segment
+    const g = await resend(f, clauApi, 'GET', `/contacts/${e}`);
+    if (!g.ok) return false;
+    const p = await resend(f, clauApi, 'PATCH', `/contacts/${e}`, { unsubscribed: false });
+    if (!p.ok) return false;
+    const s = await resend(f, clauApi, 'POST', `/contacts/${e}/segments/${segment}`);
+    if (!(s.ok || s.status === 409)) return false;
+  }
   // qui canvia d'idioma surt dels altres segments: un sol correu el dilluns.
   // Si no hi era (404) o falla, la confirmació val igual.
   await Promise.all(altres.map((id) => resend(f, clauApi, 'DELETE', `/contacts/${e}/segments/${id}`).catch(() => null)));
