@@ -3,7 +3,7 @@ export const BASE = '/ai-weekly';
 
 export const T = {
   ca: {
-    nomIdioma: 'Català', seg: 'setmana', about: 'com-es-fa',
+    nomIdioma: 'Català', seg: 'setmana', about: 'com-es-fa', confirmat: 'confirmat', privacitat: 'privacitat',
     tagline: "KEEP UP WITH IT. OR DON'T. WE DID IT FOR YOU.",
     setmana: (n) => `SETMANA ${n}`,
     mesos: ['GENER', 'FEBRER', 'MARÇ', 'ABRIL', 'MAIG', 'JUNY', 'JULIOL', 'AGOST', 'SETEMBRE', 'OCTUBRE', 'NOVEMBRE', 'DESEMBRE'],
@@ -32,7 +32,7 @@ export const T = {
     ],
   },
   es: {
-    nomIdioma: 'Español', seg: 'semana', about: 'como-se-hace',
+    nomIdioma: 'Español', seg: 'semana', about: 'como-se-hace', confirmat: 'confirmado', privacitat: 'privacidad',
     tagline: "KEEP UP WITH IT. OR DON'T. WE DID IT FOR YOU.",
     setmana: (n) => `SEMANA ${n}`,
     mesos: ['ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO', 'JULIO', 'AGOSTO', 'SEPTIEMBRE', 'OCTUBRE', 'NOVIEMBRE', 'DICIEMBRE'],
@@ -61,7 +61,7 @@ export const T = {
     ],
   },
   en: {
-    nomIdioma: 'English', seg: 'week', about: 'how-its-made',
+    nomIdioma: 'English', seg: 'week', about: 'how-its-made', confirmat: 'confirmed', privacitat: 'privacy',
     tagline: "KEEP UP WITH IT. OR DON'T. WE DID IT FOR YOU.",
     setmana: (n) => `WEEK ${n}`,
     mesos: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'],

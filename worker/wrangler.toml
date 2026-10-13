@@ -1,0 +1,14 @@
+# El Worker de subscripció d'AI Weekly. Aquí només hi ha valors PÚBLICS.
+# Els secrets (RESEND_KEY, SIGNATURA, TURNSTILE_SECRET) es posen amb
+# `npx wrangler secret put NOM` i no s'escriuen mai en cap fitxer.
+name = "ai-weekly-subs"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+ORIGEN = "https://jrbayguade.github.io"
+WEB = "https://jrbayguade.github.io/ai-weekly"
+REMITENT = "AI Weekly <hi@zinkforge.com>"
+# L'omple scripts/ai_weekly_butlleti_crea.py (publisher-desktop) a la posada en marxa.
+SEGMENTS = '{"ca":"","es":"","en":""}'
