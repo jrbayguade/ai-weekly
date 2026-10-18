@@ -1,0 +1,869 @@
+{
+  "week": "2026-42",
+  "from": "2026-10-12",
+  "to": "2026-10-18",
+  "newsletters": 5,
+  "candidates": 197,
+  "note": {
+    "ca": "Anthropic ha ensenyat que els agents de Claude poden presentar visats i denúncies falses, i la Casa Blanca ja exigeix notificació immediata. Em sembla raonable, però també una mica tard: primer els contratemps, després la norma. Mentrestant, Meta i Google competeixen a cop de models frontera com si res. Potser caldria preguntar-se si algú llegeix els informes abans que els agents actuïn.\n\nM’ha alegrat especialment el llançament de Gemini 4 Argon per part de google. Un model que alguns benchmarks posicionen per sobre de GPT-6 Astra i Claude Opus 5.5.\nJa feia massa temps que Google no prestava batalla en els models de frontera, i ha tornat amb el cap ben alt.",
+    "es": "Anthropic ha enseñado que los agentes de Claude pueden presentar visados y denuncias falsas, y la Casa Blanca ya exige notificación inmediata. Me parece razonable, pero también un poco tarde: primero los contratiempos, después la norma. Mientras tanto, Meta y Google compiten a golpe de modelos frontera como si nada. Quizás habría que preguntarse si alguien lee los informes antes de que los agentes actúen.\n\nMe ha alegrado especialmente el lanzamiento de Gemini 4 Argon por parte de google. Un modelo que algunos benchmarks posicionan por encima de GPT-6 Astra y Claude Opus 5.5.\nYa hacía demasiado tiempo que Google no presentaba batalla en los modelos de frontera, y ha vuelto con la cabeza bien alta.",
+    "en": "Anthropic has shown that Claude's agents can file fake visas and complaints, and the White House now demands immediate notification. It seems reasonable to me, but also a bit late: first the mishaps, then the rule. Meanwhile, Meta and Google compete with frontier models as if nothing happened. Perhaps we should ask whether anyone reads the reports before the agents act.\n\nI was especially pleased by Google's launch of Gemini 4 Argon. A model that some benchmarks place above GPT-6 Astra and Claude Opus 5.5.\nIt had been too long since Google put up a fight in frontier models, and it has returned with its head held high."
+  },
+  "items": [
+    {
+      "id": "2026-42-01",
+      "n": 3,
+      "date": "2026-10-11",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "title": {
+        "ca": "Informe d'Anthropic sobre accions no intencionades de Claude provoca resposta de la Casa Blanca",
+        "es": "Informe de Anthropic sobre acciones no intencionadas de Claude provoca respuesta de la Casa Blanca",
+        "en": "Anthropic report on unintended Claude actions triggers White House response"
+      },
+      "line": {
+        "ca": "Anthropic va detallar agents de Claude que presentaven sol·licituds de visat i una falsa denúncia policial, fet que va provocar una exigència de notificació immediata d'activitat d'IA descontrolada.",
+        "es": "Anthropic detalló agentes de Claude que presentaban solicitudes de visado y una falsa denuncia policial, lo que provocó una exigencia de notificación inmediata de actividad de IA descontrolada.",
+        "en": "Anthropic detailed Claude agents submitting visa applications and a false police tip, prompting a demand for immediate reporting of rogue AI activity."
+      },
+      "og": {
+        "ca": "Informe d'Anthropic sobre accions no volgudes de Claude",
+        "es": "Informe de Anthropic sobre acciones no deseadas de Claude",
+        "en": "Anthropic report on unintended Claude actions"
+      }
+    },
+    {
+      "id": "2026-42-02",
+      "n": 3,
+      "date": "2026-10-13",
+      "company": "Meta",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "title": {
+        "ca": "Meta llança els models frontera Muse Wonder i Wonder Full",
+        "es": "Meta lanza los modelos frontera Muse Wonder y Wonder Full",
+        "en": "Meta releases Muse Wonder and Wonder Full frontier models"
+      },
+      "line": {
+        "ca": "Els primers models de classe frontera de Meta afegeixen més capacitat de codificació, rendiment en benchmark i memòria activa per a informació proporcionada per l'usuari.",
+        "es": "Los primeros modelos de clase frontera de Meta añaden mayor capacidad de codificación, rendimiento en benchmark y memoria activa para información proporcionada por el usuario.",
+        "en": "Meta's first frontier-class models add stronger coding, benchmark performance, and active memory for user-provided information."
+      },
+      "og": {
+        "ca": "Meta llança els models Muse Wonder i Wonder Full",
+        "es": "Meta lanza los modelos Muse Wonder y Wonder Full",
+        "en": "Meta releases Muse Wonder and Wonder Full models"
+      }
+    },
+    {
+      "id": "2026-42-03",
+      "n": 3,
+      "date": "2026-10-14",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "title": {
+        "ca": "Google llança Gemini 4 Argon per a subscriptors Pro i Ultra i API de pagament",
+        "es": "Google lanza Gemini 4 Argon para suscriptores Pro y Ultra y API de pago",
+        "en": "Google launches Gemini 4 Argon for Pro and Ultra subscribers and paid API"
+      },
+      "line": {
+        "ca": "Argon empata amb GPT-6 Astra amb 53 a l'Intelligence Index d'Artificial Analysis i obté un 15% d'al·lucinació enfront del 51% d'Astra.",
+        "es": "Argon empata con GPT-6 Astra con 53 en el Intelligence Index de Artificial Analysis y obtiene un 15% de alucinación frente al 51% de Astra.",
+        "en": "Argon ties GPT-6 Astra at 53 on Artificial Analysis's Intelligence Index and scores 15% hallucination versus 51% for Astra."
+      },
+      "og": {
+        "ca": "Google llança Gemini 4 Argon per a Pro i Ultra",
+        "es": "Google lanza Gemini 4 Argon para Pro y Ultra",
+        "en": "Google launches Gemini 4 Argon for Pro and Ultra"
+      }
+    },
+    {
+      "id": "2026-42-04",
+      "n": 3,
+      "date": "2026-10-16",
+      "company": "Meta",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "title": {
+        "ca": "Meta llança Muse Spark Open, un model multimodal de pesos oberts de 816B de paràmetres",
+        "es": "Meta lanza Muse Spark Open, un modelo multimodal de pesos abiertos de 816B de parámetros",
+        "en": "Meta releases Muse Spark Open, an 816B-parameter open-weight multimodal model"
+      },
+      "line": {
+        "ca": "El model té 42B de paràmetres actius, una finestra de context d'1M de tokens i s'orienta a la codificació i a tasques agèntiques de llarg horitzó.",
+        "es": "El modelo tiene 42B de parámetros activos, una ventana de contexto de 1M de tokens y se orienta a la codificación y a tareas agénticas de largo horizonte.",
+        "en": "The model has 42B active parameters, a 1M-token context window, and targets coding and long-horizon agentic tasks."
+      }
+    },
+    {
+      "id": "2026-42-05",
+      "n": 3,
+      "date": "2026-10-16",
+      "company": "Anthropic",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "title": {
+        "ca": "Anthropic amplia l'accés independent per als avaluadors de seguretat de la IA",
+        "es": "Anthropic amplía el acceso independiente para los evaluadores de seguridad de la IA",
+        "en": "Anthropic expands independent access for AI safety evaluators"
+      },
+      "line": {
+        "ca": "Anthropic va donar a METR un accés similar al d'un empleat als models, la informació d'entrenament i les salvaguardes perquè pogués avaluar de manera independent els riscos dels models frontera.",
+        "es": "Anthropic dio a METR un acceso similar al de un empleado a los modelos, la información de entrenamiento y las salvaguardas para que pudiera evaluar de forma independiente los riesgos de los modelos frontera.",
+        "en": "Anthropic gave METR employee-like access to models, training information and safeguards so it could independently assess frontier-model risks."
+      }
+    },
+    {
+      "id": "2026-42-06",
+      "n": 2,
+      "date": "2026-10-11",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://typesafe.ai/blog/series-ai",
+      "title": {
+        "ca": "TypeSafe AI recapta 870 milions de dòlars amb una valoració de 7.500 milions",
+        "es": "TypeSafe AI recauda 870 millones de dólares con una valoración de 7.500 millones",
+        "en": "TypeSafe AI raises $870M at $7.5B valuation"
+      },
+      "line": {
+        "ca": "L'empresa va dir que el seu model System One Jev ja l'utilitza un terç de la Fortune 500.",
+        "es": "La empresa dijo que su modelo System One Jev ya lo utiliza un tercio de la Fortune 500.",
+        "en": "The company said its System One model Jev is already used by a third of the Fortune 500."
+      }
+    },
+    {
+      "id": "2026-42-07",
+      "n": 2,
+      "date": "2026-10-11",
+      "company": "Google",
+      "category": "models",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/",
+      "title": {
+        "ca": "Un informe apunta a un possible desplegament més ampli de Gemini 4 Argon la setmana que ve",
+        "es": "Un informe apunta a un posible despliegue más amplio de Gemini 4 Argon la próxima semana",
+        "en": "Report points to possible wider Gemini 4 Argon rollout next week"
+      },
+      "line": {
+        "ca": "Les referències a Antigravity suggereixen un desplegament més ampli mentre empleats de Google proven un checkpoint Carbon separat per a codificació.",
+        "es": "Las referencias a Antigravity sugieren un despliegue más amplio mientras empleados de Google prueban un checkpoint Carbon separado para codificación.",
+        "en": "Antigravity references suggest a broader rollout while Google employees test a separate Carbon checkpoint for coding."
+      }
+    },
+    {
+      "id": "2026-42-08",
+      "n": 2,
+      "date": "2026-10-12",
+      "company": "Amazon",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad?st=r73g4r",
+      "title": {
+        "ca": "Amazon en converses per comprar la startup d'IA Decart per uns 7.000 milions de dòlars",
+        "es": "Amazon en conversaciones para comprar la startup de IA Decart por unos 7.000 millones de dólares",
+        "en": "Amazon in talks to buy AI startup Decart for around $7 billion"
+      },
+      "line": {
+        "ca": "El programari de Decart ajuda els desenvolupadors a canviar entre diferents xips d'IA.",
+        "es": "El software de Decart ayuda a los desarrolladores a cambiar entre diferentes chips de IA.",
+        "en": "Decart's software helps developers switch between different AI chips."
+      }
+    },
+    {
+      "id": "2026-42-09",
+      "n": 2,
+      "date": "2026-10-12",
+      "company": "Microsoft",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "title": {
+        "ca": "Microsoft llança el model Microsoft-Decision-1 per a la presa de decisions ràpida",
+        "es": "Microsoft lanza el modelo Microsoft-Decision-1 para la toma de decisiones rápida",
+        "en": "Microsoft releases Microsoft-Decision-1 model for fast decision-making"
+      },
+      "line": {
+        "ca": "El model està disponible a Microsoft Foundry i OpenRouter per a encaminament, classificació, priorització i control de fluxos de treball.",
+        "es": "El modelo está disponible en Microsoft Foundry y OpenRouter para enrutamiento, clasificación, priorización y control de flujos de trabajo.",
+        "en": "The model is available in Microsoft Foundry and OpenRouter for routing, classification, prioritization and workflow control."
+      }
+    },
+    {
+      "id": "2026-42-10",
+      "n": 2,
+      "date": "2026-10-13",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/",
+      "title": {
+        "ca": "Character.ai presenta una sol·licitud de fallida del Capítol 11",
+        "es": "Character.ai presenta una solicitud de quiebra del Capítulo 11",
+        "en": "Character.ai files for Chapter 11 bankruptcy"
+      },
+      "line": {
+        "ca": "L'empresa busca una venda supervisada pel tribunal després de pressions legals, reguladores i operatives, i podria ser liquidada.",
+        "es": "La empresa busca una venta supervisada por el tribunal tras presiones legales, regulatorias y operativas, y podría ser liquidada.",
+        "en": "The company seeks a court-supervised sale after legal, regulatory and operational pressures, and may be wound down."
+      }
+    },
+    {
+      "id": "2026-42-11",
+      "n": 2,
+      "date": "2026-10-13",
+      "company": "Z.ai",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/Zai_org/status/2109678174468534511",
+      "title": {
+        "ca": "Z.ai llança el model GLM-Legal per a revisió de contractes i recerca de compliment normatiu",
+        "es": "Z.ai lanza el modelo GLM-Legal para revisión de contratos e investigación de cumplimiento normativo",
+        "en": "Z.ai launches GLM-Legal model for contract review and compliance research"
+      },
+      "line": {
+        "ca": "El model legal està en beta només per sol·licitud i Z.ai aconsella que un advocat encara revisi la sortida.",
+        "es": "El modelo legal está en beta solo por solicitud y Z.ai aconseja que un abogado aún revise la salida.",
+        "en": "The legal model is in application-only beta and Z.ai advises a lawyer should still check the output."
+      }
+    },
+    {
+      "id": "2026-42-12",
+      "n": 2,
+      "date": "2026-10-13",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "title": {
+        "ca": "Anthropic estudia fins a quin punt els models d'IA s'aproximen a l'autoreplicació",
+        "es": "Anthropic estudia hasta qué punto los modelos de IA se acercan a la autorreplicación",
+        "en": "Anthropic studies how close AI models are to self-replication"
+      },
+      "line": {
+        "ca": "Anthropic va provar models en la còpia autònoma d'ells mateixos en maquinari de consum, des de passos individuals fins a l'execució completa d'extrem a extrem.",
+        "es": "Anthropic probó modelos en la copia autónoma de sí mismos en hardware de consumo, desde pasos individuales hasta la ejecución completa de extremo a extremo.",
+        "en": "Anthropic tested models on autonomously copying themselves across consumer hardware, from single steps to full end-to-end execution."
+      }
+    },
+    {
+      "id": "2026-42-13",
+      "n": 2,
+      "date": "2026-10-13",
+      "company": "Microsoft",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "title": {
+        "ca": "Microsoft ampliarà els xips Maia propis a desplegaments de diversos gigawatts a partir del 2027",
+        "es": "Microsoft ampliará sus chips Maia propios a despliegues de varios gigavatios a partir de 2027",
+        "en": "Microsoft to scale in-house Maia chips to multi-gigawatt deployments from 2027"
+      },
+      "line": {
+        "ca": "Microsoft va dir que ampliarà el seu sistema Azure Maia a desplegaments de diversos gigawatts a partir del 2027.",
+        "es": "Microsoft dijo que ampliará su sistema Azure Maia a despliegues de varios gigavatios a partir de 2027.",
+        "en": "Microsoft said it will expand its Azure Maia system to multi-gigawatt deployments starting in 2027."
+      }
+    },
+    {
+      "id": "2026-42-14",
+      "n": 2,
+      "date": "2026-10-14",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://news.az/news/nvidia-plans-2-billion-in-new-european-ai-investments",
+      "title": {
+        "ca": "Nvidia planeja uns 2.000 milions d'euros en nous acords d'IA a Europa",
+        "es": "Nvidia planea unos 2.000 millones de euros en nuevos acuerdos de IA en Europa",
+        "en": "Nvidia plans about €2B in new European AI deals"
+      },
+      "line": {
+        "ca": "Jensen Huang va dir que l'empresa presentarà els acords la setmana que ve, a més dels 8.000 milions invertits durant l'últim any.",
+        "es": "Jensen Huang dijo que la empresa presentará los acuerdos la próxima semana, además de los 8.000 millones invertidos durante el último año.",
+        "en": "Jensen Huang said the company will unveil the deals in the coming week, on top of $8B invested over the past year."
+      }
+    },
+    {
+      "id": "2026-42-15",
+      "n": 2,
+      "date": "2026-10-14",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://ca.finance.yahoo.com/news/scientists-call-international-body-oversee-100341239.html",
+      "title": {
+        "ca": "Més de 400 investigadors d'IA demanen sandboxes i estàndards de contenció més forts",
+        "es": "Más de 400 investigadores de IA piden sandboxes y estándares de contención más fuertes",
+        "en": "Over 400 AI researchers call for stronger sandboxes and containment standards"
+      },
+      "line": {
+        "ca": "Una coalició que inclou Bengio i Hinton insta a una contenció d'alta garantia, aïllament físic i notificació pública de les fallades de seguretat de la IA.",
+        "es": "Una coalición que incluye a Bengio y Hinton insta a una contención de alta garantía, aislamiento físico y notificación pública de los fallos de seguridad de la IA.",
+        "en": "Coalition including Bengio and Hinton urges high-assurance containment, airgapping and public reporting of AI security failures."
+      }
+    },
+    {
+      "id": "2026-42-16",
+      "n": 2,
+      "date": "2026-10-14",
+      "company": "xAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/SpaceXSI/status/2109783335296008414?s=20",
+      "title": {
+        "ca": "SpaceXSI agrupa X Premium, Grok i Cursor en una sola subscripció",
+        "es": "SpaceXSI agrupa X Premium, Grok y Cursor en una sola suscripción",
+        "en": "SpaceXSI bundles X Premium, Grok and Cursor into one subscription"
+      },
+      "line": {
+        "ca": "SpaceXSI va llançar \"The X Subscription\", que combina X Premium, Grok i Cursor en un sol pla.",
+        "es": "SpaceXSI lanzó \"The X Subscription\", que combina X Premium, Grok y Cursor en un solo plan.",
+        "en": "SpaceXSI launched \"The X Subscription,\" combining X Premium, Grok and Cursor in one plan."
+      }
+    },
+    {
+      "id": "2026-42-17",
+      "n": 2,
+      "date": "2026-10-15",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://in.marketscreener.com/news/anthropic-s-q3-revenue-surges-45-to-nearly-17-billion-ce785dd2d08cf221",
+      "title": {
+        "ca": "Anthropic hauria arribat a 16.800 milions de dòlars d'ingressos trimestrals abans d'una possible OPV",
+        "es": "Anthropic habría alcanzado 16.800 millones de dólares de ingresos trimestrales antes de una posible OPV",
+        "en": "Anthropic reportedly reached $16.8B in quarterly revenue ahead of possible IPO"
+      },
+      "line": {
+        "ca": "Els ingressos van créixer un 45% respecte al segon trimestre amb un marge brut ajustat del 85%, segons una presentació a inversors privats, no un registre auditat.",
+        "es": "Los ingresos crecieron un 45% respecto al segundo trimestre con un margen bruto ajustado del 85%, según una presentación a inversores privados, no un registro auditado.",
+        "en": "Revenue rose 45% from Q2 with an 85% adjusted gross margin, per a private investor presentation, not an audited filing."
+      }
+    },
+    {
+      "id": "2026-42-18",
+      "n": 2,
+      "date": "2026-10-15",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-announces-lawsuit-against-openai-for-deceiving-iowa-parents-and-iowans",
+      "title": {
+        "ca": "Vuit fiscals generals estatals demanden OpenAI per les afirmacions sobre seguretat infantil",
+        "es": "Ocho fiscales generales estatales demandan a OpenAI por las afirmaciones sobre seguridad infantil",
+        "en": "Eight state attorneys general sue OpenAI over child safety claims"
+      },
+      "line": {
+        "ca": "La demanda acusa OpenAI d'enganyar les famílies sobre la seguretat de ChatGPT i d'exposar menors a interaccions perjudicials.",
+        "es": "La demanda acusa a OpenAI de engañar a las familias sobre la seguridad de ChatGPT y de exponer a menores a interacciones perjudiciales.",
+        "en": "The suit accuses OpenAI of misleading families about ChatGPT's safety and exposing minors to harmful interactions."
+      }
+    },
+    {
+      "id": "2026-42-19",
+      "n": 2,
+      "date": "2026-10-15",
+      "company": "xAI",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/SpaceXSI/status/2110416580899168305?s=20",
+      "title": {
+        "ca": "xAI anuncia el model de veu a veu Grok Voice 3.0",
+        "es": "xAI anuncia el modelo de voz a voz Grok Voice 3.0",
+        "en": "xAI announces Grok Voice 3.0 speech-to-speech model"
+      },
+      "line": {
+        "ca": "Grok Voice 3.0 ofereix una latència inferior a un segon i un rendiment millorat en atenció al client.",
+        "es": "Grok Voice 3.0 ofrece una latencia inferior a un segundo y un rendimiento mejorado en atención al cliente.",
+        "en": "Grok Voice 3.0 offers sub-second latency and improved customer-support performance."
+      }
+    },
+    {
+      "id": "2026-42-20",
+      "n": 2,
+      "date": "2026-10-15",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "title": {
+        "ca": "L'agent Deep Review de Google verifica documents tècnics",
+        "es": "El agente Deep Review de Google verifica documentos técnicos",
+        "en": "Google Deep Review agent verifies technical documents"
+      },
+      "line": {
+        "ca": "L'agent Deep Review de Google proporciona comentaris rigorosos i verificació tècnica sobre documents complexos, inicialment amb suport per a PDF i text pla.",
+        "es": "El agente Deep Review de Google proporciona comentarios rigurosos y verificación técnica sobre documentos complejos, inicialmente con soporte para PDF y texto plano.",
+        "en": "Google's Deep Review agent provides rigorous feedback and technical verification on complex documents, initially supporting PDFs and plain text."
+      }
+    },
+    {
+      "id": "2026-42-21",
+      "n": 2,
+      "date": "2026-10-16",
+      "company": "Amazon",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+      "title": {
+        "ca": "Amazon amplia Bee amb el wearable Bee Frontier i l'accessori per a telèfon Bee Eclipse",
+        "es": "Amazon amplía Bee con el wearable Bee Frontier y el accesorio para teléfono Bee Eclipse",
+        "en": "Amazon expands Bee with Bee Frontier wearable and Bee Eclipse phone attachment"
+      },
+      "line": {
+        "ca": "El wearable de 74,99 dòlars i l'accessori magnètic des de 99,99 dòlars converteixen les converses en resums i tasques.",
+        "es": "El wearable de 74,99 dólares y el accesorio magnético desde 99,99 dólares convierten las conversaciones en resúmenes y tareas.",
+        "en": "The $74.99 wearable and the magnetic attachment from $99.99 turn conversations into summaries and tasks."
+      }
+    },
+    {
+      "id": "2026-42-22",
+      "n": 2,
+      "date": "2026-10-16",
+      "company": "Perplexity",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.perplexity.ai/el/hub/blog/open-sourcing-space",
+      "title": {
+        "ca": "Perplexity allibera SPACE, el sandbox darrere del seu agent Computer",
+        "es": "Perplexity libera SPACE, el sandbox detrás de su agente Computer",
+        "en": "Perplexity open-sources SPACE, the sandbox behind its Computer agent"
+      },
+      "line": {
+        "ca": "Perplexity informa que els agents no van escapar de la màquina virtual en 108 intents de red team.",
+        "es": "Perplexity informa que los agentes no escaparon de la máquina virtual en 108 intentos de red team.",
+        "en": "Perplexity reports agents did not escape the virtual machine in 108 red-team attempts."
+      }
+    },
+    {
+      "id": "2026-42-23",
+      "n": 2,
+      "date": "2026-10-16",
+      "company": "NVIDIA",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/?ncid=so-twit-170075",
+      "title": {
+        "ca": "NVIDIA llança el model de raonament multimodal Nemotron 3.5 Super VL",
+        "es": "NVIDIA lanza el modelo de razonamiento multimodal Nemotron 3.5 Super VL",
+        "en": "NVIDIA releases Nemotron 3.5 Super VL multimodal reasoning model"
+      },
+      "line": {
+        "ca": "Va obtenir 26,5 a l'Intelligence Index d'Artificial Analysis utilitzant menys tokens de sortida que el seu predecessor; NVIDIA també va llançar Nemotron 3.5 Bolt 74B-A9B.",
+        "es": "Obtuvo 26,5 en el Intelligence Index de Artificial Analysis utilizando menos tokens de salida que su predecesor; NVIDIA también lanzó Nemotron 3.5 Bolt 74B-A9B.",
+        "en": "It scored 26.5 on Artificial Analysis' Intelligence Index using fewer output tokens than its predecessor; NVIDIA also released Nemotron 3.5 Bolt 74B-A9B."
+      }
+    },
+    {
+      "id": "2026-42-24",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/realBigBrainAI/status/2108513103734530130",
+      "title": {
+        "ca": "OpenAI va publicar 722 articles escrits per IA i després en va retirar 3 per un error de signe",
+        "es": "OpenAI publicó 722 artículos escritos por IA y luego retiró 3 por un error de signo",
+        "en": "OpenAI posted 722 AI-written papers, then pulled 3 over a sign error"
+      },
+      "line": {
+        "ca": "Tres articles es van retirar un dia després de publicar-se, mentre els investigadors esbrinen quins projectes van ser anticipats.",
+        "es": "Tres artículos se retiraron un día después de publicarse, mientras los investigadores averiguan qué proyectos fueron anticipados.",
+        "en": "Three papers were withdrawn a day after posting, while researchers sort out which projects were preempted."
+      }
+    },
+    {
+      "id": "2026-42-25",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "Google",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+      "title": {
+        "ca": "Google prova el xatbot mèdic AMIE amb 98 pacients abans de visites d'urgència",
+        "es": "Google prueba el chatbot médico AMIE con 98 pacientes antes de visitas de urgencia",
+        "en": "Google tests AMIE medical chatbot with 98 patients before urgent-care visits"
+      },
+      "line": {
+        "ca": "Google diu que el diagnòstic final dels metges va aparèixer a la llista de diagnòstics possibles d'AMIE el 90% de les vegades en un estudi sense grup de comparació.",
+        "es": "Google dice que el diagnóstico final de los médicos apareció en la lista de diagnósticos posibles de AMIE el 90% de las veces en un estudio sin grupo de comparación.",
+        "en": "Google says doctors' final diagnosis appeared on AMIE's list of possible diagnoses 90% of the time in a study without a comparison group."
+      }
+    },
+    {
+      "id": "2026-42-26",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://commerce.utah.gov/ai/regulatory-relief-4/authorized-pilots/",
+      "title": {
+        "ca": "Utah aprova pilots d'IA sanitària que podrien permetre a la IA renovar receptes abans de la revisió clínica",
+        "es": "Utah aprueba pilotos de IA sanitaria que podrían permitir a la IA renovar recetas antes de la revisión clínica",
+        "en": "Utah approves healthcare AI pilots that could let AI refill prescriptions before clinician review"
+      },
+      "line": {
+        "ca": "El pilot previst d'August AI podria permetre a la IA aprovar una renovació de 90 dies sense que un clínic la revisi primer, pendent de l'aprovació estatal.",
+        "es": "El piloto previsto de August AI podría permitir a la IA aprobar una renovación de 90 días sin que un clínico la revise primero, pendiente de la aprobación estatal.",
+        "en": "August AI's planned pilot could let AI approve a 90-day refill without a clinician checking it first, pending state approval."
+      }
+    },
+    {
+      "id": "2026-42-27",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "title": {
+        "ca": "Google Playground converteix prompts en jocs de navegador jugables",
+        "es": "Google Playground convierte prompts en juegos de navegador jugables",
+        "en": "Google Playground turns prompts into playable browser games"
+      },
+      "line": {
+        "ca": "La plataforma experimental permet als usuaris dels EUA de 18 anys o més crear, compartir i remesclar jocs de navegador a partir de prompts.",
+        "es": "La plataforma experimental permite a los usuarios de EE. UU. de 18 años o más crear, compartir y remezclar juegos de navegador a partir de prompts.",
+        "en": "The experimental platform lets US users aged 18 and over create, share and remix browser games from prompts."
+      }
+    },
+    {
+      "id": "2026-42-28",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "",
+      "title": {
+        "ca": "Manus recapta més de 500 milions de dòlars en un nou finançament",
+        "es": "Manus recauda más de 500 millones de dólares en una nueva financiación",
+        "en": "Manus raises more than $500 million in new funding"
+      },
+      "line": {
+        "ca": "La startup d'agents d'IA va recaptar més de 500 milions de dòlars en una nova ronda de finançament.",
+        "es": "La startup de agentes de IA recaudó más de 500 millones de dólares en una nueva ronda de financiación.",
+        "en": "The AI agent startup raised over $500M in a new funding round."
+      }
+    },
+    {
+      "id": "2026-42-29",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.regjeringen.no/no/aktuelt/vil-innfore-midlertidig-forbud-mot-ki-briller/id3175516/",
+      "title": {
+        "ca": "Noruega proposa una prohibició temporal de les ulleres d'IA en espais públics seleccionats",
+        "es": "Noruega propone una prohibición temporal de las gafas de IA en espacios públicos seleccionados",
+        "en": "Norway proposes temporary ban on AI glasses in selected public spaces"
+      },
+      "line": {
+        "ca": "La proposta abasta parcs, platges i escoles per preocupacions sobre enregistrament ocult.",
+        "es": "La propuesta abarca parques, playas y escuelas por preocupaciones sobre grabación oculta.",
+        "en": "The proposal covers parks, beaches and schools over hidden-recording concerns."
+      }
+    },
+    {
+      "id": "2026-42-30",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://shield.ai/shield-ai-and-u-s-government-investment-in-x-bat-reaches-400-million/",
+      "title": {
+        "ca": "Els compromisos pel caça X-BAT de Shield AI arriben als 400 milions de dòlars",
+        "es": "Los compromisos por el caza X-BAT de Shield AI alcanzan los 400 millones de dólares",
+        "en": "Shield AI X-BAT fighter commitments reach $400M"
+      },
+      "line": {
+        "ca": "Els compromisos totals pel caça X-BAT pilotat per IA van arribar als 400 milions de dòlars, amb proves de vol previstes per a finals d'any.",
+        "es": "Los compromisos totales por el caza X-BAT pilotado por IA alcanzaron los 400 millones de dólares, con pruebas de vuelo previstas para finales de año.",
+        "en": "Total commitments for the AI-piloted X-BAT fighter reached $400M, with flight testing expected by year-end."
+      }
+    },
+    {
+      "id": "2026-42-31",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
+      "title": {
+        "ca": "NVIDIA compromet 1.000 milions de dòlars en cinc anys a la recerca sobre superintel·ligència als EUA",
+        "es": "NVIDIA compromete 1.000 millones de dólares en cinco años a la investigación sobre superinteligencia en EE. UU.",
+        "en": "NVIDIA commits $1B over five years to US super-intelligence research"
+      },
+      "line": {
+        "ca": "El finançament es dirigeix a la capacitat de recerca en computació quàntica, salut i seguretat energètica.",
+        "es": "La financiación se dirige a la capacidad de investigación en computación cuántica, salud y seguridad energética.",
+        "en": "The funding targets quantum computing, healthcare and energy security research capacity."
+      }
+    },
+    {
+      "id": "2026-42-32",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c9fd326fd03eaf52f672c31cde9658af-Abstract-Conference.html",
+      "title": {
+        "ca": "Investigadors del Weizmann utilitzen IA per reconstruir imatges vistes a partir d'escànners cerebrals",
+        "es": "Investigadores del Weizmann utilizan IA para reconstruir imágenes vistas a partir de escáneres cerebrales",
+        "en": "Weizmann researchers use AI to reconstruct viewed images from brain scans"
+      },
+      "line": {
+        "ca": "El treball converteix escànners cerebrals en reconstruccions d'imatges que les persones estaven mirant.",
+        "es": "El trabajo convierte escáneres cerebrales en reconstrucciones de imágenes que las personas estaban mirando.",
+        "en": "The work turns brain scans into reconstructions of pictures people were looking at."
+      }
+    },
+    {
+      "id": "2026-42-33",
+      "n": 1,
+      "date": "2026-10-11",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theneurondaily.com/p/october-08-thursday",
+      "title": {
+        "ca": "ChatGPT incorpora gràfics interactius i calculadores a la seva pestanya de xat",
+        "es": "ChatGPT incorpora gráficos interactivos y calculadoras en su pestaña de chat",
+        "en": "ChatGPT gains interactive charts and calculators in its Chat tab"
+      },
+      "line": {
+        "ca": "La funció utilitza components preconstruïts per explorar informació dins del xat.",
+        "es": "La función utiliza componentes preconstruidos para explorar información dentro del chat.",
+        "en": "The feature uses prebuilt components to explore information inside the chat."
+      }
+    },
+    {
+      "id": "2026-42-34",
+      "n": 1,
+      "date": "2026-10-12",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house",
+      "title": {
+        "ca": "La Casa Blanca estableix una norma de notificació d'incidents d'IA després dels contratemps dels agents de Claude",
+        "es": "La Casa Blanca establece una norma de notificación de incidentes de IA tras los contratiempos de los agentes de Claude",
+        "en": "White House sets AI incident reporting rule after Claude agent mishaps"
+      },
+      "line": {
+        "ca": "La Casa Blanca ara exigeix a les empreses d'IA que divulguin i remediïn ràpidament les interaccions no autoritzades amb sistemes governamentals.",
+        "es": "La Casa Blanca ahora exige a las empresas de IA que divulguen y remedien rápidamente las interacciones no autorizadas con sistemas gubernamentales.",
+        "en": "The White House now requires AI companies to promptly disclose and remediate unauthorized interactions with government systems."
+      }
+    },
+    {
+      "id": "2026-42-35",
+      "n": 1,
+      "date": "2026-10-12",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
+      "title": {
+        "ca": "Anthropic hauria signat un acord cloud plurianual amb el miner IREN",
+        "es": "Anthropic habría firmado un acuerdo cloud plurianual con el minero IREN",
+        "en": "Anthropic reportedly signs multiyear cloud deal with miner IREN"
+      },
+      "line": {
+        "ca": "L'acord no anunciat arriba mentre Anthropic corre per posar en línia uns 530.000 milions de dòlars en contractes de centres de dades.",
+        "es": "El acuerdo no anunciado llega mientras Anthropic corre para poner en línea unos 530.000 millones de dólares en contratos de centros de datos.",
+        "en": "The unannounced deal comes as Anthropic races to bring about $530B in data-center leases online."
+      }
+    },
+    {
+      "id": "2026-42-36",
+      "n": 1,
+      "date": "2026-10-12",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+      "title": {
+        "ca": "Tesla reanomena Full Self-Driving com a Tesla Assisted Driving a Europa",
+        "es": "Tesla renombra Full Self-Driving como Tesla Assisted Driving en Europa",
+        "en": "Tesla renames Full Self-Driving to Tesla Assisted Driving in Europe"
+      },
+      "line": {
+        "ca": "El canvi va seguir que el ministre de transport d'Alemanya qualifiqués el nom antic de poc enganyós.",
+        "es": "El cambio siguió a que el ministro de transporte de Alemania calificara el nombre antiguo de algo engañoso.",
+        "en": "The change followed Germany's transport minister calling the old name somewhat misleading."
+      }
+    },
+    {
+      "id": "2026-42-37",
+      "n": 1,
+      "date": "2026-10-12",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.reuters.com/legal/transactional/sequoia-backed-chip-startup-nuvacore-raising-funds-about-25-billion-valuation-2026-10-09/",
+      "title": {
+        "ca": "Nuvacore recapta fons amb una valoració d'uns 2.500 milions de dòlars",
+        "es": "Nuvacore recauda fondos con una valoración de unos 2.500 millones de dólares",
+        "en": "Nuvacore raising funds at roughly $2.5B valuation"
+      },
+      "line": {
+        "ca": "Reuters va informar que la startup de xips, de sis mesos d'antiguitat, està recaptant centenars de milions tot i no tenir encara cap producte.",
+        "es": "Reuters informó que la startup de chips, de seis meses de antigüedad, está recaudando cientos de millones a pesar de no tener aún ningún producto.",
+        "en": "Reuters reported the six-month-old chip startup is raising hundreds of millions despite having no product yet."
+      }
+    },
+    {
+      "id": "2026-42-38",
+      "n": 1,
+      "date": "2026-10-12",
+      "company": "Other",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://sources.news/p/qualcomm-ceo-ai-phone",
+      "title": {
+        "ca": "El CEO de Qualcomm diu que els agents d'IA podrien desencadenar un supercicle de renovació d'smartphones",
+        "es": "El CEO de Qualcomm dice que los agentes de IA podrían desencadenar un superciclo de renovación de smartphones",
+        "en": "Qualcomm CEO says AI agents could spark smartphone upgrade supercycle"
+      },
+      "line": {
+        "ca": "Cristiano Amon va dir que les empreses d'IA volen telèfons que executin models de 100B de paràmetres el 2028.",
+        "es": "Cristiano Amon dijo que las empresas de IA quieren teléfonos que ejecuten modelos de 100B de parámetros en 2028.",
+        "en": "Cristiano Amon said AI companies want phones running 100B-parameter models by 2028."
+      }
+    },
+    {
+      "id": "2026-42-39",
+      "n": 1,
+      "date": "2026-10-12",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://gizmodo.com/contest-winning-microscope-thrown-out-for-using-generative-ai-2000824398",
+      "title": {
+        "ca": "Nikon desqualifica el guanyador d'un concurs per incomplir les normes d'IA generativa",
+        "es": "Nikon descalifica al ganador de un concurso por incumplir las normas de IA generativa",
+        "en": "Nikon disqualifies contest winner for breaking generative AI rules"
+      },
+      "line": {
+        "ca": "L'obra guanyadora del seu concurs Small World in Motion es va retirar i Nikon va dir que revisarà les normes.",
+        "es": "La obra ganadora de su concurso Small World in Motion se retiró y Nikon dijo que revisará las normas.",
+        "en": "The winning entry in its Small World in Motion contest was removed and Nikon said it will revisit the rules."
+      }
+    },
+    {
+      "id": "2026-42-40",
+      "n": 1,
+      "date": "2026-10-12",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "title": {
+        "ca": "La pel·lícula d'IA The Gifted guanya el gran premi Future Vision XPRIZE",
+        "es": "La película de IA The Gifted gana el gran premio Future Vision XPRIZE",
+        "en": "AI film The Gifted wins Future Vision XPRIZE grand prize"
+      },
+      "line": {
+        "ca": "La pel·lícula va rebre 100.000 dòlars més 2,5 milions de dòlars en finançament per a la producció del llargmetratge.",
+        "es": "La película recibió 100.000 dólares más 2,5 millones de dólares en financiación para la producción del largometraje.",
+        "en": "The film received $100K plus $2.5M in feature production funding."
+      }
+    }
+  ]
+}
