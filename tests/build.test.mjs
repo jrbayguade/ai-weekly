@@ -343,6 +343,8 @@ test('subscripció configurada: botó, enllaç a cada setmana, peu i finestra; T
   hi(html, /data-sitekey="0x4AAAAAAAprova"/);
   hi(html, /data-msg-falta="Escriu un correu vàlid\."/);
   hi(html, /data-msg-espera="Un moment, encara carrega\."/);
+  hi(html, /data-msg-enviant="Enviant…"/);
+  hi(html, /<p class="subs-estat" role="status" tabindex="-1">/);
   hi(html, /href="\/ai-weekly\/ca\/privacitat\/"/);
   hi(html, /src="\/ai-weekly\/subscriu\.js"/);
   no(html, /challenges\.cloudflare\.com/);
@@ -369,4 +371,13 @@ test('privacitat i confirmació, als tres idiomes', () => {
 test('el formulari de subscripció amagat (form.hidden) no el guanya el display:flex', () => {
   const css = fs.readFileSync(path.join(arrel, 'src/styles/brutal.css'), 'utf8');
   hi(css, /\.subs form\[hidden\]\s*\{\s*display:\s*none;?\s*\}/);
+});
+
+test('al mòbil la finestra cap a la pantalla i el missatge d’estat es veu', () => {
+  const css = fs.readFileSync(path.join(arrel, 'src/styles/brutal.css'), 'utf8');
+  hi(css, /dialog\.subs \{[^}]*max-height:\s*calc\(100dvh - 32px\);\s*overflow:\s*auto;/);
+  const js = fs.readFileSync(path.join(arrel, 'public/subscriu.js'), 'utf8');
+  hi(js, /form\.email\.blur\(\)/);
+  hi(js, /scrollIntoView\(\{ block: 'nearest' \}\)/);
+  hi(js, /AbortSignal\.timeout\(/);
 });

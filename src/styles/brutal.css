@@ -107,7 +107,8 @@ details.mes[open] > summary .mes-nom::before { content:'▾ '; }
 .autoria { margin-top:14px; font-weight:700; }
 .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
 .btn-subs { background:var(--rosa); }
-dialog.subs { padding:0; border:3px solid var(--negre); background:var(--rosa); color:var(--negre); box-shadow:8px 8px 0 var(--negre); width:min(460px, calc(100% - 32px)); }
+dialog.subs { padding:0; border:3px solid var(--negre); background:var(--rosa); color:var(--negre); box-shadow:8px 8px 0 var(--negre); width:min(460px, calc(100% - 32px));
+  max-height:calc(100dvh - 32px); overflow:auto; }
 dialog.subs::backdrop { background:rgba(0,0,0,.55); }
 .subs-cos { position:relative; padding:22px 20px 16px; }
 .subs h2 { font-family:'Archivo Black',sans-serif; font-weight:400; font-size:26px; line-height:1; margin:0 34px 14px 0; }

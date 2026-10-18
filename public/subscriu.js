@@ -29,29 +29,42 @@
   dlg.querySelector('.tanca').addEventListener('click', () => dlg.close());
   // un clic al fons (fora de .subs-cos) arriba al mateix <dialog>
   dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  // Al mòbil el teclat tapa la part de baix de la finestra, on surt l'estat: es tanca el teclat,
+  // el botó diu que està enviant i el missatge es porta a la vista.
+  const digues = (msg) => {
+    estat.textContent = msg;
+    estat.scrollIntoView({ block: 'nearest' });
+  };
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    form.email.blur();
     const token = widget !== null ? window.turnstile.getResponse(widget) : '';
     if (!form.email.checkValidity() || !form.email.value) {
-      estat.textContent = dlg.dataset.msgFalta;
+      digues(dlg.dataset.msgFalta);
       return;
     }
     if (!token) {
-      estat.textContent = dlg.dataset.msgEspera;
+      digues(dlg.dataset.msgEspera);
       return;
     }
+    const text = boto.textContent;
     boto.disabled = true;
+    boto.textContent = dlg.dataset.msgEnviant;
     estat.textContent = '';
     try {
       const r = await fetch(`${dlg.dataset.worker}/subscriu`, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: form.email.value, lang: document.documentElement.lang, turnstile: token }) });
+        body: JSON.stringify({ email: form.email.value, lang: document.documentElement.lang, turnstile: token }),
+        signal: AbortSignal.timeout(20000) });   // mai un botó penjat sense resposta
       if (r.status !== 202) throw new Error(String(r.status));
       form.hidden = true;
-      estat.textContent = dlg.dataset.msgOk;
+      digues(dlg.dataset.msgOk);
+      estat.focus();   // el botó que tenia el focus ja no hi és
     } catch {
-      estat.textContent = dlg.dataset.msgError;
-      boto.disabled = false;
+      digues(dlg.dataset.msgError);
       if (widget !== null) window.turnstile.reset(widget);
+    } finally {
+      boto.disabled = false;
+      boto.textContent = text;
     }
   });
 })();
