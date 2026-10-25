@@ -1,0 +1,869 @@
+{
+  "week": "2026-43",
+  "from": "2026-10-19",
+  "to": "2026-10-25",
+  "newsletters": 7,
+  "candidates": 197,
+  "note": {
+    "ca": "Els problemes de ciberseguretat provocats amb suport d'IA destaquen aquesta setmana. DeepSeek continua guanyant funcionalitats realment útils a preus molt competitius, alhora que aixeca una nova ronda amb CATL i Tencent, coincidint amb el govern xinès anunciant controls d'exportació sobre models d'IA. Mentrestant Anthropic continua creixent i ampliant la seva capacitat de còmput després de l'acord amb Nscale per 45.000 milions de dòlars. Qui pensava que la IA és una bombolla potser se sorprendrà quan vegi l'acord de la farmacèutica AstrZeneca amb Istro per 1500 milions de dòlars. Mentrestant encara veiem com startups que amb propostes de valor basades en IA continuen emergint i captant capital de manera important.",
+    "es": "Los problemas de ciberseguridad provocados con apoyo de IA destacan esta semana. DeepSeek sigue ganando funcionalidades realmente útiles a precios muy competitivos, al tiempo que levanta una nueva ronda con CATL y Tencent, coincidiendo con el gobierno chino anunciando controles de exportación sobre modelos de IA. Mientras tanto Anthropic sigue creciendo y ampliando su capacidad de cómputo tras el acuerdo con Nscale por 45.000 millones de dólares. Quien pensaba que la IA es una burbuja quizás se sorprenderá cuando vea el acuerdo de la farmacéutica AstrZeneca con Istro por 1500 millones de dólares. Mientras tanto todavía vemos cómo startups que con propuestas de valor basadas en IA siguen emergiendo y captando capital de manera importante.",
+    "en": "Cybersecurity problems caused with AI support stand out this week. DeepSeek continues to gain truly useful features at very competitive prices, while raising a new round with CATL and Tencent, coinciding with the Chinese government announcing export controls on AI models. Meanwhile Anthropic continues to grow and expand its computing capacity after the agreement with Nscale for 45 billion dollars. Those who thought AI is a bubble may be surprised when they see the pharmaceutical company AstrZeneca's agreement with Istro for 1500 million dollars. Meanwhile we still see how startups with AI-based value propositions continue to emerge and raise capital significantly."
+  },
+  "items": [
+    {
+      "id": "2026-43-01",
+      "n": 4,
+      "date": "2026-10-20",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "title": {
+        "ca": "MiniMax M3.1 Flash disponible a Ollama amb context d'1M de tokens",
+        "es": "MiniMax M3.1 Flash disponible en Ollama con contexto de 1M de tokens",
+        "en": "MiniMax M3.1 Flash available on Ollama with 1M token context"
+      },
+      "line": {
+        "ca": "El model enfocat a la programació i als agents, amb entrada d'imatge, s'allotja als EUA amb retenció zero de dades i és gratuït fins al 22 d'octubre.",
+        "es": "El modelo enfocado a la programación y a los agentes, con entrada de imagen, se aloja en EE. UU. con retención cero de datos y es gratuito hasta el 22 de octubre.",
+        "en": "The coding and agent-focused model with image input is hosted in the US with zero data retention and free until October 22."
+      },
+      "og": {
+        "ca": "MiniMax M3.1 Flash a Ollama amb 1M de context",
+        "es": "MiniMax M3.1 Flash en Ollama con 1M de contexto",
+        "en": "MiniMax M3.1 Flash on Ollama with 1M context"
+      }
+    },
+    {
+      "id": "2026-43-02",
+      "n": 3,
+      "date": "2026-10-19",
+      "company": "DeepSeek",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://api-docs.deepseek.com/news/news261017/",
+      "title": {
+        "ca": "DeepSeek llança les API Search i Fetch per a agents i RAG",
+        "es": "DeepSeek lanza las API Search y Fetch para agentes y RAG",
+        "en": "DeepSeek releases Search and Fetch APIs for agents and RAG"
+      },
+      "line": {
+        "ca": "Les API JSON en cru donen als agents resultats de cerca web en directe i contingut d'una sola pàgina retornat com a Markdown, utilitzant autenticació bearer de l'API de DeepSeek.",
+        "es": "Las API JSON en crudo dan a los agentes resultados de búsqueda web en vivo y contenido de una sola página devuelto como Markdown, usando autenticación bearer de la API de DeepSeek.",
+        "en": "The raw JSON APIs give agents live web search results and single-page content returned as Markdown, using DeepSeek API bearer auth."
+      },
+      "og": {
+        "ca": "DeepSeek llança APIs Search i Fetch per a agents",
+        "es": "DeepSeek lanza APIs Search y Fetch para agentes",
+        "en": "DeepSeek releases Search and Fetch APIs"
+      }
+    },
+    {
+      "id": "2026-43-03",
+      "n": 3,
+      "date": "2026-10-19",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "title": {
+        "ca": "Anthropic compromet inicialment un 5% del capital al nou Public Benefit Fund",
+        "es": "Anthropic compromete inicialmente un 5% del capital al nuevo Public Benefit Fund",
+        "en": "Anthropic commits initial 5% of equity to new Public Benefit Fund"
+      },
+      "line": {
+        "ca": "El fons donarà suport a iniciatives com abordar els impactes econòmics i laborals de la IA, amb més contribucions lligades al creixement de la valoració.",
+        "es": "El fondo apoyará iniciativas como abordar los impactos económicos y laborales de la IA, con más contribuciones ligadas al crecimiento de la valoración.",
+        "en": "The fund will support initiatives such as addressing AI's economic and labor impacts, with more contributions tied to valuation growth."
+      },
+      "og": {
+        "ca": "Anthropic dona un 5% inicial a un fons públic",
+        "es": "Anthropic cede un 5% inicial a un fondo público",
+        "en": "Anthropic gives initial 5% to Public Benefit Fund"
+      }
+    },
+    {
+      "id": "2026-43-04",
+      "n": 3,
+      "date": "2026-10-20",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "title": {
+        "ca": "Inception llança el model de llenguatge de difusió Mercury 3",
+        "es": "Inception lanza el modelo de lenguaje de difusión Mercury 3",
+        "en": "Inception launches Mercury 3 diffusion language model"
+      },
+      "line": {
+        "ca": "Inception afirma que Mercury 3 genera 1.068 tokens per segon en GPU NVIDIA i rivalitza amb GPT-6 Luna i Claude Haiku 5.5.",
+        "es": "Inception afirma que Mercury 3 genera 1.068 tokens por segundo en GPU NVIDIA y rivaliza con GPT-6 Luna y Claude Haiku 5.5.",
+        "en": "Inception claims Mercury 3 generates 1,068 tokens per second on NVIDIA GPUs and rivals GPT-6 Luna and Claude Haiku 5.5."
+      }
+    },
+    {
+      "id": "2026-43-05",
+      "n": 3,
+      "date": "2026-10-21",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "title": {
+        "ca": "OpenAI adquireix Orchestra Bio per al desenvolupament de fàrmacs amb IA",
+        "es": "OpenAI adquiere Orchestra Bio para el desarrollo de fármacos con IA",
+        "en": "OpenAI acquires Orchestra Bio for AI drug development"
+      },
+      "line": {
+        "ca": "OpenAI combinarà la plataforma de coordinació del desenvolupament de fàrmacs d'Orchestra Bio amb les seves eines d'IA per a ciències de la vida Rosalind.",
+        "es": "OpenAI combinará la plataforma de coordinación del desarrollo de fármacos de Orchestra Bio con sus herramientas de IA para ciencias de la vida Rosalind.",
+        "en": "OpenAI will combine Orchestra Bio's drug development coordination platform with its Rosalind life sciences AI tools."
+      }
+    },
+    {
+      "id": "2026-43-06",
+      "n": 3,
+      "date": "2026-10-21",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt",
+      "title": {
+        "ca": "ChatGPT afegeix xats bloquejats amb PIN i memòria separada",
+        "es": "ChatGPT añade chats bloqueados con PIN y memoria separada",
+        "en": "ChatGPT added PIN-locked chats with separate memory"
+      },
+      "line": {
+        "ca": "Els xats bloquejats amaguen converses sensibles darrere d'un PIN o Face ID i mantenen la seva memòria separada dels xats normals.",
+        "es": "Los chats bloqueados ocultan conversaciones sensibles tras un PIN o Face ID y mantienen su memoria separada de los chats normales.",
+        "en": "Locked chats hide sensitive conversations behind a PIN or Face ID and keep their memory apart from regular chats."
+      }
+    },
+    {
+      "id": "2026-43-07",
+      "n": 3,
+      "date": "2026-10-21",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://elevenlabs.io/docs/eleven-agents/customization/realtime-models",
+      "title": {
+        "ca": "ElevenLabs llança els models de veu a veu Eleven Realtime",
+        "es": "ElevenLabs lanza los modelos de voz a voz Eleven Realtime",
+        "en": "ElevenLabs launches Eleven Realtime speech-to-speech models"
+      },
+      "line": {
+        "ca": "Eleven Realtime és una nova classe de models de veu a veu per construir agents de veu naturals.",
+        "es": "Eleven Realtime es una nueva clase de modelos de voz a voz para construir agentes de voz naturales.",
+        "en": "Eleven Realtime is a new class of speech-to-speech models for building natural voice agents."
+      }
+    },
+    {
+      "id": "2026-43-08",
+      "n": 3,
+      "date": "2026-10-22",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "title": {
+        "ca": "Anthropic llança Claude Duet, un agent proactiu que s'executa al núvol",
+        "es": "Anthropic lanza Claude Duet, un agente proactivo que se ejecuta en la nube",
+        "en": "Anthropic launches Claude Duet, a proactive agent that runs in the cloud"
+      },
+      "line": {
+        "ca": "Claude Duet comprova les aplicacions connectades cada poques hores i envia missatges als usuaris només quan cal atenció, executant-se en la seva pròpia màquina virtual.",
+        "es": "Claude Duet comprueba las aplicaciones conectadas cada pocas horas y envía mensajes a los usuarios solo cuando algo requiere atención, ejecutándose en su propia máquina virtual.",
+        "en": "Claude Duet checks connected apps every few hours and messages users only when something needs attention, running on its own virtual machine."
+      }
+    },
+    {
+      "id": "2026-43-09",
+      "n": 3,
+      "date": "2026-10-22",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "title": {
+        "ca": "Els models d'OpenAI i Codex arriben a Google Cloud Model Garden",
+        "es": "Los modelos de OpenAI y Codex llegan a Google Cloud Model Garden",
+        "en": "OpenAI models and Codex coming to Google Cloud Model Garden"
+      },
+      "line": {
+        "ca": "La integració dona als clients de Google Cloud accés natiu als models frontera d'OpenAI i als fluxos de treball agèntics de Codex.",
+        "es": "La integración da a los clientes de Google Cloud acceso nativo a los modelos frontera de OpenAI y a los flujos de trabajo agénticos de Codex.",
+        "en": "The integration gives Google Cloud customers native access to OpenAI frontier models and Codex agentic workflows."
+      }
+    },
+    {
+      "id": "2026-43-10",
+      "n": 3,
+      "date": "2026-10-23",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://1password.com/press/2026/october/1password-for-agents-trust-layer-personal-ai-agents",
+      "title": {
+        "ca": "1Password llança una plataforma per a l'autenticació d'agents d'IA",
+        "es": "1Password lanza una plataforma para la autenticación de agentes de IA",
+        "en": "1Password launches platform for AI agent authentication"
+      },
+      "line": {
+        "ca": "Els agents poden sol·licitar credencials de la caixa forta que 1Password emplena automàticament als llocs mentre les manté ocultes a l'agent.",
+        "es": "Los agentes pueden solicitar credenciales de la caja fuerte que 1Password rellena automáticamente en los sitios mientras las mantiene ocultas al agente.",
+        "en": "Agents can request vault credentials that 1Password autofills into sites while keeping them hidden from the agent."
+      }
+    },
+    {
+      "id": "2026-43-11",
+      "n": 2,
+      "date": "2026-10-18",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.wsj.com/economy/trade/china-proposes-export-controls-on-ai-technologies-75ac2030",
+      "title": {
+        "ca": "La Xina proposa controls d'exportació sobre 23 elements d'IA, inclosos pesos de grans models",
+        "es": "China propone controles de exportación sobre 23 elementos de IA, incluidos pesos de grandes modelos",
+        "en": "China proposes export controls on 23 AI items including large model weights"
+      },
+      "line": {
+        "ca": "L'esborrany cobreix models amb 2 bilions o més de paràmetres o un rànquing mundial top-10, mentre que l'accés via API i aplicacions continuaria.",
+        "es": "El borrador cubre modelos con 2 billones o más de parámetros o un ranking mundial top-10, mientras que el acceso vía API y aplicaciones continuaría.",
+        "en": "The draft covers models with 2 trillion or more parameters or a top-10 world ranking, while API and app access would continue."
+      }
+    },
+    {
+      "id": "2026-43-12",
+      "n": 2,
+      "date": "2026-10-19",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.krea.ai/krea-3",
+      "title": {
+        "ca": "Krea 3 edita imatges en menys de 8 segons a resolució 2K",
+        "es": "Krea 3 edita imágenes en menos de 8 segundos a resolución 2K",
+        "en": "Krea 3 edits images in under 8 seconds at 2K resolution"
+      },
+      "line": {
+        "ca": "L'eina utilitza fins a 6 imatges de referència per mantenir la coherència de les edicions.",
+        "es": "La herramienta utiliza hasta 6 imágenes de referencia para mantener la coherencia de las ediciones.",
+        "en": "The tool uses up to 6 reference images to keep edits consistent."
+      }
+    },
+    {
+      "id": "2026-43-13",
+      "n": 2,
+      "date": "2026-10-19",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "title": {
+        "ca": "Disney accepta contractar la majoria de la plantilla de Character.AI després de la declaració de fallida",
+        "es": "Disney acepta contratar a la mayoría de la plantilla de Character.AI tras la declaración de quiebra",
+        "en": "Disney agrees to hire majority of Character.AI workforce after bankruptcy filing"
+      },
+      "line": {
+        "ca": "Disney va oferir feina a almenys 60 empleats de Character.AI per uns 60 milions de dòlars anuals, segons un escrit judicial.",
+        "es": "Disney ofreció empleo a al menos 60 empleados de Character.AI por unos 60 millones de dólares anuales, según un escrito judicial.",
+        "en": "Disney offered jobs to at least 60 Character.AI employees at an estimated $60M a year, per a legal filing."
+      }
+    },
+    {
+      "id": "2026-43-14",
+      "n": 2,
+      "date": "2026-10-20",
+      "company": "Amazon",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+      "title": {
+        "ca": "PyTorch introdueix el backend TorchNeuron per a AWS Trainium",
+        "es": "PyTorch introduce el backend TorchNeuron para AWS Trainium",
+        "en": "PyTorch introduces TorchNeuron backend for AWS Trainium"
+      },
+      "line": {
+        "ca": "TorchNeuron és un backend natiu de PyTorch de codi obert per a Trainium, publicat en beta pública sota Apache 2.0.",
+        "es": "TorchNeuron es un backend nativo de PyTorch de código abierto para Trainium, publicado en beta pública bajo Apache 2.0.",
+        "en": "TorchNeuron is an open-source native PyTorch backend for Trainium released in public beta under Apache 2.0."
+      }
+    },
+    {
+      "id": "2026-43-15",
+      "n": 2,
+      "date": "2026-10-20",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/openai/status/2112310345863930168",
+      "title": {
+        "ca": "OpenAI informa de millores en programació en llenguatges de programació antics",
+        "es": "OpenAI informa de mejoras en programación en lenguajes de programación antiguos",
+        "en": "OpenAI reports coding improvements in older programming languages"
+      },
+      "line": {
+        "ca": "OpenAI va informar de millores importants en programació i migració de programari en COBOL, Fortran i Visual Basic.",
+        "es": "OpenAI informó de mejoras importantes en programación y migración de software en COBOL, Fortran y Visual Basic.",
+        "en": "OpenAI reported major improvements in coding and software migration across COBOL, Fortran and Visual Basic."
+      }
+    },
+    {
+      "id": "2026-43-16",
+      "n": 2,
+      "date": "2026-10-20",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "title": {
+        "ca": "Anthropic hauria tancat un segon acord de còmput amb Nscale per 45.000 milions de dòlars",
+        "es": "Anthropic habría cerrado un segundo acuerdo de cómputo con Nscale por 45.000 millones de dólares",
+        "en": "Anthropic reportedly neared second $45B Nscale compute deal"
+      },
+      "line": {
+        "ca": "Bloomberg va informar que les converses arriben poc més d'un mes després del primer acord de còmput de 45.000 milions de dòlars entre tots dos.",
+        "es": "Bloomberg informó que las conversaciones llegan poco más de un mes después del primer acuerdo de cómputo de 45.000 millones de dólares entre ambos.",
+        "en": "Bloomberg reported the talks come a little over a month after the first $45B compute deal between the two."
+      }
+    },
+    {
+      "id": "2026-43-17",
+      "n": 2,
+      "date": "2026-10-21",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+      "title": {
+        "ca": "Gemini Personal Intelligence ja funciona a Android Auto",
+        "es": "Gemini Personal Intelligence ya funciona en Android Auto",
+        "en": "Gemini Personal Intelligence now works in Android Auto"
+      },
+      "line": {
+        "ca": "Els usuaris poden demanar-li que comprovi un vol des del correu o que navegui a un lloc a partir d'una foto, amb adhesió opcional i desplegament gradual.",
+        "es": "Los usuarios pueden pedirle que compruebe un vuelo desde el correo o que navegue a un lugar a partir de una foto, con adhesión opcional y despliegue gradual.",
+        "en": "Users can ask it to check a flight from email or navigate to a place from a photo, opt-in and rolling out."
+      }
+    },
+    {
+      "id": "2026-43-18",
+      "n": 2,
+      "date": "2026-10-21",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/kimmonismus/status/2112548663327158783",
+      "title": {
+        "ca": "Anthropic informa que Claude ha dissenyat proteïnes d'unió contra neurotoxines d'escorpí",
+        "es": "Anthropic informa que Claude ha diseñado proteínas de unión contra neurotoxinas de escorpión",
+        "en": "Anthropic reports Claude designed protein binders against scorpion neurotoxins"
+      },
+      "line": {
+        "ca": "Anthropic va publicar un informe sobre Claude dissenyant proteïnes d'unió com a part d'un experiment per accelerar el descobriment de fàrmacs.",
+        "es": "Anthropic publicó un informe sobre Claude diseñando proteínas de unión como parte de un experimento para acelerar el descubrimiento de fármacos.",
+        "en": "Anthropic published a report on Claude designing binders as part of an experiment on accelerating drug discovery."
+      }
+    },
+    {
+      "id": "2026-43-19",
+      "n": 2,
+      "date": "2026-10-21",
+      "company": "DeepSeek",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/deepseek-unveils-open-source-tool-to-help-cut-ai-operating-costs",
+      "title": {
+        "ca": "DeepSeek allibera el marc d'inferència DeepInfer",
+        "es": "DeepSeek libera el marco de inferencia DeepInfer",
+        "en": "DeepSeek open-sources DeepInfer inference framework"
+      },
+      "line": {
+        "ca": "DeepInfer impulsa el servei de producció de DeepSeek i permet a qualsevol executar DeepSeek-V4.1-Flash en GPU NVIDIA SM100 o NPU Huawei Ascend 950.",
+        "es": "DeepInfer impulsa el servicio de producción de DeepSeek y permite a cualquiera ejecutar DeepSeek-V4.1-Flash en GPU NVIDIA SM100 o NPU Huawei Ascend 950.",
+        "en": "DeepInfer powers DeepSeek's production serving and lets anyone run DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs or Huawei Ascend 950 NPUs."
+      }
+    },
+    {
+      "id": "2026-43-20",
+      "n": 2,
+      "date": "2026-10-21",
+      "company": "Mistral",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "title": {
+        "ca": "Mistral llança els models de veu Voxtral 3 i un SDK d'agents de veu",
+        "es": "Mistral lanza los modelos de voz Voxtral 3 y un SDK de agentes de voz",
+        "en": "Mistral launches Voxtral 3 speech models and voice agent SDK"
+      },
+      "line": {
+        "ca": "Voxtral 3 afegeix veu a text i text a veu en més de 50 idiomes, a més d'un SDK d'agents de veu per escoltar, raonar i parlar en temps real.",
+        "es": "Voxtral 3 añade voz a texto y texto a voz en más de 50 idiomas, además de un SDK de agentes de voz para escuchar, razonar y hablar en tiempo real.",
+        "en": "Voxtral 3 adds speech-to-text and text-to-speech in 50+ languages plus a voice agent SDK for real-time listening, reasoning and speaking."
+      }
+    },
+    {
+      "id": "2026-43-21",
+      "n": 2,
+      "date": "2026-10-21",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "title": {
+        "ca": "Otter.ai obté 320 milions de dòlars del Customer Value Fund de General Catalyst",
+        "es": "Otter.ai obtiene 320 millones de dólares del Customer Value Fund de General Catalyst",
+        "en": "Otter.ai secured $320M from General Catalyst's Customer Value Fund"
+      },
+      "line": {
+        "ca": "El finançament està lligat als retorns de la seva despesa en màrqueting en lloc de vendre accions.",
+        "es": "La financiación está ligada a los retornos de su gasto en marketing en lugar de vender acciones.",
+        "en": "The financing is tied to returns on its marketing spend instead of selling shares."
+      }
+    },
+    {
+      "id": "2026-43-22",
+      "n": 2,
+      "date": "2026-10-22",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.thedeepview.com/articles/php-s-flaws-show-the-stakes-of-ai-s-cyber-race",
+      "title": {
+        "ca": "OpenAI corregeix vulnerabilitats de PHP trobades amb GPT-5.6 Sol",
+        "es": "OpenAI corrige vulnerabilidades de PHP encontradas con GPT-5.6 Sol",
+        "en": "OpenAI patches PHP vulnerabilities found with GPT-5.6 Sol"
+      },
+      "line": {
+        "ca": "OpenAI va publicar un verificador de vulnerabilitats de PHP i va proposar un marc per coordinar respostes a falles descobertes per IA.",
+        "es": "OpenAI publicó un verificador de vulnerabilidades de PHP y propuso un marco para coordinar respuestas a fallos descubiertos por IA.",
+        "en": "OpenAI released a PHP vulnerability checker and proposed a framework for coordinating responses to AI-discovered flaws."
+      }
+    },
+    {
+      "id": "2026-43-23",
+      "n": 2,
+      "date": "2026-10-22",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+      "title": {
+        "ca": "Una versió manipulada de LiteLLM va robar credencials durant dues hores",
+        "es": "Una versión manipulada de LiteLLM robó credenciales durante dos horas",
+        "en": "Tampered LiteLLM release stole credentials for two hours"
+      },
+      "line": {
+        "ca": "LiteLLM va confirmar que una versió compromesa va estar activa el 21 d'octubre, i SafeDep diu que va robar credencials.",
+        "es": "LiteLLM confirmó que una versión comprometida estuvo activa el 21 de octubre, y SafeDep dice que robó credenciales.",
+        "en": "LiteLLM confirmed a compromised version was live on Oct 21, and SafeDep says it stole credentials."
+      }
+    },
+    {
+      "id": "2026-43-24",
+      "n": 2,
+      "date": "2026-10-23",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "title": {
+        "ca": "OpenAI s'acosta a una ronda de fins a 30.000 milions de dòlars amb una valoració d'1,25 bilions, liderada per inversors dels EAU",
+        "es": "OpenAI se acerca a una ronda de hasta 30.000 millones de dólares con una valoración de 1,25 billones, liderada por inversores de EAU",
+        "en": "OpenAI nears up to $30B funding round at $1.25T valuation led by UAE investors"
+      },
+      "line": {
+        "ca": "La ronda es presenta com un pont oportunista abans d'una possible OPV, amb signatures previstes per a la setmana que ve.",
+        "es": "La ronda se presenta como un puente oportunista antes de una posible OPV, con firmas previstas para la próxima semana.",
+        "en": "The round is positioned as an opportunistic bridge ahead of a potential IPO, with signatures targeted by next week."
+      }
+    },
+    {
+      "id": "2026-43-25",
+      "n": 2,
+      "date": "2026-10-23",
+      "company": "DeepSeek",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://hk.marketscreener.com/news/deepseek-raises-15-billion-in-challenge-to-leading-us-labs-bloomberg-news-reports-ce785cd9df8afe20",
+      "title": {
+        "ca": "DeepSeek hauria recaptat uns 15.000 milions de dòlars amb CATL i Tencent entre els inversors",
+        "es": "DeepSeek habría recaudado unos 15.000 millones de dólares con CATL y Tencent entre los inversores",
+        "en": "DeepSeek reportedly raised about $15B with CATL and Tencent among backers"
+      },
+      "line": {
+        "ca": "L'empresa no ha confirmat la ronda de finançament anunciada.",
+        "es": "La empresa no ha confirmado la ronda de financiación anunciada.",
+        "en": "The company has not confirmed the reported funding round."
+      }
+    },
+    {
+      "id": "2026-43-26",
+      "n": 2,
+      "date": "2026-10-23",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://live.euronext.com/en/financial-news/barclays-slash-5000-jobs-ai-powered-cost-cutting-drive",
+      "title": {
+        "ca": "Barclays planeja uns 5.000 acomiadaments, citant la IA entre les eines darrere de l'objectiu d'estalvi",
+        "es": "Barclays planea unos 5.000 despidos, citando la IA entre las herramientas detrás del objetivo de ahorro",
+        "en": "Barclays plans about 5,000 job cuts, citing AI among tools behind savings target"
+      },
+      "line": {
+        "ca": "Els acomiadaments representen aproximadament un 5% de la plantilla i donen suport a un objectiu d'estalvi de 1.100 milions de lliures per al 2027.",
+        "es": "Los despidos representan aproximadamente un 5% de la plantilla y apoyan un objetivo de ahorro de 1.100 millones de libras para 2027.",
+        "en": "The cuts are roughly 5% of the workforce and support a £1.1B savings target by 2027."
+      }
+    },
+    {
+      "id": "2026-43-27",
+      "n": 2,
+      "date": "2026-10-23",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.thedeepview.com/articles/independent-audits-catch-what-openai-missed",
+      "title": {
+        "ca": "METR i Redwood Research avaluen el monitoratge intern d'agents d'OpenAI",
+        "es": "METR y Redwood Research evalúan el monitoreo interno de agentes de OpenAI",
+        "en": "METR and Redwood Research assess OpenAI's internal agent monitoring"
+      },
+      "line": {
+        "ca": "L'avaluació de seguretat de tres setmanes va trobar vulnerabilitats que permetien als agents evadir el monitoratge o eludir les restriccions del sandbox.",
+        "es": "La evaluación de seguridad de tres semanas encontró vulnerabilidades que permitían a los agentes evadir el monitoreo o eludir las restricciones del sandbox.",
+        "en": "The three-week security assessment found vulnerabilities letting agents evade monitoring or bypass sandbox restrictions."
+      }
+    },
+    {
+      "id": "2026-43-28",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "Meta",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+      "title": {
+        "ca": "Els nous termes comercials de Meta podrien permetre l'extracció de llocs web empresarials per a l'entrenament d'IA",
+        "es": "Los nuevos términos comerciales de Meta podrían permitir el raspado de sitios web empresariales para el entrenamiento de IA",
+        "en": "Meta's new business terms could allow scraping of business websites for AI training"
+      },
+      "line": {
+        "ca": "Els termes efectius el 30 d'octubre autoritzen la recollida de contingut dels llocs de les empreses que utilitzen productes de Meta, cosa que els experts legals diuen que podria incloure l'entrenament d'IA.",
+        "es": "Los términos efectivos el 30 de octubre autorizan la recogida de contenido de los sitios de las empresas que usan productos de Meta, lo que los expertos legales dicen que podría incluir el entrenamiento de IA.",
+        "en": "Terms effective October 30 authorize collecting content from sites of businesses using Meta products, which legal experts say could include AI training."
+      }
+    },
+    {
+      "id": "2026-43-29",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://media.ark.org/ag/2026-10-14-Filed-Complaint-Case-No.-23cv-26-2984.pdf",
+      "title": {
+        "ca": "Arkansas demanda OpenAI per les afirmacions de seguretat de ChatGPT",
+        "es": "Arkansas demanda a OpenAI por las afirmaciones de seguridad de ChatGPT",
+        "en": "Arkansas sues OpenAI over ChatGPT safety claims"
+      },
+      "line": {
+        "ca": "L'estat al·lega que OpenAI va enganyar els consumidors sobre la seguretat de ChatGPT, inclosos els riscos per als nens.",
+        "es": "El estado alega que OpenAI engañó a los consumidores sobre la seguridad de ChatGPT, incluidos los riesgos para los niños.",
+        "en": "The state alleges OpenAI misled consumers about ChatGPT's safety, including risks to children."
+      }
+    },
+    {
+      "id": "2026-43-30",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "Apple",
+      "category": "products",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.techrepublic.com/article/news-apple-intelligence-china-december-siri-ai-apac/",
+      "title": {
+        "ca": "Apple planejaria el llançament d'Apple Intelligence a la Xina al desembre",
+        "es": "Apple planearía el lanzamiento de Apple Intelligence en China en diciembre",
+        "en": "Apple reportedly plans Apple Intelligence launch in China in December"
+      },
+      "line": {
+        "ca": "Segons els informes, el desplegament exclouria el nou Siri.",
+        "es": "Según los informes, el despliegue excluiría el nuevo Siri.",
+        "en": "The rollout is expected to exclude the new Siri, according to reports."
+      }
+    },
+    {
+      "id": "2026-43-31",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.insitro.com/news/insitro-announces-a-strategic-collaboration-with-astrazeneca-for-ai-enabled-discovery-of-novel-therapeutics-for-mash-and-cardiomyopathies/",
+      "title": {
+        "ca": "AstraZeneca signa un acord de descobriment de fàrmacs amb IA amb Insitro per valor de fins a 1.500 milions de dòlars",
+        "es": "AstraZeneca firma un acuerdo de descubrimiento de fármacos con IA con Insitro por valor de hasta 1.500 millones de dólares",
+        "en": "AstraZeneca signs AI drug discovery deal with Insitro worth up to $1.5 billion"
+      },
+      "line": {
+        "ca": "La col·laboració se centra en malalties hepàtiques i cardíaques utilitzant el descobriment de nous teràpics habilitat per IA.",
+        "es": "La colaboración se centra en enfermedades hepáticas y cardíacas utilizando el descubrimiento de nuevos terapéuticos habilitado por IA.",
+        "en": "The collaboration targets liver and heart diseases using AI-enabled discovery of novel therapeutics."
+      }
+    },
+    {
+      "id": "2026-43-32",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "NVIDIA",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://finance.yahoo.com/video/nvidias-huang-says-not-sell-191934059.html",
+      "title": {
+        "ca": "El CEO de Nvidia suggereix que els fabricants de xips podrien deixar de subministrar a clients que desenvolupin IA insegura",
+        "es": "El CEO de Nvidia sugiere que los fabricantes de chips podrían dejar de suministrar a clientes que desarrollen IA insegura",
+        "en": "Nvidia CEO suggests chipmakers could stop supplying customers developing unsafe AI"
+      },
+      "line": {
+        "ca": "Jensen Huang va dir que els fabricants de xips podrien tallar el subministrament a clients que desenvolupin IA insegura o irresponsable.",
+        "es": "Jensen Huang dijo que los fabricantes de chips podrían cortar el suministro a clientes que desarrollen IA insegura o irresponsable.",
+        "en": "Jensen Huang said chipmakers could cut off customers that develop unsafe or irresponsible AI."
+      }
+    },
+    {
+      "id": "2026-43-33",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.799/138665/Emergent-Communication-in-Continuous-Worlds-Self",
+      "title": {
+        "ca": "Els investigadors troben que els agents d'IA poden desenvolupar sistemes de comunicació compartits mitjançant la interacció",
+        "es": "Los investigadores encuentran que los agentes de IA pueden desarrollar sistemas de comunicación compartidos mediante la interacción",
+        "en": "Researchers find AI agents can develop shared communication systems through interaction"
+      },
+      "line": {
+        "ca": "L'estudi informa que els agents poden desenvolupar una comunicació compartida sense que se'ls ensenyi explícitament el llenguatge humà.",
+        "es": "El estudio informa que los agentes pueden desarrollar una comunicación compartida sin que se les enseñe explícitamente el lenguaje humano.",
+        "en": "The study reports agents can develop shared communication without being explicitly taught human language."
+      }
+    },
+    {
+      "id": "2026-43-34",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "Google",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/",
+      "title": {
+        "ca": "Google diu que més de 400 publicacions s'uneixen al seu pilot News AI",
+        "es": "Google dice que más de 400 publicaciones se unen a su piloto News AI",
+        "en": "Google says over 400 publications join its News AI pilot"
+      },
+      "line": {
+        "ca": "CNN, Axios i el Financial Times es troben entre els nous socis el contingut dels quals alimenta resums d'articles i resums d'àudio.",
+        "es": "CNN, Axios y el Financial Times se encuentran entre los nuevos socios cuyo contenido alimenta resúmenes de artículos y resúmenes de audio.",
+        "en": "CNN, Axios and the Financial Times are among new partners whose content powers article summaries and audio briefings."
+      }
+    },
+    {
+      "id": "2026-43-35",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.cloudflare.com/pay-per-use/",
+      "title": {
+        "ca": "Cloudflare prova un sistema de pagament per ús per a l'ús de contingut d'editors per part de la IA",
+        "es": "Cloudflare prueba un sistema de pago por uso para el uso de contenido de editores por parte de la IA",
+        "en": "Cloudflare tests Pay Per Use system for AI use of publisher content"
+      },
+      "line": {
+        "ca": "La beta permet als editors acceptar ofertes d'empreses d'IA, amb els compradors fixant els preus i informant del seu propi ús.",
+        "es": "La beta permite a los editores aceptar ofertas de empresas de IA, con los compradores fijando los precios e informando de su propio uso.",
+        "en": "The beta lets publishers accept offers from AI companies, with buyers setting prices and reporting their own usage."
+      }
+    },
+    {
+      "id": "2026-43-36",
+      "n": 1,
+      "date": "2026-10-18",
+      "company": "Other",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.youtube.com/watch?v=SqkhdhuN6OU",
+      "title": {
+        "ca": "Rivian planeja executar agents d'IA d'altres empreses als seus cotxes",
+        "es": "Rivian planea ejecutar agentes de IA de otras empresas en sus coches",
+        "en": "Rivian plans to run other companies' AI agents in its cars"
+      },
+      "line": {
+        "ca": "El CEO RJ Scaringe va dir que els cotxes eventualment allotjaran agents d'IA externs, però no va donar data de llançament.",
+        "es": "El CEO RJ Scaringe dijo que los coches eventualmente alojarán agentes de IA externos, pero no dio fecha de lanzamiento.",
+        "en": "CEO RJ Scaringe said the cars would eventually host outside AI agents but gave no launch date."
+      }
+    },
+    {
+      "id": "2026-43-37",
+      "n": 1,
+      "date": "2026-10-19",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "",
+      "title": {
+        "ca": "Causa Prima recapta 20 milions de dòlars en llavor per automatitzar les finances amb agents d'IA",
+        "es": "Causa Prima recauda 20 millones de dólares en semilla para automatizar las finanzas con agentes de IA",
+        "en": "Causa Prima raises $20M seed to automate finances with AI agents"
+      },
+      "line": {
+        "ca": "Causa Prima, amb seu a Madrid i Munic, va recaptar una llavor de 20 milions de dòlars liderada per Base10 Partners i planeja expandir-se als EUA.",
+        "es": "Causa Prima, con sede en Madrid y Múnich, recaudó una semilla de 20 millones de dólares liderada por Base10 Partners y planea expandirse en EE. UU.",
+        "en": "Madrid and Munich-based Causa Prima raised a $20M seed led by Base10 Partners and plans to expand in the US."
+      }
+    },
+    {
+      "id": "2026-43-38",
+      "n": 1,
+      "date": "2026-10-19",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "",
+      "title": {
+        "ca": "Harbor surt de l'anonimat amb 10 milions de dòlars en llavor per a assegurances d'agents d'IA",
+        "es": "Harbor sale del anonimato con 10 millones de dólares en semilla para seguros de agentes de IA",
+        "en": "Harbor emerges from stealth with $10M seed for AI agent insurance"
+      },
+      "line": {
+        "ca": "La startup d'origen espanyol i seu a San Francisco construeix assegurances per a agents d'IA i va recaptar una llavor de 10 milions de dòlars liderada per Base10.",
+        "es": "La startup de origen español y sede en San Francisco construye seguros para agentes de IA y recaudó una semilla de 10 millones de dólares liderada por Base10.",
+        "en": "The Spanish-founded, San Francisco-based startup builds insurance for AI agents and raised a $10M seed led by Base10."
+      }
+    },
+    {
+      "id": "2026-43-39",
+      "n": 1,
+      "date": "2026-10-19",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "",
+      "title": {
+        "ca": "Symbe recapta 5,7 milions de dòlars en llavor per a eines de vendes B2B impulsades per IA",
+        "es": "Symbe recauda 5,7 millones de dólares en semilla para herramientas de ventas B2B impulsadas por IA",
+        "en": "Symbe raises $5.7M seed for AI-driven B2B sales tooling"
+      },
+      "line": {
+        "ca": "La startup amb seu a Londres i Madrid automatitza casos de negoci i càlculs de ROI per ajudar els compradors empresarials a justificar les compres.",
+        "es": "La startup con sede en Londres y Madrid automatiza casos de negocio y cálculos de ROI para ayudar a los compradores empresariales a justificar las compras.",
+        "en": "The London and Madrid-based startup automates business cases and ROI calculations to help enterprise buyers justify purchases."
+      }
+    },
+    {
+      "id": "2026-43-40",
+      "n": 1,
+      "date": "2026-10-19",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "",
+      "title": {
+        "ca": "Lokutor llança una startup de veu amb IA amb models petits i eficients",
+        "es": "Lokutor lanza una startup de voz con IA con modelos pequeños y eficientes",
+        "en": "Lokutor launches AI voice startup with small efficient models"
+      },
+      "line": {
+        "ca": "La startup amb seu a Madrid desenvolupa models de parla petits i eficients i ha publicat els models de codi obert Ito i Oído.",
+        "es": "La startup con sede en Madrid desarrolla modelos de habla pequeños y eficientes y ha publicado los modelos de código abierto Ito y Oído.",
+        "en": "The Madrid-based startup develops small, efficient speech models and released the open-source Ito and Oído models."
+      }
+    }
+  ]
+}
