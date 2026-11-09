@@ -1,0 +1,865 @@
+{
+  "week": "2026-45",
+  "from": "2026-11-02",
+  "to": "2026-11-08",
+  "newsletters": 7,
+  "candidates": 285,
+  "note": null,
+  "items": [
+    {
+      "id": "2026-45-01",
+      "n": 4,
+      "date": "2026-11-03",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "title": {
+        "ca": "Anthropic declara 895.000 milions de dòlars en compromisos de despesa i una pèrdua neta trimestral de 23.300 milions",
+        "es": "Anthropic declara 895.000 millones de dólares en compromisos de gasto y una pérdida neta trimestral de 23.300 millones",
+        "en": "Anthropic reports $895B in spending commitments and $23.3B quarterly net loss"
+      },
+      "line": {
+        "ca": "Anthropic ha revelat en un registre a la SEC que preveu més de 895.000 milions de dòlars en despesa, principalment en infraestructura, alhora que registra una pèrdua neta trimestral de 23.300 milions de dòlars.",
+        "es": "Anthropic ha revelado en un registro ante la SEC que prevé más de 895.000 millones de dólares en gasto, principalmente en infraestructura, mientras registra una pérdida neta trimestral de 23.300 millones de dólares.",
+        "en": "Anthropic disclosed in an SEC filing that it expects over $895 billion in spending, mostly on infrastructure, while posting a $23.3 billion quarterly net loss."
+      },
+      "og": {
+        "ca": "Anthropic: 895.000 M$ en compromisos de despesa",
+        "es": "Anthropic: 895.000 M$ en compromisos de gasto",
+        "en": "Anthropic: $895B in spending commitments"
+      }
+    },
+    {
+      "id": "2026-45-02",
+      "n": 3,
+      "date": "2026-11-02",
+      "company": "Google",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "title": {
+        "ca": "Google rep la primera resposta d'IA d'un TPU en òrbita amb el Projecte Suncatcher",
+        "es": "Google recibe la primera respuesta de IA de un TPU en órbita con el Proyecto Suncatcher",
+        "en": "Google gets first AI response from a TPU in orbit under Project Suncatcher"
+      },
+      "line": {
+        "ca": "Google va enviar un prompt al seu model Gemma 4 en un TPU en òrbita i va rebre l'haiku generat durant un pas per l'estació terrestre.",
+        "es": "Google envió un prompt a su modelo Gemma 4 en un TPU en órbita y recibió el haiku generado durante un paso por la estación terrestre.",
+        "en": "Google uplinked a prompt to its Gemma 4 model on an orbiting TPU and downlinked the generated haiku during a ground-station pass."
+      },
+      "og": {
+        "ca": "Google rep la primera resposta d'IA d'un xip TPU en òrbita",
+        "es": "Google recibe la primera respuesta de IA de un TPU en órbita",
+        "en": "Google gets first AI reply from a TPU in orbit"
+      }
+    },
+    {
+      "id": "2026-45-03",
+      "n": 3,
+      "date": "2026-11-02",
+      "company": "DeepSeek",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "title": {
+        "ca": "Es publica el paquet dsh-superagent de DeepSeek Harness",
+        "es": "Se publica el paquete dsh-superagent de DeepSeek Harness",
+        "en": "DeepSeek Harness bundle dsh-superagent released"
+      },
+      "line": {
+        "ca": "L'agent de codificació observa GitHub, obre elements de treball i treballa en la seva pròpia sessió, actuant només quan se li demana o quan les regles ho permeten.",
+        "es": "El agente de codificación observa GitHub, abre elementos de trabajo y trabaja en su propia sesión, actuando solo cuando se le pide o cuando las reglas lo permiten.",
+        "en": "The coding agent watches GitHub, opens work items and works in its own session, acting only when asked or allowed by rules."
+      },
+      "og": {
+        "ca": "Publicat el paquet dsh-superagent de DeepSeek Harness",
+        "es": "Publicado el paquete dsh-superagent de DeepSeek Harness",
+        "en": "DeepSeek Harness dsh-superagent released"
+      }
+    },
+    {
+      "id": "2026-45-04",
+      "n": 3,
+      "date": "2026-11-03",
+      "company": "xAI",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "title": {
+        "ca": "Elon Musk limita l'ús de Grok Bot per l'augment dels costos",
+        "es": "Elon Musk limita el uso de Grok Bot por el aumento de los costos",
+        "en": "Elon Musk limits Grok Bot usage over rising costs"
+      },
+      "line": {
+        "ca": "Musk ha confirmat que s'han reduït els límits d'ús després que els costos operatius esdevinguessin insosteniblement alts en relació amb els ingressos.",
+        "es": "Musk ha confirmado que se han reducido los límites de uso después de que los costos operativos se volvieran insosteniblemente altos en relación con los ingresos.",
+        "en": "Musk confirmed usage limits were reduced after operating costs became unsustainably high relative to revenue."
+      }
+    },
+    {
+      "id": "2026-45-05",
+      "n": 3,
+      "date": "2026-11-04",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+      "title": {
+        "ca": "OpenAI afirma que ChatGPT gestiona aproximadament una cinquena part del volum de consultes de cerca de Google",
+        "es": "OpenAI afirma que ChatGPT gestiona aproximadamente una quinta parte del volumen de consultas de búsqueda de Google",
+        "en": "OpenAI says ChatGPT handles about one fifth of Google's search query volume"
+      },
+      "line": {
+        "ca": "El responsable de producte de consum d'OpenAI ha dit que ChatGPT ara gestiona aproximadament una cinquena part de les consultes de Google, més de tres vegades el volum de Bing.",
+        "es": "El responsable de producto de consumo de OpenAI ha dicho que ChatGPT ahora gestiona aproximadamente una quinta parte de las consultas de Google, más de tres veces el volumen de Bing.",
+        "en": "OpenAI's consumer product lead said ChatGPT now handles roughly one fifth as many queries as Google, more than three times Bing's volume."
+      }
+    },
+    {
+      "id": "2026-45-06",
+      "n": 3,
+      "date": "2026-11-04",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "title": {
+        "ca": "OpenAI llança Images 2.6 amb generació de text a GIF",
+        "es": "OpenAI lanza Images 2.6 con generación de texto a GIF",
+        "en": "OpenAI launches Images 2.6 with text-to-GIF generation"
+      },
+      "line": {
+        "ca": "El model afegeix la creació de GIF a partir de prompts, imatges de referència reutilitzables i una generació d'imatges fins a un 50% més ràpida a ChatGPT, Codex i l'API.",
+        "es": "El modelo añade la creación de GIF a partir de prompts, imágenes de referencia reutilizables y una generación de imágenes hasta un 50% más rápida en ChatGPT, Codex y la API.",
+        "en": "The model adds GIF creation from prompts, reusable reference images and up to 50% faster image generation in ChatGPT, Codex and the API."
+      }
+    },
+    {
+      "id": "2026-45-07",
+      "n": 3,
+      "date": "2026-11-05",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github",
+      "title": {
+        "ca": "OpenAI adquirirà Pierre Computer Company",
+        "es": "OpenAI adquirirá Pierre Computer Company",
+        "en": "OpenAI to acquire Pierre Computer Company"
+      },
+      "line": {
+        "ca": "L'adquisició té com a objectiu millorar les eines per a desenvolupadors de Codex, incloent-hi Code Storage i projectes de codi obert.",
+        "es": "La adquisición tiene como objetivo mejorar las herramientas para desarrolladores de Codex, incluyendo Code Storage y proyectos de código abierto.",
+        "en": "The acquisition aims to enhance Codex's developer tools, including Code Storage and open-source projects."
+      }
+    },
+    {
+      "id": "2026-45-08",
+      "n": 3,
+      "date": "2026-11-05",
+      "company": "Meta",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+      "title": {
+        "ca": "Meta adquireix la startup de codificació multiagent Conductor",
+        "es": "Meta adquiere la startup de codificación multiagente Conductor",
+        "en": "Meta acquires multi-agent coding startup Conductor"
+      },
+      "line": {
+        "ca": "La interfície de Conductor dirigeix diversos agents de codificació alhora, i el seu servei allotjat es tanca el 20 de novembre.",
+        "es": "La interfaz de Conductor dirige varios agentes de codificación a la vez, y su servicio alojado se cierra el 20 de noviembre.",
+        "en": "Conductor's interface directs several coding agents at once, and its hosted service shuts down November 20."
+      }
+    },
+    {
+      "id": "2026-45-09",
+      "n": 3,
+      "date": "2026-11-05",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "title": {
+        "ca": "La pipeline d'OpenAI troba 948 exploits root al nucli de Linux",
+        "es": "La pipeline de OpenAI encuentra 948 exploits root en el kernel de Linux",
+        "en": "OpenAI pipeline finds 948 root exploits in Linux kernel"
+      },
+      "line": {
+        "ca": "Una pipeline autònoma d'OpenAI que utilitza un model cibernètic no publicat ha produït 948 exploits root funcionals amb suggeriments de pedaços a un cost d'API d'aproximadament 1,2 milions de dòlars.",
+        "es": "Una pipeline autónoma de OpenAI que utiliza un modelo cibernético no publicado ha producido 948 exploits root funcionales con sugerencias de parches a un coste de API de aproximadamente 1,2 millones de dólares.",
+        "en": "An autonomous OpenAI pipeline using an unreleased cyber model produced 948 working root exploits with patch suggestions at about $1.2M API cost."
+      }
+    },
+    {
+      "id": "2026-45-10",
+      "n": 3,
+      "date": "2026-11-06",
+      "company": "OpenAI",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "title": {
+        "ca": "OpenAI publica GPT-6 Cyber, un model d'hacking restringit qualificat de Crític pel risc cibernètic",
+        "es": "OpenAI publica GPT-6 Cyber, un modelo de hacking restringido calificado de Crítico por el riesgo cibernético",
+        "en": "OpenAI releases GPT-6 Cyber, a restricted hacking model rated Critical for cyber risk"
+      },
+      "line": {
+        "ca": "OpenAI diu que GPT-6 Cyber ha obtingut un 48,5% a ExploitGym, per sobre del 32,1% de GPT-5.6 Cyber, i s'ha mantingut dins de l'abast en el 99,93% de les execucions honeypot.",
+        "es": "OpenAI dice que GPT-6 Cyber ha obtenido un 48,5% en ExploitGym, por encima del 32,1% de GPT-5.6 Cyber, y se ha mantenido dentro del alcance en el 99,93% de las ejecuciones honeypot.",
+        "en": "OpenAI says GPT-6 Cyber scored 48.5% on ExploitGym, up from 32.1% for GPT-5.6 Cyber, and stayed in scope in 99.93% of honeypot runs."
+      }
+    },
+    {
+      "id": "2026-45-11",
+      "n": 2,
+      "date": "2026-11-01",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "title": {
+        "ca": "Gemini afegeix edició de fitxers directament dins del xat",
+        "es": "Gemini añade edición de archivos directamente dentro del chat",
+        "en": "Gemini adds file editing directly inside the chat"
+      },
+      "line": {
+        "ca": "Gemini crea i edita documents, PDF, fulls de càlcul i presentacions dins del xat, amb edicions manuals permeses.",
+        "es": "Gemini crea y edita documentos, PDF, hojas de cálculo y presentaciones dentro del chat, con ediciones manuales permitidas.",
+        "en": "Gemini creates and edits documents, PDFs, spreadsheets and presentations inside the chat, with manual edits allowed."
+      }
+    },
+    {
+      "id": "2026-45-12",
+      "n": 2,
+      "date": "2026-11-01",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.benzinga.com/news/26/10/62696090/doordash-q3-2026-earnings-call-transcript",
+      "title": {
+        "ca": "DoorDash diu que ha rebut diversos centenars de comandes d'agents d'IA",
+        "es": "DoorDash dice que ha recibido varios cientos de pedidos de agentes de IA",
+        "en": "DoorDash says it received several hundred orders from AI agents"
+      },
+      "line": {
+        "ca": "L'empresa processa 3 milions de lliuraments diaris i està desenvolupant els seus propis agents i explorant casos d'ús agèntics.",
+        "es": "La empresa procesa 3 millones de entregas diarias y está desarrollando sus propios agentes y explorando casos de uso agénticos.",
+        "en": "The company processes 3 million deliveries daily and is developing its own agents and exploring agentic use cases."
+      }
+    },
+    {
+      "id": "2026-45-13",
+      "n": 2,
+      "date": "2026-11-01",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/building-chatgpt-ad-stack/",
+      "title": {
+        "ca": "OpenAI detalla la pila d'anuncis de ChatGPT construïda sobre un segon orquestrador LLM",
+        "es": "OpenAI detalla la pila de anuncios de ChatGPT construida sobre un segundo orquestador LLM",
+        "en": "OpenAI details ChatGPT ad stack built on a second LLM orchestrator"
+      },
+      "line": {
+        "ca": "OpenAI diu que ChatGPT Ads ha arribat a una taxa d'ingressos anualitzada de 1.000 milions de dòlars i més de 100.000 anunciants en menys de 200 dies després del llançament.",
+        "es": "OpenAI dice que ChatGPT Ads ha alcanzado una tasa de ingresos anualizada de 1.000 millones de dólares y más de 100.000 anunciantes en menos de 200 días después del lanzamiento.",
+        "en": "OpenAI says ChatGPT Ads reached a $1B annualized revenue run rate and 100,000+ advertisers under 200 days after launch."
+      }
+    },
+    {
+      "id": "2026-45-14",
+      "n": 2,
+      "date": "2026-11-02",
+      "company": "Google",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.drweb.de/robots-txt-ki-training-google-bing-openai/",
+      "title": {
+        "ca": "Google, Microsoft i OpenAI respectaran l'opt-out compartit de robots.txt per a l'entrenament d'IA",
+        "es": "Google, Microsoft y OpenAI respetarán el opt-out compartido de robots.txt para el entrenamiento de IA",
+        "en": "Google, Microsoft and OpenAI to honor shared robots.txt AI training opt-out"
+      },
+      "line": {
+        "ca": "Bing implementa la regla a partir de l'1 de febrer de 2027, i Google a principis de 2027, permetent als llocs excloure contingut dels tres.",
+        "es": "Bing implementa la regla a partir del 1 de febrero de 2027, y Google a principios de 2027, permitiendo a los sitios excluir contenido de los tres.",
+        "en": "Bing implements the rule from February 1, 2027, and Google from early 2027, letting sites exclude content from all three."
+      }
+    },
+    {
+      "id": "2026-45-15",
+      "n": 2,
+      "date": "2026-11-02",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+      "title": {
+        "ca": "Proton cancel·la les reentrevistes sobre ús d'IA després de la reacció del personal",
+        "es": "Proton cancela las reentrevistas sobre uso de IA tras la reacción del personal",
+        "en": "Proton canceled AI-use re-interviews after staff backlash"
+      },
+      "line": {
+        "ca": "El CEO Andy Yen va abandonar els plans de reentrevistar gairebé tot el personal sobre el seu ús d'IA després que empleats i usuaris es manifestessin en contra.",
+        "es": "El CEO Andy Yen abandonó los planes de reentrevistar a casi todo el personal sobre su uso de IA después de que empleados y usuarios se manifestaran en contra.",
+        "en": "CEO Andy Yen dropped plans to re-interview nearly all staff on their AI use after employees and users pushed back."
+      }
+    },
+    {
+      "id": "2026-45-16",
+      "n": 2,
+      "date": "2026-11-02",
+      "company": "DeepSeek",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.drweb.de/deepseek-finanzierung-staatsinvestoren/",
+      "title": {
+        "ca": "La ronda de DeepSeek mostra un 27% d'inversors vinculats a l'estat, per sobre del 2%",
+        "es": "La ronda de DeepSeek muestra un 27% de inversores vinculados al estado, por encima del 2%",
+        "en": "DeepSeek round shows 27% state-linked investors, up from 2%"
+      },
+      "line": {
+        "ca": "La llista d'inversors de The Information inclou CXMT i SMIC; Tencent i CATL continuen sent els majors patrocinadors.",
+        "es": "La lista de inversores de The Information incluye CXMT y SMIC; Tencent y CATL siguen siendo los mayores patrocinadores.",
+        "en": "The Information's investor list includes CXMT and SMIC; Tencent and CATL remain the largest backers."
+      }
+    },
+    {
+      "id": "2026-45-17",
+      "n": 2,
+      "date": "2026-11-02",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://jawlah.co/en/67469",
+      "title": {
+        "ca": "Saudi Aramco pren una participació del 49% a l'empresa d'IA HUMAIN",
+        "es": "Saudi Aramco toma una participación del 49% en la empresa de IA HUMAIN",
+        "en": "Saudi Aramco takes 49% stake in AI company HUMAIN"
+      },
+      "line": {
+        "ca": "Aproximadament 2.600 milions de dòlars en efectiu van a l'empresa saudita d'IA aquest any com a part de la participació.",
+        "es": "Aproximadamente 2.600 millones de dólares en efectivo van a la empresa saudí de IA este año como parte de la participación.",
+        "en": "About $2.6B in cash goes into the Saudi AI company this year as part of the stake."
+      }
+    },
+    {
+      "id": "2026-45-18",
+      "n": 2,
+      "date": "2026-11-02",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://puck.news/ai/2026/10/pro-ai-pacs-are-retreating-from-the-midterms",
+      "title": {
+        "ca": "Els PAC centrats en IA van gastar milions a les eleccions de mig mandat amb resultats mixtos",
+        "es": "Los PAC centrados en IA gastaron millones en las elecciones de medio mandato con resultados mixtos",
+        "en": "AI-focused PACs spent millions in midterms with mixed results"
+      },
+      "line": {
+        "ca": "Els grups van gastar milions intentant influir en el Congrés, incloent-hi 4,8 milions de dòlars en un candidat al Senat de Carolina del Sud que va perdre.",
+        "es": "Los grupos gastaron millones intentando influir en el Congreso, incluyendo 4,8 millones de dólares en un candidato al Senado de Carolina del Sur que perdió.",
+        "en": "The groups spent millions trying to shape Congress, including $4.8M on a South Carolina Senate candidate who lost."
+      }
+    },
+    {
+      "id": "2026-45-19",
+      "n": 2,
+      "date": "2026-11-02",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://dejan.ai/blog/latent-skills/",
+      "title": {
+        "ca": "Investigadors del MIT CSAIL van editar el 0,016% dels pesos d'un model per millorar la puntuació en matemàtiques",
+        "es": "Investigadores del MIT CSAIL editaron el 0,016% de los pesos de un modelo para mejorar la puntuación en matemáticas",
+        "en": "MIT CSAIL researchers edited 0.016% of a model's weights to lift math score"
+      },
+      "line": {
+        "ca": "Editar una petita part dels pesos va elevar el benchmark de matemàtiques de GPT-6 Astra del 7,9% al 48,1% sense reentrenament; no revisat per parells.",
+        "es": "Editar una pequeña parte de los pesos elevó el benchmark de matemáticas de GPT-6 Astra del 7,9% al 48,1% sin reentrenamiento; no revisado por pares.",
+        "en": "Editing a small share of weights raised GPT-6 Astra's math benchmark from 7.9% to 48.1% without retraining; not peer reviewed."
+      }
+    },
+    {
+      "id": "2026-45-20",
+      "n": 2,
+      "date": "2026-11-03",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.hume.ai/blog/introducing-hume-audio-decision-api",
+      "title": {
+        "ca": "Hume AI llança un model de decisió natiu d'àudio i una API",
+        "es": "Hume AI lanza un modelo de decisión nativo de audio y una API",
+        "en": "Hume AI launches audio-native decision model and API"
+      },
+      "line": {
+        "ca": "Hume AI ha presentat una Audio Decision API construïda sobre un model de decisió natiu d'àudio que respon preguntes estructurades sobre intenció, emoció i to en paral·lel.",
+        "es": "Hume AI ha presentado una Audio Decision API construida sobre un modelo de decisión nativo de audio que responde preguntas estructuradas sobre intención, emoción y tono en paralelo.",
+        "en": "Hume AI unveiled an Audio Decision API built on an audio-native decision model that answers structured questions about intent, emotion and tone in parallel."
+      }
+    },
+    {
+      "id": "2026-45-21",
+      "n": 2,
+      "date": "2026-11-03",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/lifeval/",
+      "title": {
+        "ca": "OpenAI presenta el benchmark LifeVal per a tasques quotidianes",
+        "es": "OpenAI presenta el benchmark LifeVal para tareas cotidianas",
+        "en": "OpenAI introduces LifeVal benchmark for everyday tasks"
+      },
+      "line": {
+        "ca": "LifeVal avalua el rendiment de la IA en tasques pràctiques com fer pressupostos, trobar cura infantil i accedir a serveis governamentals.",
+        "es": "LifeVal evalúa el rendimiento de la IA en tareas prácticas como hacer presupuestos, encontrar cuidado infantil y acceder a servicios gubernamentales.",
+        "en": "LifeVal evaluates AI performance on practical tasks such as budgeting, finding childcare, and accessing government services."
+      }
+    },
+    {
+      "id": "2026-45-22",
+      "n": 2,
+      "date": "2026-11-03",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/grid-protectors-program/",
+      "title": {
+        "ca": "OpenAI anuncia el programa Grid Protectors per a la demanda elèctrica dels centres de dades",
+        "es": "OpenAI anuncia el programa Grid Protectors para la demanda eléctrica de los centros de datos",
+        "en": "OpenAI announces Grid Protectors Program for data center power demand"
+      },
+      "line": {
+        "ca": "OpenAI ha dit que treballarà amb serveis públics i reguladors per reduir el consum elèctric dels centres de dades quan les xarxes estiguin tensionades, començant amb un acord per a un campus a Geòrgia.",
+        "es": "OpenAI ha dicho que trabajará con servicios públicos y reguladores para reducir el consumo eléctrico de los centros de datos cuando las redes estén tensionadas, comenzando con un acuerdo para un campus en Georgia.",
+        "en": "OpenAI said it will work with utilities and regulators to cut data center electricity use when grids are strained, starting with a Georgia campus deal."
+      }
+    },
+    {
+      "id": "2026-45-23",
+      "n": 2,
+      "date": "2026-11-03",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "title": {
+        "ca": "OpenAI fusionarà les pestanyes Xat i Treball de ChatGPT en una sola interfície",
+        "es": "OpenAI fusionará las pestañas Chat y Trabajo de ChatGPT en una sola interfaz",
+        "en": "OpenAI to merge ChatGPT's Chat and Work tabs into one interface"
+      },
+      "line": {
+        "ca": "L'experiència redissenyada s'està desplegant a usuaris selectes per obtenir comentaris, amb el model inferint si una consulta necessita una resposta ràpida o una tasca agèntica.",
+        "es": "La experiencia rediseñada se está desplegando a usuarios selectos para obtener comentarios, con el modelo infiriendo si una consulta necesita una respuesta rápida o una tarea agéntica.",
+        "en": "The redesigned experience is rolling out to select users for feedback, with the model inferring whether a query needs a quick reply or an agentic task."
+      }
+    },
+    {
+      "id": "2026-45-24",
+      "n": 2,
+      "date": "2026-11-03",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://claude.com/resources/articles/message-threads",
+      "title": {
+        "ca": "Anthropic publica fils de missatges en beta pública",
+        "es": "Anthropic publica hilos de mensajes en beta pública",
+        "en": "Anthropic releases message threads in public beta"
+      },
+      "line": {
+        "ca": "Els agents poden enviar només missatges nous en lloc de l'historial complet, reduint el temps mitjà fins al primer token aproximadament un 35% per a sol·licituds de 500K-1M tokens.",
+        "es": "Los agentes pueden enviar solo mensajes nuevos en lugar del historial completo, reduciendo el tiempo medio hasta el primer token aproximadamente un 35% para solicitudes de 500K-1M tokens.",
+        "en": "Agents can send only new messages instead of full history, cutting median time to first token about 35% for 500K-1M token requests."
+      }
+    },
+    {
+      "id": "2026-45-25",
+      "n": 2,
+      "date": "2026-11-03",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "title": {
+        "ca": "Anthropic adverteix que pot estar a prop d'una IA amb automillora recursiva",
+        "es": "Anthropic advierte que puede estar cerca de una IA con auto-mejora recursiva",
+        "en": "Anthropic warns it may be close to recursive self-improving AI"
+      },
+      "line": {
+        "ca": "La seva declaració actualitzada per a l'OPV diu que pot arribar aviat a la seva definició interna d'RSI, on els sistemes d'IA ajuden a desenvolupar models més capaços.",
+        "es": "Su declaración actualizada para la OPV dice que puede alcanzar pronto su definición interna de RSI, donde los sistemas de IA ayudan a desarrollar modelos más capaces.",
+        "en": "Its updated IPO filing says it may soon reach its internal definition of RSI, where AI systems help develop more capable models."
+      }
+    },
+    {
+      "id": "2026-45-26",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Google",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://thenextweb.com/news/google-gemini-eu-copyright-adviser-opinion",
+      "title": {
+        "ca": "Assessor del tribunal de la UE: les respostes dels chatbots d'IA poden infringir els drets d'autor de la premsa",
+        "es": "Asesor del tribunal de la UE: las respuestas de los chatbots de IA pueden infringir los derechos de autor de la prensa",
+        "en": "EU court adviser: AI chatbot answers can infringe press copyright"
+      },
+      "line": {
+        "ca": "L'advocat general Szpunar diu que els resums a l'estil de Gemini poden infringir els drets d'autor si els usuaris ja no necessiten l'article original.",
+        "es": "El abogado general Szpunar dice que los resúmenes al estilo de Gemini pueden infringir los derechos de autor si los usuarios ya no necesitan el artículo original.",
+        "en": "Advocate General Szpunar says Gemini-style summaries may breach copyright if users no longer need the original article."
+      }
+    },
+    {
+      "id": "2026-45-27",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "NVIDIA",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://thenextweb.com/news/nvidia-cloud-partners-cap-china-business",
+      "title": {
+        "ca": "Nvidia limita el negoci a la Xina dels seus socis de núvol",
+        "es": "Nvidia limita el negocio en China de sus socios de nube",
+        "en": "Nvidia caps China business of its cloud partners"
+      },
+      "line": {
+        "ca": "El FT informa que els socis de centres de dades han de vendre almenys el 51% de la nova capacitat contractada a clients no xinesos, comunicat només oralment.",
+        "es": "El FT informa que los socios de centros de datos deben vender al menos el 51% de la nueva capacidad contratada a clientes no chinos, comunicado solo oralmente.",
+        "en": "FT reports data-center partners must sell at least 51% of new contract capacity to non-Chinese customers, communicated only orally."
+      }
+    },
+    {
+      "id": "2026-45-28",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+      "title": {
+        "ca": "Salesforce adquirirà Cresta per aproximadament 2.700 milions de dòlars",
+        "es": "Salesforce adquirirá Cresta por aproximadamente 2.700 millones de dólares",
+        "en": "Salesforce to acquire Cresta for about $2.7 billion"
+      },
+      "line": {
+        "ca": "Cresta construeix agents d'IA que gestionen trucades de centres de trucades; s'espera que l'acord es tanqui abans d'abril de 2027.",
+        "es": "Cresta construye agentes de IA que gestionan llamadas de centros de llamadas; se espera que el acuerdo se cierre antes de abril de 2027.",
+        "en": "Cresta builds AI agents that handle call-center calls; the deal is expected to close by April 2027."
+      }
+    },
+    {
+      "id": "2026-45-29",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Google",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+      "title": {
+        "ca": "Google vincula l'accés a la Cerca dels estudiants de K-12 amb la configuració d'IA de l'escola",
+        "es": "Google vincula el acceso a la Búsqueda de los estudiantes de K-12 con la configuración de IA de la escuela",
+        "en": "Google ties K-12 student Search access to school AI settings"
+      },
+      "line": {
+        "ca": "Gemini, Gemini Notebook, Gemini in Classroom i Search estan desactivats per defecte per als comptes de K-12 fins que els administradors els activin.",
+        "es": "Gemini, Gemini Notebook, Gemini in Classroom y Search están desactivados por defecto para las cuentas de K-12 hasta que los administradores los activen.",
+        "en": "Gemini, Gemini Notebook, Gemini in Classroom and Search are off by default for K-12 accounts until admins enable them."
+      }
+    },
+    {
+      "id": "2026-45-30",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://support.claude.com/en/articles/15537633-auto-connect-your-organization-s-apps-to-claude",
+      "title": {
+        "ca": "Claude afegeix inici de sessió automàtic per a connectors per a usuaris de Team i Enterprise",
+        "es": "Claude añade inicio de sesión automático para complementos para usuarios de Team y Enterprise",
+        "en": "Claude adds automatic plugin sign-in for Team and Enterprise users"
+      },
+      "line": {
+        "ca": "Catorze connectors, incloent-hi Notion, Figma, HubSpot i Linear, estaven llestos al llançament en beta.",
+        "es": "Catorce complementos, incluyendo Notion, Figma, HubSpot y Linear, estaban listos en el lanzamiento en beta.",
+        "en": "Fourteen plugins including Notion, Figma, HubSpot and Linear were ready at launch in beta."
+      }
+    },
+    {
+      "id": "2026-45-31",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://ir.crowdstrike.com/node/17961/pdf",
+      "title": {
+        "ca": "CrowdStrike llança AI Kill Switch per a agents no autoritzats",
+        "es": "CrowdStrike lanza AI Kill Switch para agentes no autorizados",
+        "en": "CrowdStrike launches AI Kill Switch for unauthorized agents"
+      },
+      "line": {
+        "ca": "L'eina atura un agent d'IA no autoritzat en temps real i bloqueja que es torni a executar a tota l'organització.",
+        "es": "La herramienta detiene un agente de IA no autorizado en tiempo real y bloquea que se vuelva a ejecutar en toda la organización.",
+        "en": "The tool shuts down an unauthorized AI agent in real time and blocks it from running again organization-wide."
+      }
+    },
+    {
+      "id": "2026-45-32",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation",
+      "title": {
+        "ca": "Fal recapta 1.300 milions de dòlars en la Sèrie F amb una valoració de 16.000 milions",
+        "es": "Fal recauda 1.300 millones de dólares en la Serie F con una valoración de 16.000 millones",
+        "en": "Fal raises $1.3B Series F at $16B valuation"
+      },
+      "line": {
+        "ca": "La startup d'inferència d'IA va duplicar la seva valoració des dels 8.000 milions de dòlars a l'abril i destinarà els fons a còmput i contractació.",
+        "es": "La startup de inferencia de IA duplicó su valoración desde los 8.000 millones de dólares en abril y destinará los fondos a cómputo y contratación.",
+        "en": "The AI inference startup doubled its valuation from $8B in April and will spend the funds on compute and hiring."
+      }
+    },
+    {
+      "id": "2026-45-33",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Apple",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "title": {
+        "ca": "Apple obre Siri AI a tots els desenvolupadors amb la beta d'iOS 27.3",
+        "es": "Apple abre Siri AI a todos los desarrolladores con la beta de iOS 27.3",
+        "en": "Apple opens Siri AI to all developers with iOS 27.3 beta"
+      },
+      "line": {
+        "ca": "Els desenvolupadors poden integrar el processament de llenguatge natural i les funcions de context personal de Siri a les seves aplicacions; no disponible a la UE ni per a usuaris menors de 13 anys.",
+        "es": "Los desarrolladores pueden integrar el procesamiento de lenguaje natural y las funciones de contexto personal de Siri en sus aplicaciones; no disponible en la UE ni para usuarios menores de 13 años.",
+        "en": "Developers can integrate Siri's natural language processing and personal context features into their apps; unavailable in the EU and for users under 13."
+      }
+    },
+    {
+      "id": "2026-45-34",
+      "n": 2,
+      "date": "2026-11-04",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "title": {
+        "ca": "Anthropic informa de progressos en inferència demostrable per a LLM",
+        "es": "Anthropic informa de progresos en inferencia demostrable para LLM",
+        "en": "Anthropic reports progress on provable inference for LLMs"
+      },
+      "line": {
+        "ca": "Les proves criptogràfiques zKSNARK podrien permetre als proveïdors de models demostrar quin model ha produït una sortida i ajudar a verificar el compliment dels requisits de ritme d'IA.",
+        "es": "Las pruebas criptográficas zKSNARK podrían permitir a los proveedores de modelos demostrar qué modelo ha producido una salida y ayudar a verificar el cumplimiento de los requisitos de ritmo de IA.",
+        "en": "Cryptographic zKSNARK proofs could let model providers prove which model produced an output and help verify compliance with AI pacing requirements."
+      }
+    },
+    {
+      "id": "2026-45-35",
+      "n": 2,
+      "date": "2026-11-05",
+      "company": "Tencent",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease",
+      "title": {
+        "ca": "Oracle cancel·la un arrendament de xips d'IA de Tencent d'aproximadament 7.000 milions de dòlars",
+        "es": "Oracle cancela un arrendamiento de chips de IA de Tencent de aproximadamente 7.000 millones de dólares",
+        "en": "Oracle cancels roughly $7B Tencent AI chip lease"
+      },
+      "line": {
+        "ca": "Oracle va rescindir un contracte de cinc anys per subministrar a Tencent aproximadament 100.000 xips d'IA al sud-est asiàtic després de les preocupacions del govern dels EUA.",
+        "es": "Oracle rescindió un contrato de cinco años para suministrar a Tencent aproximadamente 100.000 chips de IA en el sudeste asiático después de las preocupaciones del gobierno de EE. UU.",
+        "en": "Oracle ended a five-year contract to supply Tencent about 100,000 AI chips in Southeast Asia after US government concerns."
+      }
+    },
+    {
+      "id": "2026-45-36",
+      "n": 2,
+      "date": "2026-11-05",
+      "company": "Apple",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.heise.de/news/Apple-kuerzt-interne-KI-Budgets-fuer-Beschaeftigte-deutlich-11513091.html",
+      "title": {
+        "ca": "Apple retalla els pressupostos interns d'IA per als seus equips",
+        "es": "Apple recorta los presupuestos internos de IA para sus equipos",
+        "en": "Apple cuts internal AI budgets for its teams"
+      },
+      "line": {
+        "ca": "Els límits de despesa diària en IA per a alguns desenvolupadors van caure de 300 a 200 dòlars a l'octubre, amb 25 dòlars considerats per a alguns equips no tècnics.",
+        "es": "Los límites de gasto diario en IA para algunos desarrolladores cayeron de 300 a 200 dólares en octubre, con 25 dólares considerados para algunos equipos no técnicos.",
+        "en": "Daily AI spending limits for some developers fell from $300 to $200 in October, with $25 considered for some non-technical teams."
+      }
+    },
+    {
+      "id": "2026-45-37",
+      "n": 2,
+      "date": "2026-11-05",
+      "company": "Tencent",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/TencentHunyuan/status/2117870250838630539?a=RnNfN86VQWFJ-qaost8&s=20",
+      "title": {
+        "ca": "Tencent llança Hy4, un model multimodal de codi obert",
+        "es": "Tencent lanza Hy4, un modelo multimodal de código abierto",
+        "en": "Tencent launches Hy4 open-source multimodal model"
+      },
+      "line": {
+        "ca": "Hy4 admet comprensió visual, anàlisi de gràfics i interacció amb GUI, amb pesos previstos per al seu llançament.",
+        "es": "Hy4 admite comprensión visual, análisis de gráficos e interacción con GUI, con pesos previstos para su lanzamiento.",
+        "en": "Hy4 supports visual understanding, chart analysis and GUI interaction, with weights planned for release."
+      }
+    },
+    {
+      "id": "2026-45-38",
+      "n": 2,
+      "date": "2026-11-05",
+      "company": "Moonshot",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "title": {
+        "ca": "Moonshot publica els pesos oberts de Kimi K3.1 Pro",
+        "es": "Moonshot publica los pesos abiertos de Kimi K3.1 Pro",
+        "en": "Moonshot releases open weights for Kimi K3.1 Pro"
+      },
+      "line": {
+        "ca": "El model descarregable llegeix text i imatges amb un context d'1M de tokens sota una llicència personalitzada.",
+        "es": "El modelo descargable lee texto e imágenes con un contexto de 1M de tokens bajo una licencia personalizada.",
+        "en": "The downloadable model reads text and images with a 1M-token context under a custom license."
+      }
+    },
+    {
+      "id": "2026-45-39",
+      "n": 2,
+      "date": "2026-11-05",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://axiommath.ai/research/the-stacks-project-formalized/",
+      "title": {
+        "ca": "Axiom publica una formalització Lean de 16 milions de línies del Stacks Project creada per agents d'IA",
+        "es": "Axiom publica una formalización Lean de 16 millones de líneas del Stacks Project creada por agentes de IA",
+        "en": "Axiom releases 16M-line Lean formalization of the Stacks Project built by AI agents"
+      },
+      "line": {
+        "ca": "Els agents també van descobrir desenes d'afirmacions al text original de geometria algebraica que necessitaven correcció.",
+        "es": "Los agentes también descubrieron docenas de afirmaciones en el texto original de geometría algebraica que necesitaban corrección.",
+        "en": "The agents also surfaced dozens of statements in the original algebraic geometry text that needed fixing."
+      }
+    },
+    {
+      "id": "2026-45-40",
+      "n": 2,
+      "date": "2026-11-06",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://thenextweb.com/news/openai-ipo-2027-brockman-enterprise-revenue",
+      "title": {
+        "ca": "Brockman diu que OpenAI podria estar a punt per a l'OPV el 2027",
+        "es": "Brockman dice que OpenAI podría estar lista para la OPV en 2027",
+        "en": "Brockman says OpenAI could be IPO-ready in 2027"
+      },
+      "line": {
+        "ca": "El president d'OpenAI ha dit que els ingressos empresarials s'han aproximadament duplicat i s'han convertit en la major part dels ingressos de l'empresa.",
+        "es": "El presidente de OpenAI ha dicho que los ingresos empresariales se han aproximadamente duplicado y se han convertido en la mayor parte de los ingresos de la empresa.",
+        "en": "OpenAI's president said enterprise revenue roughly doubled and became most of the company's revenue."
+      }
+    }
+  ]
+}
