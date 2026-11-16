@@ -1,0 +1,869 @@
+{
+  "week": "2026-46",
+  "from": "2026-11-09",
+  "to": "2026-11-15",
+  "newsletters": 7,
+  "candidates": 252,
+  "note": {
+    "ca": "Nvidia sense Jensen Huang és el terratrèmol de la setmana: una dimissió sobtada, una investigació del consell i una caiguda borsària que cap llançament de model pot tapar. Mentrestant, Anthropic segueix endavant amb l'OPV malgrat el crac, i els rumors d'una sobre-subscripció six vegades em fan pensar que algú encara creu en els unicorns. Els models nous són molts, però el mercat mira els diners, no els tokens.",
+    "es": "Nvidia sin Jensen Huang es el terremoto de la semana: una dimisión repentina, una investigación del consejo y una caída bursátil que ningún lanzamiento de modelo puede tapar. Mientras tanto, Anthropic sigue adelante con la OPV a pesar del crac, y los rumores de una sobresuscripción seis veces me hacen pensar que alguien todavía cree en los unicornios. Los modelos nuevos son muchos, pero el mercado mira el dinero, no los tokens.",
+    "en": "Nvidia without Jensen Huang is the earthquake of the week: a sudden resignation, a board investigation and a stock market crash that no model launch can cover up. Meanwhile, Anthropic is moving forward with the IPO despite the crash, and rumors of a six-times oversubscription make me think that someone still believes in unicorns. There are many new models, but the market looks at money, not tokens."
+  },
+  "items": [
+    {
+      "id": "2026-46-01",
+      "n": 4,
+      "date": "2026-11-11",
+      "company": "Anthropic",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "title": {
+        "ca": "Anthropic llança Claude Meetings, Whiteboards, Sheets i eines de dades",
+        "es": "Anthropic lanza Claude Meetings, Whiteboards, Sheets y herramientas de datos",
+        "en": "Anthropic launches Claude Meetings, Whiteboards, Sheets and Data tools"
+      },
+      "line": {
+        "ca": "Anthropic ha ampliat la seva suite de treball Claude amb participació en reunions, pissarres compartides, fulls de càlcul i connectors de dades.",
+        "es": "Anthropic amplió su suite de trabajo Claude con participación en reuniones, pizarras compartidas, hojas de cálculo y conectores de datos.",
+        "en": "Anthropic expanded its Claude workplace suite with meeting participation, shared whiteboards, spreadsheets and data connectors."
+      },
+      "og": {
+        "ca": "Anthropic llança eines de Claude",
+        "es": "Anthropic lanza herramientas de Claude",
+        "en": "Anthropic launches Claude tools"
+      }
+    },
+    {
+      "id": "2026-46-02",
+      "n": 4,
+      "date": "2026-11-11",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "title": {
+        "ca": "OpenAI llança Businesses i Business Agents a ChatGPT",
+        "es": "OpenAI lanza Businesses y Business Agents en ChatGPT",
+        "en": "OpenAI launches Businesses and Business Agents in ChatGPT"
+      },
+      "line": {
+        "ca": "Les empreses poden reclamar perfils, compartir feeds de productes, i les empreses elegibles dels EUA poden llançar agents que responen preguntes de clients dins de ChatGPT.",
+        "es": "Las empresas pueden reclamar perfiles, compartir feeds de productos, y las empresas elegibles de EE. UU. pueden lanzar agentes que responden preguntas de clientes dentro de ChatGPT.",
+        "en": "Companies can claim profiles, share product feeds, and eligible US businesses can launch agents that answer customer questions inside ChatGPT."
+      },
+      "og": {
+        "ca": "OpenAI llança Businesses i Agents",
+        "es": "OpenAI lanza Businesses y Agents",
+        "en": "OpenAI launches Businesses, Agents"
+      }
+    },
+    {
+      "id": "2026-46-03",
+      "n": 4,
+      "date": "2026-11-12",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": {
+        "ca": "Google publica l'API Gemini Decisions per a models de decisió ràpida",
+        "es": "Google publica la API Gemini Decisions para modelos de decisión rápida",
+        "en": "Google releases Gemini Decisions API for fast decision-making models"
+      },
+      "line": {
+        "ca": "Google ha llançat Gemini-decision-1, un model que retorna probabilitats i puntuacions de confiança per a eleccions acotades a 10 cèntims per milió de tokens d'entrada.",
+        "es": "Google lanzó Gemini-decision-1, un modelo que devuelve probabilidades y puntuaciones de confianza para elecciones acotadas a 10 centavos por millón de tokens de entrada.",
+        "en": "Google launched Gemini-decision-1, a model returning probabilities and confidence scores for bounded choices at 10 cents per million input tokens."
+      },
+      "og": {
+        "ca": "Google publica l'API Gemini Decisions",
+        "es": "Google publica la API Gemini Decisions",
+        "en": "Google releases Gemini Decisions API"
+      }
+    },
+    {
+      "id": "2026-46-04",
+      "n": 4,
+      "date": "2026-11-13",
+      "company": "NVIDIA",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "title": {
+        "ca": "El CEO de Nvidia, Jensen Huang, dimiteix després de 33 anys; la CFO Colette Kress, CEO interina",
+        "es": "El CEO de Nvidia, Jensen Huang, dimite después de 33 años; la CFO Colette Kress, CEO interina",
+        "en": "Nvidia CEO Jensen Huang resigns after 33 years; CFO Colette Kress interim CEO"
+      },
+      "line": {
+        "ca": "Huang va dimitir amb efecte immediat i va deixar el consell; Nvidia no va donar cap motiu, i les accions van caure més d'un 13% en la negociació inicial.",
+        "es": "Huang dimitió con efecto inmediato y dejó el consejo; Nvidia no dio motivo alguno, y las acciones cayeron más de un 13% en la negociación inicial.",
+        "en": "Huang resigned effective immediately and left the board; Nvidia gave no reason, and shares fell over 13% in early trading."
+      }
+    },
+    {
+      "id": "2026-46-05",
+      "n": 3,
+      "date": "2026-11-09",
+      "company": "NVIDIA",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "title": {
+        "ca": "El consell de Nvidia obre una investigació independent sobre el CEO Jensen Huang",
+        "es": "El consejo de Nvidia abre una investigación independiente sobre el CEO Jensen Huang",
+        "en": "Nvidia board opens independent investigation into CEO Jensen Huang"
+      },
+      "line": {
+        "ca": "El consell està revisant un suposat esforç d'intel·ligència estrangera que implica Huang; les accions de Nvidia van caure un 5% a mesura que augmentava l'escrutini.",
+        "es": "El consejo está revisando un supuesto esfuerzo de inteligencia extranjera que implica a Huang; las acciones de Nvidia cayeron un 5% a medida que aumentaba el escrutinio.",
+        "en": "The board is reviewing a reported foreign intelligence effort involving Huang; Nvidia stock fell 5% as scrutiny mounted."
+      }
+    },
+    {
+      "id": "2026-46-06",
+      "n": 3,
+      "date": "2026-11-09",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+      "title": {
+        "ca": "OpenAI suposadament recapta 11.000 milions de dòlars amb una valoració d'1,25 bilions",
+        "es": "OpenAI supuestamente recauda 11.000 millones de dólares con una valoración de 1,25 billones",
+        "en": "OpenAI reportedly raises $11B at $1.25T valuation"
+      },
+      "line": {
+        "ca": "La ronda podria arribar als 20.000 milions abans de tancar-se, per sota de l'objectiu de 30.000 milions que OpenAI havia reportat prèviament, enmig de la incertesa dels inversors sobre les valoracions de la IA.",
+        "es": "La ronda podría alcanzar los 20.000 millones antes de cerrarse, por debajo del objetivo de 30.000 millones que OpenAI había reportado previamente, en medio de la incertidumbre de los inversores sobre las valoraciones de la IA.",
+        "en": "The round could reach $20B before closing, short of OpenAI's previously reported $30B target amid investor uncertainty on AI valuations."
+      }
+    },
+    {
+      "id": "2026-46-07",
+      "n": 3,
+      "date": "2026-11-09",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://psi.inc/research/aaronson-ambainis/",
+      "title": {
+        "ca": "PSI afirma que un model no publicat d'Anthropic va demostrar la conjectura d'Aaronson-Ambainis",
+        "es": "PSI afirma que un modelo no publicado de Anthropic demostró la conjetura de Aaronson-Ambainis",
+        "en": "PSI says unreleased Anthropic model proved Aaronson-Ambainis conjecture"
+      },
+      "line": {
+        "ca": "La startup informa que el seu sistema de recerca va produir una prova verificada amb Lean de la conjectura de computació quàntica del 2008, i investigadors de Stanford la qualifiquen de resultat important.",
+        "es": "La startup informa que su sistema de investigación produjo una prueba verificada con Lean de la conjetura de computación cuántica de 2008, e investigadores de Stanford la califican de resultado importante.",
+        "en": "The startup reports its research system produced a Lean-checked proof of the 2008 quantum computing conjecture, with Stanford researchers calling it a major result."
+      }
+    },
+    {
+      "id": "2026-46-08",
+      "n": 3,
+      "date": "2026-11-10",
+      "company": "Meta",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+      "title": {
+        "ca": "Meta amplia la detecció d'edat per IA a més comptes d'adolescents",
+        "es": "Meta amplía la detección de edad por IA a más cuentas de adolescentes",
+        "en": "Meta expands AI age detection to more teen accounts"
+      },
+      "line": {
+        "ca": "Meta està ampliant el seu programa d'assegurament d'edat per IA a nivell global per posar més adolescents en comptes protegits.",
+        "es": "Meta está ampliando su programa de aseguramiento de edad por IA a nivel global para poner más adolescentes en cuentas protegidas.",
+        "en": "Meta is widening its AI age assurance program globally to place more teens in protected accounts."
+      }
+    },
+    {
+      "id": "2026-46-09",
+      "n": 3,
+      "date": "2026-11-10",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/introducing-control-room/",
+      "title": {
+        "ca": "OpenAI Control Room pot aturar la sortida de models de recerca",
+        "es": "OpenAI Control Room puede detener la salida de modelos de investigación",
+        "en": "OpenAI Control Room can halt research model output"
+      },
+      "line": {
+        "ca": "El sistema autoritza centralment les sol·licituds d'inferència de recerca i pot aturar la sortida d'una càrrega de treball en 35 segons.",
+        "es": "El sistema autoriza centralmente las solicitudes de inferencia de investigación y puede detener la salida de una carga de trabajo en 35 segundos.",
+        "en": "The system centrally authorizes research inference requests and can stop a workload's output within 35 seconds."
+      }
+    },
+    {
+      "id": "2026-46-10",
+      "n": 3,
+      "date": "2026-11-10",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "title": {
+        "ca": "Fireworks atribueix un incident de seguretat d'octubre a un grup de cibercrim",
+        "es": "Fireworks atribuye un incidente de seguridad de octubre a un grupo de cibercrimen",
+        "en": "Fireworks traces October security incident to cybercriminal group"
+      },
+      "line": {
+        "ca": "L'ús no autoritzat de credencials internes de Fireworks es va vincular a un grup que venia accés a LLM a passarel·les il·lícites.",
+        "es": "El uso no autorizado de credenciales internas de Fireworks se vinculó a un grupo que vendía acceso a LLM a pasarelas ilícitas.",
+        "en": "Unauthorized use of internal Fireworks credentials was tied to a group selling LLM access to illicit gateways."
+      }
+    },
+    {
+      "id": "2026-46-11",
+      "n": 3,
+      "date": "2026-11-10",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+      "title": {
+        "ca": "ChatGPT Enterprise disponible a AWS Marketplace",
+        "es": "ChatGPT Enterprise disponible en AWS Marketplace",
+        "en": "ChatGPT Enterprise available on AWS Marketplace"
+      },
+      "line": {
+        "ca": "Les organitzacions poden comprar i gestionar subscripcions a través de la facturació existent d'AWS i aplicar la despesa elegible als compromisos d'AWS.",
+        "es": "Las organizaciones pueden comprar y gestionar suscripciones a través de la facturación existente de AWS y aplicar el gasto elegible a los compromisos de AWS.",
+        "en": "Organizations can buy and manage subscriptions through existing AWS billing and apply eligible spend to AWS commitments."
+      }
+    },
+    {
+      "id": "2026-46-12",
+      "n": 3,
+      "date": "2026-11-10",
+      "company": "Meta",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "title": {
+        "ca": "Meta publica Muse Ember, el seu model més petit, per a fluxos de treball agèntics",
+        "es": "Meta publica Muse Ember, su modelo más pequeño, para flujos de trabajo agénticos",
+        "en": "Meta releases Muse Ember, its smallest model, for agent workflows"
+      },
+      "line": {
+        "ca": "El model gestiona crides d'eines, enrutament, extracció de dades i lectura de documents llargs a partir de 0,10 dòlars per milió de tokens d'entrada.",
+        "es": "El modelo maneja llamadas de herramientas, enrutamiento, extracción de datos y lectura de documentos largos a partir de 0,10 dólares por millón de tokens de entrada.",
+        "en": "The model handles tool calls, routing, data extraction and long-document reading from $0.10 per million input tokens."
+      }
+    },
+    {
+      "id": "2026-46-13",
+      "n": 3,
+      "date": "2026-11-10",
+      "company": "Anthropic",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": {
+        "ca": "Anthropic publica els models frontera Fable 5.2 i Mythos 5.2",
+        "es": "Anthropic publica los modelos frontera Fable 5.2 y Mythos 5.2",
+        "en": "Anthropic releases Fable 5.2 and Mythos 5.2 frontier models"
+      },
+      "line": {
+        "ca": "Anthropic afirma que els models generen tokens un 30% més ràpid i costen un 20% menys, amb Fable actuant com a assessor o orquestrador per a models més petits.",
+        "es": "Anthropic afirma que los modelos generan tokens un 30% más rápido y cuestan un 20% menos, con Fable actuando como asesor u orquestador para modelos más pequeños.",
+        "en": "Anthropic says the models generate tokens 30% faster and cost 20% less, with Fable acting as advisor or orchestrator for smaller models."
+      }
+    },
+    {
+      "id": "2026-46-14",
+      "n": 3,
+      "date": "2026-11-11",
+      "company": "Google",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "title": {
+        "ca": "Google DeepMind utilitza AlphaProof Code per verificar la seguretat de Signal",
+        "es": "Google DeepMind utiliza AlphaProof Code para verificar la seguridad de Signal",
+        "en": "Google DeepMind uses AlphaProof Code to verify Signal's security"
+      },
+      "line": {
+        "ca": "El marc multiagent va verificar matemàticament propietats de seguretat clau del protocol criptogràfic de Signal a nivell d'implementació.",
+        "es": "El marco multiagente verificó matemáticamente propiedades de seguridad clave del protocolo criptográfico de Signal a nivel de implementación.",
+        "en": "The multi-agent framework mathematically verified key security properties of Signal's cryptographic protocol at the implementation level."
+      }
+    },
+    {
+      "id": "2026-46-15",
+      "n": 3,
+      "date": "2026-11-11",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://ouraring.com/blog/oura-to-acquire-counsel-health/",
+      "title": {
+        "ca": "Oura compra el proveïdor d'atenció primària amb IA Counsel Health per 625 milions de dòlars",
+        "es": "Oura compra el proveedor de atención primaria con IA Counsel Health por 625 millones de dólares",
+        "en": "Oura kauft KI-Primärversorger Counsel Health für 625 Mio. $"
+      },
+      "line": {
+        "ca": "El fabricant d'anells intel·ligents adquireix Counsel Health en efectiu i entra així en l'atenció mèdica.",
+        "es": "El fabricante de anillos inteligentes adquiere Counsel Health en efectivo y entra así en la atención médica.",
+        "en": "Der Smart-Ring-Hersteller übernimmt Counsel Health in bar und steigt damit in die medizinische Versorgung ein."
+      }
+    },
+    {
+      "id": "2026-46-16",
+      "n": 3,
+      "date": "2026-11-12",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theneuron.ai/news/united-wants-you-to-book-the-flight-your-ai-agent-isnt-invited/",
+      "title": {
+        "ca": "United restringeix l'accés d'agents de reserves de tercers no autoritzats als seus sistemes",
+        "es": "United restringe el acceso de agentes de reservas de terceros no autorizados a sus sistemas",
+        "en": "United restricts unauthorized third-party AI booking agents from its systems"
+      },
+      "line": {
+        "ca": "La aerolínia va citar inicios de sessió exposats, compres accidentals i conflictes amb requisits d'aviació com a motius del bloqueig.",
+        "es": "La aerolínea citó inicios de sesión expuestos, compras accidentales y conflictos con requisitos de aviación como motivos del bloqueo.",
+        "en": "The airline cited exposed logins, accidental purchases, and conflicts with aviation requirements as reasons for the block."
+      }
+    },
+    {
+      "id": "2026-46-17",
+      "n": 3,
+      "date": "2026-11-12",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": {
+        "ca": "Google DeepMind publica AlphaGenome 2 per predir els efectes de variants d'ADN per tipus de cèl·lula",
+        "es": "Google DeepMind publica AlphaGenome 2 para predecir los efectos de variantes de ADN por tipo de célula",
+        "en": "Google DeepMind releases AlphaGenome 2 to predict DNA variant effects by cell type"
+      },
+      "line": {
+        "ca": "El model prediu com les variants genètiques afecten tipus de cèl·lules específics, entrenat amb més de 100 milions de perfils cel·lulars de 68 teixits.",
+        "es": "El modelo predice cómo las variantes genéticas afectan tipos de células específicos, entrenado con más de 100 millones de perfiles celulares de 68 tejidos.",
+        "en": "The model predicts how genetic variants affect specific cell types, trained on over 100 million cell profiles across 68 tissues."
+      }
+    },
+    {
+      "id": "2026-46-18",
+      "n": 2,
+      "date": "2026-11-08",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "title": {
+        "ca": "Palo Alto Networks negocia segons TechCrunch la compra de Clutch per 500 milions de dòlars",
+        "es": "Palo Alto Networks negocia según TechCrunch la compra de Clutch por 500 millones de dólares",
+        "en": "Palo Alto Networks verhandelt laut TechCrunch über Kauf von Clutch für 500 Mio. $"
+      },
+      "line": {
+        "ca": "Clutch assegura l'accés d'agents d'IA als sistemes de l'empresa, el preu equivaldria aproximadament a 50 vegades l'ARR.",
+        "es": "Clutch asegura el acceso de agentes de IA a los sistemas de la empresa, el precio equivaldría aproximadamente a 50 veces el ARR.",
+        "en": "Clutch sichert KI-Agenten den Zugriff auf Firmensysteme, der Preis entspräche rund dem 50-Fachen des ARR."
+      }
+    },
+    {
+      "id": "2026-46-19",
+      "n": 2,
+      "date": "2026-11-09",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
+      "title": {
+        "ca": "Anthropic manté la gira de presentació de l'OPV malgrat el crac borsari de la IA",
+        "es": "Anthropic mantiene la gira de presentación de la OPV pese al crac bursátil de la IA",
+        "en": "Anthropic hält trotz KI-Börsencrash an IPO-Roadshow fest"
+      },
+      "line": {
+        "ca": "Segons The Information, Anthropic vol començar aquesta setmana la gira de presentació de l'OPV tal com estava previst, les expectatives de valoració van baixar a 1,1-1,3 bilions de dòlars.",
+        "es": "Según The Information, Anthropic quiere comenzar esta semana la gira de presentación de la OPV tal como estaba previsto, las expectativas de valoración bajaron a 1,1-1,3 billones de dólares.",
+        "en": "Laut The Information will Anthropic diese Woche wie geplant mit der Roadshow für den Börsengang starten, die Bewertungserwartungen sanken auf 1,1 bis 1,3 Bio. $."
+      }
+    },
+    {
+      "id": "2026-46-20",
+      "n": 2,
+      "date": "2026-11-09",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
+      "title": {
+        "ca": "Anthropic suposadament pagarà 3.400 milions de dòlars per 1,7 GW de generadors de gas",
+        "es": "Anthropic supuestamente pagará 3.400 millones de dólares por 1,7 GW de generadores de gas",
+        "en": "Anthropic reportedly to pay $3.4B for 1.7 GW of gas-fired generators"
+      },
+      "line": {
+        "ca": "El Financial Times va informar que Anthropic va assumir les comandes de Caterpillar d'OnePWR per saltar-se les llistes d'espera de generadors de diversos anys; cap de les dues empreses va comentar-ho.",
+        "es": "El Financial Times informó que Anthropic asumió los pedidos de Caterpillar de OnePWR para saltarse las listas de espera de generadores de varios años; ninguna de las dos empresas comentó.",
+        "en": "Financial Times reported Anthropic took over OnePWR's Caterpillar orders to skip multi-year generator waitlists; neither company commented."
+      }
+    },
+    {
+      "id": "2026-46-21",
+      "n": 2,
+      "date": "2026-11-09",
+      "company": "Perplexity",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "title": {
+        "ca": "Perplexity llança agents Teammates per als subscriptors de Max",
+        "es": "Perplexity lanza agentes Teammates para los suscriptores de Max",
+        "en": "Perplexity launches Teammates agents for Max subscribers"
+      },
+      "line": {
+        "ca": "Els agents web assumeixen tasques contínues com recerca o triatge d'errors i notifiquen els usuaris a Slack quan cal una decisió.",
+        "es": "Los agentes web asumen tareas continuas como investigación o triaje de errores y notifican a los usuarios en Slack cuando se necesita una decisión.",
+        "en": "The web agents take on ongoing jobs like research or bug triage and notify users in Slack when a decision is needed."
+      }
+    },
+    {
+      "id": "2026-46-22",
+      "n": 2,
+      "date": "2026-11-09",
+      "company": "Other",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+      "title": {
+        "ca": "Thinking Machines publica el model Inkling 2 Small a la plataforma Tinker",
+        "es": "Thinking Machines publica el modelo Inkling 2 Small en la plataforma Tinker",
+        "en": "Thinking Machines releases Inkling 2 Small model on Tinker platform"
+      },
+      "line": {
+        "ca": "El model de text i imatge té un dial de raonament ajustable, amb pesos oberts Apache 2.0 promesos després de les proves de seguretat.",
+        "es": "El modelo de texto e imagen tiene un dial de razonamiento ajustable, con pesos abiertos Apache 2.0 prometidos tras las pruebas de seguridad.",
+        "en": "The text-and-image model has an adjustable reasoning dial, with open Apache 2.0 weights promised after safety testing."
+      }
+    },
+    {
+      "id": "2026-46-23",
+      "n": 2,
+      "date": "2026-11-10",
+      "company": "Other",
+      "category": "products",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance",
+      "title": {
+        "ca": "Adobe i Disney construiran generadors d'imatges personalitzats entrenats amb personatges de Disney",
+        "es": "Adobe y Disney construirán generadores de imágenes personalizados entrenados con personajes de Disney",
+        "en": "Adobe and Disney to build custom image generators trained on Disney characters"
+      },
+      "line": {
+        "ca": "Adobe va anunciar una aliança de diversos anys per desenvolupar models adaptats als personatges, escenaris i estils de Disney.",
+        "es": "Adobe anunció una alianza de varios años para desarrollar modelos adaptados a los personajes, escenarios y estilos de Disney.",
+        "en": "Adobe announced a multi-year alliance to develop models tuned to Disney's characters, settings and styles."
+      }
+    },
+    {
+      "id": "2026-46-24",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.aol.com/articles/mercor-raises-750-million-series-131500000.html",
+      "title": {
+        "ca": "Mercor recapta 750 milions de dòlars amb una valoració de 20.000 milions",
+        "es": "Mercor recauda 750 millones de dólares con una valoración de 20.000 millones",
+        "en": "Mercor sammelt 750 Mio. $ bei 20 Mrd. $ Bewertung"
+      },
+      "line": {
+        "ca": "L'empresa de dades d'IA tanca una Sèrie D i vol invertir el capital en avaluació i post-entrenament.",
+        "es": "La empresa de datos de IA cierra una Serie D y quiere invertir el capital en evaluación y post-entrenamiento.",
+        "en": "Das KI-Datenunternehmen schließt eine Series D ab und will das Kapital in Evaluierung und Post-Training stecken."
+      }
+    },
+    {
+      "id": "2026-46-25",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "title": {
+        "ca": "Nova York obre el registre per a grans desenvolupadors de models frontera",
+        "es": "Nueva York abre el registro para grandes desarrolladores de modelos frontera",
+        "en": "New York opens registration for large frontier-model developers"
+      },
+      "line": {
+        "ca": "L'estat va llançar un centre de recerca abans de la data d'aplicació del RAISE Act al gener.",
+        "es": "El estado lanzó un centro de investigación antes de la fecha de aplicación de la RAISE Act en enero.",
+        "en": "The state launched a research center ahead of the RAISE Act's January enforcement date."
+      }
+    },
+    {
+      "id": "2026-46-26",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity",
+      "title": {
+        "ca": "Adobe llança eines d'IA a Creative Cloud i integracions MCP locals",
+        "es": "Adobe lanza herramientas de IA en Creative Cloud e integraciones MCP locales",
+        "en": "Adobe launches AI tools across Creative Cloud and local MCP integrations"
+      },
+      "line": {
+        "ca": "Adobe va afegir un Creative Agent, agents en segon pla i actualitzacions de Firefly, a més d'integracions MCP que permeten als usuaris aplicar models de tercers als fitxers de projecte.",
+        "es": "Adobe añadió un Creative Agent, agentes en segundo plano y actualizaciones de Firefly, además de integraciones MCP que permiten a los usuarios aplicar modelos de terceros a los archivos de proyecto.",
+        "en": "Adobe added a Creative Agent, background agents and Firefly updates, plus MCP integrations letting users apply third-party models to project files."
+      }
+    },
+    {
+      "id": "2026-46-27",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "Meta",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://github.com/facebookresearch/faiss/tree/main/contrib/e_means",
+      "title": {
+        "ca": "Meta FAIR publica e-means, una alternativa més ràpida a k-means",
+        "es": "Meta FAIR publica e-means, una alternativa más rápida a k-means",
+        "en": "Meta FAIR releases e-means, a faster k-means alternative"
+      },
+      "line": {
+        "ca": "Meta afirma que el reemplaçament directe convergeix a pèrdues més baixes amb fins a 10 vegades menys èpoques i temps d'execució més ràpids en CPU i GPU.",
+        "es": "Meta afirma que el reemplazo directo converge a pérdidas más bajas con hasta 10 veces menos épocas y tiempos de ejecución más rápidos en CPU y GPU.",
+        "en": "Meta says the drop-in replacement converges to lower losses with up to 10x fewer epochs and faster runtimes on CPUs and GPUs."
+      }
+    },
+    {
+      "id": "2026-46-28",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "xAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.claroc.io/ghostshares-grok-build-apps",
+      "title": {
+        "ca": "Més de 35.000 aplicacions Grok Build obertes van exposar dades sensibles",
+        "es": "Más de 35.000 aplicaciones Grok Build abiertas expusieron datos sensibles",
+        "en": "Über 35.000 offene Grok-Build-Apps gaben sensible Daten preis"
+      },
+      "line": {
+        "ca": "Investigadors de seguretat van trobar aplicacions accessibles sense inici de sessió amb dades de pacients i informació interna de SpaceXSI i X.",
+        "es": "Investigadores de seguridad encontraron aplicaciones accesibles sin inicio de sesión con datos de pacientes e información interna de SpaceXSI y X.",
+        "en": "Sicherheitsforscher fanden ohne Anmeldung erreichbare Apps mit Patientendaten und Interna von SpaceXSI und X."
+      }
+    },
+    {
+      "id": "2026-46-29",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "title": {
+        "ca": "Anthropic fixa la forquilla de preus de l'OPV entre 70 i 78 dòlars",
+        "es": "Anthropic fija la horquilla de precios de la OPV entre 70 y 78 dólares",
+        "en": "Anthropic legt IPO-Preisspanne von 70 bis 78 Dollar fest"
+      },
+      "line": {
+        "ca": "L'OPV podria recaptar fins a 64.400 milions de dòlars, la valoració totalment diluïda arribaria fins a 1,4 bilions de dòlars.",
+        "es": "La OPV podría recaudar hasta 64.400 millones de dólares, la valoración totalmente diluida alcanzaría hasta 1,4 billones de dólares.",
+        "en": "Der Börsengang könnte bis zu 64,4 Mrd. $ einbringen, die Bewertung voll verwässert bis zu 1,4 Bio. $ erreichen."
+      }
+    },
+    {
+      "id": "2026-46-30",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "OpenAI",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "title": {
+        "ca": "OpenAI suposadament adquireix la startup de viatges Odessia",
+        "es": "OpenAI supuestamente adquiere la startup de viajes Odessia",
+        "en": "OpenAI reportedly acquires travel startup Odessia"
+      },
+      "line": {
+        "ca": "L'informe diu que OpenAI va comprar la startup d'agents de viatges creada per un fundador de Sonder, però OpenAI no ho va confirmar.",
+        "es": "El informe dice que OpenAI compró la startup de agentes de viajes creada por un fundador de Sonder, pero OpenAI no lo confirmó.",
+        "en": "The report says OpenAI bought the travel-agent startup created by a Sonder founder, but OpenAI did not confirm."
+      }
+    },
+    {
+      "id": "2026-46-31",
+      "n": 2,
+      "date": "2026-11-11",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.goodfire.com/research/neurons-as-an-interpretable-basis",
+      "title": {
+        "ca": "Goodfire argumenta que les neurones individuals són una base interpretable",
+        "es": "Goodfire argumenta que las neuronas individuales son una base interpretable",
+        "en": "Goodfire argues individual neurons are an interpretable basis"
+      },
+      "line": {
+        "ca": "Els seus agents Neuron Scientist generen i proven descripcions de funcions de neurones, suggerint que els investigadors poden estudiar computacions sense autoencoders dispersos.",
+        "es": "Sus agentes Neuron Scientist generan y prueban descripciones de funciones de neuronas, sugiriendo que los investigadores pueden estudiar computaciones sin autoencoders dispersos.",
+        "en": "Its Neuron Scientist agents generate and test descriptions of neuron functions, suggesting researchers can study computations without sparse autoencoders."
+      }
+    },
+    {
+      "id": "2026-46-32",
+      "n": 2,
+      "date": "2026-11-12",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+      "title": {
+        "ca": "Databricks amplia l'agent d'IA Genie per a tasques autònomes de múltiples passos",
+        "es": "Databricks amplía el agente de IA Genie para tareas autónomas de múltiples pasos",
+        "en": "Databricks erweitert KI-Agent Genie für autonome mehrstufige Aufgaben"
+      },
+      "line": {
+        "ca": "Genie ha de fer tasques de múltiples passos sense supervisió i utilitza per a això una ontologia pròpia de les dades dels clients.",
+        "es": "Genie debe realizar tareas de múltiples pasos sin supervisión y utiliza para ello una ontología propia de los datos de los clientes.",
+        "en": "Genie soll mehrstufige Aufgaben ohne Aufsicht erledigen und nutzt dafür eine eigene Ontologie der Kundendaten."
+      }
+    },
+    {
+      "id": "2026-46-33",
+      "n": 2,
+      "date": "2026-11-12",
+      "company": "xAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/bot/status/2120582957782200586",
+      "title": {
+        "ca": "Grok Bot 1.0 afegeix Team Bots, integració amb Slack i Teams, i suport per a reunions",
+        "es": "Grok Bot 1.0 añade Team Bots, integración con Slack y Teams, y soporte para reuniones",
+        "en": "Grok Bot 1.0 adds Team Bots, Slack and Teams integration, and meeting support"
+      },
+      "line": {
+        "ca": "Grok Bot 1.0 permet als equips publicar bots compartits i utilitzar-los a Slack, Microsoft Teams i videotrucades.",
+        "es": "Grok Bot 1.0 permite a los equipos publicar bots compartidos y usarlos en Slack, Microsoft Teams y videollamadas.",
+        "en": "Grok Bot 1.0 lets teams publish shared bots and use them in Slack, Microsoft Teams, and video calls."
+      }
+    },
+    {
+      "id": "2026-46-34",
+      "n": 2,
+      "date": "2026-11-12",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/GoogleLabs/status/2120549258692882702",
+      "title": {
+        "ca": "Google Labs obre la llista d'espera per a l'eina Tabletop que converteix notes de grup en eines personalitzades",
+        "es": "Google Labs abre la lista de espera para la herramienta Tabletop que convierte notas de grupo en herramientas personalizadas",
+        "en": "Google Labs opens waitlist for Tabletop tool that turns group notes into custom tools"
+      },
+      "line": {
+        "ca": "L'eina, només per als EUA i per a majors de 18 anys, crea coses com plànols de seients o quadres de tornejos a partir d'enllaços, fitxers i notes compartides.",
+        "es": "La herramienta, solo para EE. UU. y mayores de 18 años, crea cosas como planos de asientos o cuadros de torneos a partir de enlaces, archivos y notas compartidas.",
+        "en": "The US-only, 18+ waitlist tool builds things like seating charts or brackets from shared links, files, and notes."
+      }
+    },
+    {
+      "id": "2026-46-35",
+      "n": 2,
+      "date": "2026-11-12",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=1PYhvY",
+      "title": {
+        "ca": "El consell de NVIDIA suposadament es prepara per destituir el CEO Jensen Huang",
+        "es": "El consejo de NVIDIA supuestamente se prepara para destituir al CEO Jensen Huang",
+        "en": "NVIDIA board reportedly preparing to oust CEO Jensen Huang"
+      },
+      "line": {
+        "ca": "L'informe segueix l'admissió de Huang d'una aventura amb una dona que la intel·ligència dels EUA creu que va ser reclutada per la Xina.",
+        "es": "El informe sigue la admisión de Huang de una aventura con una mujer que la inteligencia de EE. UU. cree que fue reclutada por China.",
+        "en": "The report follows Huang's admission of an affair with a woman US intelligence believes was recruited by China."
+      }
+    },
+    {
+      "id": "2026-46-36",
+      "n": 2,
+      "date": "2026-11-12",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-s-mega-ipo-is-said-to-be-multiple-times-oversubscribed",
+      "title": {
+        "ca": "L'OPV d'Anthropic suposadament està unes sis vegades sobre-subscrita",
+        "es": "La OPV de Anthropic supuestamente está unas seis veces sobresuscrita",
+        "en": "Anthropic IPO reportedly about six times oversubscribed"
+      },
+      "line": {
+        "ca": "L'OPV d'Anthropic suposadament estava unes sis vegades sobre-subscrita, i la seva gira de presentació va afirmar que Claude va portar un model a GPU d'AMD en tres dies.",
+        "es": "La OPV de Anthropic supuestamente estaba unas seis veces sobresuscrita, y su gira de presentación afirmó que Claude portó un modelo a GPU de AMD en tres días.",
+        "en": "Anthropic's IPO was reportedly about six times oversubscribed, and its roadshow claimed Claude ported a model to AMD GPUs in three days."
+      }
+    },
+    {
+      "id": "2026-46-37",
+      "n": 2,
+      "date": "2026-11-13",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://qz.com/spacex-74-billion-ai-supercomputing-texas-arizona-111226",
+      "title": {
+        "ca": "SpaceX planeja 74.000 milions de dòlars per a dos centres de dades d'IA",
+        "es": "SpaceX planea 74.000 millones de dólares para dos centros de datos de IA",
+        "en": "SpaceX plant 74 Mrd. Dollar für zwei KI-Rechenzentren"
+      },
+      "line": {
+        "ca": "Uns 50.000 milions de dòlars aniran a Arizona, fins a 24.000 milions de dòlars a prop de Starbase a Texas.",
+        "es": "Unos 50.000 millones de dólares irán a Arizona, hasta 24.000 millones de dólares cerca de Starbase en Texas.",
+        "en": "Rund 50 Mrd. Dollar sollen nach Arizona fließen, bis zu 24 Mrd. Dollar nahe Starbase in Texas."
+      }
+    },
+    {
+      "id": "2026-46-38",
+      "n": 2,
+      "date": "2026-11-13",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "title": {
+        "ca": "Google llança Gemini 4 Hydrogen, un model més barat per a codificació i treball agèntic",
+        "es": "Google lanza Gemini 4 Hydrogen, un modelo más barato para codificación y trabajo agéntico",
+        "en": "Google launches Gemini 4 Hydrogen, a cheaper model for coding and agent work"
+      },
+      "line": {
+        "ca": "Google descriu Hydrogen com un model ràpid i de menor cost dissenyat per executar-se ràpidament en lloc de raonar profundament, juntament amb els models més pesats Carbon i Argon.",
+        "es": "Google describe Hydrogen como un modelo rápido y de menor coste diseñado para ejecutarse rápidamente en lugar de razonar profundamente, junto con los modelos más pesados Carbon y Argon.",
+        "en": "Google describes Hydrogen as a fast, lower-cost model built to execute quickly rather than reason deeply, alongside heavier Carbon and Argon models."
+      }
+    },
+    {
+      "id": "2026-46-39",
+      "n": 1,
+      "date": "2026-11-08",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html",
+      "title": {
+        "ca": "Google Forms afegeix Actionable Insights impulsat per Gemini per a enquestes",
+        "es": "Google Forms añade Actionable Insights impulsado por Gemini para encuestas",
+        "en": "Google Forms adds Gemini-powered Actionable Insights for surveys"
+      },
+      "line": {
+        "ca": "La funció troba patrons entre les preguntes de l'enquesta i recomana els passos següents en els plans de pagament elegibles.",
+        "es": "La función encuentra patrones entre las preguntas de la encuesta y recomienda los siguientes pasos en los planes de pago elegibles.",
+        "en": "The feature finds patterns across survey questions and recommends next steps on eligible paid plans."
+      }
+    },
+    {
+      "id": "2026-46-40",
+      "n": 1,
+      "date": "2026-11-08",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "title": {
+        "ca": "Google publica Gemini Omni 1.2 Flash per a vídeos de 15 segons editats amb prompts",
+        "es": "Google publica Gemini Omni 1.2 Flash para vídeos de 15 segundos editados con prompts",
+        "en": "Google releases Gemini Omni 1.2 Flash for prompt-edited 15-second videos"
+      },
+      "line": {
+        "ca": "El model genera vídeos curts i permet als usuaris canviar fons o il·luminació mitjançant prompts de seguiment.",
+        "es": "El modelo genera vídeos cortos y permite a los usuarios cambiar fondos o iluminación mediante prompts de seguimiento.",
+        "en": "The model generates short videos and lets users change backgrounds or lighting through follow-up prompts."
+      }
+    }
+  ]
+}
