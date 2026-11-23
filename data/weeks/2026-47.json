@@ -1,0 +1,869 @@
+{
+  "week": "2026-47",
+  "from": "2026-11-16",
+  "to": "2026-11-22",
+  "newsletters": 9,
+  "candidates": 255,
+  "note": {
+    "ca": "OpenAI ha decidit que la millor manera de demostrar que els seus agents són segurs és contractar qui els avali i, alhora, que Califòrnia els demandi per no haver-ho fet abans. Dues narratives que conviuen sense contradir-se gaire. Mentrestant, Gemini 4 Neon i els GPT-6.2 recorden que la cursa no s'atura ni amb demandes.",
+    "es": "OpenAI ha decidido que la mejor manera de demostrar que sus agentes son seguros es contratar a quien los evalúe y, al mismo tiempo, que California les demande por no haberlo hecho antes. Dos narrativas que conviven sin contradecirse demasiado. Mientras tanto, Gemini 4 Neon y los GPT-6.2 recuerdan que la carrera no se detiene ni con demandas.",
+    "en": "OpenAI has decided that the best way to prove its agents are safe is to hire whoever evaluates them and, at the same time, have California sue them for not having done so before. Two narratives that coexist without contradicting each other too much. Meanwhile, Gemini 4 Neon and GPT-6.2 remind us that the race doesn't stop even with lawsuits."
+  },
+  "items": [
+    {
+      "id": "2026-47-01",
+      "n": 4,
+      "date": "2026-11-15",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "title": {
+        "ca": "OpenAI presenta ChatGPT Wallet per a compres d'agents",
+        "es": "OpenAI presenta ChatGPT Wallet para compras de agentes",
+        "en": "OpenAI introduces ChatGPT Wallet for agent purchases"
+      },
+      "line": {
+        "ca": "Els agents d'IA poden fer compres sense accedir a les dades reals de la targeta dels usuaris, amb una comprovació de seguretat per transacció.",
+        "es": "Los agentes de IA pueden realizar compras sin acceder a los datos reales de la tarjeta de los usuarios, con una comprobación de seguridad por transacción.",
+        "en": "AI agents can make purchases without accessing users' actual card details, with a security check per transaction."
+      },
+      "og": {
+        "ca": "OpenAI llança ChatGPT Wallet per a compres agèntiques",
+        "es": "OpenAI lanza ChatGPT Wallet para compras agénticas",
+        "en": "OpenAI launches ChatGPT Wallet for agent purchases"
+      }
+    },
+    {
+      "id": "2026-47-02",
+      "n": 4,
+      "date": "2026-11-17",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+      "title": {
+        "ca": "OpenAI contracta auditors independents per avaluar models i salvaguardes",
+        "es": "OpenAI contrata auditores independientes para evaluar modelos y salvaguardas",
+        "en": "OpenAI contracts independent auditors to assess models and safeguards"
+      },
+      "line": {
+        "ca": "Apollo Research i METR obtenen accés a models no publicats, checkpoints, codi font i sistemes de monitoratge en maquinari d'OpenAI.",
+        "es": "Apollo Research y METR obtienen acceso a modelos no publicados, checkpoints, código fuente y sistemas de monitorización en hardware de OpenAI.",
+        "en": "Apollo Research and METR get access to unreleased models, checkpoints, source code and monitoring systems on OpenAI hardware."
+      },
+      "og": {
+        "ca": "OpenAI contracta auditors independents per als models",
+        "es": "OpenAI contrata auditores independientes para sus modelos",
+        "en": "OpenAI hires independent auditors to assess models"
+      }
+    },
+    {
+      "id": "2026-47-03",
+      "n": 4,
+      "date": "2026-11-17",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": true,
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "title": {
+        "ca": "Califòrnia demanda OpenAI per agents d'IA descontrolats",
+        "es": "California demanda a OpenAI por agentes de IA descontrolados",
+        "en": "Kalifornien verklagt OpenAI wegen ausgebrochener KI-Agenten"
+      },
+      "line": {
+        "ca": "El fiscal general Rob Bonta acusa OpenAI d'haver provat models perillosos sense protecció suficient i d'haver enganyat el públic.",
+        "es": "El fiscal general Rob Bonta acusa a OpenAI de haber probado modelos peligrosos sin protección suficiente y de haber engañado al público.",
+        "en": "Generalstaatsanwalt Rob Bonta wirft OpenAI vor, gefährliche Modelle ohne ausreichenden Schutz getestet und die Öffentlichkeit getäuscht zu haben."
+      },
+      "og": {
+        "ca": "Califòrnia demanda OpenAI per agents d'IA escapats",
+        "es": "California demanda a OpenAI por agentes de IA fugados",
+        "en": "California sues OpenAI over escaped AI agents"
+      }
+    },
+    {
+      "id": "2026-47-04",
+      "n": 4,
+      "date": "2026-11-18",
+      "company": "OpenAI",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "title": {
+        "ca": "OpenAI publica els models GPT-6.2 Astra i GPT-6.2 Sol",
+        "es": "OpenAI publica los modelos GPT-6.2 Astra y GPT-6.2 Sol",
+        "en": "OpenAI releases GPT-6.2 Astra and GPT-6.2 Sol models"
+      },
+      "line": {
+        "ca": "Astra s'adreça als projectes més difícils mentre que Sol és un model eficient per a l'ús diari, tots dos disponibles a ChatGPT Work, Codex i l'API.",
+        "es": "Astra se dirige a los proyectos más difíciles mientras que Sol es un modelo eficiente para el uso diario, ambos disponibles en ChatGPT Work, Codex y la API.",
+        "en": "Astra targets the hardest projects while Sol is an efficient everyday model, both available in ChatGPT Work, Codex and the API."
+      }
+    },
+    {
+      "id": "2026-47-05",
+      "n": 4,
+      "date": "2026-11-19",
+      "company": "Google",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": true,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "title": {
+        "ca": "Google presenta el model de frontera Gemini 4 Neon",
+        "es": "Google presenta el modelo de frontera Gemini 4 Neon",
+        "en": "Google introduces Gemini 4 Neon frontier model"
+      },
+      "line": {
+        "ca": "Gemini 4 Neon va obtenir 61 a l'Artificial Analysis Intelligence Index i costa 3/15 dòlars per milió de tokens d'entrada/sortida.",
+        "es": "Gemini 4 Neon obtuvo 61 en el Artificial Analysis Intelligence Index y cuesta 3/15 dólares por millón de tokens de entrada/salida.",
+        "en": "Gemini 4 Neon scored 61 on the Artificial Analysis Intelligence Index and costs $3/$15 per million input/output tokens."
+      }
+    },
+    {
+      "id": "2026-47-06",
+      "n": 3,
+      "date": "2026-11-16",
+      "company": "NVIDIA",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "title": {
+        "ca": "Nvidia supera les expectatives, el consell descarta el retorn de Huang",
+        "es": "Nvidia supera las expectativas, el consejo descarta el regreso de Huang",
+        "en": "Nvidia übertrifft Erwartungen, Verwaltungsrat schließt Huang-Comeback aus"
+      },
+      "line": {
+        "ca": "Nvidia reporta 115,8 mil milions de dòlars d'ingressos trimestrals i 107,6 mil milions en el negoci de centres de dades; el consell rebutja el retorn de Huang.",
+        "es": "Nvidia reporta 115,8 mil millones de dólares de ingresos trimestrales y 107,6 mil millones en el negocio de centros de datos; el consejo rechaza el regreso de Huang.",
+        "en": "Nvidia meldet 115,8 Mrd. USD Quartalsumsatz und 107,6 Mrd. USD im Rechenzentrumsgeschäft, der Verwaltungsrat lehnt eine Rückkehr Huangs ab."
+      }
+    },
+    {
+      "id": "2026-47-07",
+      "n": 3,
+      "date": "2026-11-17",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/Gemini_Notebook/status/2122436141282660596",
+      "title": {
+        "ca": "Gemini Notebook converteix fonts en llocs web interactius compartibles",
+        "es": "Gemini Notebook convierte fuentes en sitios web interactivos compartibles",
+        "en": "Gemini Notebook turns sources into shareable interactive websites"
+      },
+      "line": {
+        "ca": "Escriure \"fes-me un lloc\" al xat genera un lloc com un explorador de la taula periòdica amb un qüestionari integrat.",
+        "es": "Escribir \"hazme un sitio\" en el chat genera un sitio como un explorador de la tabla periódica con un cuestionario integrado.",
+        "en": "Typing \"make me a site\" in chat generates a site such as a periodic table explorer with a built-in quiz."
+      }
+    },
+    {
+      "id": "2026-47-08",
+      "n": 3,
+      "date": "2026-11-18",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "title": {
+        "ca": "L'aplicació Gemini ja pot fer trucades i pagar factures",
+        "es": "La aplicación Gemini ya puede hacer llamadas y pagar facturas",
+        "en": "Gemini app can now make calls and pay bills"
+      },
+      "line": {
+        "ca": "Gemini de Google pot encarregar-se de tasques com trucar a empreses, reservar cites i comprar dins d'un límit de despesa.",
+        "es": "Gemini de Google puede encargarse de tareas como llamar a empresas, reservar citas y comprar dentro de un límite de gasto.",
+        "en": "Google's Gemini can handle tasks such as calling businesses, booking appointments and shopping within a spending limit."
+      }
+    },
+    {
+      "id": "2026-47-09",
+      "n": 3,
+      "date": "2026-11-19",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+      "title": {
+        "ca": "Palo Alto Networks compra Applied Compute per 4.500 milions de dòlars",
+        "es": "Palo Alto Networks compra Applied Compute por 4.500 millones de dólares",
+        "en": "Palo Alto Networks kauft Applied Compute für 4,5 Mrd. $"
+      },
+      "line": {
+        "ca": "La startup fundada el 2025 ajuda les empreses a entrenar models d'IA oberts amb les seves pròpies dades.",
+        "es": "La startup fundada en 2025 ayuda a las empresas a entrenar modelos de IA abiertos con sus propios datos.",
+        "en": "Das 2025 gegründete Startup hilft Firmen, offene KI-Modelle auf eigenen Daten zu trainieren."
+      }
+    },
+    {
+      "id": "2026-47-10",
+      "n": 3,
+      "date": "2026-11-20",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-kurssprung-von-34-prozent-anthropic-startet-mit-hohem-plus/100270027.html",
+      "title": {
+        "ca": "Anthropic debuta al Nasdaq amb una valoració d'1,27 bilions de dòlars",
+        "es": "Anthropic debuta en el Nasdaq con una valoración de 1,27 billones de dólares",
+        "en": "Anthropic debuts on Nasdaq at $1.27 trillion valuation"
+      },
+      "line": {
+        "ca": "Anthropic va recaptar 81.000 milions de dòlars en la seva OPV i va tancar amb una pujada del 17% a 97,17 dòlars per acció el primer dia de cotització.",
+        "es": "Anthropic recaudó 81.000 millones de dólares en su OPV y cerró con una subida del 17% a 97,17 dólares por acción en su primer día de cotización.",
+        "en": "Anthropic raised $81 billion in its IPO, closing up 17% at $97.17 per share on its first trading day."
+      }
+    },
+    {
+      "id": "2026-47-11",
+      "n": 2,
+      "date": "2026-11-15",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+      "title": {
+        "ca": "Notion adverteix que les claus d'accés van quedar exposades en una bretxa al proveïdor d'IA Fireworks",
+        "es": "Notion advierte que las claves de acceso quedaron expuestas en una brecha en el proveedor de IA Fireworks",
+        "en": "Notion warns access keys exposed in breach at AI provider Fireworks"
+      },
+      "line": {
+        "ca": "Notion va comunicar a les empreses que les claus que havia emès van quedar exposades en l'incident del proveïdor extern d'IA.",
+        "es": "Notion comunicó a las empresas que las claves que había emitido quedaron expuestas en el incidente del proveedor externo de IA.",
+        "en": "Notion told companies that keys it had issued were exposed in the third-party AI vendor incident."
+      }
+    },
+    {
+      "id": "2026-47-12",
+      "n": 2,
+      "date": "2026-11-15",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad?mod=rss_Technology",
+      "title": {
+        "ca": "LangChain aconsegueix 300 milions de dòlars en la sèrie C amb una valoració de 3.000 milions",
+        "es": "LangChain consigue 300 millones de dólares en la serie C con una valoración de 3.000 millones",
+        "en": "LangChain holt 300 Mio. $ Series C bei 3 Mrd. $ Bewertung"
+      },
+      "line": {
+        "ca": "La ronda està liderada per CapitalG, el desenvolupador del framework de codi obert per a agents d'IA.",
+        "es": "La ronda está liderada por CapitalG, el desarrollador del framework de código abierto para agentes de IA.",
+        "en": "Die Runde wird von CapitalG angeführt, dem Entwickler des Open-Source-Frameworks für KI-Agenten."
+      }
+    },
+    {
+      "id": "2026-47-13",
+      "n": 2,
+      "date": "2026-11-15",
+      "company": "NVIDIA",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.theneuron.ai/news/jensen-huang-resigns-nvidia-future/",
+      "title": {
+        "ca": "La sortida de Huang de Nvidia podria frenar el finançament de startups d'IA",
+        "es": "La salida de Huang de Nvidia podría frenar la financiación de startups de IA",
+        "en": "Nvidia-Ausstieg von Huang könnte Finanzierung von KI-Startups bremsen"
+      },
+      "line": {
+        "ca": "Segons TechCrunch, els fundadors i els fons de capital risc es preparen per a xecs més petits i valoracions més baixes.",
+        "es": "Según TechCrunch, los fundadores y los fondos de capital riesgo se preparan para cheques más pequeños y valoraciones más bajas.",
+        "en": "Gründer und VCs bereiten sich laut TechCrunch auf kleinere Schecks und niedrigere Bewertungen vor."
+      }
+    },
+    {
+      "id": "2026-47-14",
+      "n": 2,
+      "date": "2026-11-16",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model/",
+      "title": {
+        "ca": "GPT-6 Astra ajuda a desenvolupar la formulació reticular del Model Estàndard",
+        "es": "GPT-6 Astra ayuda a desarrollar la formulación reticular del Modelo Estándar",
+        "en": "GPT-6 Astra helps develop lattice formulation of Standard Model"
+      },
+      "line": {
+        "ca": "El físic Nathaniel Craig va treballar amb el model per construir el marc matemàtic i una demostració de suport.",
+        "es": "El físico Nathaniel Craig trabajó con el modelo para construir el marco matemático y una demostración de apoyo.",
+        "en": "Physicist Nathaniel Craig worked with the model to construct the mathematical framework and a supporting proof."
+      }
+    },
+    {
+      "id": "2026-47-15",
+      "n": 2,
+      "date": "2026-11-16",
+      "company": "Alibaba",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "title": {
+        "ca": "Alibaba publica Qwen4-Max per a treball creatiu i professional",
+        "es": "Alibaba publica Qwen4-Max para trabajo creativo y profesional",
+        "en": "Alibaba releases Qwen4-Max for creative and professional work"
+      },
+      "line": {
+        "ca": "El model s'encarrega de modelatge 3D, desenvolupament de jocs i altres tasques; els models més petits de la família arribaran al codi obert.",
+        "es": "El modelo se encarga de modelado 3D, desarrollo de juegos y otras tareas; los modelos más pequeños de la familia llegarán al código abierto.",
+        "en": "The model handles 3D modeling, game development, and other tasks; smaller family models are coming to open source."
+      }
+    },
+    {
+      "id": "2026-47-16",
+      "n": 2,
+      "date": "2026-11-17",
+      "company": "Perplexity",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/perplexity_ai/status/2122352071295009156",
+      "title": {
+        "ca": "Perplexity llança la iniciativa Frontier Research amb 10.000 GPU",
+        "es": "Perplexity lanza la iniciativa Frontier Research con 10.000 GPU",
+        "en": "Perplexity launches Frontier Research initiative with 10,000 GPUs"
+      },
+      "line": {
+        "ca": "L'esforç de recerca oberta pretén construir un científic automatitzat i publicarà articles, pesos de models i repositoris.",
+        "es": "El esfuerzo de investigación abierta pretende construir un científico automatizado y publicará artículos, pesos de modelos y repositorios.",
+        "en": "The open research effort aims to build an automated scientist and will publish papers, model weights and repositories."
+      }
+    },
+    {
+      "id": "2026-47-17",
+      "n": 2,
+      "date": "2026-11-17",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+      "title": {
+        "ca": "EUA restringeix l'exportació de xips d'IA avançats a alguns centres de dades a l'estranger",
+        "es": "EE. UU. restringe la exportación de chips de IA avanzados a algunos centros de datos en el extranjero",
+        "en": "US restricts advanced AI chip exports to some overseas data centers"
+      },
+      "line": {
+        "ca": "La norma del Departament de Comerç, efectiva el 19 de novembre, afecta instal·lacions que subministren gran potència de càlcul a països restringits.",
+        "es": "La norma del Departamento de Comercio, efectiva el 19 de noviembre, afecta a instalaciones que suministran gran potencia de cálculo a países restringidos.",
+        "en": "The Commerce Department rule, effective November 19, targets facilities supplying large computing power to restricted countries."
+      }
+    },
+    {
+      "id": "2026-47-18",
+      "n": 2,
+      "date": "2026-11-17",
+      "company": "OpenAI",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+      "title": {
+        "ca": "ChatGPT for Healthcare afegeix agents que treballen dins dels sistemes existents",
+        "es": "ChatGPT for Healthcare añade agentes que trabajan dentro de los sistemas existentes",
+        "en": "ChatGPT for Healthcare adds agents that work inside existing systems"
+      },
+      "line": {
+        "ca": "Els agents omplen autoritzacions prèvies i assenyalen mancances per a l'aprovació humana; les dades dels pacients requereixen un BAA.",
+        "es": "Los agentes rellenan autorizaciones previas y señalan carencias para la aprobación humana; los datos de los pacientes requieren un BAA.",
+        "en": "The agents fill out prior authorizations and flag gaps for human approval; patient data requires a BAA."
+      }
+    },
+    {
+      "id": "2026-47-19",
+      "n": 2,
+      "date": "2026-11-17",
+      "company": "Anthropic",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "title": {
+        "ca": "Les proves suggereixen que els models Claude es van entrenar amb seqüències de proteïnes a gran escala",
+        "es": "Las pruebas sugieren que los modelos Claude se entrenaron con secuencias de proteínas a gran escala",
+        "en": "Tests suggest Claude models were trained on protein sequences at scale"
+      },
+      "line": {
+        "ca": "Els models prediuen el següent aminoàcid de proteïnes bacterianes poc estudiades, una capacitat que cap altre model provat va mostrar.",
+        "es": "Los modelos predicen el siguiente aminoácido de proteínas bacterianas poco estudiadas, una capacidad que ningún otro modelo probado mostró.",
+        "en": "The models predict the next amino acid of little-studied bacterial proteins, a capability no other tested model showed."
+      }
+    },
+    {
+      "id": "2026-47-20",
+      "n": 2,
+      "date": "2026-11-18",
+      "company": "Anthropic",
+      "category": "money",
+      "is_release": false,
+      "rumor": true,
+      "hot": false,
+      "url": "https://www.drweb.de/anthropic-ausgabepreis-78-dollar/",
+      "title": {
+        "ca": "Anthropic apunta a un preu de sortida a l'extrem superior de la forquilla",
+        "es": "Anthropic apunta a un precio de salida en el extremo superior de la horquilla",
+        "en": "Anthropic peilt Ausgabepreis am oberen Ende der Spanne an"
+      },
+      "line": {
+        "ca": "A 78 dòlars per acció, l'oferta tindria un volum de 64.400 milions de dòlars i una valoració de fins a 1,4 bilions de dòlars.",
+        "es": "A 78 dólares por acción, la oferta tendría un volumen de 64.400 millones de dólares y una valoración de hasta 1,4 billones de dólares.",
+        "en": "Bei 78 USD je Aktie hätte das Angebot ein Volumen von 64,4 Mrd. USD und eine Bewertung von bis zu 1,4 Bio. USD."
+      }
+    },
+    {
+      "id": "2026-47-21",
+      "n": 2,
+      "date": "2026-11-18",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://the-decoder.de/alphabet-tochte",
+      "title": {
+        "ca": "Isomorphic Labs recapta 5.000 milions de dòlars per a medicaments amb IA",
+        "es": "Isomorphic Labs recauda 5.000 millones de dólares para medicamentos con IA",
+        "en": "Isomorphic Labs sammelt 5 Mrd. USD für KI-Medikamente ein"
+      },
+      "line": {
+        "ca": "La filial d'Alphabet rep la segona ronda de milers de milions en sis mesos; encara no té cap medicament aprovat.",
+        "es": "La filial de Alphabet recibe la segunda ronda de miles de millones en seis meses; aún no tiene ningún medicamento aprobado.",
+        "en": "Die Alphabet-Tochter erhält die zweite Milliardenrunde binnen sechs Monaten, ein zugelassenes Medikament hat sie noch nicht."
+      }
+    },
+    {
+      "id": "2026-47-22",
+      "n": 2,
+      "date": "2026-11-18",
+      "company": "Perplexity",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/perplexity_ai/status/2122728603909783741",
+      "title": {
+        "ca": "Perplexity llança el mode de recerca Multiagent",
+        "es": "Perplexity lanza el modo de investigación Multiagent",
+        "en": "Perplexity launches Multiagent research mode"
+      },
+      "line": {
+        "ca": "El mode coordina equips d'agents de models mixtos per a treballs difícils, disponible per als usuaris web de Max i Enterprise Max.",
+        "es": "El modo coordina equipos de agentes de modelos mixtos para trabajos difíciles, disponible para los usuarios web de Max y Enterprise Max.",
+        "en": "The mode coordinates mixed-model agent teams for difficult work, available to Max and Enterprise Max web users."
+      }
+    },
+    {
+      "id": "2026-47-23",
+      "n": 2,
+      "date": "2026-11-18",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/GoogleLabs/status/2122461899178820069?a=c5sKb1Lo1O4jAmsp_eA&s=20",
+      "title": {
+        "ca": "Google Labs afegeix Howie, secretari de correu i calendari",
+        "es": "Google Labs añade Howie, secretario de correo y calendario",
+        "en": "Google Labs adds Howie email and calendar secretary"
+      },
+      "line": {
+        "ca": "Google Labs incorpora l'assistent d'IA de correu i calendari Howie a la seva línia experimental.",
+        "es": "Google Labs incorpora el asistente de IA de correo y calendario Howie a su línea experimental.",
+        "en": "Google Labs is bringing the AI email and calendar assistant Howie into its experimental lineup."
+      }
+    },
+    {
+      "id": "2026-47-24",
+      "n": 2,
+      "date": "2026-11-18",
+      "company": "Microsoft",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+      "title": {
+        "ca": "Microsoft Decision-1.1 disponible generalment per a la presa de decisions de baix cost",
+        "es": "Microsoft Decision-1.1 disponible generalmente para la toma de decisiones de bajo coste",
+        "en": "Microsoft Decision-1.1 generally available for low-cost decision making"
+      },
+      "line": {
+        "ca": "Els models de decisió estan dissenyats per prendre decisions calibrades sota incertesa en diversos casos d'ús de programari.",
+        "es": "Los modelos de decisión están diseñados para tomar decisiones calibradas bajo incertidumbre en diversos casos de uso de software.",
+        "en": "The decision models are designed to make calibrated decisions under uncertainty across software use cases."
+      }
+    },
+    {
+      "id": "2026-47-25",
+      "n": 2,
+      "date": "2026-11-18",
+      "company": "Other",
+      "category": "money",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+      "title": {
+        "ca": "Genesis AI recapta 500 milions de dòlars per a mans robòtiques",
+        "es": "Genesis AI recauda 500 millones de dólares para manos robóticas",
+        "en": "Genesis AI sammelt 500 Mio. USD für Roboterhände ein"
+      },
+      "line": {
+        "ca": "La startup desenvolupa models d'IA i el robot humanoide Eno per a agafades de motricitat fina; no esmenta cap valoració.",
+        "es": "La startup desarrolla modelos de IA y el robot humanoide Eno para agarres de motricidad fina; no menciona ninguna valoración.",
+        "en": "Das Startup entwickelt KI-Modelle und den humanoiden Roboter Eno für feinmotorische Handgriffe, eine Bewertung nennt es nicht."
+      }
+    },
+    {
+      "id": "2026-47-26",
+      "n": 2,
+      "date": "2026-11-18",
+      "company": "Microsoft",
+      "category": "models",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "title": {
+        "ca": "Microsoft presenta set models MAI a Ignite",
+        "es": "Microsoft presenta siete modelos MAI en Ignite",
+        "en": "Microsoft introduces seven MAI models at Ignite"
+      },
+      "line": {
+        "ca": "La línia abasta programació, ciberseguretat, imatges, àudio i presa de decisions; segons els informes, Code 2 costa un 40% del que costa GPT-6.1 Sol.",
+        "es": "La línea abarca programación, ciberseguridad, imágenes, audio y toma de decisiones; según los informes, Code 2 cuesta un 40% de lo que cuesta GPT-6.1 Sol.",
+        "en": "The lineup spans coding, cybersecurity, images, audio and decision-making, with Code 2 reportedly at 40% of GPT-6.1 Sol's cost."
+      }
+    },
+    {
+      "id": "2026-47-27",
+      "n": 2,
+      "date": "2026-11-19",
+      "company": "OpenAI",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "title": {
+        "ca": "Els models d'OpenAI redueixen l'àrea de circuit en el disseny de xips",
+        "es": "Los modelos de OpenAI reducen el área de circuito en el diseño de chips",
+        "en": "OpenAI models cut circuit area in chip design work"
+      },
+      "line": {
+        "ca": "Els canvis de disseny proposats pels models d'OpenAI van reduir l'àrea de circuit de parts clau del seu xip d'IA Jalapeño en un 10% a 13% estimat.",
+        "es": "Los cambios de diseño propuestos por los modelos de OpenAI redujeron el área de circuito de partes clave de su chip de IA Jalapeño en un 10% a 13% estimado.",
+        "en": "Design changes proposed by OpenAI's models cut circuit area of key parts of its Jalapeño AI chip by an estimated 10% to 13%."
+      }
+    },
+    {
+      "id": "2026-47-28",
+      "n": 2,
+      "date": "2026-11-19",
+      "company": "OpenAI",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://x.com/OpenAI/status/2123191365983248653",
+      "title": {
+        "ca": "OpenAI informa que els agents completen gairebé la meitat de les tasques de recerca de diverses hores",
+        "es": "OpenAI informa que los agentes completan casi la mitad de las tareas de investigación de varias horas",
+        "en": "OpenAI reports agents complete nearly half of multi-hour research tasks"
+      },
+      "line": {
+        "ca": "OpenAI afirma que els seus agents ara completen per si sols gairebé la meitat de les tasques de recerca de dues a quatre hores, i els usuaris intensius van per davant.",
+        "es": "OpenAI afirma que sus agentes ahora completan por sí solos casi la mitad de las tareas de investigación de dos a cuatro horas, y los usuarios intensivos van por delante.",
+        "en": "OpenAI says its agents now complete nearly half of two-to-four-hour research tasks on their own, with heavy users pulling ahead."
+      }
+    },
+    {
+      "id": "2026-47-29",
+      "n": 2,
+      "date": "2026-11-19",
+      "company": "Other",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "title": {
+        "ca": "Snapchat permet als desenvolupadors crear Lents AR amb assistents de codi d'IA",
+        "es": "Snapchat permite a los desarrolladores crear Lentes AR con asistentes de código de IA",
+        "en": "Snapchat lets developers build AR Lenses with AI coding assistants"
+      },
+      "line": {
+        "ca": "La seva Easy Lens CLI funciona amb Claude Code, Cursor o Codex, i Snapchat diu que un joc pot estar en línia en un dia.",
+        "es": "Su Easy Lens CLI funciona con Claude Code, Cursor o Codex, y Snapchat dice que un juego puede estar en línea en un día.",
+        "en": "Its Easy Lens CLI works with Claude Code, Cursor or Codex, and Snapchat says a game can go live in a day."
+      }
+    },
+    {
+      "id": "2026-47-30",
+      "n": 2,
+      "date": "2026-11-20",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.trendingtopics.eu/iea-ai-data-centers-power-grids-limit/",
+      "title": {
+        "ca": "IEA: els centres de dades d'IA porten les xarxes elèctriques al límit",
+        "es": "IEA: los centros de datos de IA llevan las redes eléctricas al límite",
+        "en": "IEA: KI-Rechenzentren bringen Stromnetze an ihre Grenzen"
+      },
+      "line": {
+        "ca": "Menys de 100 grans centres de dades d'IA aviat podrien necessitar tanta electricitat com el Regne Unit en hora punta.",
+        "es": "Menos de 100 grandes centros de datos de IA pronto podrían necesitar tanta electricidad como el Reino Unido en hora punta.",
+        "en": "Weniger als 100 große KI-Rechenzentren sollen bald so viel Strom wie Großbritannien zur Spitzenlast brauchen."
+      }
+    },
+    {
+      "id": "2026-47-31",
+      "n": 2,
+      "date": "2026-11-20",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "title": {
+        "ca": "L'aplicació Gemini al Mac incorpora l'ús de l'ordinador per a tasques de diversos passos",
+        "es": "La aplicación Gemini en el Mac incorpora el uso del ordenador para tareas de varios pasos",
+        "en": "Gemini app on Mac gains computer use for multi-step tasks"
+      },
+      "line": {
+        "ca": "Gemini s'executa en una finestra de fons aïllada amb previsualització en directe mentre els usuaris mantenen el control de la seva pantalla.",
+        "es": "Gemini se ejecuta en una ventana de fondo aislada con previsualización en directo mientras los usuarios mantienen el control de su pantalla.",
+        "en": "Gemini runs in an isolated background window with live preview while users keep control of their screen."
+      }
+    },
+    {
+      "id": "2026-47-32",
+      "n": 1,
+      "date": "2026-11-15",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://pni.princeton.edu/news/2026/princeton-researchers-train-ai-model-learn-language-way-children-do",
+      "title": {
+        "ca": "Investigadors de Princeton entrenen un model d'IA per aprendre llengua com els nens",
+        "es": "Investigadores de Princeton entrenan un modelo de IA para aprender lengua como los niños",
+        "en": "Princeton researchers train AI model to learn language like children"
+      },
+      "line": {
+        "ca": "Una IA que reproduïa la parla recent al final d'un dia simulat va aprendre milers de paraules, a diferència d'una entrenada sense reproducció.",
+        "es": "Una IA que reproducía el habla reciente al final de un día simulado aprendió miles de palabras, a diferencia de una entrenada sin reproducción.",
+        "en": "An AI that replayed recent speech at simulated day's end learned thousands of words, unlike one trained without replay."
+      }
+    },
+    {
+      "id": "2026-47-33",
+      "n": 1,
+      "date": "2026-11-15",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.oaklandca.gov/News-Releases/Oakland-Reaches-Tentative-3-Year-Agreement-with-IFPTE-Local-21",
+      "title": {
+        "ca": "Treballadors municipals d'Oakland arriben a un acord provisional sobre protecció laboral davant la IA",
+        "es": "Trabajadores municipales de Oakland llegan a un acuerdo provisional sobre protección laboral ante la IA",
+        "en": "Oakland city workers reach tentative deal on AI job protections"
+      },
+      "line": {
+        "ca": "El contracte proposat de tres anys obliga la ciutat a reciclar o reassignar els treballadors desplaçats per la IA.",
+        "es": "El contrato propuesto de tres años obliga a la ciudad a reciclar o reasignar a los trabajadores desplazados por la IA.",
+        "en": "The proposed three-year contract requires the city to retrain or reassign workers displaced by AI."
+      }
+    },
+    {
+      "id": "2026-47-34",
+      "n": 1,
+      "date": "2026-11-15",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "title": {
+        "ca": "Investigadors del MIT fan servir una IA per pedaçar una altra sense reentrenar",
+        "es": "Investigadores del MIT usan una IA para parchear otra sin reentrenar",
+        "en": "MIT researchers use one AI to patch another without retraining"
+      },
+      "line": {
+        "ca": "El pedaç va elevar la puntuació d'un model més petit en una prova de matemàtiques del 8% al 48%.",
+        "es": "El parche elevó la puntuación de un modelo más pequeño en una prueba de matemáticas del 8% al 48%.",
+        "en": "The patch lifted a smaller model's math test score from 8% to 48%."
+      }
+    },
+    {
+      "id": "2026-47-35",
+      "n": 1,
+      "date": "2026-11-15",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://compass.gse.harvard.edu/explore/",
+      "title": {
+        "ca": "Investigadors d'Harvard publiquen una guia sobre quan la IA ajuda o dificulta l'aprenentatge",
+        "es": "Investigadores de Harvard publican una guía sobre cuándo la IA ayuda o dificulta el aprendizaje",
+        "en": "Harvard researchers publish guide on when AI helps or hinders learning"
+      },
+      "line": {
+        "ca": "La guia tracta com l'efecte de la IA en l'aprenentatge pot variar segons l'edat.",
+        "es": "La guía aborda cómo el efecto de la IA en el aprendizaje puede variar según la edad.",
+        "en": "The guide covers how AI's effect on learning may differ by age."
+      }
+    },
+    {
+      "id": "2026-47-36",
+      "n": 1,
+      "date": "2026-11-15",
+      "company": "Google",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
+      "title": {
+        "ca": "Gemini a Chrome s'obre al costat de la pàgina que estàs llegint",
+        "es": "Gemini en Chrome se abre junto a la página que estás leyendo",
+        "en": "Gemini in Chrome opens beside the page you are reading"
+      },
+      "line": {
+        "ca": "Els usuaris poden obtenir un resum o fer preguntes sense canviar de pestanya.",
+        "es": "Los usuarios pueden obtener un resumen o hacer preguntas sin cambiar de pestaña.",
+        "en": "Users can get a summary or ask questions without switching tabs."
+      }
+    },
+    {
+      "id": "2026-47-37",
+      "n": 1,
+      "date": "2026-11-15",
+      "company": "Amazon",
+      "category": "products",
+      "is_release": true,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator",
+      "title": {
+        "ca": "AWS Emulator permet als desenvolupadors provar codi de núvol localment",
+        "es": "AWS Emulator permite a los desarrolladores probar código de nube localmente",
+        "en": "AWS Emulator lets developers test cloud code locally"
+      },
+      "line": {
+        "ca": "Agents d'IA autònoms van construir l'emulador, que executa codi destinat a AWS sense necessitat de compte.",
+        "es": "Agentes de IA autónomos construyeron el emulador, que ejecuta código destinado a AWS sin necesidad de cuenta.",
+        "en": "Autonomous AI agents built the emulator, which runs AWS-targeted code without an account."
+      }
+    },
+    {
+      "id": "2026-47-38",
+      "n": 1,
+      "date": "2026-11-16",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.trendingtopics.eu/lovable-apps-sensible-daten-offen/",
+      "title": {
+        "ca": "Milers d'aplicacions creades amb Lovable exposen dades sensibles",
+        "es": "Miles de aplicaciones creadas con Lovable exponen datos sensibles",
+        "en": "Tausende mit Lovable gebaute Apps legen sensible Daten offen"
+      },
+      "line": {
+        "ca": "Segons un estudi, hi havia exposats, per exemple, números de passaport, dades de pagament i missatges de xat privats.",
+        "es": "Según un estudio, había expuestos, por ejemplo, números de pasaporte, datos de pago y mensajes de chat privados.",
+        "en": "Laut einer Studie lagen etwa Passnummern, Zahlungsdaten und private Chatnachrichten offen."
+      }
+    },
+    {
+      "id": "2026-47-39",
+      "n": 1,
+      "date": "2026-11-16",
+      "company": "Other",
+      "category": "research",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "",
+      "title": {
+        "ca": "Models d'IA paralitzen un parc eòlic simulat per pocs dòlars",
+        "es": "Modelos de IA paralizan un parque eólico simulado por pocos dólares",
+        "en": "KI-Modelle legen simulierten Windpark für wenige Dollar lahm"
+      },
+      "line": {
+        "ca": "Claude i Kimi van aprofitar configuracions errònies i contrasenyes per defecte i van paralitzar el parc simulat.",
+        "es": "Claude y Kimi aprovecharon configuraciones erróneas y contraseñas por defecto y paralizaron el parque simulado.",
+        "en": "Claude und Kimi nutzten Fehlkonfigurationen und Standardpasswörter und legten den simulierten Park lahm."
+      }
+    },
+    {
+      "id": "2026-47-40",
+      "n": 1,
+      "date": "2026-11-16",
+      "company": "Other",
+      "category": "society",
+      "is_release": false,
+      "rumor": false,
+      "hot": false,
+      "url": "https://www.heise.de/news/Kalifornien-Klage-fordert-Stopp-der-KI-Entwicklung-wegen-katastrophaler-Risiken-11525487.html",
+      "title": {
+        "ca": "Organitzacions de consumidors demanden Anthropic, Google, Meta i OpenAI",
+        "es": "Organizaciones de consumidores demandan a Anthropic, Google, Meta y OpenAI",
+        "en": "Verbraucherschutzorganisationen verklagen Anthropic, Google, Meta und OpenAI"
+      },
+      "line": {
+        "ca": "L'aliança exigeix aturar els models d'IA que siguin més potents que els actuals.",
+        "es": "La alianza exige detener los modelos de IA que sean más potentes que los actuales.",
+        "en": "Das Bündnis fordert einen Stopp für KI-Modelle, die leistungsfähiger sind als heutige."
+      }
+    }
+  ]
+}
